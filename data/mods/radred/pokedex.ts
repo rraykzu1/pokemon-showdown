@@ -42,7 +42,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 32,
 		color: "White",
 		eggGroups: ["Bug"],
-		requiredItem: "Butterfreenite"
+		requiredItem: "Butterfrite"
 	},
 	pidgey: {
 		inherit: true,
@@ -2010,7 +2010,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 310.5,
 		color: "Black",
 		eggGroups: ["Mineral"],
-		requiredItem: "Coalossalite"
+		requiredItem: "Coalossite"
 	},
 	flapple: {
 		num: 841,
@@ -2042,7 +2042,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 1,
 		color: "Green",
 		eggGroups: ["Grass", "Dragon"],
-		requiredItem: "Flapplenite"
+		requiredItem: "Flapplite"
 	},
 	appletun: {
 		num: 842,
@@ -2101,7 +2101,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 65.5,
 		color: "Green",
 		eggGroups: ["Field", "Dragon"],
-		requiredItem: "Sandacondanite"
+		requiredItem: "Sandacondite"
 	},
 	cramorant: {
 		inherit: true,
@@ -2161,7 +2161,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 40,
 		color: "Purple",
 		eggGroups: ["Human-Like"],
-		requiredItem: "Toxtricite"
+		requiredItem: "Toxtricitite"
 	},
 	toxtricitylowkeymega: {
 		num: 849,
@@ -2175,7 +2175,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 40,
 		color: "Purple",
 		eggGroups: ["Human-Like"],
-		requiredItem: "Toxtricite Low Key"
+		requiredItem: "Toxtricitite LK"
 	},
 	centiskorch: {
 		num: 851,
@@ -2204,7 +2204,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 120,
 		color: "Red",
 		eggGroups: ["Bug"],
-		requiredItem: "Centiskorchite"
+		requiredItem: "Centiskite"
 	},
 	clobbopus: {
 		inherit: true,
@@ -2280,7 +2280,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 0.5,
 		color: "White",
 		eggGroups: ["Fairy", "Amorphous"],
-		requiredItem: "Alcremienite"
+		requiredItem: "Alcremite"
 	},
 	falinks: {
 		inherit: true,
@@ -2342,7 +2342,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 650,
 		color: "Green",
 		eggGroups: ["Field", "Mineral"],
-		requiredItem: "Copperajahnite"
+		requiredItem: "Copperajite"
 	},
 	arctozolt: {
 		inherit: true,
