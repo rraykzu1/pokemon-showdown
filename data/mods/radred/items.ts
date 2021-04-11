@@ -19,6 +19,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 		gen: 4,
 		desc: "If held by a Dialga, this item triggers its Primal Reversion in battle.",
 	},
+	leek: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
 	reapercloth: {
 		name: "Reaper Cloth",
 		spritenum: 385,
@@ -33,6 +37,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		itemUser: ["Dusknoir"],
 		num: 325,
 		gen: 4,
+		desc: "If this Pokemon is a Dusknoir, its attacks cannot miss.",
 	},
 
 	// rr items
@@ -52,7 +57,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 				return this.chainModify(1.5);
 		    }
 		},
-		itemUser: ["Farfetch\u2019d"],
+		itemUser: ["Farfetch\u2019d", "Farfetch\u2019d-Galar"],
 		num: 259,
 		gen: 8,
 		desc: "If held by a Farfetch’d, its critical hit ratio is raised by 1 stage and it gets a 1.5x speed boost.",
