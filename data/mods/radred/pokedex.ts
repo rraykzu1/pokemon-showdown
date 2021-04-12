@@ -1,4 +1,8 @@
 export const Pokedex: {[k: string]: ModdedSpeciesData} = {
+	alakazammega: {
+		inherit: true,
+		isMega: true
+	},
 	charmander: {
 		inherit: true,
 		abilities: {0: "Blaze", H: "Flame Body"}
