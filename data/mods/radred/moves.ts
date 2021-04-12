@@ -204,7 +204,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	furycutter: {
 		inherit: true,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {blade: 1, contact: 1, protect: 1, mirror: 1},
 	},
 	headsmash: {
 		inherit: true,
@@ -565,6 +565,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	tropkick: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
+	},
+	wickedblow: {
+		inherit: true,
+		flags: {contact: 1, protect: 1, mirror: 1},
 	},
 	wideguard: {
 		inherit: true,
