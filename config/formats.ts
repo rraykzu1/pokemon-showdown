@@ -23,7 +23,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] RRDL",
-		mod: 'radred',
+		mod: 'rrdl',
 		searchShow: false,
 		ruleset: ['Standard', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Sleep Clause Mod', 'Dynamax Clause', 'CFZ Clause', 'Z-Move Clause'],
 		banlist: [
