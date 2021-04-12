@@ -19,17 +19,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 		gen: 4,
 		desc: "If held by a Dialga, this item triggers its Primal Reversion in battle.",
 	},
-	leek: {
-		inherit: true,
-		itemUser: undefined,
-		isNonstandard: "Unobtainable",
-		shortDesc: "This item does not exist.",
-	},
-	stick: {
-		inherit: true,
-		itemUser: undefined,
-		isNonstandard: "Unobtainable",
-	},
 	reapercloth: {
 		name: "Reaper Cloth",
 		spritenum: 385,
@@ -321,5 +310,83 @@ export const Items: {[k: string]: ModdedItemData} = {
 		num: -1018,
 		gen: 8,
 		desc: "If held by a Alcremie, this item allows it to Mega Evolve in battle.",
+	},
+
+	// unavailable items
+	bugmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	darkmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	dragonmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	electricmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	fairymemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	fightingmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	firememory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	flyingmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	ghostmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	grassmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	groundmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	icememory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	poisonmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	psychicmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	rockmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	steelmemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	watermemory: {
+		inherit: true,
+		isNonstandard: 'Unobtainable'
+	},
+	leek: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	stick: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
 	},
 }
