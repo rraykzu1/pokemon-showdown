@@ -8,7 +8,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		heightm: 0.7,
 		weightkg: 22,
 		color: "Purple",
-		eggGroups: ["Undiscovered"]
+		eggGroups: ["Undiscovered"],
 	},
 	clefpex: {
 		num: -10001,
@@ -19,7 +19,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		heightm: 2,
 		weightkg: 54.5,
 		color: "Pink",
-		eggGroups: ["Undiscovered"]
+		eggGroups: ["Undiscovered"],
 	},
 	luninja: {
 		num: -10002,
@@ -30,6 +30,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		heightm: 1.35,
 		weightkg: 47,
 		color: "Blue",
-		eggGroups: ["Undiscovered"]
+		eggGroups: ["Undiscovered"],
 	},
-}
+};

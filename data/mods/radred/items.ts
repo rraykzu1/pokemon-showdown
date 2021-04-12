@@ -315,71 +315,71 @@ export const Items: {[k: string]: ModdedItemData} = {
 	// unavailable items
 	bugmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	darkmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	dragonmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	electricmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	fairymemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	fightingmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	firememory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	flyingmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	ghostmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	grassmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	groundmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	icememory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	poisonmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	psychicmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	rockmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	steelmemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	watermemory: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Unobtainable",
 	},
 	leek: {
 		inherit: true,
@@ -389,4 +389,4 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-}
+};
