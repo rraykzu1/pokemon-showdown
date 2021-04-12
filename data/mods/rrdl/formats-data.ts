@@ -3705,4 +3705,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	clefpex: {
 		tier: "(OU)"
 	},
+	luninja: {
+		tier: "(OU)"
+	},
 }
