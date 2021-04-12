@@ -1739,7 +1739,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 	},
 	rayquazamega: {
 		tier: "AG",
-		doublesTier: "(DUber)",
+		doublesTier: "DUber",
 	},
 	jirachi: {
 		tier: "UU",
@@ -3987,7 +3987,7 @@ export const FormatsData: { [k: string]: ModdedSpeciesFormatsData } = {
 	},
 	zaciancrowned: {
 		tier: "AG",
-		doublesTier: "(DUber)",
+		doublesTier: "DUber",
 	},
 	zamazenta: {
 		tier: "Uber",
