@@ -27,7 +27,10 @@ export const Formats: {[k: string]: FormatData} = {
 			if (!set.item) return;
 			const item = this.dex.getItem(set.item);
 			if (!item.isNonstandard) return;
-			if (['Past', 'Unobtainable'].includes(item.isNonstandard) && !item.zMove && !item.itemUser && !item.forcedForme) {
+			if (item.isNonstandard === 'Past' && !item.zMove && !item.itemUser && !item.forcedForme) {
+				if (this.ruleTable.has(`+item:${item.id}`)) return;
+				return [`${set.name}'s item ${item.name} does not exist in Gen ${this.dex.gen}.`];
+			} else if (item.isNonstandard === 'Unobtainable') {
 				if (this.ruleTable.has(`+item:${item.id}`)) return;
 				return [`${set.name}'s item ${item.name} does not exist in Gen ${this.dex.gen}.`];
 			}

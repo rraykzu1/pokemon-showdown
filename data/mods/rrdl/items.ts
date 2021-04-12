@@ -328,97 +328,78 @@ export const Items: {[k: string]: ModdedItemData} = {
 	// unavailable items
 	bugmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	darkmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	dragonmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	electricmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	fairymemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	fightingmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	firememory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	flyingmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	ghostmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	grassmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	groundmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	icememory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	poisonmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	psychicmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	rockmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	steelmemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	watermemory: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable"
 	},
 	leek: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable",
 	},
 	stick: {
 		inherit: true,
-		itemUser: undefined,
 		isNonstandard: "Unobtainable",
 	},
 }
