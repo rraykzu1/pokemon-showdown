@@ -356,6 +356,11 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 2.5,
 		num: 273,
 	},
+	shielddust: {
+		inherit: true,
+		desc: "This Pokemon is not affected by the secondary effect of another Pokemon's attack, and is not affected by entry hazards.",
+		shortDesc: "This Pokemon is unaffected by entry hazards and secondary effects of moves."
+	},
 	solarpower: {
 		inherit: true,
 		desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and its defenses are multiplied by 1.33. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not gain a defense boost.",
