@@ -23,6 +23,12 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		itemUser: undefined,
 		isNonstandard: "Unobtainable",
+		shortDesc: "This item does not exist.",
+	},
+	stick: {
+		inherit: true,
+		itemUser: undefined,
+		isNonstandard: "Unobtainable",
 	},
 	reapercloth: {
 		name: "Reaper Cloth",
@@ -38,7 +44,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		itemUser: ["Dusknoir"],
 		num: 325,
 		gen: 4,
-		desc: "If this Pokemon is a Dusknoir, its attacks cannot miss.",
+		desc: "If held by a Dusknoir, its attacks cannot miss.",
 	},
 
 	// rr items
