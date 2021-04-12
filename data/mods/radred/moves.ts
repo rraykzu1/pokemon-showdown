@@ -511,8 +511,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	strengthsap: {
 		inherit: true,
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
 	},
 	suckerpunch: {
 		inherit: true,
