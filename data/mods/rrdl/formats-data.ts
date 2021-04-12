@@ -1,11 +1,11 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	tyrogunk: {
-		tier: "(OU)"
+		tier: "(OU)",
 	},
 	clefpex: {
-		tier: "(OU)"
+		tier: "(OU)",
 	},
 	luninja: {
-		tier: "(OU)"
+		tier: "(OU)",
 	},
-}
+};
