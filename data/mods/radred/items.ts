@@ -21,6 +21,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	leek: {
 		inherit: true,
+		itemUser: undefined,
 		isNonstandard: "Unobtainable",
 	},
 	reapercloth: {
