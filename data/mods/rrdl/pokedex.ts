@@ -16,17 +16,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 79, atk: 103, def: 120, spa: 125, spd: 115, spe: 78}
 	},
 	butterfree: {
-		num: 12,
-		name: "Butterfree",
-		types: ["Bug", "Flying"],
-		baseStats: {hp: 60, atk: 45, def: 50, spa: 95, spd: 80, spe: 70},
-		abilities: {0: "Compound Eyes", H: "Tinted Lens"},
-		heightm: 1.1,
-		weightkg: 32,
-		color: "White",
-		prevo: "Metapod",
-		evoLevel: 10,
-		eggGroups: ["Bug"],
+		inherit: true,
 		otherFormes: ["Butterfree-Mega"],
 		formeOrder: ["Butterfree", "Butterfree-Mega"]
 	},
@@ -159,18 +149,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Vital Spirit", 1: "Anger Point", H: "Gorilla Tactics"}
 	},
 	machamp: {
-		num: 68,
-		name: "Machamp",
-		types: ["Fighting"],
-		genderRatio: {M: 0.75, F: 0.25 },
-		baseStats: {hp: 90, atk: 130, def: 80, spa: 65, spd: 85, spe: 55},
-		abilities: {0: "Guts", 1: "No Guard", H: "Steadfast"},
-		heightm: 1.6,
-		weightkg: 130,
-		color: "Gray",
-		prevo: "Machoke",
-		evoType: "trade",
-		eggGroups: ["Human-Like"],
+		inherit: true,
 		otherFormes: ["Machamp-Mega"],
 		formeOrder: ["Machamp", "Machamp-Mega"]
 	},
@@ -263,17 +242,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Insomnia", 1: "Forewarn", H: "Psychic Surge"}
 	},
 	kingler: {
-		num: 99,
-		name: "Kingler",
-		types: ["Water"],
-		baseStats: {hp: 55, atk: 130, def: 115, spa: 50, spd: 50, spe: 75},
-		abilities: {0: "Hyper Cutter", 1: "Shell Armor", H: "Sheer Force"},
-		heightm: 1.3,
-		weightkg: 60,
-		color: "Red",
-		prevo: "Krabby",
-		evoLevel: 28,
-		eggGroups: ["Water 3"],
+		inherit: true,
 		otherFormes: ["Kingler-Mega"],
 		formeOrder: ["Kingler, Kingler-Mega"]
 	},
@@ -348,15 +317,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Swift Swim", H: "Hydration"}
 	},
 	lapras: {
-		num: 131,
-		name: "Lapras",
+		inherit: true,
 		types: ["Water", "Dragon"],
-		baseStats: {hp: 130, atk: 85, def: 80, spa: 85, spd: 95, spe: 60},
-		abilities: {0: "Water Absorb", 1: "Shell Armor", H: "Hydration"},
-		heightm: 2.5,
-		weightkg: 220,
-		color: "Blue",
-		eggGroups: ["Monster", "Water 1"],
 		otherFormes: ["Lapras-Mega"],
 		formeOrder: ["Lapras", "Lapras-Mega"]
 	},
@@ -383,19 +345,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Swift Swim", 1: "Battle Armor", H: "Blademaster"}
 	},
 	snorlax: {
-		num: 143,
-		name: "Snorlax",
-		types: ["Normal"],
-		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 160, atk: 110, def: 65, spa: 65, spd: 110, spe: 30},
-		abilities: {0: "Immunity", 1: "Thick Fat", H: "Gluttony"},
-		heightm: 2.1,
-		weightkg: 460,
-		color: "Black",
-		prevo: "Munchlax",
-		evoType: "levelFriendship",
-		eggGroups: ["Monster"],
-		canHatch: true,
+		inherit: true,
 		otherFormes: ["Snorlax-Mega"],
 		formeOrder: ["Snorlax", "Snorlax-Mega"]
 	},
@@ -873,10 +823,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		types: ["Water", "Fairy"],
 		baseStats: {hp: 43, atk: 30, def: 55, spa: 100, spd: 65, spe: 97},
-		abilities: {
-			0: "Swift Swim",
-			H: "Soul-Heart"
-		}
+		abilities: {0: "Swift Swim", H: "Soul-Heart"}
 	},
 	salamencemega: {
 		inherit: true,
@@ -1281,17 +1228,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Mummy", H: "Shadow Shield"}
 	},
 	garbodor: {
-		num: 569,
-		name: "Garbodor",
-		types: ["Poison"],
+		inherit: true,
 		baseStats: {hp: 80, atk: 115, def: 82, spa: 60, spd: 82, spe: 60},
 		abilities: {0: "Gooey", 1: "Weak Armor", H: "Aftermath"},
-		heightm: 1.9,
-		weightkg: 107.3,
-		color: "Green",
-		prevo: "Trubbish",
-		evoLevel: 36,
-		eggGroups: ["Mineral"],
 		otherFormes: ["Garbodor-Mega"],
 		formeOrder: ["Garbodor", "Garbodor-Mega"]
 	},
@@ -1409,21 +1348,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Blaze", H: "Magic Guard"}
 	},
 	greninjaash: {
-		num: 658,
-		name: "Greninja-Ash",
-		baseSpecies: "Greninja",
-		forme: "Ash",
-		types: ["Water", "Dark"],
+		inherit: true,
+		gender: undefined,
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 72, atk: 145, def: 67, spa: 153, spd: 71, spe: 132},
-		abilities: {0: "Battle Bond"},
-		heightm: 1.5,
-		weightkg: 40,
-		color: "Blue",
-		eggGroups: ["Undiscovered"],
-		requiredAbility: "Battle Bond",
-		battleOnly: "Greninja",
-		gen: 7
 	},
 	talonflame: {
 		inherit: true,
@@ -1616,259 +1543,106 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Battle Armor"}
 	},
 	silvallybug: {
-		num: 773,
-		name: "Silvally-Bug",
-		baseSpecies: "Silvally",
-		forme: "Bug",
-		types: ["Bug"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallydark: {
-		num: 773,
-		name: "Silvally-Dark",
-		baseSpecies: "Silvally",
-		forme: "Dark",
-		types: ["Dark"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallydragon: {
-		num: 773,
-		name: "Silvally-Dragon",
-		baseSpecies: "Silvally",
-		forme: "Dragon",
-		types: ["Dragon"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyelectric: {
-		num: 773,
-		name: "Silvally-Electric",
-		baseSpecies: "Silvally",
-		forme: "Electric",
-		types: ["Electric"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyfairy: {
-		num: 773,
-		name: "Silvally-Fairy",
-		baseSpecies: "Silvally",
-		forme: "Fairy",
-		types: ["Fairy"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyfighting: {
-		num: 773,
-		name: "Silvally-Fighting",
-		baseSpecies: "Silvally",
-		forme: "Fighting",
-		types: ["Fighting"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyfire: {
-		num: 773,
-		name: "Silvally-Fire",
-		baseSpecies: "Silvally",
-		forme: "Fire",
-		types: ["Fire"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyflying: {
-		num: 773,
-		name: "Silvally-Flying",
-		baseSpecies: "Silvally",
-		forme: "Flying",
-		types: ["Flying"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyghost: {
-		num: 773,
-		name: "Silvally-Ghost",
-		baseSpecies: "Silvally",
-		forme: "Ghost",
-		types: ["Ghost"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallygrass: {
-		num: 773,
-		name: "Silvally-Grass",
-		baseSpecies: "Silvally",
-		forme: "Grass",
-		types: ["Grass"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyground: {
-		num: 773,
-		name: "Silvally-Ground",
-		baseSpecies: "Silvally",
-		forme: "Ground",
-		types: ["Ground"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyice: {
-		num: 773,
-		name: "Silvally-Ice",
-		baseSpecies: "Silvally",
-		forme: "Ice",
-		types: ["Ice"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallypoison: {
-		num: 773,
-		name: "Silvally-Poison",
-		baseSpecies: "Silvally",
-		forme: "Poison",
-		types: ["Poison"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallypsychic: {
-		num: 773,
-		name: "Silvally-Psychic",
-		baseSpecies: "Silvally",
-		forme: "Psychic",
-		types: ["Psychic"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallyrock: {
-		num: 773,
-		name: "Silvally-Rock",
-		baseSpecies: "Silvally",
-		forme: "Rock",
-		types: ["Rock"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallysteel: {
-		num: 773,
-		name: "Silvally-Steel",
-		baseSpecies: "Silvally",
-		forme: "Steel",
-		types: ["Steel"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	silvallywater: {
-		num: 773,
-		name: "Silvally-Water",
-		baseSpecies: "Silvally",
-		forme: "Water",
-		types: ["Water"],
-		gender: "N",
+		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Battle Armor"},
-		heightm: 2.3,
-		weightkg: 100.5,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		changesFrom: "Silvally"
+		requiredItem: undefined
 	},
 	komala: {
 		inherit: true,
@@ -1905,18 +1679,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Frisk", 1: "Unnerve", H: "Big Pecks"}
 	},
+	corviknight: {
+		inherit: true,
+		evoLevel: 60
+	},
 	orbeetle: {
-		num: 826,
-		name: "Orbeetle",
-		types: ["Bug", "Psychic"],
-		baseStats: {hp: 60, atk: 45, def: 110, spa: 80, spd: 120, spe: 90},
-		abilities: {0: "Swarm", 1: "Frisk", H: "Telepathy"},
-		heightm: 0.4,
-		weightkg: 40.8,
-		color: "Red",
-		prevo: "Dottler",
-		evoLevel: 30,
-		eggGroups: ["Bug"],
+		inherit: true,
 		otherFormes: ["Orbeetle-Mega"],
 		formeOrder: ["Orbeetle", "Orbeetle-Mega"]
 	},
@@ -1947,17 +1715,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 82, atk: 80, def: 100, spa: 60, spd: 90, spe: 88}
 	},
 	drednaw: {
-		num: 834,
-		name: "Drednaw",
-		types: ["Water", "Rock"],
-		baseStats: {hp: 90, atk: 115, def: 90, spa: 48, spd: 68, spe: 74},
-		abilities: {0: "Strong Jaw", 1: "Shell Armor", H: "Swift Swim"},
-		heightm: 1,
-		weightkg: 115.5,
-		color: "Green",
-		prevo: "Chewtle",
-		evoLevel: 22,
-		eggGroups: ["Monster", "Water 1"],
+		inherit: true,
 		otherFormes: ["Drednaw-Mega"],
 		formeOrder: ["Drednaw", "Drednaw-Mega"]
 	},
@@ -1984,17 +1742,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 69, atk: 100, def: 60, spa: 80, spd: 60, spe: 121}
 	},
 	coalossal: {
-		num: 839,
-		name: "Coalossal",
-		types: ["Rock", "Fire"],
-		baseStats: {hp: 110, atk: 80, def: 120, spa: 80, spd: 90, spe: 30},
-		abilities: {0: "Steam Engine", 1: "Flame Body", H: "Flash Fire"},
-		heightm: 2.8,
-		weightkg: 310.5,
-		color: "Black",
-		prevo: "Carkol",
-		evoLevel: 34,
-		eggGroups: ["Mineral"],
+		inherit: true,
 		otherFormes: ["Coalossal-Mega"],
 		formeOrder: ["Coalossal", "Coalossal-Mega"]
 	},
@@ -2013,18 +1761,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		requiredItem: "Coalossite"
 	},
 	flapple: {
-		num: 841,
-		name: "Flapple",
-		types: ["Grass", "Dragon"],
-		baseStats: {hp: 70, atk: 110, def: 80, spa: 95, spd: 60, spe: 70},
-		abilities: {0: "Ripen", 1: "Gluttony", H: "Hustle"},
-		heightm: 0.3,
-		weightkg: 1,
-		color: "Green",
-		prevo: "Applin",
-		evoType: "useItem",
-		evoItem: "Tart Apple",
-		eggGroups: ["Grass", "Dragon"],
+		inherit: true,
 		otherFormes: ["Flapple-Mega"],
 		formeOrder: ["Flapple", "Flapple-Mega"]
 	},
@@ -2045,18 +1782,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		requiredItem: "Flapplite"
 	},
 	appletun: {
-		num: 842,
-		name: "Appletun",
-		types: ["Grass", "Dragon"],
-		baseStats: {hp: 110, atk: 85, def: 80, spa: 100, spd: 80, spe: 30},
-		abilities: {0: "Ripen", 1: "Gluttony", H: "Thick Fat"},
-		heightm: 0.4,
-		weightkg: 13,
-		color: "Green",
-		prevo: "Applin",
-		evoType: "useItem",
-		evoItem: "Sweet Apple",
-		eggGroups: ["Grass", "Dragon"],
+		inherit: true,
 		otherFormes: ["Appletun-Mega"],
 		formeOrder: ["Appletun", "Appletun-Mega"]
 	},
@@ -2075,17 +1801,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		requiredItem: "Appletunite"
 	},
 	sandaconda: {
-		num: 844,
-		name: "Sandaconda",
-		types: ["Ground"],
-		baseStats: {hp: 72, atk: 107, def: 125, spa: 65, spd: 70, spe: 71},
-		abilities: {0: "Sand Spit", 1: "Shed Skin", H: "Sand Veil"},
-		heightm: 3.8,
-		weightkg: 65.5,
-		color: "Green",
-		prevo: "Silicobra",
-		evoLevel: 36,
-		eggGroups: ["Field", "Dragon"],
+		inherit: true,
 		otherFormes: ["Sandaconda-Mega"],
 		formeOrder: ["Sandaconda", "Sandaconda-Mega"]
 	},
@@ -2154,17 +1870,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		changesFrom: "Toxtricity-Low-Key"
 	},
 	centiskorch: {
-		num: 851,
-		name: "Centiskorch",
-		types: ["Fire", "Bug"],
-		baseStats: {hp: 100, atk: 115, def: 65, spa: 90, spd: 90, spe: 65},
-		abilities: {0: "Flash Fire", 1: "White Smoke", H: "Flame Body"},
-		heightm: 3,
-		weightkg: 120,
-		color: "Red",
-		prevo: "Sizzlipede",
-		evoLevel: 28,
-		eggGroups: ["Bug"],
+		inherit: true,
 		otherFormes: ["Centiskorch-Mega"],
 		formeOrder: ["Centiskorch", "Centiskorch-Mega"]
 	},
@@ -2225,20 +1931,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Wandering Spirit", H: "Shadow Shield"}
 	},
 	alcremie: {
-		num: 869,
-		name: "Alcremie",
-		baseForme: "Vanilla Cream",
-		types: ["Fairy"],
-		gender: "F",
-		baseStats: {hp: 65, atk: 60, def: 75, spa: 110, spd: 121, spe: 64},
-		abilities: {0: "Sweet Veil", H: "Aroma Veil"},
-		heightm: 0.3,
-		weightkg: 0.5,
-		color: "White",
-		prevo: "Milcery",
-		evoType: "other",
-		evoCondition: "spin while holding a Sweet",
-		eggGroups: ["Fairy", "Amorphous"],
+		inherit: true,
 		otherFormes: ["Alcremie-Mega"],
 		cosmeticFormes: ["Alcremie-Ruby-Cream", "Alcremie-Matcha-Cream", "Alcremie-Mint-Cream", "Alcremie-Lemon-Cream", "Alcremie-Salted-Cream", "Alcremie-Ruby-Swirl", "Alcremie-Caramel-Swirl", "Alcremie-Rainbow-Swirl"],
 		formeOrder: ["Alcremie", "Alcremie-Mega", "Alcremie-Ruby-Cream", "Alcremie-Matcha-Cream", "Alcremie-Mint-Cream", "Alcremie-Lemon-Cream", "Alcremie-Salted-Cream", "Alcremie-Ruby-Swirl", "Alcremie-Caramel-Swirl", "Alcremie-Rainbow-Swirl"]
@@ -2292,17 +1985,9 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Heavy Metal"}
 	},
 	copperajah: {
-		num: 879,
-		name: "Copperajah",
-		types: ["Steel"],
+		inherit: true,
 		baseStats: {hp: 122, atk: 130, def: 79, spa: 80, spd: 79, spe: 30},
 		abilities: {0: "Heavy Metal"},
-		heightm: 3,
-		weightkg: 650,
-		color: "Green",
-		prevo: "Cufant",
-		evoLevel: 34,
-		eggGroups: ["Field", "Mineral"],
 		otherFormes: ["Copperajah-Mega"],
 		formeOrder: ["Copperajah", "Copperajah-Mega"]
 	},
@@ -2333,15 +2018,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 90, atk: 90, def: 100, spa: 55, spd: 90, spe: 80}
 	},
 	duraludon: {
-		num: 884,
-		name: "Duraludon",
-		types: ["Steel", "Dragon"],
-		baseStats: {hp: 70, atk: 95, def: 115, spa: 120, spd: 50, spe: 85},
+		inherit: true,
 		abilities: {0: "Light Metal", 1: "Heavy Metal", H: "Clear Body"},
-		heightm: 1.8,
-		weightkg: 40,
-		color: "White",
-		eggGroups: ["Mineral", "Dragon"],
 		otherFormes: ["Duraludon-Mega"],
 		formeOrder: ["Duraludon", "Duraludon-Mega"]
 	},
