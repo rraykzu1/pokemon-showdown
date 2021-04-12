@@ -35,5 +35,5 @@ export const Formats: {[k: string]: FormatData} = {
 				return [`${set.name}'s item ${item.name} does not exist in Gen ${this.dex.gen}.`];
 			}
 		},
-	}
+	},
 };
