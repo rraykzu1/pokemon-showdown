@@ -1,8 +1,8 @@
 export const Formats: {[k: string]: FormatData} = {
-	standard: {
+	standardradred: {
 		effectType: 'ValidatorRule',
-		name: 'Standard',
-		desc: "The standard ruleset for all National Dex tiers",
+		name: 'Standard RadRed',
+		desc: "The standard ruleset for all Radical Red tiers",
 		ruleset: [
 			'Obtainable', '+Unobtainable', '+Past', 'Team Preview', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause',
 		],

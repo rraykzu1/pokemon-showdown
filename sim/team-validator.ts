@@ -495,7 +495,7 @@ export class TeamValidator {
 		}
 
 		if (ruleTable.has('obtainableformes')) {
-			const canMegaEvo = dex.gen <= 7 || ruleTable.has('standardnatdex');
+			const canMegaEvo = dex.gen <= 7 || ruleTable.has('standardnatdex' || ruleTable.has('standardradred'));
 			if (item.megaEvolves === species.name) {
 				if (!item.megaStone) throw new Error(`Item ${item.name} has no base form for mega evolution`);
 				tierSpecies = dex.getSpecies(item.megaStone);
@@ -1888,7 +1888,7 @@ export class TeamValidator {
 			} else if (lsetData.learnset['sketch']) {
 				if (move.noSketch || move.isZ || move.isMax) {
 					cantLearnReason = `can't be Sketched.`;
-				} else if (move.gen > 7 && !ruleTable.has('standardnatdex')) {
+				} else if (move.gen > 7 && !ruleTable.has('standardnatdex') && !ruleTable.has('standardradred')) {
 					cantLearnReason = `can't be Sketched because it's a Gen 8 move and Sketch isn't available in Gen 8.`;
 				} else {
 					if (!lset) sketch = true;
