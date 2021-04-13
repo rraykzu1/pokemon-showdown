@@ -280,7 +280,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	marowakalola: {
 		inherit: true,
-		abilities: {0: "Cursed Body", 1: "Lightning Rod", H: "Bone Zone"},
+		abilities: {0: "Lightning Rod", 1: "Rock Head", H: "Bone Zone"},
 	},
 	hitmonlee: {
 		inherit: true,
