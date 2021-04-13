@@ -225,7 +225,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	jawlock: {
 		inherit: true,
 		basePower: 90,
-		type: "Dark",
+		type: "Fighting",
 	},
 	jumpkick: {
 		inherit: true,
@@ -347,7 +347,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
-	revaltiondance: {
+	revelationdance: {
 		inherit: true,
 		basePower: 100,
 		type: "Fairy",
