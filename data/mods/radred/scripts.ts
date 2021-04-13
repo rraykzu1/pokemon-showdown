@@ -12,7 +12,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			const item = pokemon.getItem();
 			// Mega Rayquaza
 			if (altForme?.isMega && altForme?.requiredMove &&
-				pokemon.baseMoves.includes(toID(altForme.requiredMove)) && !item.zMove) {
+				pokemon.baseMoves.includes(this.battle.toID(altForme.requiredMove)) && !item.zMove) {
 				return altForme.name;
 			}
 			// prevent Galarian Slowbro from mega evolving
