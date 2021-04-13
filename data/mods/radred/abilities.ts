@@ -359,7 +359,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	shielddust: {
 		inherit: true,
 		desc: "This Pokemon is not affected by the secondary effect of another Pokemon's attack, and is not affected by entry hazards.",
-		shortDesc: "This Pokemon is unaffected by entry hazards and secondary effects of moves."
+		shortDesc: "This Pokemon is unaffected by entry hazards and secondary effects of moves.",
 	},
 	solarpower: {
 		inherit: true,
