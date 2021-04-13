@@ -3379,6 +3379,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	calyrexshadow: {
 		tier: "Uber",
 	},
+	// capmons
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

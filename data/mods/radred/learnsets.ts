@@ -41816,6 +41816,17 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			nastyplot: ["8T"],
 			bodyslam: ["8T"],
 		},
+		eventData: [
+			{generation: 5, level: 40, shiny: 1, moves: ["revenge", "aircutter", "extrasensory", "agility"]},
+			{generation: 5, level: 5, isHidden: true, moves: ["uproar", "astonish", "gust"], pokeball: "dreamball"},
+			{generation: 5, level: 70, moves: ["hurricane", "hammerarm", "airslash", "hiddenpower"], pokeball: "cherishball"},
+			{generation: 6, level: 50, shiny: 1, moves: ["extrasensory", "agility", "airslash", "crunch"]},
+			{generation: 7, level: 60, shiny: 1, moves: ["airslash", "crunch", "tailwind", "raindance"]},
+			{generation: 7, level: 60, moves: ["airslash", "crunch", "tailwind", "raindance"], pokeball: "cherishball"},
+			{generation: 7, level: 100, moves: ["hurricane", "heatwave", "grassknot", "tailwind"], pokeball: "cherishball"},
+			{generation: 8, level: 70, shiny: 1, moves: ["hurricane", "agility", "icywind", "heatwave"]},
+		],
+		eventOnly: true,
 	},
 	thundurus: {
 		learnset: {
@@ -41888,6 +41899,17 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			bodyslam: ["8T"],
 			electroball: ["8T"],
 		},
+		eventData: [
+			{generation: 5, level: 50, moves: ["dragonbreath", "slash", "extrasensory", "fusionflare"]},
+			{generation: 5, level: 70, moves: ["extrasensory", "fusionflare", "dragonpulse", "imprison"]},
+			{generation: 5, level: 100, moves: ["blueflare", "fusionflare", "mist", "dracometeor"], pokeball: "cherishball"},
+			{generation: 6, level: 50, shiny: 1, moves: ["dragonbreath", "slash", "extrasensory", "fusionflare"]},
+			{generation: 7, level: 60, shiny: 1, moves: ["slash", "extrasensory", "fusionflare", "dragonpulse"]},
+			{generation: 7, level: 60, moves: ["slash", "extrasensory", "fusionflare", "dragonpulse"], pokeball: "cherishball"},
+			{generation: 7, level: 100, moves: ["fusionflare", "blueflare", "dracometeor", "earthpower"], pokeball: "cherishball"},
+			{generation: 8, level: 70, shiny: 1, moves: ["nobleroar", "extrasensory", "fusionflare", "dragonclaw"]},
+		],
+		eventOnly: true,
 	},
 	reshiram: {
 		learnset: {
