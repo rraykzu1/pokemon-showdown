@@ -10,6 +10,10 @@ export const Scripts: ModdedBattleScriptsData = {
 				pokemon.baseMoves.includes(toID(altForme.requiredMove)) && !item.zMove) {
 				return altForme.name;
 			}
+			// prevent Galarian Slowbro from mega evolving
+			if (item.name === "Slowbronite" && pokemon.baseSpecies.name === "Slowbro-Galar") {
+				return null;
+			}
 			// a hacked-in Megazard X can mega evolve into Megazard Y, but not into Megazard X
 			if (item.megaEvolves === species.baseSpecies && item.megaStone !== species.name) {
 				return item.megaStone;
