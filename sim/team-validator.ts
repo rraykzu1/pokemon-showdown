@@ -816,7 +816,7 @@ export class TeamValidator {
 		const diancieException = species.name === 'Diancie' && !set.shiny;
 		const has3PerfectIVs = setSources.minSourceGen() >= 6 && isLegendary && !diancieException;
 
-		if (set.hpType === 'Fighting' && ruleTable.has('obtainablemisc')) {
+		if (set.hpType === 'Fighting' && ruleTable.has('obtainablemisc') && !ruleTable.has('standardradred')) {
 			if (has3PerfectIVs) {
 				// Legendary Pokemon must have at least 3 perfect IVs in gen 6+
 				problems.push(`${name} must not have Hidden Power Fighting because it starts with 3 perfect IVs because it's a gen 6+ legendary.`);
