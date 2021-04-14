@@ -600,7 +600,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
 	},
 
-	//allow all past moves
+	// allow all past moves
 	"10000000voltthunderbolt": {
 		inherit: true,
 		isNonstandard: null,
