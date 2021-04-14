@@ -294,6 +294,16 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. The target's Defense is halved during damage calculation. This move is prevented from executing if any active Pokemon has the Damp Ability.",
 		shortDesc: "User faints. User on Misty Terrain: 1.5x power. The target's Defense is halved during damage calculation.",
 	},
+	multiattack: {
+		inherit: true,
+		onModifyType(move, pokemon) {
+			let type = pokemon.getTypes()[0];
+			if (type === "Bird") type = "???";
+			move.type = type;
+		},
+		desc: "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
+		shortDesc: "Type varies based on the user's primary type.",
+	},
 	needlearm: {
 		inherit: true,
 		basePower: 95,
