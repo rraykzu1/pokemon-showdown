@@ -27,6 +27,8 @@ export type MoveTarget =
 interface MoveFlags {
 	authentic?: 1; // Ignores a target's substitute.
 	bite?: 1; // Power is multiplied by 1.5 when used by a Pokemon with the Ability Strong Jaw.
+	blade?: 1; // Power is multiplied by 1.2 when used by a Pokemon with the Ability Blademaster.
+	bone?: 1; // Affected by Bone Zone
 	bullet?: 1; // Has no effect on Pokemon with the Ability Bulletproof.
 	charge?: 1; // The user is unable to make a move between turns.
 	contact?: 1; // Makes contact.
@@ -35,6 +37,7 @@ interface MoveFlags {
 	distance?: 1; // Can target a Pokemon positioned anywhere in a Triple Battle.
 	gravity?: 1; // Prevented from being executed or selected during Gravity's effect.
 	heal?: 1; // Prevented from being executed or selected during Heal Block's effect.
+	kick?: 1; // Power is multiplied by 1.3 when used by a Pokemon with the Ability Striker.
 	mirror?: 1; // Can be copied by Mirror Move.
 	mystery?: 1; // Unknown effect.
 	nonsky?: 1; // Prevented from being executed or selected in a Sky Battle.
@@ -146,6 +149,10 @@ export interface MoveData extends EffectData, MoveEventMethods, HitEffect {
 	damage?: number | 'level' | false | null;
 	contestType?: string;
 	noPPBoosts?: boolean;
+
+	// In-Game data (for dex purposes)
+	noTutor?: boolean;
+	noTM?: boolean;
 
 	// Z-move data
 	// -----------

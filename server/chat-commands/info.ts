@@ -721,6 +721,9 @@ export const commands: Chat.ChatCommands = {
 					if (move.flags['recharge']) details["&#10003; Has recharge turn"] = "";
 					if (move.flags['gravity'] && dex.gen >= 4) details["&#10007; Suppressed by Gravity"] = "";
 					if (move.flags['dance'] && dex.gen >= 7) details["&#10003; Dance move"] = "";
+					if (move.flags['kick']) details["&#10003; Kick"] = "";
+					if (move.flags['bone']) details["&#10003; Bone"] = "";
+					if (move.flags['blade']) details["&#10003; Blade"] = "";
 
 					if (dex.gen >= 7) {
 						if (move.gen >= 8 && move.isMax) {
@@ -1732,7 +1735,7 @@ export const commands: Chat.ChatCommands = {
 			(isRandomBattle && !DEFAULT_CALC_COMMANDS.includes(cmd) && !BATTLESPOT_CALC_COMMANDS.includes(cmd))) {
 			return this.sendReplyBox(
 				`Random Battles damage calculator. (Courtesy of Austin)<br />` +
-				`- <a href="https://calc.pokemonshowdown.com/randoms.html">Random Battles Damage Calculator</a>`
+				`- <a href="https://calc.radicalred.net/randoms.html">Random Battles Damage Calculator</a>`
 			);
 		}
 		if (BATTLESPOT_CALC_COMMANDS.includes(cmd) || (isBattleSpotBattle && !DEFAULT_CALC_COMMANDS.includes(cmd))) {
@@ -1743,7 +1746,7 @@ export const commands: Chat.ChatCommands = {
 		}
 		this.sendReplyBox(
 			`Pok&eacute;mon Showdown! damage calculator. (Courtesy of Honko &amp; Austin)<br />` +
-			`- <a href="https://calc.pokemonshowdown.com/index.html">Damage Calculator</a>`
+			`- <a href="https://calc.radicalred.net/index.html">Damage Calculator</a>`
 		);
 	},
 	calchelp: [

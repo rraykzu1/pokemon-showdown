@@ -435,12 +435,6 @@ export class TeamValidator {
 			if (ruleTable.has('obtainableformes')) {
 				tierSpecies = outOfBattleSpecies;
 			}
-			if (ruleTable.has('obtainablemisc')) {
-				if (set.gender && set.gender !== 'M') {
-					problems.push(`Battle Bond Greninja must be male.`);
-				}
-				set.gender = 'M';
-			}
 		}
 		if (ability.id === 'owntempo' && species.id === 'rockruff') {
 			tierSpecies = outOfBattleSpecies = dex.species.get('rockruffdusk');
@@ -487,7 +481,6 @@ export class TeamValidator {
 		}
 
 		if (ruleTable.has('obtainableformes')) {
-			const canMegaEvo = dex.gen <= 7 || ruleTable.has('standardnatdex');
 			if (item.megaEvolves === species.name) {
 				if (!item.megaStone) throw new Error(`Item ${item.name} has no base form for mega evolution`);
 				tierSpecies = dex.species.get(item.megaStone);
@@ -495,7 +488,11 @@ export class TeamValidator {
 				tierSpecies = dex.species.get('Groudon-Primal');
 			} else if (item.id === 'blueorb' && species.id === 'kyogre') {
 				tierSpecies = dex.species.get('Kyogre-Primal');
-			} else if (canMegaEvo && species.id === 'rayquaza' && set.moves.map(toID).includes('dragonascent' as ID)) {
+			} else if (item.id === 'adamantorb' && species.id === 'dialga') {
+				tierSpecies = dex.species.get('Dialga-Primal');
+			} else if (item.id === 'eternamaxorb' && species.id === 'eternatus') {
+				tierSpecies = dex.species.get('Eternatus-Eternamax');
+			} else if (species.id === 'rayquaza' && set.moves.map(toID).includes('dragonascent' as ID)) {
 				tierSpecies = dex.species.get('Rayquaza-Mega');
 			}
 		}
@@ -813,6 +810,7 @@ export class TeamValidator {
 			'Manaphy', 'Cosmog', 'Cosmoem', 'Solgaleo', 'Lunala',
 		].includes(species.baseSpecies);
 		const diancieException = species.name === 'Diancie' && !set.shiny;
+		/* IV reducer exists in RR
 		const has3PerfectIVs = setSources.minSourceGen() >= 6 && isLegendary && !diancieException;
 
 		if (set.hpType === 'Fighting' && ruleTable.has('obtainablemisc')) {
@@ -832,6 +830,7 @@ export class TeamValidator {
 				problems.push(`${name} must have at least three perfect IVs because it's a legendary${reason}.`);
 			}
 		}
+		*/
 
 		if (set.hpType && !canBottleCap) {
 			const ivHpType = dex.getHiddenPower(set.ivs).type;
