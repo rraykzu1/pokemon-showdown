@@ -301,19 +301,19 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	meowthalola: {
 		inherit: true,
-		abilities: {0: "Pickup", 1: "Technician", H: "Feline Power"},
+		abilities: {0: "Pickup", 1: "Technician", H: "Feline Prowess"},
 		items: {5: "Nugget", 50: "Nugget"},
 	},
 	persian: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 80, def: 60, spa: 60, spd: 65, spe: 115},
-		abilities: {0: "Limber", 1: "Technician", H: "Feline Power"},
+		abilities: {0: "Limber", 1: "Technician", H: "Feline Prowess"},
 		items: {5: "Big Nugget", 50: "Big Nugget"},
 	},
 	persianalola: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 60, def: 60, spa: 55, spd: 65, spe: 115},
-		abilities: {0: "Fur Coat", 1: "Technician", H: "Feline Power"},
+		abilities: {0: "Fur Coat", 1: "Technician", H: "Feline Prowess"},
 		items: {5: "Big Nugget", 50: "Big Nugget"},
 	},
 	psyduck: {
@@ -1343,7 +1343,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	delcatty: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 65, def: 65, spa: 65, spd: 55, spe: 90},
-		abilities: {0: "Cute Charm", 1: "Feline Power", H: "Wonder Skin"},
+		abilities: {0: "Cute Charm", 1: "Feline Prowess", H: "Wonder Skin"},
 		items: {5: "Leppa Berry", 50: "Pecha Berry"},
 	},
 	sableye: {
@@ -2738,12 +2738,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	meowstic: {
 		inherit: true,
 		baseStats: {hp: 74, atk: 48, def: 76, spa: 55, spd: 81, spe: 104},
-		abilities: {0: "Prankster", 1: "Infiltrator", H: "Feline Power"},
+		abilities: {0: "Prankster", 1: "Infiltrator", H: "Feline Prowess"},
 	},
 	meowsticf: {
 		inherit: true,
 		baseStats: {hp: 74, atk: 48, def: 76, spa: 55, spd: 81, spe: 104},
-		abilities: {0: "Competitive", 1: "Infiltrator", H: "Feline Power"},
+		abilities: {0: "Competitive", 1: "Infiltrator", H: "Feline Prowess"},
 	},
 	honedge: {
 		inherit: true,

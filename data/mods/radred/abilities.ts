@@ -161,7 +161,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onModifySpA(spa) {
 			return this.chainModify(2);
 		},
-		name: "Feline Power",
+		name: "Feline Prowess",
 		rating: 5,
 		gen: 8,
 		shortDesc: "This Pokemon's Sp. Atk is doubled.",
