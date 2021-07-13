@@ -21,6 +21,7 @@ export const Formats: FormatList = [
 	{
 		section: "RR Singles",
 	},
+	/*
 	{
 		name: "[Gen 8] Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
@@ -53,6 +54,7 @@ export const Formats: FormatList = [
 			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause',
 		],
 	},
+	*/
 	{
 		name: "[Gen 8] RRDL",
 		mod: 'rr22b',
@@ -180,6 +182,7 @@ export const Formats: FormatList = [
 	{
 		section: "RR Doubles",
 	},
+	/*
 	{
 		name: "[Gen 8] Random Doubles Battle",
 
@@ -188,6 +191,7 @@ export const Formats: FormatList = [
 		team: 'random',
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause'],
 	},
+	*/
 	{
 		name: "[Gen 8] RRC",
 		mod: 'radred',
@@ -218,6 +222,7 @@ export const Formats: FormatList = [
 	{
 		section: "RR Randomized Metas",
 	},
+	/*
 	{
 		name: "[Gen 8] Monotype Random Battle",
 
@@ -225,6 +230,7 @@ export const Formats: FormatList = [
 		team: 'random',
 		ruleset: ['Obtainable', 'Same Type Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause'],
 	},
+	*/
 	{
 		name: "[Gen 8] Challenge Cup",
 
