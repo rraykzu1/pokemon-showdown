@@ -156,7 +156,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		gen: 8,
 		shortDesc: "Super Effective Moves from this Pokemon can’t miss and receive a 20% damage boost.",
 	},
-	felinepower: {
+	felineprowess: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa) {
 			return this.chainModify(2);
