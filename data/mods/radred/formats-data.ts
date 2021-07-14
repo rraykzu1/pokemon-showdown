@@ -4315,7 +4315,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["nastyplot", "mindblown", "psyshock", "scorchingsands", "grassknot"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["nastyplot", "mindblown", "grassknot", "heatwave", "protect", "psyshock"],
-		tier: "OU",
+		tier: "Uber",
 	},
 	froakie: {
 		tier: "LC",
