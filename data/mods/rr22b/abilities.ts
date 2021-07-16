@@ -124,7 +124,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 3,
 		gen: 8,
 	},
-	felinepower: {
+	felineprowess: {
 		shortDesc: "This Pokemon's Sp. Atk is doubled.",
 		onModifySpAPriority: 5,
 		onModifySpA(spa) {
