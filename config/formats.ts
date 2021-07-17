@@ -150,7 +150,7 @@ export const Formats: FormatList = [
 		mod: 'radred',
 		searchShow: false,
 		debug: true,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
+		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
 	},
 	{
 		name: "[Gen 8] OLT RRDL",
