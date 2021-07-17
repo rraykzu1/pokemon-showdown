@@ -1451,36 +1451,26 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			if (abilityData[2] && abilityData[1].rating <= abilityData[2].rating && this.randomChance(1, 2)) {
 				[abilityData[1], abilityData[2]] = [abilityData[2], abilityData[1]];
 			}
-			if (abilityData[0].rating <= abilityData[1].rating) {
-				if (this.randomChance(1, 2)) [abilityData[0], abilityData[1]] = [abilityData[1], abilityData[0]];
-			} else if (abilityData[0].rating - 0.6 <= abilityData[1].rating) {
-				if (this.randomChance(2, 3)) [abilityData[0], abilityData[1]] = [abilityData[1], abilityData[0]];
+			if (abilityData[0].rating <= abilityData[1].rating && this.randomChance(1, 2)) {
+				[abilityData[0], abilityData[1]] = [abilityData[1], abilityData[0]];
+			} else if (abilityData[0].rating - 0.6 <= abilityData[1].rating && this.randomChance(2, 3)) {
+				[abilityData[0], abilityData[1]] = [abilityData[1], abilityData[0]];
 			}
-
-			// Start with the first abiility and work our way through, culling as we go
 			ability = abilityData[0].name;
-			let rejectAbility = false;
-			do {
-				rejectAbility = this.shouldCullAbility(
-					ability, types, moves, abilities, counter, movePool, teamDetails, species, isDoubles
-				);
 
-				if (rejectAbility) {
-					// Lopunny, and other Facade users, don't want Limber, even if other abilities are poorly rated,
-					// since paralysis would arguably be good for them.
-					const limberFacade = moves.has('facade') && ability === 'Limber';
-
-					if (ability === abilityData[0].name && (abilityData[1].rating >= 1 || limberFacade)) {
-						ability = abilityData[1].name;
-					} else if (ability === abilityData[1].name && abilityData[2] && (abilityData[2].rating >= 1 || limberFacade)) {
-						ability = abilityData[2].name;
-					} else {
-						// Default to the highest rated ability if all are rejected
-						ability = abilityData[0].name;
-						rejectAbility = false;
-					}
+			while (this.shouldCullAbility(
+				ability, types, moves, abilities, counter, movePool, teamDetails, species, isDoubles
+			)) {
+				if (ability === abilityData[0].name && abilityData[1].rating >= 1) {
+					ability = abilityData[1].name;
+				} else if (ability === abilityData[1].name && abilityData[2] && abilityData[2].rating >= 1) {
+					ability = abilityData[2].name;
+				} else {
+					// Default to the highest rated ability if all are rejected
+					ability = abilityData[0].name;
+					break;
 				}
-			} while (rejectAbility);
+			}
 
 
 			// Hardcode double ability megas
