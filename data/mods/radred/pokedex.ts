@@ -822,7 +822,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	articuno: {
 		inherit: true,
-		baseStats: {hp: 90, atk: 70, def: 100, spa: 95, spd: 125, spe: 105},
+		baseStats: {hp: 90, atk: 70, def: 100, spa: 95, spd: 125, spe: 100},
 		abilities: {0: "Pressure", H: "Shield Dust"},
 	},
 	articunogalar: {
