@@ -684,7 +684,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		isDoubles: boolean,
 	): boolean {
 		if ([
-			'Hydration', 'Ice Body', 'Innards Out', 'Insomnia', 'Misty Surge', 'Frisk',
+			'Hydration', 'Ice Body', 'Innards Out', 'Insomnia', 'Misty Surge',
 			'Quick Feet', 'Rain Dish', 'Snow Cloak', 'Steadfast', 'Steam Engine',
 		].includes(ability)) return true;
 
@@ -722,6 +722,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 				abilities.has('Blazing Soul') ||
 				(species.id === 'houndoommega' && !teamDetails.sun)
 			);
+		case 'Frisk':
+			return !['pidgeot', 'pidgeotmega', 'chatot'].includes(species.id);
 		case 'Galvanize':
 			return species.id === 'golemalola';
 		case 'Gluttony':
