@@ -3294,7 +3294,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	yamper: {
 		inherit: true,
-		abilities: {0: "Ball Fetch", H: "Competitive"},
+		abilities: {0: "Pickup", H: "Competitive"},
 	},
 	boltund: {
 		inherit: true,
