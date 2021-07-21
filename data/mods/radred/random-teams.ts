@@ -520,6 +520,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			const turtQuakeCull = species.id === 'turtonator' && movePool.includes('bodypress') && movePool.includes('shellsmash');
 			const subToxicPossible = moves.has('substitute') && movePool.includes('toxic');
 			return {cull: turtQuakeCull || (isDoubles && doublesCull) || subToxicPossible || moves.has('bonemerang')};
+		case 'precipiceblades':
+			return {cull: moves.has('earthquake')};
 		case 'scorchingsands':
 			// Special cases for Ninetales and Palossand; prevents status redundancy
 			return {cull: (

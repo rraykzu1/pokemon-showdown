@@ -2603,16 +2603,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	groudon: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["precipiceblades", "stealthrock", "stoneedge", "thunderwave", "rest", "toxic", "roar", "swordsdance", "rockpolish", "heatcrash", "heavyslam"],
+		randomBattleMoves: ["dragonclaw", "precipiceblades", "earthquake", "heatcrash", "roar", "stealthrock", "stoneedge", "thunderwave"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["heatcrash", "precipiceblades", "rockpolish", "stoneedge", "swordsdance"],
 		tier: "Uber",
 	},
 	groudonprimal: {
-		randomBattleLevel: 76,
-		randomBattleMoves: ["swordsdance", "rockpolish", "precipiceblades", "stoneedge", "stealthrock", "overheat", "heatcrash"],
-		randomDoubleBattleLevel: 76,
-		randomDoubleBattleMoves: ["firepunch", "precipiceblades", "protect", "rockpolish", "rockslide", "stoneedge", "swordsdance"],
+		randomBattleLevel: 74,
+		randomBattleMoves: ["heatcrash", "lavaplume", "precipiceblades", "rockpolish", "stealthrock", "stoneedge", "swordsdance"],
+		randomDoubleBattleLevel: 73,
+		randomDoubleBattleMoves: ["heatcrash", "precipiceblades", "protect", "rockpolish", "rockslide", "stoneedge", "swordsdance"],
 		tier: "Uber",
 	},
 	rayquaza: {
