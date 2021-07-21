@@ -433,12 +433,21 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			// Retaliate: Special case for Braviary to prevent Retaliate on non-Choice
 			return {cull: !counter.get('Status')};
 		case 'hydropump':
-			return {cull: moves.has('scald') && (
-				(counter.get('Special') < 4 && !moves.has('uturn')) ||
-				(species.types.length > 1 && counter.get('stab') < 3)
+			return {cull: (
+				moves.has('liquidation') ||
+				moves.has('waterfall') ||
+				moves.has('snipeshot') ||
+				hasRestTalk || (
+					moves.has('scald') &&
+					((counter.get('Special') < 4 && !moves.has('uturn')) || (species.types.length > 1 && counter.get('stab') < 3))
+				)
 			)};
+		case 'muddywater':
+			return {cull: isDoubles && (moves.has('scald') || moves.has('hydropump'))};
+		case 'originpulse': case 'surf':
+			return {cull: moves.has('hydropump') || moves.has('scald')};
 		case 'scald':
-			return {cull: moves.has('bouncybubble')};
+			return {cull: ['liquidation', 'waterfall', 'snipeshot'].some(m => moves.has(m))};
 		case 'thunderbolt':
 			// Special case for Goodra, which only wants one move to hit Water-types
 			return {cull: moves.has('powerwhip')};
@@ -831,7 +840,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 				'Intimidate', 'Rock Head', 'Water Absorb',
 			].some(m => abilities.has(m));
 			const noSwimIfNoRain = !moves.has('raindance') && [
-				'Cloud Nine', 'Lightning Rod', 'Intimidate', 'Rock Head', 'Sturdy', 'Water Absorb', 'Weak Armor',
+				'Cloud Nine', 'Lightning Rod', 'Intimidate', 'Rock Head', 'Sturdy', 'Water Absorb', 'Weak Armor', 'Sniper',
 			].some(m => abilities.has(m));
 			return teamDetails.rain ? neverWantsSwim : noSwimIfNoRain;
 		case 'Synchronize':

@@ -69,7 +69,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	blastoisemega: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["shellsmash", "darkpulse", "icebeam", "hydropump", "aurasphere"],
+		randomBattleMoves: ["shellsmash", "darkpulse", "icebeam", "waterpulse", "aurasphere"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["aurasphere", "darkpulse", "fakeout", "icebeam", "muddywater", "protect", "waterpulse"],
 		tier: "Uber",
@@ -2589,15 +2589,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	kyogre: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["waterspout", "originpulse", "icebeam", "thunder"],
-		randomDoubleBattleLevel: 73,
-		randomDoubleBattleMoves: ["icebeam", "originpulse", "thunder", "waterspout"],
+		randomBattleMoves: ["icebeam", "originpulse", "scald", "thunder", "waterspout"],
+		randomDoubleBattleLevel: 75,
+		randomDoubleBattleMoves: ["calmmind", "icebeam", "originpulse", "protect", "thunder", "waterspout"],
 		tier: "Uber",
 	},
 	kyogreprimal: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["calmmind", "originpulse", "icebeam", "thunder", "waterspout", "scald", "rest", "sleeptalk", "toxic"],
-		randomDoubleBattleLevel: 76,
+		randomBattleMoves: ["calmmind", "icebeam", "originpulse", "rest", "scald", "sleeptalk", "thunder", "toxic"],
+		randomDoubleBattleLevel: 73,
 		randomDoubleBattleMoves: ["calmmind", "icebeam", "originpulse", "protect", "thunder"],
 		tier: "Uber",
 	},
@@ -2694,9 +2694,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	empoleon: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["roost", "defog", "scald", "knockoff", "toxic", "flipturn", "stealthrock", "calmmind", "icebeam", "flashcannon"],
+		randomBattleMoves: ["defog", "flashcannon", "grassknot", "hydropump", "icebeam", "roar", "scald", "stealthrock", "toxic", "roost"],
 		randomDoubleBattleLevel: 82,
-		randomDoubleBattleMoves: ["defog", "flashcannon", "grassknot", "icywind", "protect", "scald"],
+		randomDoubleBattleMoves: ["defog", "flashcannon", "grassknot", "icywind", "protect", "scald", "roost"],
 		tier: "UU",
 	},
 	starly: {
@@ -3691,7 +3691,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	darmanitan: {
 		randomBattleLevel: 84,
-		randomBattleMoves: ["flareblitz", "uturn", "rockslide", "trick", "superpower", "earthquake", "toxic"],
+		randomBattleMoves: ["earthquake", "flareblitz", "rockslide", "superpower", "uturn"],
 		randomDoubleBattleLevel: 84,
 		randomDoubleBattleMoves: ["earthquake", "flareblitz", "rockslide", "superpower", "uturn"],
 		tier: "UU",
@@ -5496,7 +5496,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 86,
 		randomBattleMoves: ["hydropump", "icebeam", "darkpulse", "uturn", "focusenergy", "snipeshot"],
 		randomDoubleBattleLevel: 80,
-		randomDoubleBattleMoves: ["airslash", "hydropump", "icebeam", "muddywater", "shadowball", "uturn"],
+		randomDoubleBattleMoves: ["airslash", "hydropump", "snipeshot", "icebeam", "shadowball", "uturn"],
 		tier: "UU",
 	},
 	inteleongmax: {
