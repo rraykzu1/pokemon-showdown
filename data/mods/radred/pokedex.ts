@@ -2798,6 +2798,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		items: {5: "None", 50: "Yellow Shard"},
 	},
+	tyrantrum: {
+		inherit: true,
+		evoCondition: "during the day",
+	},
+	aurorus: {
+		inherit: true,
+		evoCondition: "at night",
+	},
 	dedenne: {
 		inherit: true,
 		baseStats: {hp: 67, atk: 58, def: 57, spa: 91, spd: 67, spe: 101},
