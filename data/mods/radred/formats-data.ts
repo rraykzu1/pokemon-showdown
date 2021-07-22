@@ -1641,7 +1641,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	kingdra: {
 		randomBattleLevel: 87,
-		randomBattleMoves: ["hydropump", "flipturn", "hurricane", "dracometeor", "agility", "focusenergy", "surf"],
+		randomBattleMoves: ["hydropump", "flipturn", "hurricane", "dracometeor", "raindance"],
 		randomDoubleBattleLevel: 87,
 		randomDoubleBattleMoves: ["dracometeor", "hurricane", "hydropump", "icebeam", "muddywater", "raindance"],
 		tier: "UU",
