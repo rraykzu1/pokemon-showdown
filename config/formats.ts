@@ -55,7 +55,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] RRDL",
-		mod: 'rr22b',
+		mod: 'radred',
 		searchShow: false,
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
