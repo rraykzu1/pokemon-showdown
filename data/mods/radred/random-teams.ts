@@ -695,7 +695,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		isDoubles: boolean,
 	): boolean {
 		if ([
-			'Hydration', 'Ice Body', 'Innards Out', 'Insomnia', 'Misty Surge',
+			'Hydration', 'Ice Body', 'Innards Out', 'Insomnia', 'Misty Surge', 'Battle Bond',
 			'Quick Feet', 'Rain Dish', 'Snow Cloak', 'Steadfast', 'Steam Engine',
 		].includes(ability)) return true;
 
@@ -786,6 +786,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return !counter.get('Grass');
 		case 'Own Tempo':
 			return !moves.has('petaldance');
+		case 'Poison Heal':
+			return (abilities.has('Technician') && !!counter.get('technician'));
 		case 'Power Construct':
 			return (species.forme === '10%' && !isDoubles);
 		case 'Prankster':

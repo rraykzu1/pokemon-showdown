@@ -1958,7 +1958,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	breloom: {
 		randomBattleLevel: 81,
-		randomBattleMoves: ["substitute", "spore", "leechseed", "focuspunch", "swordsdance", "bulletseed", "machpunch", "rocktomb", "closecombat"],
+		randomBattleMoves: ["bulletseed", "machpunch", "rocktomb", "spore", "swordsdance"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["bulletseed", "machpunch", "protect", "rocktomb", "spore"],
 		tier: "UU",
@@ -2525,15 +2525,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	metagross: {
-		randomBattleLevel: 84,
-		randomBattleMoves: ["stealthrock", "meteormash", "earthquake", "toxic", "icepunch", "zenheadbutt", "bulletpunch", "explosion", "trick"],
+		randomBattleLevel: 83,
+		randomBattleMoves: ["agility", "bulletpunch", "earthquake", "explosion", "meteormash", "zenheadbutt", "stealthrock", "thunderpunch"],
 		randomDoubleBattleLevel: 84,
 		randomDoubleBattleMoves: ["agility", "bulletpunch", "icepunch", "meteormash", "stompingtantrum", "trick", "zenheadbutt"],
 		tier: "UU",
 	},
 	metagrossmega: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["meteormash", "zenheadbutt", "thunderpunch", "icepunch", "bulletpunch", "hammerarm", "honeclaws", "earthquake"],
+		randomBattleMoves: ["agility", "earthquake", "hammerarm", "icepunch", "meteormash", "zenheadbutt"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["icepunch", "meteormash", "protect", "stompingtantrum", "thunderpunch", "zenheadbutt"],
 		tier: "Uber",
@@ -2554,7 +2554,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	registeel: {
 		randomBattleLevel: 86,
-		randomBattleMoves: ["stealthrock", "bodypress", "flashcannon", "protect", "toxic"],
+		randomBattleMoves: ["bodypress", "curse", "doubleironbash", "protect", "rest", "sleeptalk", "stealthrock", "toxic"],
 		randomDoubleBattleLevel: 84,
 		randomDoubleBattleMoves: ["bodypress", "curse", "doubleironbash", "rest", "toxic"],
 		tier: "UU",
@@ -4325,16 +4325,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	greninja: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["spikes", "gunkshot", "icebeam", "hiddenpowerfire", "hydropump", "extrasensory", "darkpulse", "toxicspikes", "taunt", "uturn", "rockslide"],
+		randomBattleMoves: ["gunkshot", "icebeam", "hydropump", "extrasensory", "darkpulse", "spikes", "toxicspikes", "uturn"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["darkpulse", "gunkshot", "hydropump", "icebeam", "matblock", "protect", "taunt", "uturn"],
 		tier: "OU",
 	},
 	greninjaash: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["spikes", "darkpulse", "watershuriken", "hydropump", "surf", "icebeam", "uturn"],
-		randomDoubleBattleLevel: 80,
-		randomDoubleBattleMoves: ["darkpulse", "watershuriken", "hydropump", "protect"],
+		randomBattleMoves: ["darkpulse", "watershuriken", "hydropump", "icebeam", "uturn"],
 		tier: "OU",
 	},
 	bunnelby: {
@@ -4460,14 +4458,17 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	aegislash: {
-		randomBattleLevel: 82,
-		randomBattleMoves: ["swordsdance", "shadowsneak", "shadowclaw", "closecombat", "ironhead", "pursuit", "shadowball", "flashcannon", "toxic"],
+		randomBattleLevel: 81,
+		randomBattleMoves: ["flashcannon", "hiddenpowerice", "kingsshield", "shadowball", "shadowsneak"],
 		randomDoubleBattleLevel: 82,
-		randomDoubleBattleMoves: ["flashcannon", "kingsshield", "shadowball", "shadowsneak"],
+		randomDoubleBattleMoves: ["flashcannon", "hiddenpowerice", "kingsshield", "shadowball", "shadowsneak"],
 		tier: "UU",
 	},
 	aegislashblade: {
-		tier: "UU",
+		randomBattleLevel: 81,
+		randomBattleMoves: ["ironhead", "sacredsword", "shadowclaw", "shadowsneak", "swordsdance"],
+		randomDoubleBattleLevel: 82,
+		randomDoubleBattleMoves: ["ironhead", "kingsshield", "sacredsword", "shadowclaw", "shadowsneak", "swordsdance"],
 	},
 	spritzee: {
 		tier: "LC",
