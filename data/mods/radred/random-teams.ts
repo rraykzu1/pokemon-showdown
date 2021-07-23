@@ -915,7 +915,9 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		isDoubles: boolean
 	) {
 		// not undefined — we want "no item" not "go find a different item"
-		if (moves.has('acrobatics') && ability !== 'Ripen') return ability === 'Grassy Surge' ? 'Grassy Seed' : '';
+		if (moves.has('acrobatics') && !['Shields Down', 'Ripen'].includes(ability)) {
+			return ability === 'Grassy Surge' ? 'Grassy Seed' : '';
+		}
 		if (moves.has('geomancy') || moves.has('meteorbeam') || moves.has('skullbash')) return 'Power Herb';
 		if (moves.has('shellsmash')) {
 			if (ability === 'Sturdy' && !isLead && !isDoubles) return 'Heavy-Duty Boots';

@@ -5641,7 +5641,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	flapple: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["gravapple", "dracometeor", "suckerpunch", "uturn", "outrage", "dragondance"],
+		randomBattleMoves: ["dragondance", "gravapple", "outrage", "suckerpunch", "uturn"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["acrobatics", "dragondance", "dragonrush", "gravapple", "protect"],
 		tier: "UU",
