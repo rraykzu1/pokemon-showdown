@@ -1209,7 +1209,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	typhlosion: {
-		randomBattleLevel: 86,
+		randomBattleLevel: 80,
 		randomBattleMoves: ["eruption", "flamethrower", "scorchingsands", "hiddenpowergrass", "focusblast"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["eruption", "scorchingsands", "focusblast", "heatwave", "hiddenpowergrass"],
