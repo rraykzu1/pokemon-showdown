@@ -664,7 +664,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	hitmonlee: {
 		inherit: true,
-		abilities: {0: "Limber", 1: "Striker", H: "Unburden"},
+		abilities: {0: "Unburden", 1: "Reckless", H: "Striker"},
 	},
 	hitmonchan: {
 		inherit: true,
