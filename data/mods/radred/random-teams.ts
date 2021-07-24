@@ -523,11 +523,14 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		case 'precipiceblades':
 			return {cull: moves.has('earthquake')};
 		case 'scorchingsands':
+			// Typhlosion always wants Eruption
+			const typhloSandsCull = (species.id === 'typhlosion' && !moves.has('eruption'));
 			// Special cases for Ninetales and Palossand; prevents status redundancy
 			return {cull: (
 				moves.has('willowisp') ||
 				moves.has('earthpower') ||
-				(moves.has('toxic') && movePool.includes('earthpower'))
+				(moves.has('toxic') && movePool.includes('earthpower')) ||
+				typhloSandsCull
 			)};
 		case 'airslash':
 			return {cull:

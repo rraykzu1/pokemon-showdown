@@ -1211,7 +1211,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	typhlosion: {
 		randomBattleLevel: 80,
 		randomBattleMoves: ["eruption", "flamethrower", "scorchingsands", "hiddenpowergrass", "focusblast"],
-		randomDoubleBattleLevel: 80,
+		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["eruption", "scorchingsands", "focusblast", "heatwave", "hiddenpowergrass"],
 		tier: "OU",
 	},
