@@ -52313,7 +52313,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	yungoos: {
 		learnset: {
 			bite: ["8L16"],
-			bodyslam: ["8L13"],
 			confide: ["8T"],
 			crunch: ["8L34", "8T"],
 			cut: ["8M"],
@@ -52322,6 +52321,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			facade: ["8M"],
 			firefang: ["8T", "8E"],
 			frustration: ["8M"],
+			headbutt: ["8L13"],
 			hiddenpower: ["8M"],
 			honeclaws: ["8M"],
 			hyperfang: ["8L37"],
@@ -52374,6 +52374,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			firefang: ["8T"],
 			firepunch: ["8T"],
 			frustration: ["8M"],
+			headbutt: ["8L13"],
 			hiddenpower: ["8M"],
 			honeclaws: ["8M"],
 			hyperfang: ["8L43"],
@@ -52384,7 +52385,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			lastresort: ["8T"],
 			leer: ["8L1"],
 			mudslap: ["8L23"],
-			odorsleuth: ["8L13"],
 			payback: ["8M"],
 			pluck: ["8M"],
 			protect: ["8M"],
