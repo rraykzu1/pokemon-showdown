@@ -5312,7 +5312,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	lunala: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["roost", "hex", "willowisp", "icebeam", "psychic", "defog", "toxic", "moongeistbeam", "meteorbeam", "psyshock", "focusblast", "moonblast", "trick", "calmmind"],
+		randomBattleMoves: ["calmmind", "focusblast", "moonblast", "moongeistbeam", "psyshock", "roost"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["calmmind", "moonblast", "moongeistbeam", "protect", "psyshock", "roost"],
 		tier: "Uber",
@@ -6039,9 +6039,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	zaciancrowned: {
-		randomBattleLevel: 66,
+		randomBattleLevel: 65,
 		randomBattleMoves: ["swordsdance", "behemothblade", "playrough", "closecombat", "wildcharge", "substitute"],
-		randomDoubleBattleLevel: 67,
+		randomDoubleBattleLevel: 66,
 		randomDoubleBattleMoves: ["behemothblade", "closecombat", "playrough", "protect", "psychicfangs", "swordsdance"],
 		tier: "AG",
 	},
@@ -6069,7 +6069,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	eternatuseternamax: {
 		randomBattleLevel: 65,
 		randomBattleMoves: ["recover", "dynamaxcannon", "sludgebomb", "flamethrower", "toxic", "toxicspikes"],
-		randomDoubleBattleLevel: 69,
+		randomDoubleBattleLevel: 67,
 		randomDoubleBattleMoves: ["cosmicpower", "dynamaxcannon", "sludgebomb", "flamethrower", "recover"],
 		tier: "AG",
 	},
@@ -6152,9 +6152,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	calyrexshadow: {
-		randomBattleLevel: 68,
+		randomBattleLevel: 66,
 		randomBattleMoves: ["astralbarrage", "psyshock", "drainingkiss", "hiddenpowerfighting", "substitute", "nastyplot"],
-		randomDoubleBattleLevel: 68,
+		randomDoubleBattleLevel: 67,
 		randomDoubleBattleMoves: ["astralbarrage", "nastyplot", "snarl", "protect", "psyshock"],
 		tier: "Uber",
 	},
