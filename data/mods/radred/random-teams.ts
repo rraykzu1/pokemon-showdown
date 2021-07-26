@@ -1194,7 +1194,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			!isDoubles &&
 			counter.damagingMoves.size >= 3 &&
 			!counter.get('damage') &&
-			ability !== 'Sturdy' &&
+			ability !== 'Multiscale' && ability !== 'Sturdy' &&
 			(species.baseStats.spe >= 90 || !moves.has('voltswitch')) &&
 			['foulplay', 'rapidspin', 'substitute', 'uturn'].every(m => !moves.has(m)) && (
 				counter.get('speedsetup') ||
