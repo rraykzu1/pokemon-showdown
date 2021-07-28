@@ -763,6 +763,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	lapras: {
 		inherit: true,
 		types: ["Water", "Dragon"],
+		abilities: {0: "Water Absorb", 1: "Hydration", H: "Hydration"},
 		otherFormes: ["Lapras-Mega"],
 		formeOrder: ["Lapras", "Lapras-Mega"],
 		items: {5: "Mystic Water", 50: "Mystic Water"},
@@ -770,6 +771,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	laprasgmax: {
 		inherit: true,
 		types: ["Water", "Dragon"],
+		abilities: {0: "Water Absorb", 1: "Hydration", H: "Hydration"},
 	},
 	laprasmega: {
 		num: 131,
