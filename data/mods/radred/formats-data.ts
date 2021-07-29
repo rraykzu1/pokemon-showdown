@@ -38,9 +38,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	charizardmegax: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["dragondance", "firelash", "dragonclaw", "roost", "earthquake", "scaleshot"],
+		randomBattleMoves: ["dragondance", "firelash", "dragonclaw", "roost", "earthquake"],
 		randomDoubleBattleLevel: 80,
-		randomDoubleBattleMoves: ["dragonclaw", "dragondance", "flareblitz", "rockslide", "roost", "thunderpunch"],
+		randomDoubleBattleMoves: ["dragonclaw", "dragondance", "firelash", "rockslide", "roost", "thunderpunch"],
 		tier: "OU",
 	},
 	charizardmegay: {
@@ -2681,7 +2681,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	infernape: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["pyroball", "closecombat", "thunderpunch", "machpunch", "uturn", "stealthrock", "bulkup", "slackoff"],
+		randomBattleMoves: ["pyroball", "closecombat", "thunderpunch", "machpunch", "uturn", "bulkup", "slackoff"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["closecombat", "fakeout", "feint", "pyroball", "grassknot", "heatwave", "protect", "stoneedge", "taunt", "uturn"],
 		tier: "OU",
@@ -4485,7 +4485,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	slurpuff: {
 		randomBattleLevel: 84,
-		randomBattleMoves: ["stickyweb", "endeavor", "playrough", "drainpunch", "bellydrum", "return"],
+		randomBattleMoves: ["playrough", "drainpunch", "bellydrum", "return"],
 		randomDoubleBattleLevel: 84,
 		randomDoubleBattleMoves: ["faketears", "flamethrower", "helpinghand", "playrough", "stickyweb"],
 		tier: "UU",
