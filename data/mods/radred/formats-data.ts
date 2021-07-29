@@ -4475,7 +4475,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	aromatisse: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["trickroom", "nastyplot", "sparklyswirl", "psychic", "wish", "protect", "calmmind"],
+		randomBattleMoves: ["sparklyswirl", "psychic", "wish", "protect", "calmmind"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["healpulse", "sparklyswirl", "protect", "thunderbolt", "trickroom", "wish"],
 		tier: "UU",
