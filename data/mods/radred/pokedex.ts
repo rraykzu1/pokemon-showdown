@@ -297,6 +297,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	meowth: {
 		inherit: true,
+		abilities: {0: "Pickup", 1: "Technician", H: "Feline Prowess"},
 		items: {5: "Nugget", 50: "Nugget"},
 	},
 	meowthalola: {
