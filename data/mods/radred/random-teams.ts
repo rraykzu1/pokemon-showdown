@@ -452,7 +452,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			// Special case for Goodra, which only wants one move to hit Water-types
 			return {cull: moves.has('powerwhip')};
 		case 'thunderpunch':
-			// Special case for Infernape, which prefers Pyro Ball/Close Combat 
+			// Special case for Infernape, which prefers Pyro Ball/Close Combat
 			return {cull: species.id === 'infernape' && ['bulkup', 'slackoff'].some(m => moves.has(m))};
 		case 'energyball':
 			// Special case to prevent Shiinotic with four Grass moves and no Sparkly Swirl
