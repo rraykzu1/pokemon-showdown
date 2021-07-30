@@ -1715,7 +1715,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	entei: {
 		randomBattleLevel: 85,
-		randomBattleMoves: ["sacredfire", "extremespeed", "closecombat", "stoneedge", "flareblitz", "earthquake"],
+		randomBattleMoves: ["sacredfire", "extremespeed", "closecombat", "stoneedge", "earthquake"],
 		randomDoubleBattleLevel: 85,
 		randomDoubleBattleMoves: ["extremespeed", "protect", "sacredfire", "snarl", "stompingtantrum", "closecombat", "stoneedge"],
 		tier: "UU",
@@ -4495,9 +4495,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	malamar: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["rest", "superpower", "knockoff", "psychocut", "sleeptalk", "switcheroo"],
+		randomBattleMoves: ["rest", "superpower", "knockoff", "psychoboost", "sleeptalk", "switcheroo"],
 		randomDoubleBattleLevel: 88,
-		randomDoubleBattleMoves: ["knockoff", "psychocut", "rest", "superpower"],
+		randomDoubleBattleMoves: ["knockoff", "psychoboost", "trickroom", "superpower"],
 		tier: "UU",
 	},
 	binacle: {
