@@ -115,7 +115,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onBeforeTurn(pokemon) {
 			pokemon.abilityState.originalHP = pokemon.hp;
 		},
-		onSwitchIn(pokemon) {
+		onStart(pokemon) {
 			pokemon.abilityState.originalHP = pokemon.hp;
 		},
 		onResidualOrder: 28,
