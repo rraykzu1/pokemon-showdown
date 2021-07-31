@@ -688,6 +688,9 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		case 'leechseed':
 			// Special case for Calyrex to prevent Leech Seed + Calm Mind
 			return {cull: !!counter.setupType || moves.has('sappyseed')};
+		case 'strengthsap':
+			// Special case for Cursola in doubles, which doesn't want strength sap on its Power Herb set
+			return {cull: species.id === 'cursola' && moves.has('meteorbeam')}
 		}
 
 		return {cull: false};
@@ -885,7 +888,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			// For Swoobat and Clefable
 			return (!!counter.setupType || moves.has('fireblast'));
 		case 'Unburden':
-			return (abilities.has('Prankster') || !counter.setupType && !isDoubles);
+			return (abilities.has('Prankster') || (!counter.setupType && !moves.has('meteorbeam')) && !isDoubles);
 		case 'Volt Absorb':
 			return (
 				this.dex.getEffectiveness('Electric', species) < -1 ||

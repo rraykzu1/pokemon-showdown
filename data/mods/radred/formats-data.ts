@@ -5840,10 +5840,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 	},
 	cursola: {
-		randomBattleLevel: 88,
-		randomBattleMoves: ["meteorbeam", "shadowball", "mysticalfire", "strengthsap", "stealthrock", "hiddenpowerfighting", "earthpower"],
+		randomBattleLevel: 86,
+		randomBattleMoves: ["meteorbeam", "shadowball", "icebeam", "earthpower"],
 		randomDoubleBattleLevel: 88,
-		randomDoubleBattleMoves: ["earthpower", "hydropump", "icebeam", "protect", "shadowball", "strengthsap"],
+		randomDoubleBattleMoves: ["earthpower", "icebeam", "protect", "shadowball", "meteorbeam", "strengthsap"],
 		tier: "UU",
 	},
 	sirfetchd: {
