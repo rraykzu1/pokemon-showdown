@@ -690,7 +690,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return {cull: !!counter.setupType || moves.has('sappyseed')};
 		case 'strengthsap':
 			// Special case for Cursola in doubles, which doesn't want strength sap on its Power Herb set
-			return {cull: species.id === 'cursola' && moves.has('meteorbeam')}
+			return {cull: species.id === 'cursola' && moves.has('meteorbeam')};
 		}
 
 		return {cull: false};
