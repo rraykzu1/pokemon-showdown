@@ -210,7 +210,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 		desc: "If this Pokemon is a Castform, its type changes to the current weather condition's type, except Sandstorm. If this Pokemon is holding Utility Umbrella and the weather condition is Sunny Day, Desolate Land, Rain Dance, or Primordial Sea, it will not change types. If this pokemon is holding a weather rock, it will set the weather corrosponding to the rock it is holding.",
-		shortDesc: "Castform's type changes to the current weather condition's type, except Sandstorm. Summons weather if holding weather rock.",
+		shortDesc: "Summons weather based on held weather rock, then changes type to match the weather.",
 	},
 	gulpmissile: {
 		inherit: true,
