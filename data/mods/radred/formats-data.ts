@@ -1745,7 +1745,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["dragondance", "stoneedge", "icepunch", "firepunch", "stealthrock", "crunch", "pursuit"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["crunch", "dragondance", "earthquake", "icepunch", "protect", "rockslide", "stoneedge"],
-		tier: "OU",
+		tier: "(OU)",
 	},
 	lugia: {
 		randomBattleLevel: 76,
