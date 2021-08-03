@@ -1399,9 +1399,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	quagsire: {
-		randomBattleLevel: 86,
-		randomBattleMoves: ["earthquake", "scald", "recover", "toxic", "waterfall", "curse"],
-		randomDoubleBattleLevel: 82,
+		randomBattleLevel: 85,
+		randomBattleMoves: ["earthquake", "icebeam", "scald", "recover", "toxic"],
+		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["highhorsepower", "protect", "recover", "scald", "toxic"],
 		tier: "UU",
 	},
@@ -3019,9 +3019,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	drapion: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["wickedblow", "poisonfang", "pursuit", "earthquake", "toxicspikes", "swordsdance"],
+		randomBattleMoves: ["wickedblow", "poisonfang", "earthquake", "swordsdance"],
 		randomDoubleBattleLevel: 80,
-		randomDoubleBattleMoves: ["knockoff", "poisonfang", "protect", "wickedblow", "taunt"],
+		randomDoubleBattleMoves: ["poisonfang", "protect", "wickedblow", "swordsdance", "stompingtantrum"],
 		tier: "OU",
 	},
 	croagunk: {
@@ -4495,7 +4495,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	malamar: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["rest", "superpower", "knockoff", "psychoboost", "sleeptalk", "switcheroo"],
+		randomBattleMoves: ["superpower", "knockoff", "psychoboost", "thunderbolt"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["knockoff", "psychoboost", "trickroom", "superpower"],
 		tier: "UU",
@@ -6079,7 +6079,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	urshifu: {
 		randomBattleLevel: 76,
 		randomBattleMoves: ["wickedblow", "suckerpunch", "closecombat", "poisonjab", "bulkup"],
-		randomDoubleBattleLevel: 76,
+		randomDoubleBattleLevel: 79,
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "protect", "suckerpunch", "wickedblow"],
 		tier: "Uber",
 	},
