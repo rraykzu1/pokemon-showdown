@@ -69,7 +69,6 @@ export const Formats: FormatList = [
 			'Blastoise-Mega + Shell Smash', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero', 'Chandelure + Shadow Tag',
 			// Items
 			'Quick Claw', 'Razor Fang', 'Razor Claw', 'Kings Rock', 'Bright Powder', 'Lax Incense',
-
 		],
 	},
 	{
@@ -88,10 +87,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] UU",
 		mod: 'radred',
 		ruleset: ['[Gen 8] OU'],
-		banlist: ['OU', 'UUBL',
-			// items
-			'Damp Rock',
-		],
+		banlist: ['OU', 'UUBL', 'Damp Rock'],
 	},
 	{
 		name: "[Gen 8] LC",

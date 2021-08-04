@@ -361,7 +361,6 @@ export class HelpTicket extends Rooms.RoomGame {
 			switch (this.ticket.type) {
 			case 'Appeal':
 			case 'IP-Appeal':
-			case 'ISP-Appeal':
 				this.result = (result ? 'approved' : 'denied');
 				break;
 			case 'PM Harassment':
@@ -429,8 +428,8 @@ export class HelpTicket extends Rooms.RoomGame {
 	}
 	static modlogStream = Rooms.Modlog.initialize('help-texttickets' as ModlogID);
 	// workaround to modlog for no room
-	static modlog(entry: PartialModlogEntry) {
-		Rooms.Modlog.write('help-texttickets' as ModlogID, entry);
+	static async modlog(entry: PartialModlogEntry) {
+		await Rooms.Modlog.write('help-texttickets' as ModlogID, entry);
 	}
 	static logTextResult(ticket: TicketState & {text: [string, string], resolved: ResolvedTicketInfo}) {
 		const entry = {
@@ -841,7 +840,6 @@ const ticketTitles: {[k: string]: string} = {
 	inappokemon: `Inappropriate Pokemon Nicknames`,
 	appeal: `Appeal`,
 	ipappeal: `IP-Appeal`,
-	appealsemi: `ISP-Appeal`,
 	roomhelp: `Public Room Assistance Request`,
 	other: `Other`,
 };
@@ -881,7 +879,6 @@ const ticketPages: {[k: string]: string} = {
 	confirminappokemon: `Report inappropriate Pokemon nicknames`,
 	confirmappeal: `Appeal your lock`,
 	confirmipappeal: `Appeal IP lock`,
-	confirmappealsemi: `Appeal ISP lock`,
 	confirmroomhelp: `Call a Global Staff member to help`,
 	confirmother: `Call a Global Staff member`,
 };
@@ -940,7 +937,7 @@ export const textTickets: {[k: string]: TextTicketInfo} = {
 				`<h2 style="color:red">You are about to punish the reporter. Are you sure you want to do this?</h2>`,
 			);
 			buf += `<strong>Reported user:</strong> ${reportUserid} </strong>`;
-			buf += `<button class="button" name="send" value="/modlog global,[${reportUserid}]">Global Modlog</button><br />`;
+			buf += `<button class="button" name="send" value="/modlog room=global,user='${reportUserid}'">Global Modlog</button><br />`;
 			buf += HelpTicket.displayPunishmentList(
 				reportUserid,
 				`spoiler:PMs with ${ticket.userid}${replayString ? `, ${replayString}` : ''}`,
@@ -1039,7 +1036,7 @@ export const textTickets: {[k: string]: TextTicketInfo} = {
 				const [type, meta] = ticket.meta.split('-');
 				if (type === 'user') {
 					buf += `<br /><strong>Reported user:</strong> ${meta} `;
-					buf += `<button class="button" name="send" value="/modlog global,[${toID(meta)}]">Global Modlog</button><br />`;
+					buf += `<button class="button" name="send" value="/modlog room=global,user='${toID(meta)}'">Global Modlog</button><br />`;
 					buf += HelpTicket.displayPunishmentList(
 						toID(meta),
 						proof,
@@ -1149,7 +1146,7 @@ export const textTickets: {[k: string]: TextTicketInfo} = {
 					if (str) buf += `Punishments: ${str.join(' | ')}<br />`;
 				}
 				buf += `Host: ${data.shortHost} [${data.hostType}]<br />`;
-				buf += `<button class="button" name="send" value="/modlog global,[${ip}]">Modlog</button><br />`;
+				buf += `<button class="button" name="send" value="/modlog room=global,ip=${ip}">Modlog</button><br />`;
 				if (ipPunishments) {
 					const unlockCmd = staff.can('globalban') ?
 						`/unlockip ${ip}` :
@@ -1171,6 +1168,17 @@ export const textTickets: {[k: string]: TextTicketInfo} = {
 			if (!(user.locked || user.namelocked || user.semilocked)) {
 				return ['You are not punished.'];
 			}
+			const punishments = Punishments.search(user.id);
+			const userids = [user.id, ...user.previousIDs];
+
+			if (punishments.length) {
+				for (const [, , punishment] of punishments) {
+					if (userids.includes(punishment.id as ID)) {
+						return ['Your current punishment was explicitly given to you. Please open an Appeal ticket instead.'];
+					}
+				}
+			}
+
 			if (user.ips.some(i => Punishments.sharedIpBlacklist.has(i))) {
 				return [
 					"Your network has too many users who consistently misbehave on it. As such, we cannot unlock you, lest they abuse the unlock.",
@@ -1410,14 +1418,10 @@ export const pages: Chat.PageTable = {
 					break;
 				case 'hasautoconfirmed':
 					buf += `<p>${this.tr`Login to your autoconfirmed account by using the <code>/nick</code> command in any chatroom, and the semilock will automatically be removed. Afterwards, you can use the <code>/nick</code> command to switch back to your current username without being semilocked again.`}</p>`;
-					buf += `<p>${this.tr`If the semilock does not go away, you can try asking a global staff member for help. Click the button below to call a global staff member.`}</p>`;
-					if (!isLast) break;
-					buf += `<p><Button>confirmappealsemi</Button></p>`;
+					buf += `<p>${this.tr`If the semilock does not go away, you can try asking a global staff member for help.`}</p>`;
 					break;
 				case 'lacksautoconfirmed':
-					buf += `<p>${this.tr`If you don't have an autoconfirmed account, you will need to contact a global staff member to appeal your semilock. Click the button below to call a global staff member.`}</p>`;
-					if (!isLast) break;
-					buf += `<p><Button>confirmappealsemi</Button></p>`;
+					buf += `<p>${this.tr`If you don't have an autoconfirmed account, you will need to contact a global staff member to appeal your semilock.`}</p>`;
 					break;
 				case 'appealother':
 					buf += `<p>${this.tr`Please PM the staff member who punished you. If you don't know who punished you, ask another room staff member; they will redirect you to the correct user. If you are banned or blacklisted from the room, use <code>/roomauth [name of room]</code> to get a list of room staff members. Bold names are online.`}</p>`;
@@ -1592,7 +1596,7 @@ export const pages: Chat.PageTable = {
 			}
 			buf += `<strong>From: ${ticket.userid}</strong>`;
 			buf += `  <button class="button" name="send" value="/msgroom staff,/ht ban ${ticket.userid}">Ticketban</button> | `;
-			buf += `<button class="button" name="send" value="/modlog global,[${ticket.userid}]">Global Modlog</button><br />`;
+			buf += `<button class="button" name="send" value="/modlog room=global,user='${ticket.userid}'">Global Modlog</button><br />`;
 			buf += await ticketInfo.getReviewDisplay(ticket as TicketState & {text: [string, string]}, user, connection);
 			buf += `<br />`;
 			buf += `<div class="infobox">`;
@@ -1667,7 +1671,7 @@ export const pages: Chat.PageTable = {
 				buf += `<h2>Issue: ${ticket.type}</h2>`;
 				buf += `<strong>From: ${ticket.userid}</strong>`;
 				buf += `  <button class="button" name="send" value="/msgroom staff,/ht ban ${ticket.userid}">Ticketban</button> | `;
-				buf += `<button class="button" name="send" value="/modlog global,[${ticket.userid}]">Global Modlog</button><br />`;
+				buf += `<button class="button" name="send" value="/modlog room=global,user='${ticket.userid}'">Global Modlog</button><br />`;
 				if (ticket.claimed) {
 					buf += `<br /><strong>Claimed:</strong> ${ticket.claimed}<br />`;
 				}
@@ -2008,7 +2012,7 @@ export const commands: Chat.ChatCommands = {
 				ticket.text = [text, contextString];
 				ticket.active = true;
 				tickets[user.id] = ticket;
-				HelpTicket.modlog({
+				await HelpTicket.modlog({
 					action: 'TEXTTICKET OPEN',
 					loggedBy: user.id,
 					note: `(${ticket.type}) ${text}${contextString ? `, context: ${contextString}` : ''}`,
@@ -2028,7 +2032,6 @@ export const commands: Chat.ChatCommands = {
 			switch (ticket.type) {
 			case 'Appeal':
 			case 'IP-Appeal':
-			case 'ISP-Appeal':
 				closeButtons = `<button class="button" style="margin: 5px 0" name="send" value="/helpticket close ${user.id}">Close Ticket as Appeal Granted</button> <button class="button" style="margin: 5px 0" name="send" value="/helpticket close ${user.id}, false">Close Ticket as Appeal Denied</button>`;
 				break;
 			case 'PM Harassment':
@@ -2056,16 +2059,16 @@ export const commands: Chat.ChatCommands = {
 					staffIntroButtons = Utils.html`<button class="button" name="send" value="/forcerename ${reportTarget}">Force-rename ${reportTarget}</button> `;
 					break;
 				}
-				staffIntroButtons += Utils.html`<button class="button" name="send" value="/modlog global, user='${reportTarget}'">Global Modlog for ${reportTarget}</button> <button class="button" name="send" value="/sharedbattles ${user.id}, ${toID(reportTarget)}">Shared battles</button> `;
+				staffIntroButtons += Utils.html`<button class="button" name="send" value="/modlog room=global, user='${reportTarget}'">Global Modlog for ${reportTarget}</button> <button class="button" name="send" value="/sharedbattles ${user.id}, ${toID(reportTarget)}">Shared battles</button> `;
 			}
 			if (ticket.type === 'Appeal') {
-				staffIntroButtons += Utils.html`<button class="button" name="send" value="/modlog global, user='${user.name}'">Global Modlog for ${user.name}</button>`;
+				staffIntroButtons += Utils.html`<button class="button" name="send" value="/modlog room=global, user='${user.name}'">Global Modlog for ${user.name}</button>`;
 			}
 			const introMsg = Utils.html`<h2 style="margin:0">${this.tr`Help Ticket`} - ${user.name}</h2>` +
 				`<p><b>${this.tr`Issue`}</b>: ${ticket.type}<br />${this.tr`A Global Staff member will be with you shortly.`}</p>`;
 			const staffMessage = [
 				`<p>${closeButtons} <details><summary class="button">More Options</summary> ${staffIntroButtons}`,
-				`<button class="button" name="send" value="/modlog global, user='${ticket.userid}'"><small>Global Modlog for ${ticket.creator}</small></button>`,
+				`<button class="button" name="send" value="/modlog room=global, user='${ticket.userid}'"><small>Global Modlog for ${ticket.creator}</small></button>`,
 				`<button class="button" name="send" value="/helpticket ban ${user.id}"><small>Ticketban</small></button></details></p>`,
 			].join('<br />');
 			const staffHint = staffContexts[ticketType] || '';
@@ -2149,7 +2152,7 @@ export const commands: Chat.ChatCommands = {
 			return this.parse(`/join view-help-text-${toID(target)}`);
 		},
 
-		resolve(target, room, user) {
+		async resolve(target, room, user) {
 			this.checkCan('lock');
 			const [ticketerName, result] = Utils.splitFirst(target, ',').map(i => i.trim());
 			const ticketId = toID(ticketerName);
@@ -2181,7 +2184,7 @@ export const commands: Chat.ChatCommands = {
 			// ticketType\ttotalTime\ttimeToFirstClaim\tinactiveTime\tresolution\tresult\tstaff,userids,seperated,with,commas
 			writeStats(`${ticket.type}\t${Date.now() - ticket.created}\t0\t0\tresolved\tvalid\t${user.id}`);
 			this.popupReply(`You resolved ${ticketId}'s ticket.`);
-			HelpTicket.modlog({
+			await HelpTicket.modlog({
 				action: 'TEXTTICKET CLOSE',
 				loggedBy: user.id,
 				note: privateReason,
@@ -2222,6 +2225,7 @@ export const commands: Chat.ChatCommands = {
 			if (!ticket.notes) ticket.notes = {};
 			ticket.notes[user.id] = note;
 			writeTickets();
+			notifyStaff();
 			if (!room || room.roomid !== 'staff') this.sendReply(`Added the note "${note}" to ${ticketId}'s ticket.`);
 			this.room = Rooms.get('staff') || null;
 			this.addGlobalModAction(`${user.name} added the note "${note}" to ${ticket.userid}'s helpticket.`);
@@ -2253,6 +2257,7 @@ export const commands: Chat.ChatCommands = {
 			delete ticket.notes[staff];
 			if (!Object.keys(ticket.notes).length) delete ticket.notes;
 			writeTickets();
+			notifyStaff();
 			this.room = Rooms.get('staff') || null;
 			this.addModAction(`${user.name} removed ${staff}'s note ("${note}") from ${ticket.userid}'s helpticket.`);
 			this.globalModlog(`HELPTICKET REMOVENOTE`, ticket.userid, `${note} (originally by ${staff})`);
@@ -2353,7 +2358,7 @@ export const commands: Chat.ChatCommands = {
 					ticketGame.writeStats('ticketban');
 					helpRoom.destroy();
 				} else if (targetTicket?.text) {
-					HelpTicket.modlog({
+					await HelpTicket.modlog({
 						action: `TICKETBAN`,
 						loggedBy: user.id,
 						note: `(Ticket content: ${targetTicket.text.join(' ').replace(/\n/ig, ' ')})`,
