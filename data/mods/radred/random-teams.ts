@@ -556,7 +556,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			const moltresgCase = (!isDoubles && species.id === 'moltresgalar' && !!counter.setupType);
 			return {cull: counter.setupType === 'Physical' || moltresgCase};
 		case 'futuresight':
-			return {cull: moves.has('psyshock') || moves.has('trick') || movePool.includes('teleport')};
+			return {cull: !!counter.setupType || moves.has('psyshock') || moves.has('trick') || movePool.includes('teleport')};
 		case 'photongeyser':
 			// Special case for Necrozma-DM, which always wants Dragon Dance
 			return {cull: moves.has('morningsun')};
