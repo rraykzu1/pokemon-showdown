@@ -141,13 +141,13 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	fatalprecision: {
 		onBasePowerPriority: 23,
 		onBasePower(basePower, attacker, defender, move) {
-			if (defender && this.dex.getEffectiveness(move, defender.types) > 0) {
+			if (defender.runEffectiveness(move) > 0) {
 				this.debug('Fatal Precision boost');
 				return this.chainModify([4915, 4096]);
 			}
 		},
 		onModifyMove(move, pokemon, target) {
-			if (target && this.dex.getEffectiveness(move, target.types) > 0) {
+			if (target && target.runEffectiveness(move) > 0) {
 				move.accuracy = true;
 			}
 		},
