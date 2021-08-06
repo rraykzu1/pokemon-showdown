@@ -296,6 +296,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return {cull: moves.has('boomburst')};
 		case 'focuspunch':
 			return {cull: !moves.has('substitute') || counter.damagingMoves.size < 2};
+		case 'perishsong':
+			return {cull: !moves.has('protect')};
 
 		// Bad after setup
 		case 'coaching':
@@ -555,6 +557,10 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			// Special case for Moltres-Galar, which wants Air Slash if Nasty Plot instead
 			const moltresgCase = (!isDoubles && species.id === 'moltresgalar' && !!counter.setupType);
 			return {cull: counter.setupType === 'Physical' || moltresgCase};
+		case 'hex':
+			return {cull: !moves.has('thunderwave') && !moves.has('willowisp')};
+		case 'shadowball':
+			return {cull: moves.has('darkpulse') || (moves.has('hex') && moves.has('willowisp'))};
 		case 'futuresight':
 			return {cull: !!counter.setupType || moves.has('psyshock') || moves.has('trick') || movePool.includes('teleport')};
 		case 'photongeyser':

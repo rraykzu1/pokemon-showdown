@@ -720,14 +720,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	gengar: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["nastyplot", "substitute", "shadowball", "focusblast", "sludgewave", "hex", "willowisp", "trick"],
+		randomBattleMoves: ["nastyplot", "trick", "shadowball", "focusblast", "sludgewave"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["focusblast", "nastyplot", "protect", "shadowball", "sludgebomb", "thunderbolt", "trick", "willowisp"],
 		tier: "UU",
 	},
 	gengarmega: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["shadowball", "sludgewave", "focusblast", "taunt", "nastyplot"],
+		randomBattleMoves: ["destinybond", "disable", "focusblast", "perishsong", "protect", "shadowball", "sludgewave", "taunt"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["disable", "focusblast", "hypnosis", "protect", "shadowball", "sludgebomb", "willowisp"],
 		tier: "Uber",
@@ -3304,13 +3304,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	giratina: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["defog", "willowisp", "rest", "hex", "toxic", "roar"],
+		randomBattleMoves: ["calmmind", "dracometeor", "rest", "roar", "shadowball", "sleeptalk", "willowisp"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["calmmind", "dragonpulse", "rest", "shadowball", "willowisp"],
 		tier: "Uber",
 	},
 	giratinaorigin: {
-		randomBattleMoves: ["poltergeist", "shadowsneak", "willowisp", "defog", "thunderwave", "rest", "dracometeor", "hex"],
+		randomBattleLevel: 76,
+		randomBattleMoves: ["defog", "dracometeor", "earthquake", "poltergeist", "shadowsneak", "willowisp"],
+		randomDoubleBattleLevel: 76,
+		randomDoubleBattleMoves: ["breakingswipe", "dracometeor", "shadowball", "shadowsneak", "protect", "tailwind", "willowisp"],
 		tier: "Uber",
 	},
 	cresselia: {
@@ -3420,9 +3423,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	samurott: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["swordsdance", "cut", "sacredsword", "razorshell"],
+		randomBattleMoves: ["swordsdance", "cut", "sacredsword", "razorshell", "aquajet"],
 		randomDoubleBattleLevel: 86,
-		randomDoubleBattleMoves: ["aquajet", "helpinghand", "hiddenpowergrass", "hydropump", "icebeam", "protect", "scald", "taunt"],
+		randomDoubleBattleMoves: ["protect", "swordsdance", "cut", "sacredsword", "razorshell", "aquajet"],
 		tier: "UU",
 	},
 	patrat: {
@@ -3914,7 +3917,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	jellicent: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["recover", "hydropump", "scald", "hex", "willowisp", "toxic", "taunt", "trickroom"],
+		randomBattleMoves: ["recover", "hydropump", "scald", "shadowball", "hex", "willowisp", "taunt", "trickroom"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["protect", "hydropump", "scald", "shadowball", "recover", "trickroom", "willowisp"],
 		tier: "UU",
@@ -4633,7 +4636,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	gourgeistsmall: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["hex", "substitute", "gigadrain", "willowisp"],
+		randomBattleMoves: ["shadowball", "fireblast", "hex", "substitute", "gigadrain", "willowisp"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["leechseed", "shadowball", "gigadrain", "fireblast", "substitute", "willowisp"],
 		tier: "UU",
