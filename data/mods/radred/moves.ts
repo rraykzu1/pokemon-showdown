@@ -772,6 +772,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			},
 		},
 	},
+	steameruption: {
+		inherit: true,
+		basePower: 120,
+	},
 	stickyweb: {
 		inherit: true,
 		condition: {
