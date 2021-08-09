@@ -2270,7 +2270,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	zebstrika: {
 		inherit: true,
-		abilities: {0: "Lightning Rod", 1: "Flare Boost", H: "Sap Sipper"},
+		abilities: {0: "Lightning Rod", 1: "Sap Sipper", H: "Flare Boost"},
 		items: {5: "None", 50: "Cheri Berry"},
 	},
 	boldore: {
