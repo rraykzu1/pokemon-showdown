@@ -75,7 +75,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onModifySpe(spe, pokemon) {
 			// probably not > 1 because speed is determined before the move action is run
 			if (pokemon.activeMoveActions > 0) return;
-			this.debug('Bull Rush speed boost');
 			return this.chainModify(1.5);
 		},
 		name: "Bull Rush",
