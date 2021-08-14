@@ -745,6 +745,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return (counter.damagingMoves.size < 3 || moves.has('trick'));
 		case 'Early Bird':
 			return (types.has('Grass') && isDoubles);
+		case 'Feline Prowess':
+			return counter.damagingMoves.size < 2;
 		case 'Flash Fire':
 			return (
 				this.dex.getEffectiveness('Fire', species) < -1 ||
