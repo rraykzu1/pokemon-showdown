@@ -93,7 +93,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 					// Less obvious forms of STAB
 					(moveType === 'Normal' && (['Aerilate', 'Galvanize', 'Pixilate', 'Refrigerate'].some(abil => abilities.has(abil)))) ||
 					(move.priority === 0 && (abilities.has('Libero') || abilities.has('Protean')) && !NoStab.includes(moveid)) ||
-					(moveType === 'Steel' && abilities.has('Steelworker'))
+					(moveType === 'Steel' && abilities.has('Steelworker')) ||
+					(moveid === 'forbiddenspell' && types.includes('Psychic'))
 				) {
 					counter.add('stab');
 				}
