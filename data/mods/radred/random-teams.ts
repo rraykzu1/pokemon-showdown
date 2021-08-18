@@ -730,7 +730,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		case 'Bulletproof': case 'Overcoat':
 			return (!!counter.setupType && abilities.has('Soundproof'));
 		case 'Chlorophyll':
-			return (species.baseStats.spe > 100 || !counter.get('Fire') && !moves.has('sunnyday') && !teamDetails.sun);
+			return (species.baseStats.spe > 105 || !counter.get('Fire') && !moves.has('sunnyday') && !teamDetails.sun);
 		case 'Cloud Nine':
 			return (species.id !== 'golduck');
 		case 'Competitive':
