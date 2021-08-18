@@ -2513,7 +2513,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	salamencemega: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["dragondance", "facade", "earthquake", "roost", "hypervoice", "flamethrower", "defog"],
+		randomBattleMoves: ["doubleedge", "dracometeor", "dragondance", "earthquake", "fireblast", "return", "roost"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["doubleedge", "dracometeor", "dragonclaw", "dragondance", "earthquake", "fireblast", "protect", "return"],
 		tier: "Uber",
