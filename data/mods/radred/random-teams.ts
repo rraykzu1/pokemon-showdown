@@ -592,6 +592,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		case 'poltergeist':
 			// Special case for Dhelmise in Doubles, which doesn't want both
 			return {cull: moves.has('knockoff')};
+		// eslint-disable-next-line no-duplicate-case
 		case 'shadowball':
 			return {cull:
 				(isDoubles && moves.has('phantomforce')) ||
