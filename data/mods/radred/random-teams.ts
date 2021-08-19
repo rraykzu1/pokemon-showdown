@@ -560,8 +560,18 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return {cull: counter.setupType === 'Physical' || moltresgCase};
 		case 'hex':
 			return {cull: !moves.has('thunderwave') && !moves.has('willowisp')};
+		case 'poltergeist':
+			// Special case for Dhelmise in Doubles, which doesn't want both
+			return {cull: moves.has('knockoff')};
 		case 'shadowball':
-			return {cull: moves.has('darkpulse') || (moves.has('hex') && moves.has('willowisp'))};
+			return {cull:
+				(isDoubles && moves.has('phantomforce')) ||
+				// Special case for Sylveon, which never wants Shadow Ball as its only coverage move
+				(abilities.has('Pixilate') && (!!counter.setupType || counter.get('Status') > 1)) ||
+				(!types.has('Ghost') && movePool.includes('focusblast')),
+			};
+		case 'shadowclaw':
+			return {cull: types.has('Steel') && moves.has('shadowsneak') && counter.get('Physical') < 4};
 		case 'futuresight':
 			return {cull: !!counter.setupType || moves.has('psyshock') || moves.has('trick') || movePool.includes('teleport')};
 		case 'photongeyser':
@@ -589,19 +599,6 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			const rockSlidePlusStatusPossible = counter.get('Status') && movePool.includes('rockslide');
 			const otherRockMove = moves.has('rockblast') || moves.has('rockslide');
 			return {cull: gutsCullCondition || (!isDoubles && rockSlidePlusStatusPossible) || otherRockMove};
-		case 'poltergeist':
-			// Special case for Dhelmise in Doubles, which doesn't want both
-			return {cull: moves.has('knockoff')};
-		// eslint-disable-next-line no-duplicate-case
-		case 'shadowball':
-			return {cull:
-				(isDoubles && moves.has('phantomforce')) ||
-				// Special case for Sylveon, which never wants Shadow Ball as its only coverage move
-				(abilities.has('Pixilate') && (!!counter.setupType || counter.get('Status') > 1)) ||
-				(!types.has('Ghost') && movePool.includes('focusblast')),
-			};
-		case 'shadowclaw':
-			return {cull: types.has('Steel') && moves.has('shadowsneak') && counter.get('Physical') < 4};
 		case 'dragonpulse': case 'spacialrend':
 			return {cull: moves.has('dracometeor') && counter.get('Special') < 4};
 		case 'darkpulse':
