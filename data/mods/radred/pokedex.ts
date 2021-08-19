@@ -2594,7 +2594,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	accelgor: {
 		inherit: true,
-		abilities: {0: "Hydration", 1: "Sheer Force", H: "Unburden"},
+		abilities: {0: "Hydration", 1: "Unburden", H: "Sheer Force"},
 		evoType: "useItem",
 		evoItem: "Link Cable",
 	},
