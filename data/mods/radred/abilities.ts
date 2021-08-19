@@ -1,8 +1,5 @@
 export const Abilities: {[k: string]: ModdedAbilityData} = {
 	badcompany: {
-		onModifyMove(move) {
-			move.mindBlownRecoil = false;
-		},
 		onBoost(boost, target, source, effect) {
 			if (source && target !== source) return;
 			let i: BoostID;
@@ -10,6 +7,15 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 				if (boost[i]! < 0) {
 					delete boost[i];
 				}
+			}
+		},
+		onModifyMove(move) {
+			move.mindBlownRecoil = false;
+		},
+		onDamage(damage, target, source, effect) {
+			if (effect.id === 'recoil') {
+				if (!this.activeMove) throw new Error("Battle.activeMove is null");
+				if (this.activeMove.id !== 'struggle') return null;
 			}
 		},
 		name: "Bad Company",
