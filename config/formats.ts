@@ -115,6 +115,22 @@ export const Formats: FormatList = [
 		],
 	},
 	{
+		name: "[Gen 8] Balanced Hackmons",
+		mod: 'radred',
+		ruleset: ['2abilityclause', 'Sleep Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Team Preview', 'Cancel Mod', 'OHKO Clause', 'Evasion Move Clause', 'Arceus Forme Clause', 'Dynamax Clause', 'Z-Move Clause'],
+		banlist: [
+			'Eternatus-Primal', 'Groudon-Primal', 'Calyrex-Shadow', 'Darmanitan-Galar-Zen', 'Shedinja', 'Rayquaza-Mega', 'Zacian-Crowned', 'Dialga-Primal', 'Cramorant-Gorging',
+			// abilities
+			'Arena Trap', 'Contrary', 'Feline Prowess', 'Gorilla Tactics', 'Huge Power', 'Illusion', 'Innards Out', 'Intrepid Sword', 'Libero', 'Magnet Pull', 'Moody', 'Neutralizing Gas', 'Parental Bond', 'Protean', 'Psychic Surge', 'Pure Power', 'Sage Power', 'Shadow Tag', 'Stakeout', 'Water Bubble', 'Wonder Guard',
+			// moves
+			'Bolt Beak', 'Chatter', 'Double Iron Bash', 'Octolock', 'Shell Smash', 'Fishous Rend',
+			// items
+			'Gengarite', 'Rusted Sword', 'Adamant Orb', 'Eternamax Orb', 'Red Orb',
+			// other stuff
+			'Comatose + Sleep Talk',
+		],
+	},
+	{
 		name: "[Gen 8] Anything Goes",
 		mod: 'radred',
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
