@@ -25,8 +25,8 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (item.id === "slowbronite" && species.name === "Slowbro-Galar") {
 				return null;
 			}
-			// allow low key toxtricity to mega evolve
-			if (item.id === "toxtricitite" && species.name === "Toxtricity-Low-Key") {
+			// There is no Low Key Mega Toxtricity in rr, the item is only different to fix team validation issues
+			if (item.id === "toxtricititelowkey" && species.name === "Toxtricity-Low-Key") {
 				return "Toxtricity-Mega";
 			}
 			// a hacked-in Megazard X can mega evolve into Megazard Y, but not into Megazard X

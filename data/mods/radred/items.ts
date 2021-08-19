@@ -961,13 +961,26 @@ export const Items: {[k: string]: ModdedItemData} = {
 		spritenum: 582,
 		megaStone: "Toxtricity-Mega",
 		megaEvolves: "Toxtricity",
-		itemUser: ["Toxtricity", "Toxtricity-Low-Key"],
+		itemUser: ["Toxtricity"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
 		gen: 8,
 		desc: "If held by a Toxtricity, this item allows it to Mega Evolve in battle.",
+	},
+	toxtricititelowkey: {
+		name: "Toxtricitite Low Key",
+		spritenum: 582,
+		megaStone: "Toxtricity-Low-Key-Mega",
+		megaEvolves: "Toxtricity-Low-Key",
+		itemUser: ["Toxtricity-Low-Key"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Toxtricity-Low-Key, this item allows it to Mega Evolve in battle.",
 	},
 	duraludonite: {
 		name: "Duraludonite",
