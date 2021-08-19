@@ -18,8 +18,11 @@ The column value will be ignored for repeat sections.
 import {Utils} from '../lib';
 
 export const Formats: FormatList = [
+	// Singles
+	///////////////////////////////////////////////////////////////////
+
 	{
-		section: "RR Singles",
+		section: "Singles",
 	},
 	{
 		name: "[Gen 8] Random Battle",
@@ -51,24 +54,6 @@ export const Formats: FormatList = [
 		ruleset: [
 			'Max Team Size = 3',
 			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause',
-		],
-	},
-	{
-		name: "[Gen 8] RRDL",
-		mod: 'radred',
-		searchShow: false,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
-		banlist: [
-			// mons
-			'Alakazam-Mega', 'Arceus', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Deoxys-Speed', 'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Greninja-Ash', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Meloetta-Pirouette', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Unown', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Complete',
-			// abilities
-			'Moody', 'Power Construct', 'Battle Bond',
-			// moves
-			'Swagger', 'Dark Hole', 'Misty Explosion', 'Explosion', 'Self-Destruct', 'Hidden Power',
-			// complex bans
-			'Blastoise-Mega + Shell Smash', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero', 'Chandelure + Shadow Tag',
-			// Items
-			'Quick Claw', 'Razor Fang', 'Razor Claw', 'Kings Rock', 'Bright Powder', 'Lax Incense',
 		],
 	},
 	{
@@ -120,6 +105,138 @@ export const Formats: FormatList = [
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
 	{
+		name: "[Gen 8] Random Pool",
+		mod: 'radred',
+		ruleset: ['[Gen 8] OU'],
+		searchShow: false,
+		challengeShow: false,
+		onValidateTeam(team, format) {
+			const pool = ['Florges', 'Comfey', 'Eldegoss', 'Lilligant', 'Vileplume'];
+			let fromPool = 0;
+			let stones = 0;
+			for (const set of team) {
+				const item = this.dex.items.get(set.item);
+				// eslint-disable-next-line prefer-const
+				let species = item.megaEvolves === set.species ? this.dex.species.get(item.megaStone).name : set.species;
+				if (item.megaStone) stones++;
+				if (pool.includes(species)) fromPool++;
+			}
+			if (stones > 1) {
+				return [`You can only have 1 mega on your team.`];
+			}
+			if (fromPool === 0) {
+				return [`Your team must have at least one of the following Pok\u00e9mon: ${pool.join(', ')}.`];
+			}
+		},
+	},
+	{
+		name: "[Gen 8] Custom Game",
+		mod: 'radred',
+		searchShow: false,
+		debug: true,
+		battle: {trunc: Math.trunc},
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
+	},
+
+	// Doubles
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Doubles",
+	},
+	{
+		name: "[Gen 8] Random Doubles Battle",
+
+		mod: 'radred',
+		gameType: 'doubles',
+		team: 'random',
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause'],
+	},
+	{
+		name: "[Gen 8] RRC",
+		mod: 'radred',
+		gameType: 'doubles',
+		ruleset: ['Standard', 'VGC Timer', 'Item Clause', 'Dynamax Clause', 'Z-Move Clause', 'Adjust Level = 50', 'Picked Team Size = 4'],
+		banlist: [
+			'Mewtwo',
+			'Unown', 'Ho-Oh', 'Lugia',
+			'Groudon', 'Kyogre', 'Rayquaza', 'Deoxys',
+			'Dialga', 'Palkia', 'Heatran', 'Regigigas', 'Giratina', 'Cresselia', 'Darkrai', 'Shaymin', 'Arceus',
+			'Kyurem', 'Reshiram', 'Zekrom',
+			'Xerneas', 'Yveltal', 'Zygarde',
+			'Cosmog', 'Cosmoem', 'Solgaleo', 'Lunala', 'Necrozma', 'Magearna', 'Marshadow',
+			'Eternatus', 'Zacian', 'Zamazenta', 'Calyrex',
+		],
+	},
+	{
+		name: "[Gen 8] Doubles Custom Game",
+
+		mod: 'radred',
+		gameType: 'doubles',
+		searchShow: false,
+		battle: {trunc: Math.trunc},
+		debug: true,
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
+	},
+
+	// Draft
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Draft"
+	},
+	{
+		name: "[Gen 8] RRDL",
+		mod: 'radred',
+		searchShow: false,
+		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
+		banlist: [
+			// mons
+			'Alakazam-Mega', 'Arceus', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Deoxys-Speed', 'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Greninja-Ash', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Meloetta-Pirouette', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Unown', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Complete',
+			// abilities
+			'Moody', 'Power Construct', 'Battle Bond',
+			// moves
+			'Swagger', 'Dark Hole', 'Misty Explosion', 'Explosion', 'Self-Destruct', 'Hidden Power',
+			// complex bans
+			'Blastoise-Mega + Shell Smash', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero', 'Chandelure + Shadow Tag',
+			// Items
+			'Quick Claw', 'Razor Fang', 'Razor Claw', 'Kings Rock', 'Bright Powder', 'Lax Incense',
+		],
+	},
+	{
+		name: "[Gen 8] OLT RRDL",
+		mod: 'radred',
+		searchShow: false,
+		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
+		banlist: [
+			// mons
+			'Arceus', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chandelure', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Spectrier', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Complete',
+			// abilities
+			'Moody', 'Power Construct',
+			// moves
+			'Swagger', 'Dark Hole', 'Misty Explosion', 'Explosion', 'Self-Destruct',
+			// complex bans
+			'Blastoise-Mega + Shell Smash', 'Alakazam-Mega + Nasty Plot', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero',
+		],
+	},
+	{
+		name: "[Gen 8] Draft",
+		mod: 'radred',
+		searchShow: false,
+		debug: true,
+		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
+	},
+
+	// Other Metagames
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Other Metagames",
+		column: 2
+	},
+	{
 		name: "[Gen 8] Balanced Hackmons",
 		desc: `Anything that can be hacked in-game and is usable in local battles is allowed.`,
 		
@@ -157,102 +274,19 @@ export const Formats: FormatList = [
 		},
 	},
 	{
-		name: "[Gen 8] Random Pool",
-		mod: 'radred',
-		ruleset: ['[Gen 8] OU'],
-		searchShow: false,
-		challengeShow: false,
-		onValidateTeam(team, format) {
-			const pool = ['Florges', 'Comfey', 'Eldegoss', 'Lilligant', 'Vileplume'];
-			let fromPool = 0;
-			let stones = 0;
-			for (const set of team) {
-				const item = this.dex.items.get(set.item);
-				// eslint-disable-next-line prefer-const
-				let species = item.megaEvolves === set.species ? this.dex.species.get(item.megaStone).name : set.species;
-				if (item.megaStone) stones++;
-				if (pool.includes(species)) fromPool++;
-			}
-			if (stones > 1) {
-				return [`You can only have 1 mega on your team.`];
-			}
-			if (fromPool === 0) {
-				return [`Your team must have at least one of the following Pok\u00e9mon: ${pool.join(', ')}.`];
-			}
-		},
-	},
-	{
-		name: "[Gen 8] Draft",
-		mod: 'radred',
-		searchShow: false,
-		debug: true,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
-	},
-	{
-		name: "[Gen 8] OLT RRDL",
-		mod: 'radred',
-		searchShow: false,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
-		banlist: [
-			// mons
-			'Arceus', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chandelure', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Spectrier', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Complete',
-			// abilities
-			'Moody', 'Power Construct',
-			// moves
-			'Swagger', 'Dark Hole', 'Misty Explosion', 'Explosion', 'Self-Destruct',
-			// complex bans
-			'Blastoise-Mega + Shell Smash', 'Alakazam-Mega + Nasty Plot', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero',
-		],
-	},
-	{
-		name: "[Gen 8] Custom Game",
-		mod: 'radred',
-		searchShow: false,
-		debug: true,
-		battle: {trunc: Math.trunc},
-		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
-	},
-	{
-		section: "RR Doubles",
-	},
-	{
-		name: "[Gen 8] Random Doubles Battle",
+		name: "[Gen 8] Pure Hackmons",
+		desc: `Anything that can be hacked in-game and is usable in local battles is allowed.`,
 
-		mod: 'radred',
-		gameType: 'doubles',
-		team: 'random',
-		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause'],
-	},
-	{
-		name: "[Gen 8] RRC",
-		mod: 'radred',
-		gameType: 'doubles',
-		ruleset: ['Standard', 'VGC Timer', 'Item Clause', 'Dynamax Clause', 'Z-Move Clause', 'Adjust Level = 50', 'Picked Team Size = 4'],
-		banlist: [
-			'Mewtwo',
-			'Unown', 'Ho-Oh', 'Lugia',
-			'Groudon', 'Kyogre', 'Rayquaza', 'Deoxys',
-			'Dialga', 'Palkia', 'Heatran', 'Regigigas', 'Giratina', 'Cresselia', 'Darkrai', 'Shaymin', 'Arceus',
-			'Kyurem', 'Reshiram', 'Zekrom',
-			'Xerneas', 'Yveltal', 'Zygarde',
-			'Cosmog', 'Cosmoem', 'Solgaleo', 'Lunala', 'Necrozma', 'Magearna', 'Marshadow',
-			'Eternatus', 'Zacian', 'Zamazenta', 'Calyrex',
-		],
-	},
-	{
-		name: "[Gen 8] Doubles Custom Game",
-
-		mod: 'radred',
-		gameType: 'doubles',
+		mod: 'gen8',
 		searchShow: false,
-		battle: {trunc: Math.trunc},
-		debug: true,
-		// no restrictions, for serious (other than team preview)
-		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
+		ruleset: ['-Nonexistent', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
+
+	// Randomized Metas
+	///////////////////////////////////////////////////////////////////
+
 	{
-		section: "RR Randomized Metas",
+		section: "Randomized Metas",
 	},
 	{
 		name: "[Gen 8] Monotype Random Battle",

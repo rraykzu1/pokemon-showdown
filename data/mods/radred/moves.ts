@@ -1,7 +1,12 @@
 export const Moves: {[k: string]: ModdedMoveData} =	{
 	acupressure: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		onHit() {},
+		boosts: {
+			atk: 1,
+		},
+		desc: "Raises the user's Attack by 1 stage.",
+		shortDesc: "Raises the user's Attack by 1.",
 	},
 	aquafang: {
 		num: 850,
@@ -27,7 +32,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	batonpass: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		basePower: 40,
+		self: {},
+		selfSwitch: false,
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 	beatup: {
 		num: 251,
@@ -128,7 +137,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	doubleteam: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		boosts: {
+			atk: 1,
+		},
+		desc: "Raises the user's Attack by 1 stage.",
+		shortDesc: "Raises the user's Attack by 1.",
 	},
 	dracometeor: {
 		inherit: true,
@@ -163,7 +176,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	fissure: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		basePower: 1,
+		ohko: false,
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 	flash: {
 		num: 148,
@@ -262,7 +278,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	guillotine: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		basePower: 1,
+		ohko: false,
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 	headcharge: {
 		inherit: true,
@@ -289,7 +308,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	horndrill: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		basePower: 1,
+		ohko: false,
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 	icehammer: {
 		inherit: true,
@@ -395,7 +417,13 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	minimize: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		volatileStatus: "",
+		condition: {},
+		boosts: {
+			atk: 1,
+		},
+		desc: "Raises the user's Attack by 1 stage.",
+		shortDesc: "Raises the user's Attack by 1.",
 	},
 	mirrorshot: {
 		inherit: true,
@@ -596,7 +624,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	sheercold: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		basePower: 1,
+		ohko: false,
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
 	},
 	shellsidearm: {
 		num: 801,

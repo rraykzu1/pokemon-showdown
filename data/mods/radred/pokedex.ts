@@ -3444,7 +3444,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 40,
 		color: "Purple",
 		eggGroups: ["Human-Like"],
-		requiredItem: "Toxtricitite",
+		requiredItem: "Toxtricitite Low Key",
 	},
 	sizzlipede: {
 		inherit: true,
