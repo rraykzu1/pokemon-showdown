@@ -4101,7 +4101,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	braviary: {
 		randomBattleLevel: 86,
-		randomBattleMoves: ["bulkup", "bravebird", "closecombat", "roost", "retaliate", "uturn", "substitute"],
+		randomBattleMoves: ["bulkup", "bravebird", "closecombat", "roost", "retaliate", "uturn"],
 		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["bravebird", "closecombat", "protect", "roost", "tailwind"],
 		tier: "UU",
@@ -4155,7 +4155,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	cobalion: {
 		randomBattleLevel: 84,
-		randomBattleMoves: ["stealthrock", "thunderwave", "closecombat", "ironhead", "stoneedge", "swordsdance", "calmmind", "aurasphere", "flashcannon", "hiddenpowerice"],
+		randomBattleMoves: ["stealthrock", "thunderwave", "closecombat", "ironhead", "stoneedge", "swordsdance"],
 		randomDoubleBattleLevel: 84,
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "protect", "stoneedge", "swordsdance", "thunderwave"],
 		tier: "UU",
@@ -4169,7 +4169,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	virizion: {
 		randomBattleLevel: 86,
-		randomBattleMoves: ["swordsdance", "leafblade", "closecombat", "stoneedge", "leafstorm", "focusblast", "synthesis"],
+		randomBattleMoves: ["swordsdance", "leafblade", "closecombat", "stoneedge", "synthesis"],
 		randomDoubleBattleLevel: 87,
 		randomDoubleBattleMoves: ["closecombat", "leafblade", "protect", "stoneedge", "swordsdance"],
 		tier: "UU",
