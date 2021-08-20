@@ -1122,14 +1122,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	zapdos: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["thunderbolt", "heatwave", "roost", "defog", "hiddenpowerice", "hurricane", "toxic", "substitute", "boltbeak"],
+		randomBattleMoves:  ["defog", "discharge", "heatwave", "hurricane", "roost", "uturn"],
 		randomDoubleBattleLevel: 80,
-		randomDoubleBattleMoves: ["heatwave", "hurricane", "roost", "tailwind", "thunderbolt", "voltswitch", "boltbeak"],
+		randomDoubleBattleMoves: ["heatwave", "hurricane", "roost", "tailwind", "thunderbolt", "voltswitch"],
 		tier: "OU",
 	},
 	zapdosgalar: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["closecombat", "bravebird", "uturn", "facade", "stompingtantrum", "thunderouskick", "bulkup", "drillpeck", "roost", "agility"],
+		randomBattleMoves: ["bravebird", "bulkup", "closecombat", "throatchop", "uturn"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["bravebird", "bulkup", "closecombat", "thunderouskick", "uturn"],
 		tier: "UUBL",

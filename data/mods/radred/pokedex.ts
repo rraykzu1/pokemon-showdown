@@ -1346,7 +1346,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	delcatty: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 65, def: 65, spa: 65, spd: 55, spe: 90},
-		abilities: {0: "Cute Charm", 1: "Feline Prowess", H: "Wonder Skin"},
+		abilities: {0: "Cute Charm", 1: "Wonder Skin", H: "Feline Prowess"},
 		items: {5: "Leppa Berry", 50: "Pecha Berry"},
 	},
 	sableye: {
