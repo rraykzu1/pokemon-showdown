@@ -236,7 +236,10 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	},
 	illuminate: {
 		inherit: true,
-		onModifyAccuracy(target, source, move) {
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+			this.debug('illuminate - enhancing accuracy');
 			return this.chainModify([4915, 4096]);
 		},
 		rating: 2.5,
