@@ -4881,9 +4881,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	lycanroc: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["stealthrock", "taunt", "endeavor", "rocktomb", "accelerock", "swordsdance", "stoneedge", "closecombat", "psychicfangs"],
+		randomBattleMoves: ["accelerock", "closecombat", "psychicfangs", "stoneedge", "swordsdance"],
 		randomDoubleBattleLevel: 88,
-		randomDoubleBattleMoves: ["accelerock", "closecombat", "precipiceblades", "protect", "rockslide", "swordsdance"],
+		randomDoubleBattleMoves: ["accelerock", "closecombat", "drillrun", "protect", "rockslide", "swordsdance"],
 		tier: "UU",
 	},
 	lycanrocmidnight: {
