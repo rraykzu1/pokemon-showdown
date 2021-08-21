@@ -751,6 +751,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	jynx: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 50, def: 50, spa: 115, spd: 95, spe: 100},
+		abilities: {0: "Dry Skin", 1: "Forewarn", H: "Dry Skin"},
 		items: {5: "Heart Scale", 50: "Heart Scale"},
 	},
 	tauros: {

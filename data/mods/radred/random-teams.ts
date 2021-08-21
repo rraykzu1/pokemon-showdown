@@ -1480,7 +1480,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		const battleOnly = species.battleOnly && !species.requiredAbility;
 		const baseSpecies: Species = battleOnly ? this.dex.species.get(species.battleOnly as string) : species;
 
-		const abilityData = Object.values(baseSpecies.abilities).map(a => this.dex.abilities.get(a));
+		const abilityData = [...new Set(Object.values(baseSpecies.abilities))].map(a => this.dex.abilities.get(a));
 		Utils.sortBy(abilityData, abil => -abil.rating);
 
 		if (abilityData[1]) {
