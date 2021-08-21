@@ -1634,7 +1634,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	houndoommega: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["nastyplot", "darkpulse", "fireblast", "sludgebomb", "taunt", "suckerpunch", "pursuit"],
+		randomBattleMoves: ["nastyplot", "fierywrath", "fireblast", "sludgebomb", "taunt", "suckerpunch", "pursuit"],
 		randomDoubleBattleLevel: 83,
 		randomDoubleBattleMoves: ["fierywrath", "heatwave", "hiddenpowergrass", "nastyplot", "protect", "taunt"],
 		tier: "UU",
@@ -5525,7 +5525,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	corviknight: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["roost", "defog", "bravebird", "bodypress", "uturn", "irondefense", "toxic", "bulkup", "substitute", "taunt"],
+		randomBattleMoves: ["bodypress", "bravebird", "bulkup", "defog", "roost"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["bodypress", "bravebird", "bulkup", "ironhead", "roost", "tailwind"],
 		tier: "OU",
