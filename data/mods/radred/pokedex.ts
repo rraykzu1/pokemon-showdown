@@ -2569,6 +2569,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 95, atk: 75, def: 75, spa: 125, spd: 95, spe: 40},
 	},
+	litwick: {
+		inherit: true,
+		abilities: {0: "Flash Fire", 1: "Flame Body", H: "Shadow Tag"},
+	},
 	lampent: {
 		inherit: true,
 		abilities: {0: "Flash Fire", 1: "Flame Body", H: "Shadow Tag"},
