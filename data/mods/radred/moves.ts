@@ -74,8 +74,9 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	bouncybubble: {
 		inherit: true,
-		pp: 5,
 		basePower: 90,
+		pp: 5,
+		flags: {protect: 1, mirror: 1},
 		isNonstandard: null,
 	},
 	chargebeam: {
@@ -263,9 +264,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	freezyfrost: {
 		inherit: true,
-		pp: 5,
 		accuracy: 100,
 		basePower: 95,
+		pp: 5,
+		flags: {protect: 1, mirror: 1},
 		isNonstandard: null,
 	},
 	furycutter: {
@@ -594,9 +596,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	sappyseed: {
 		inherit: true,
-		pp: 5,
 		accuracy: 100,
 		basePower: 95,
+		pp: 5,
+		flags: {protect: 1, mirror: 1},
 		isNonstandard: null,
 	},
 	secretsword: {
@@ -751,7 +754,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		accuracy: 100,
 		basePower: 95,
 		pp: 5,
-		isNonstandard: null,
+		flags: {protect: 1, mirror: 1},
 		self: {
 			onHit(pokemon, source, move) {
 				this.add('-activate', source, 'move: Aromatherapy');
@@ -760,6 +763,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			},
 		},
+		isNonstandard: null,
 	},
 	spikecannon: {
 		inherit: true,
