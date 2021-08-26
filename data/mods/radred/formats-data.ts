@@ -488,7 +488,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	arcanine: {
 		randomBattleLevel: 86,
-		randomBattleMoves: ["morningsun", "flamethrower", "teleport", "toxic", "flareblitz", "wildcharge", "extremespeed", "closecombat"],
+		randomBattleMoves: ["closecombat", "extremespeed", "flareblitz", "morningsun", "toxic", "wildcharge", "willowisp"],
 		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["closecombat", "extremespeed", "flareblitz", "morningsun", "protect", "snarl", "willowisp"],
 		tier: "UU",
@@ -2992,16 +2992,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	lucario: {
 		randomBattleLevel: 85,
-		randomBattleMoves: ["swordsdance", "closecombat", "extremespeed", "meteormash", "bulletpunch", "earthquake", "icepunch", "nastyplot", "aurasphere", "flashcannon", "vacuumwave"],
+		randomBattleMoves: ["swordsdance", "closecombat", "extremespeed", "meteormash", "bulletpunch", "earthquake", "icepunch"],
 		randomDoubleBattleLevel: 85,
-		randomDoubleBattleMoves: ["closecombat", "darkpulse", "extremespeed", "icepunch", "meteormash", "protect", "swordsdance"],
+		randomDoubleBattleMoves: ["closecombat", "crunch", "extremespeed", "icepunch", "meteormash", "protect", "swordsdance"],
 		tier: "UU",
 	},
 	lucariomega: {
 		randomBattleLevel: 76,
-		randomBattleMoves: ["swordsdance", "closecombat", "meteormash", "extremespeed", "bulletpunch", "icepunch", "nastyplot", "aurasphere", "flashcannon", "vacuumwave"],
+		randomBattleMoves: ["swordsdance", "closecombat", "meteormash", "extremespeed", "bulletpunch", "icepunch"],
 		randomDoubleBattleLevel: 76,
-		randomDoubleBattleMoves: ["closecombat", "darkpulse", "extremespeed", "icepunch", "meteormash", "protect", "swordsdance"],
+		randomDoubleBattleMoves: ["closecombat", "crunch", "extremespeed", "icepunch", "meteormash", "protect", "swordsdance"],
 		tier: "Uber",
 	},
 	hippopotas: {
