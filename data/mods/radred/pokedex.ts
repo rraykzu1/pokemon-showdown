@@ -2667,6 +2667,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		requiredMove: "",
 		battleOnly: "",
 	},
+	chespin: {
+		inherit: true,
+		abilities: {0: "Bulletproof", H: "Iron Barbs"},
+	},
+	quilladin: {
+		inherit: true,
+		abilities: {0: "Bulletproof", H: "Iron Barbs"},
+	},
 	chesnaught: {
 		inherit: true,
 		abilities: {0: "Bulletproof", H: "Iron Barbs"},
