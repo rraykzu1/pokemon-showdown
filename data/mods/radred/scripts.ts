@@ -25,6 +25,14 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (item.id === "slowbronite" && species.name === "Slowbro-Galar") {
 				return null;
 			}
+			// Prevent Amped Toxtricity from using the Low-Key mega stone
+			if (item.id === "toxtricititelowkey" && species.name === "Toxtricity") {
+				return null;
+			}
+			// Prevent Low-Key Toxtricity from using the Amped mega stone
+			if (item.id === "toxtricitite" && species.name === "Toxtricity-Low-Key") {
+				return null;
+			}
 			// There is no Low Key Mega Toxtricity in rr, the item is only different to fix team validation issues
 			if (item.id === "toxtricititelowkey" && species.name === "Toxtricity-Low-Key") {
 				return "Toxtricity-Mega";

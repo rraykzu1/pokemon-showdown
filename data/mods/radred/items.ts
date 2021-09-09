@@ -976,7 +976,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		megaEvolves: "Toxtricity-Low-Key",
 		itemUser: ["Toxtricity-Low-Key"],
 		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			if (item.megaEvolves === source.baseSpecies.name) return false;
 			return true;
 		},
 		gen: 8,
