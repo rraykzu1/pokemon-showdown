@@ -60,7 +60,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] OU",
 		mod: 'radred',
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
-		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion'],
+		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion', 'Toxtricite', 'Toxtricite-Low-Key'],
 	},
 	{
 		name: "[Gen 8] Ubers",
@@ -185,7 +185,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Draft"
+		section: "Draft",
 	},
 	{
 		name: "[Gen 8] RRDL",
@@ -218,12 +218,12 @@ export const Formats: FormatList = [
 
 	{
 		section: "Other Metagames",
-		column: 2
+		column: 2,
 	},
 	{
 		name: "[Gen 8] Balanced Hackmons",
 		desc: `Anything that can be hacked in-game and is usable in local battles is allowed.`,
-		
+
 		mod: 'radred',
 		ruleset: ['-Nonexistent', '2 Ability Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Forme Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Endless Battle Clause', 'Arceus Forme Clause', 'Dynamax Clause', 'Z-Move Clause', 'CFZ Clause'],
 		banlist: [
