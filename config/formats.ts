@@ -206,27 +206,11 @@ export const Formats: FormatList = [
 		],
 	},
 	{
-		name: "[Gen 8] OLT RRDL",
-		mod: 'radred',
-		searchShow: false,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
-		banlist: [
-			// mons
-			'Arceus', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chandelure', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Spectrier', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Complete',
-			// abilities
-			'Moody', 'Power Construct',
-			// moves
-			'Swagger', 'Dark Hole', 'Misty Explosion', 'Explosion', 'Self-Destruct',
-			// complex bans
-			'Blastoise-Mega + Shell Smash', 'Alakazam-Mega + Nasty Plot', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero',
-		],
-	},
-	{
 		name: "[Gen 8] Draft",
 		mod: 'radred',
 		searchShow: false,
 		debug: true,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
+		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
 	},
 
 	// Other Metagames
