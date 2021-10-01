@@ -233,7 +233,7 @@ export const Formats: FormatList = [
 			// moves
 			'Bolt Beak', 'Chatter', 'Double Iron Bash', 'Octolock', 'Shell Smash', 'Fishious Rend', 'Dark Hole',
 			// items
-			'Gengarite', 'Rusted Sword', 'Adamant Orb', 'Eternamax Orb', 'Red Orb',
+			'Gengarite', 'Kangaskhanite', 'Rusted Sword', 'Adamant Orb', 'Eternamax Orb', 'Red Orb',
 			// other stuff
 			'Comatose + Sleep Talk',
 		],
