@@ -60,7 +60,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] OU",
 		mod: 'radred',
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
-		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion'],
+		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion', 'Toxtricite', 'Toxtricite-Low-Key'],
 	},
 	{
 		name: "[Gen 8] Ubers",
@@ -185,7 +185,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Draft"
+		section: "Draft",
 	},
 	{
 		name: "[Gen 8] RRDL",
@@ -206,27 +206,11 @@ export const Formats: FormatList = [
 		],
 	},
 	{
-		name: "[Gen 8] OLT RRDL",
-		mod: 'radred',
-		searchShow: false,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
-		banlist: [
-			// mons
-			'Arceus', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Chandelure', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Spectrier', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Complete',
-			// abilities
-			'Moody', 'Power Construct',
-			// moves
-			'Swagger', 'Dark Hole', 'Misty Explosion', 'Explosion', 'Self-Destruct',
-			// complex bans
-			'Blastoise-Mega + Shell Smash', 'Alakazam-Mega + Nasty Plot', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero',
-		],
-	},
-	{
 		name: "[Gen 8] Draft",
 		mod: 'radred',
 		searchShow: false,
 		debug: true,
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
+		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
 	},
 
 	// Other Metagames
@@ -234,12 +218,12 @@ export const Formats: FormatList = [
 
 	{
 		section: "Other Metagames",
-		column: 2
+		column: 2,
 	},
 	{
 		name: "[Gen 8] Balanced Hackmons",
 		desc: `Anything that can be hacked in-game and is usable in local battles is allowed.`,
-		
+
 		mod: 'radred',
 		ruleset: ['-Nonexistent', '2 Ability Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Forme Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Endless Battle Clause', 'Arceus Forme Clause', 'Dynamax Clause', 'Z-Move Clause', 'CFZ Clause'],
 		banlist: [
@@ -247,9 +231,9 @@ export const Formats: FormatList = [
 			// abilities
 			'Arena Trap', 'Contrary', 'Feline Prowess', 'Gorilla Tactics', 'Huge Power', 'Illusion', 'Innards Out', 'Intrepid Sword', 'Libero', 'Magnet Pull', 'Moody', 'Neutralizing Gas', 'Parental Bond', 'Protean', 'Psychic Surge', 'Pure Power', 'Sage Power', 'Shadow Tag', 'Stakeout', 'Water Bubble', 'Wonder Guard',
 			// moves
-			'Bolt Beak', 'Chatter', 'Double Iron Bash', 'Octolock', 'Shell Smash', 'Fishious Rend',
+			'Bolt Beak', 'Chatter', 'Double Iron Bash', 'Octolock', 'Shell Smash', 'Fishious Rend', 'Dark Hole',
 			// items
-			'Gengarite', 'Rusted Sword', 'Adamant Orb', 'Eternamax Orb', 'Red Orb',
+			'Gengarite', 'Kangaskhanite', 'Rusted Sword', 'Adamant Orb', 'Eternamax Orb', 'Red Orb',
 			// other stuff
 			'Comatose + Sleep Talk',
 		],

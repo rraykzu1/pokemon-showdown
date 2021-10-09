@@ -1122,7 +1122,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	zapdos: {
 		randomBattleLevel: 80,
-		randomBattleMoves:  ["defog", "discharge", "heatwave", "hurricane", "roost", "uturn"],
+		randomBattleMoves: ["defog", "discharge", "heatwave", "hurricane", "roost", "uturn"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["heatwave", "hurricane", "roost", "tailwind", "thunderbolt", "voltswitch"],
 		tier: "OU",
