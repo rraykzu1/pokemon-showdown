@@ -1273,7 +1273,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		const randMoves =
 			(isDoubles && species.randomDoubleBattleMoves) ||
 			species.randomBattleMoves;
-		const movePool = (randMoves || Object.keys(this.dex.data.Learnsets[species.id]!.learnset!)).slice();
+		const movePool = (randMoves || Object.keys(this.dex.species.getLearnset(species.id)!)).slice();
 		if (this.format.gameType === 'multi' || this.format.gameType === 'freeforall') {
 			// Random Multi Battle uses doubles move pools, but Ally Switch fails in multi battles
 			// Random Free-For-All also uses doubles move pools, for now
@@ -1667,8 +1667,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 	) {
 		const exclude = pokemonToExclude.map(p => toID(p.species));
 		const pokemonPool = [];
-		for (const id in this.dex.data.FormatsData) {
-			let species = this.dex.species.get(id);
+		for (let species of this.dex.species.all()) {
 			if (species.gen > this.gen || exclude.includes(species.id)) continue;
 			if (isMonotype) {
 				if (!species.types.includes(type)) continue;
@@ -1677,7 +1676,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 					if (!species.types.includes(type)) continue;
 				}
 			}
-			pokemonPool.push(id);
+			pokemonPool.push(species.id);
 		}
 		return pokemonPool;
 	}
