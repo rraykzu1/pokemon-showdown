@@ -60,7 +60,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] OU",
 		mod: 'radred',
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
-		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion', 'Toxtricite', 'Toxtricite-Low-Key'],
+		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion'],
 	},
 	{
 		name: "[Gen 8] Ubers",
