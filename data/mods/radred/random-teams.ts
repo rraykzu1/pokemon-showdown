@@ -372,11 +372,14 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return {cull: !!counter.setupType};
 		case 'thunderwave': case 'voltswitch':
 			const cullInDoubles = isDoubles && (moves.has('electroweb') || moves.has('nuzzle'));
+			const dedenneCull = species.id === 'dedenne' && !moves.has('risingvoltage');
 			return {cull: (
 				!!counter.setupType ||
 				!!counter.get('speedsetup') ||
 				moves.has('shiftgear') ||
 				moves.has('raindance') ||
+				moves.has('uturn') ||
+				dedenneCull ||
 				cullInDoubles
 			)};
 		case 'toxic':
@@ -477,7 +480,10 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			};
 		case 'powerwhip':
 			// Special case for Centiskorch, which doesn't want Assault Vest
-			return {cull: moves.has('leechlife')};
+			const centiskorchCull = moves.has('leechlife');
+			// Special case for Tsareena, which prefers Striker + Trop Kick
+			const tsareenaCull = !!counter.get('kick');
+			return {cull: centiskorchCull || tsareenaCull};
 		case 'woodhammer':
 			return {cull: moves.has('hornleech') && counter.get('Physical') < 4};
 		case 'freezedry':
@@ -827,7 +833,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return !teamDetails.sand;
 		case 'Sap Sipper':
 			// For Drampa, which wants Berserk with Roost
-			return moves.has('roost');
+			// For Sawsbuck, which wants Chlorophyll with Sunny Day
+			return moves.has('roost') || moves.has('sunnyday');
 		case 'Scrappy':
 			return (moves.has('earthquake') && species.id === 'miltank');
 		case 'Screen Cleaner':
@@ -972,6 +979,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		if (species.name === 'Aipom') return 'Choice Band';
 		if (species.name === 'Roselia') return 'Choice Scarf';
 		if (species.name === 'Kangaskhan' && isDoubles) return 'Silk Scarf';
+		if (species.name === 'Komala' && !isDoubles) return 'Choice Band';
 		if (species.name === 'Shedinja') {
 			const noSash = !teamDetails.defog && !teamDetails.rapidSpin && !isDoubles;
 			return noSash ? 'Heavy-Duty Boots' : 'Focus Sash';
