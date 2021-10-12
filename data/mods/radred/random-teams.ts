@@ -734,13 +734,15 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return ((isDoubles && abilities.has('Solar Power')) || abilities.has('Magic Guard'));
 		case 'Bulletproof': case 'Overcoat':
 			return (!!counter.setupType && abilities.has('Soundproof'));
+		case 'Bull Rush':
+			return counter.damagingMoves.size < 4
 		case 'Chlorophyll':
 			return (species.baseStats.spe > 105 || !counter.get('Fire') && !moves.has('sunnyday') && !teamDetails.sun);
 		case 'Cloud Nine':
 			return (species.id !== 'golduck');
 		case 'Competitive':
 			return (counter.get('Special') < 2 || (moves.has('rest') && moves.has('sleeptalk')));
-		case 'Compound Eyes': case 'No Guard':
+		case 'Compound Eyes': case 'Illuminate': case 'No Guard':
 			return !counter.get('inaccurate');
 		case 'Cursed Body':
 			return abilities.has('Infiltrator');
@@ -834,7 +836,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		case 'Sap Sipper':
 			// For Drampa, which wants Berserk with Roost
 			// For Sawsbuck, which wants Chlorophyll with Sunny Day
-			return moves.has('roost') || moves.has('sunnyday');
+			return species.name === 'Bouffalant' || moves.has('roost') || moves.has('sunnyday');
 		case 'Scrappy':
 			return (moves.has('earthquake') && species.id === 'miltank');
 		case 'Screen Cleaner':

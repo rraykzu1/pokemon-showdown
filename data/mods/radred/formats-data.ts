@@ -1499,7 +1499,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	granbull: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["playrough", "closecombat", "healbell", "earthquake", "thunderwave", "crunch", "firepunch"],
+		randomBattleMoves: ["playrough", "closecombat", "healbell", "earthquake", "thunderwave", "wildcharge"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["playrough", "protect", "stoneedge", "stompingtantrum", "closecombat"],
 		tier: "UU",
@@ -4090,8 +4090,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 	},
 	bouffalant: {
-		randomBattleLevel: 88,
-		randomBattleMoves: ["swordsdance", "return", "earthquake", "closecombat", "substitute", "headcharge"],
+		randomBattleLevel: 86,
+		randomBattleMoves: ["swordsdance", "earthquake", "closecombat", "wildcharge", "headcharge"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["closecombat", "headcharge", "protect", "wildcharge"],
 		tier: "UU",
