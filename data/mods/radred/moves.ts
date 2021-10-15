@@ -35,8 +35,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 40,
 		self: {},
 		selfSwitch: false,
-		desc: "No additional effect.",
-		shortDesc: "No additional effect.",
+		desc: "Does 40 damage to yourself.",
+		shortDesc: "Does 40 damage to yourself.",
 	},
 	beatup: {
 		num: 251,
