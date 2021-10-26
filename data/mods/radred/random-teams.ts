@@ -224,7 +224,8 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			// Special case for Togekiss, which always wants Aura Sphere
 			return {cull:
 				(abilities.has('Serene Grace') && (!moves.has('trick') || counter.get('Status') > 1)) ||
-				(isDoubles && moves.has('heatwave')),
+				(isDoubles && moves.has('heatwave')) ||
+				(species.id === 'altariamega' && counter.setupType === 'Physical' && !moves.has('return')),
 			};
 		case 'firepunch':
 			// Special case for Darmanitan-Zen-Galar, which doesn't always want Fire Punch

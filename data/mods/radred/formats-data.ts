@@ -2189,7 +2189,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	camerupt: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["eruption", "magmastorm", "earthpower", "steameruption", "stealthrock", "toxic", "slackoff"],
+		randomBattleMoves: ["fireblast", "magmastorm", "earthpower", "steameruption", "stealthrock", "toxic", "slackoff"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["earthpower", "fireblast", "heatwave", "slackoff", "protect", "stealthrock"],
 		tier: "UU",
@@ -2245,7 +2245,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 88,
 		randomBattleMoves: ["spikes", "knockoff", "suckerpunch", "needlearm", "swordsdance", "drainpunch"],
 		randomDoubleBattleLevel: 88,
-		randomDoubleBattleMoves: ["drainpunch", "seedbomb", "spikyshield", "substitute", "suckerpunch", "swordsdance"],
+		randomDoubleBattleMoves: ["drainpunch", "needlearm", "spikyshield", "substitute", "suckerpunch", "swordsdance"],
 		tier: "UU",
 	},
 	swablu: {
@@ -4304,7 +4304,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomBattleMoves: ["spikes", "roar", "drainpunch", "synthesis", "needlearm", "spikyshield", "leechseed"],
 		randomDoubleBattleLevel: 82,
-		randomDoubleBattleMoves: ["hammerarm", "leechseed", "rockslide", "spikyshield", "stoneedge", "woodhammer"],
+		randomDoubleBattleMoves: ["hammerarm", "leechseed", "rockslide", "spikyshield", "stoneedge", "needlearm"],
 		tier: "UU",
 	},
 	fennekin: {
