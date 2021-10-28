@@ -200,7 +200,7 @@ export const Formats: FormatList = [
 			// moves
 			'Swagger', 'Dark Hole', 'Misty Explosion', 'Explosion', 'Self-Destruct', 'Hidden Power',
 			// complex bans
-			'Blastoise-Mega + Shell Smash', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero', 'Kyurem-Black + Dragon Dance', 'Kyurem-Black + Scale Shot', 'Deoxys-Speed + Nasty Plot', 'Greninja-Ash + Spikes', 'Greninja-Ash + Toxic Spikes',
+			'Blastoise-Mega + Shell Smash', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero', 'Kyurem-Black + Dragon Dance', 'Kyurem-Black + Scale Shot', 'Deoxys-Speed + Nasty Plot',
 			// Items
 			'Quick Claw', 'Razor Fang', 'Razor Claw', 'Kings Rock', 'Bright Powder', 'Lax Incense',
 		],
