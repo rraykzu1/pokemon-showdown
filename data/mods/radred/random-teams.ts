@@ -736,7 +736,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		case 'Bulletproof': case 'Overcoat':
 			return (!!counter.setupType && abilities.has('Soundproof'));
 		case 'Bull Rush':
-			return counter.damagingMoves.size < 4
+			return counter.damagingMoves.size < 4;
 		case 'Chlorophyll':
 			return (species.baseStats.spe > 105 || !counter.get('Fire') && !moves.has('sunnyday') && !teamDetails.sun);
 		case 'Cloud Nine':
@@ -776,6 +776,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return (counter.get('Physical') < 2 || abilities.has('Iron Fist') || abilities.has('Scrappy'));
 		case 'Ice Scales':
 			return (abilities.has('Slush Rush') && (moves.has('hail') || !!teamDetails.hail));
+		// eslint-disable-next-line no-duplicate-case
 		case 'Illuminate':
 			return species.id === 'shiinotic';
 		case 'Infiltrator':
