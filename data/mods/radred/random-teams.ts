@@ -776,9 +776,6 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return (counter.get('Physical') < 2 || abilities.has('Iron Fist') || abilities.has('Scrappy'));
 		case 'Ice Scales':
 			return (abilities.has('Slush Rush') && (moves.has('hail') || !!teamDetails.hail));
-		// eslint-disable-next-line no-duplicate-case
-		case 'Illuminate':
-			return species.id === 'shiinotic';
 		case 'Infiltrator':
 			return (moves.has('rest') && moves.has('sleeptalk')) || (isDoubles && abilities.has('Clear Body'));
 		case 'Intimidate':
