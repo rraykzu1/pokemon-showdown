@@ -340,6 +340,24 @@ export class TeamValidator {
 		return problems;
 	}
 
+	getEventOnlyData(species: Species, noRecurse?: boolean): {species: Species, eventData: EventInfo[]} | null {
+		const dex = this.dex;
+		const learnset = dex.species.getLearnsetData(species.id);
+		if (!learnset?.eventOnly) {
+			if (noRecurse) return null;
+			return this.getEventOnlyData(dex.species.get(species.prevo), true);
+		}
+
+		if (!learnset.eventData && species.forme) {
+			return this.getEventOnlyData(dex.species.get(species.baseSpecies), true);
+		}
+		if (!learnset.eventData) {
+			throw new Error(`Event-only species ${species.name} has no eventData table`);
+		}
+
+		return {species, eventData: learnset.eventData};
+	}
+
 	validateSet(set: PokemonSet, teamHas: AnyObject): string[] | null {
 		const format = this.format;
 		const dex = this.dex;
@@ -503,7 +521,7 @@ export class TeamValidator {
 		problem = this.checkItem(set, item, setHas);
 		if (problem) problems.push(problem);
 		if (ruleTable.has('obtainablemisc')) {
-			if (dex.gen <= 1 || ruleTable.has('allowavs')) {
+			if (dex.gen <= 1) {
 				if (item.id) {
 					// no items allowed
 					set.item = '';
@@ -595,6 +613,7 @@ export class TeamValidator {
 		}
 
 		const learnsetSpecies = dex.species.getLearnsetData(outOfBattleSpecies.id);
+		let eventOnlyData;
 
 		if (!setSources.sourcesBefore && setSources.sources.length) {
 			let legal = false;
@@ -626,13 +645,8 @@ export class TeamValidator {
 					if (eventProblems) problems.push(...eventProblems);
 				}
 			}
-		} else if (ruleTable.has('obtainablemisc') && learnsetSpecies.eventOnly) {
-			const eventSpecies = !learnsetSpecies.eventData &&
-			outOfBattleSpecies.baseSpecies !== outOfBattleSpecies.name ?
-				dex.species.get(outOfBattleSpecies.baseSpecies) : outOfBattleSpecies;
-			const eventData = learnsetSpecies.eventData ||
-				dex.species.getLearnsetData(eventSpecies.id).eventData;
-			if (!eventData) throw new Error(`Event-only species ${species.name} has no eventData table`);
+		} else if (ruleTable.has('obtainablemisc') && (eventOnlyData = this.getEventOnlyData(outOfBattleSpecies))) {
+			const {species: eventSpecies, eventData} = eventOnlyData;
 			let legal = false;
 			for (const event of eventData) {
 				if (this.validateEvent(set, event, eventSpecies)) continue;
