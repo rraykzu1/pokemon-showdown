@@ -874,7 +874,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["seismictoss", "softboiled", "toxic", "stealthrock", "aromatherapy", "thunderwave", "teleport"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["helpinghand", "protect", "seismictoss", "softboiled", "thunderwave", "toxic"],
-		tier: "OU",
+		tier: "NFE",
 	},
 	tangela: {
 		randomBattleLevel: 88,
@@ -1006,7 +1006,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["boomburst", "dracometeor", "wish", "protect"],
 		randomDoubleBattleLevel: 82,
 		randomDoubleBattleMoves: ["boomburst", "dragonhammer", "irontail", "dragondance"],
-		tier: "UU",
+		tier: "OU",
 	},
 	laprasgmax: {
 		isNonstandard: "Gigantamax",
@@ -1427,7 +1427,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["fireblast", "futuresight", "psyshock", "scald", "slackoff", "teleport", "toxic", "trick"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["fireblast", "icebeam", "nastyplot", "psychic", "scald", "slackoff", "trickroom"],
-		tier: "OU",
+		tier: "UU",
 	},
 	slowkinggalar: {
 		randomBattleLevel: 80,
@@ -2206,7 +2206,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["lavaplume", "earthpower", "toxic", "stealthrock", "rapidspin", "yawn", "eruption", "solarbeam"],
 		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["bodypress", "earthpower", "fireblast", "heatwave", "protect", "solarbeam", "willowisp"],
-		tier: "OU",
+		tier: "UU",
 	},
 	spoink: {
 		tier: "LC",
@@ -5277,14 +5277,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["uturn", "roost", "wildcharge", "playrough", "bravebird"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["bravebird", "playrough", "wildcharge", "uturn"],
-		tier: "OU",
+		tier: "UU",
 	},
 	tapulele: {
 		randomBattleLevel: 80,
 		randomBattleMoves: ["psychic", "psyshock", "moonblast", "focusblast", "calmmind"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["calmmind", "dazzlinggleam", "focusblast", "moonblast", "protect", "psyshock"],
-		tier: "UU",
+		tier: "OU",
 	},
 	tapubulu: {
 		randomBattleLevel: 82,
