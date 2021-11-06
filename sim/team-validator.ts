@@ -1893,7 +1893,7 @@ export class TeamValidator {
 		/**
 		 * The format allows Sketch to copy moves in Gen 8
 		 */
-		const canSketchGen8Moves = ruleTable.has('sketchgen8moves');
+		const canSketchGen8Moves = ruleTable.has('sketchgen8moves') || this.dex.currentMod === 'radred';
 
 		let tradebackEligible = false;
 		while (species?.name && !alreadyChecked[species.id]) {
