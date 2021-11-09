@@ -2938,6 +2938,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 98, atk: 110, def: 60, spa: 55, spd: 60, spe: 45},
 		evoLevel: 16,
+		evoCondition: "during the day",
 		items: {5: "Pecha Berry", 50: "None"},
 	},
 	crabrawler: {
