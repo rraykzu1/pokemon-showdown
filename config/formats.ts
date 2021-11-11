@@ -209,7 +209,6 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Draft",
 		mod: 'radred',
 		searchShow: false,
-		debug: true,
 		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
 	},
 
