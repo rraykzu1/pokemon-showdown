@@ -900,14 +900,15 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			// For Zangoose and Perrserker
 			return (abilities.has('Toxic Boost') || types.has('Steel') && !moves.has('fakeout'));
 		case 'Unaware':
-			// For Swoobat and Clefable
-			return (!!counter.setupType || moves.has('fireblast'));
+			// For Swoobat, Clefable and Bibarel
+			return (!!counter.setupType || moves.has('skullbash') || moves.has('fireblast'));
 		case 'Unburden':
 			return (abilities.has('Prankster') || (!counter.setupType && !moves.has('meteorbeam')) && !isDoubles);
 		case 'Volt Absorb':
 			return (
 				this.dex.getEffectiveness('Electric', species) < -1 ||
-				(abilities.has('Slush Rush') && (moves.has('hail') || !!teamDetails.hail))
+				(abilities.has('Slush Rush') && (moves.has('hail') || !!teamDetails.hail)) ||
+				(abilities.has('Prankster') && counter.get('Status') > 1)
 			);
 		case 'Water Absorb':
 			return (
