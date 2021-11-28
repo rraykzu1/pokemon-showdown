@@ -135,6 +135,14 @@ describe('[Gen 8] Random Battle', () => {
 			testHasSTAB(pkmn.name, options, ['Poison']);
 		}
 	});
+
+	it('should not allow Swords Dance + Dragon Dance Rayquaza', () => {
+		testNotBothMoves('rayquaza', options, 'swordsdance', 'dragondance');
+	});
+
+	it('should not allow Extreme Speed + Dragon Dance Rayquaza', () => {
+		testNotBothMoves('rayquaza', options, 'extremespeed', 'dragondance');
+	});
 });
 
 describe('[Gen 8] Random Doubles Battle', () => {
@@ -179,5 +187,37 @@ describe('[Gen 8] Free-for-All Random Battle', () => {
 		for (const pkmn of ['pinsir', 'pikachu', 'zygarde']) {
 			testHasSTAB(pkmn, options);
 		}
+	});
+});
+
+describe('[Gen 8 BDSP] Random Battle', () => {
+	const options = {format: 'gen8bdsprandombattle'};
+
+	const okToHaveChoiceMoves = ['switcheroo', 'trick', 'healingwish'];
+	const dex = Dex.forFormat(options.format);
+	for (const species of dex.species.all()) {
+		if (!species.randomBattleMoves) continue;
+		if (species.id === 'ditto') continue; // Ditto always wants Choice Scarf
+
+		// This test is marked as slow because although each individual test is fairly fast to run,
+		// ~500 tests are generated, so they can dramatically slow down the process of unit testing.
+		it(`should not generate Choice items on ${species.name} sets with status moves, unless an item-switching move or Healing Wish is generated (slow)`, () => {
+			testSet(species.id, {...options, rounds: 500}, set => {
+				if (set.item.startsWith('Choice') && !okToHaveChoiceMoves.some(okMove => set.moves.includes(okMove))) {
+					assert(set.moves.every(m => dex.moves.get(m).category !== 'Status'), `Choice item and status moves on set ${JSON.stringify(set)}`);
+				}
+			});
+		});
+	}
+
+	it('should give Tropius Harvest + Sitrus Berry', () => {
+		testSet('tropius', options, set => {
+			assert.equal(set.item, 'Sitrus Berry');
+			assert.equal(set.ability, 'Harvest');
+		});
+	});
+
+	it('should give Unown a Choice item', () => {
+		testSet('unown', options, set => assert.match(set.item, /^Choice /));
 	});
 });

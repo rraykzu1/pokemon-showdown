@@ -105,6 +105,10 @@ export const commands: Chat.ChatCommands = {
 				target = split.join(',');
 			}
 		}
+		if (!target.includes('mod=')) {
+			const dex = this.extractFormat(room?.settings.defaultFormat || room?.battle?.format).dex;
+			if (dex) target += `, mod=${dex.currentMod}`;
+		}
 		if (targetGen === 5) {
 			const targArray = target.split(',');
 			for (const [i, arg] of targArray.entries()) {
@@ -289,6 +293,10 @@ export const commands: Chat.ChatCommands = {
 				split[index] = `mod=gen${genNum}`;
 				target = split.join(',');
 			}
+		}
+		if (!target.includes('mod=')) {
+			const dex = this.extractFormat(room?.settings.defaultFormat || room?.battle?.format).dex;
+			if (dex) target += `, mod=${dex.currentMod}`;
 		}
 		if (cmd === 'nms') target += ', natdex';
 		const response = await runSearch({
@@ -1158,6 +1166,13 @@ function runDexsearch(target: string, cmd: string, canAll: boolean, message: str
 			return (species.num <= 151 || ['Meltan', 'Melmetal'].includes(species.name)) &&
 			(!species.forme || (['Alola', 'Mega', 'Mega-X', 'Mega-Y', 'Starter'].includes(species.forme) &&
 				species.name !== 'Pikachu-Alola'));
+		});
+	}
+
+	if (usedMod === 'gen8bdsp') {
+		results = results.filter(name => {
+			const species = mod.species.get(name);
+			return species.gen <= 4 && species.num >= 1 && species.id !== 'pichuspikyeared';
 		});
 	}
 

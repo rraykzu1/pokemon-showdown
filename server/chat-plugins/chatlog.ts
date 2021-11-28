@@ -5,7 +5,7 @@
  * @license MIT
  */
 
-import {Utils, FS, Dashycode, ProcessManager, Repl} from '../../lib';
+import {Utils, FS, Dashycode, ProcessManager, Repl, Net} from '../../lib';
 import {Config} from '../config-loader';
 import {Dex} from '../../sim/dex';
 import {Chat} from '../chat';
@@ -194,10 +194,15 @@ export const LogReader = new class {
 		return Chat.toTimestamp(new Date()).slice(0, 10);
 	}
 	isMonth(text: string) {
-		return /[0-9]{4}-[0-9]{2}/.test(text);
+		return /^[0-9]{4}-(?:0[0-9]|1[0-2])$/.test(text);
 	}
 	isDay(text: string) {
-		return /[0-9]{4}-[0-9]{2}-[0-9]{2}/.test(text);
+		// yes, this exactly matches JavaScript's built-in validation for `new Date`
+		// 02-31? oh yeah that's just the 3rd of March
+		// 02-32? invalid date
+		// which makes this a pretty useful function for validating that `nextDay`
+		// won't crash on the input text.
+		return /^[0-9]{4}-(?:0[0-9]|1[0-2])-(?:[0-2][0-9]|3[0-1])$/.test(text);
 	}
 	async findBattleLog(tier: ID, number: number): Promise<string[] | null> {
 		// binary search!
@@ -1030,8 +1035,8 @@ export class FSLogSearcher extends Searcher {
 			buf += `<br /><strong>Max results reached, capped at ${limit}</strong>`;
 			buf += `<br /><div style="text-align:center">`;
 			if (total < MAX_RESULTS) {
-				buf += `<button class="button" name="send" value="/sl ${search},room:${roomid},date:${month},limit:${limit + 100}">View 100 more<br />&#x25bc;</button>`;
-				buf += `<button class="button" name="send" value="/sl ${search},room:${roomid},date:${month},limit:3000">View all<br />&#x25bc;</button></div>`;
+				buf += `<button class="button" name="send" value="/sl ${search},room=${roomid},date=${month},limit=${limit + 100}">View 100 more<br />&#x25bc;</button>`;
+				buf += `<button class="button" name="send" value="/sl ${search},room=${roomid},date=${month},limit=3000">View all<br />&#x25bc;</button></div>`;
 			}
 		}
 		buf += `</div>`;
@@ -1164,7 +1169,7 @@ export class RipgrepLogSearcher extends Searcher {
 			const [name, text] = rawLine.split(sep);
 			let line = LogViewer.renderLine(text, 'all');
 			if (!line || name.includes('today')) return null;
-				 // gets rid of some edge cases / duplicates
+			// gets rid of some edge cases / duplicates
 			let date = name.replace(`logs/chat/${roomid}${toID(month) === 'all' ? '' : `/${month}`}`, '').slice(9);
 			if (searchRegex.test(rawLine)) {
 				if (++exactMatches > limit) return null;
@@ -1193,7 +1198,6 @@ export class RipgrepLogSearcher extends Searcher {
 	}
 	async searchLinecounts(room: RoomID, month: string, user?: ID) {
 		// don't need to check if logs exist since ripgrepSearchMonth does that
-		// eslint-disable-next-line no-useless-escape
 		const regexString = user ? `\\|c\\|${this.constructUserRegex(user)}\\|` : `\\|c\\|`;
 		const args: string[] = user ? ['--count'] : [];
 		const {results: rawResults} = await this.ripgrepSearchMonth({
@@ -1404,8 +1408,8 @@ export const pages: Chat.PageTable = {
 		if (isNaN(new Date(date).getTime())) {
 			return this.errorReply(`Invalid date.`);
 		}
-		if (!/[0-9]{4}-[0-9]{2}/.test(date)) {
-			return this.errorReply(`You must specify a full date - both a year and a month.`);
+		if (!LogReader.isMonth(date)) {
+			return this.errorReply(`You must specify an exact month - both a year and a month.`);
 		}
 		this.title = `[Log Stats] ${date}`;
 		return LogSearcher.runLinecountSearch(this, room ? room.roomid : args[2] as RoomID, date, toID(target));
@@ -1642,6 +1646,76 @@ export const commands: Chat.ChatCommands = {
 	},
 	battleloghelp: [
 		`/battlelog [battle link] - View the log of the given [battle link], even if the replay was not saved.`,
+		`Requires: % @ &`,
+	],
+
+
+	gbc: 'getbattlechat',
+	async getbattlechat(target, room, user) {
+		this.checkCan('lock');
+		let [roomName, userName] = Utils.splitFirst(target, ',').map(f => f.trim());
+		if (!roomName) {
+			if (!room) {
+				return this.errorReply(`If you are not specifying a room, use this command in a room.`);
+			}
+			roomName = room.roomid;
+		}
+		if (roomName.startsWith('http://')) roomName = roomName.slice(7);
+		if (roomName.startsWith('https://')) roomName = roomName.slice(8);
+		if (roomName.startsWith(`${Config.routes.client}/`)) {
+			roomName = roomName.slice(Config.routes.client.length + 1);
+		}
+		if (roomName.startsWith(`${Config.routes.replays}/`)) {
+			roomName = `battle-${roomName.slice(Config.routes.replays.length + 1)}`;
+		}
+		if (roomName.startsWith('psim.us/')) roomName = roomName.slice(8);
+		const roomid = roomName.toLowerCase().replace(/[^a-z0-9-]+/g, '') as RoomID;
+		if (!roomid) return this.parse('/help getbattlechat');
+		const userid = toID(userName);
+		if (userName && !userid) return this.errorReply(`Invalid username.`);
+		if (!roomid.startsWith('battle-')) return this.errorReply(`You must specify a battle.`);
+		const tarRoom = Rooms.get(roomid);
+
+		let log: string[];
+		if (tarRoom) {
+			log = tarRoom.log.log;
+		} else {
+			try {
+				const raw = await Net(`https://${Config.routes.replays}/${roomid.slice('battle-'.length)}.json`).get();
+				const data = JSON.parse(raw);
+				log = data.log ? data.log.split('\n') : [];
+			} catch {
+				return this.errorReply(`No room or replay found for that battle.`);
+			}
+		}
+		log = log.filter(l => l.startsWith('|c|'));
+
+		let buf = '';
+		let atLeastOne = false;
+		let i = 0;
+		for (const line of log) {
+			const [,, username, message] = Utils.splitFirst(line, '|', 3);
+			if (userid && toID(username) !== userid) continue;
+			i++;
+			buf += Utils.html`<div class="chat"><span class="username"><username>${username}:</username></span> ${message}</div>`;
+			atLeastOne = true;
+		}
+		if (i > 20) buf = `<details class="readmore">${buf}</details>`;
+		if (!atLeastOne) buf = `<br />None found.`;
+
+		if (this.pmTarget?.isStaff || room?.roomid === 'staff') {
+			this.runBroadcast();
+		}
+
+		return this.sendReplyBox(
+			Utils.html`<strong>Chat messages in the battle '${roomid}'` +
+			(userid ? `from the user '${userid}'` : "") + `</strong>` +
+			buf
+		);
+	},
+	getbattlechathelp: [
+		`/getbattlechat [battle link][, username] - Gets all battle chat logs from the given [battle link].`,
+		`If a [username] is given, searches only chat messages from the given username.`,
 		`Requires: % @ &`,
 	],
 

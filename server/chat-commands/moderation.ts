@@ -236,7 +236,7 @@ export const commands: Chat.ChatCommands = {
 
 			if (this.pmTarget && targetUser) {
 				const text = `${targetUser.name} was invited (and promoted to Room ${nextGroupName}) by ${user.name}.`;
-				room.add(`|c|${user.getIdentity(room.roomid)}|/log ${text}`).update();
+				room.add(`|c|${user.getIdentity(room)}|/log ${text}`).update();
 				this.modlog('INVITE', targetUser, null, {noip: 1, noalts: 1});
 			} else if (
 				nextSymbol in Config.groups && oldSymbol in Config.groups &&
@@ -549,7 +549,7 @@ export const commands: Chat.ChatCommands = {
 
 		const saveReplay = globalWarn && room?.battle;
 		if (!targetUser?.connected) {
-			if (!targetUser || !globalWarn) return this.errorReply(`User '${targetUsername}' not found.`);
+			if (!globalWarn) return this.errorReply(`User '${targetUsername}' not found.`);
 			if (room) {
 				this.checkCan('warn', null, room);
 			} else {
@@ -557,9 +557,9 @@ export const commands: Chat.ChatCommands = {
 			}
 
 			this.addGlobalModAction(
-				`${targetUser.name} was warned by ${user.name} while offline.${publicReason ? ` (${publicReason})` : ``}`
+				`${targetID} was warned by ${user.name} while offline.${publicReason ? ` (${publicReason})` : ``}`
 			);
-			this.globalModlog('WARN OFFLINE', targetUser, privateReason);
+			this.globalModlog('WARN OFFLINE', targetUser || targetID, privateReason);
 			Punishments.offlineWarns.set(targetID, reason);
 			if (saveReplay) this.parse('/savereplay forpunishment');
 			return;
@@ -736,6 +736,7 @@ export const commands: Chat.ChatCommands = {
 	wrb: 'ban',
 	forceroomban: 'ban',
 	forceweekban: 'ban',
+	weekroomban: 'ban',
 	forcerb: 'ban',
 	roomban: 'ban',
 	b: 'ban',
@@ -743,7 +744,7 @@ export const commands: Chat.ChatCommands = {
 		room = this.requireRoom();
 		if (!target) return this.parse('/help ban');
 		this.checkChat();
-		const week = ['wrb', 'wb', 'forceweekban', 'weekban'].includes(cmd);
+		const week = ['wrb', 'wb'].includes(cmd) || cmd.includes('week');
 
 		const {targetUser, inputUsername, targetUsername, rest: reason} = this.splitUser(target);
 		const {publicReason, privateReason} = this.parseSpoiler(reason);
@@ -1789,7 +1790,7 @@ export const commands: Chat.ChatCommands = {
 			const targetId = toID(targetUsername);
 			if (!targetId) return this.parse('/help noforcerename');
 			this.checkCan('bypassall');
-			if (!Punishments.whitelistName(target, user.name)) {
+			if (!Punishments.whitelistName(targetId, user.name)) {
 				return this.errorReply(`${targetUsername} is already on the noforcerename list.`);
 			}
 			this.addGlobalModAction(`${user.name} added the name ${targetId} to the no forcerename list.${rest ? ` (${rest})` : ''}`);
@@ -1803,7 +1804,7 @@ export const commands: Chat.ChatCommands = {
 			if (!Punishments.namefilterwhitelist.has(targetId)) {
 				return this.errorReply(`${targetUsername} is not on the noforcerename list.`);
 			}
-			Punishments.unwhitelistName(target);
+			Punishments.unwhitelistName(targetId);
 			this.addGlobalModAction(`${user.name} removed ${targetId} from the no forcerename list.${rest ? ` (${rest})` : ''}`);
 			this.globalModlog('UNNOFORCERENAME', targetId, rest);
 		},
