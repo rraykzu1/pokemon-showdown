@@ -11,6 +11,9 @@ export const Items: {[k: string]: ModdedItemData} = {
 	adamantorb: {
 		name: "Adamant Orb",
 		spritenum: 4,
+		fling: {
+			basePower: 60,
+		},
 		onSwitchIn(pokemon) {
 			if (pokemon.isActive && pokemon.baseSpecies.name === 'Dialga') {
 				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
