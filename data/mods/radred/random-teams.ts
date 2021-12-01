@@ -40,6 +40,103 @@ const Hazards = [
 ];
 
 export class RandomRadicalRedTeams extends RandomTeams {
+	constructor(format: Format | string, prng: PRNG | PRNGSeed | null) {
+		super(format, prng);
+
+		this.moveEnforcementCheckers = {
+			screens: (movePool, moves, abilities, types, counter, species, teamDetails) => {
+				if (teamDetails.screens) return false;
+				return (
+					(moves.has('lightscreen') && movePool.includes('reflect')) ||
+					(moves.has('reflect') && movePool.includes('lightscreen'))
+				);
+			},
+			recovery: (movePool, moves, abilities, types, counter, species, teamDetails) => (
+				!!counter.get('Status') &&
+				!counter.setupType &&
+				['morningsun', 'recover', 'roost', 'slackoff', 'softboiled'].some(moveid => movePool.includes(moveid)) &&
+				['healingwish', 'switcheroo', 'trick', 'trickroom'].every(moveid => !moves.has(moveid))
+			),
+			misc: (movePool, moves, abilities, types, counter, species, teamDetails) => {
+				if (movePool.includes('milkdrink') || movePool.includes('quiverdance')) return true;
+				return movePool.includes('stickyweb') && !counter.setupType && !teamDetails.stickyWeb;
+			},
+			lead: (movePool, moves, abilities, types, counter) => (
+				movePool.includes('stealthrock') &&
+				!!counter.get('Status') &&
+				!counter.setupType &&
+				!counter.get('speedsetup') &&
+				!moves.has('substitute')
+			),
+			leechseed: (movePool, moves) => (
+				!moves.has('calmmind') &&
+				['protect', 'substitute', 'spikyshield'].some(m => movePool.includes(m))
+			),
+			Bug: (movePool) => movePool.includes('megahorn') || movePool.includes('pinmissile'),
+			Dark: (movePool, moves, abilities, types, counter) => {
+				if (!counter.get('Dark')) return true;
+				return moves.has('suckerpunch') && (movePool.includes('knockoff') || movePool.includes('wickedblow'));
+			},
+			Dragon: (movePool, moves, abilities, types, counter) => (
+				!counter.get('Dragon') &&
+				!moves.has('dragonascent') &&
+				!moves.has('substitute') &&
+				!(moves.has('rest') && moves.has('sleeptalk'))
+			),
+			Electric: (movePool, moves, abilities, types, counter) => !counter.get('Electric') || movePool.includes('thunder'),
+			Fairy: (movePool, moves, abilities, types, counter) => (
+				!counter.get('Fairy') &&
+				['dazzlinggleam', 'moonblast', 'fleurcannon', 'playrough', 'strangesteam'].some(moveid => movePool.includes(moveid))
+			),
+			Fighting: (movePool, moves, abilities, types, counter) => !counter.get('Fighting') || !counter.get('stab'),
+			Fire: (movePool, moves, abilities, types, counter, species) => {
+				return !moves.has('bellydrum') && (!counter.get('Fire'));
+			},
+			Flying: (movePool, moves, abilities, types, counter) => (
+				!counter.get('Flying') && !types.has('Dragon') && [
+					'airslash', 'bravebird', 'dualwingbeat', 'oblivionwing',
+				].some(moveid => movePool.includes(moveid))
+			),
+			Ghost: (movePool, moves, abilities, types, counter) => {
+				if (!counter.get('Ghost') && !types.has('Dark')) return true;
+				if (movePool.includes('poltergeist')) return true;
+				return movePool.includes('spectralthief') && !counter.get('Dark');
+			},
+			Grass: (movePool, moves, abilities, types, counter, species) => {
+				if (movePool.includes('leafstorm') || movePool.includes('grassyglide')) return true;
+				return !counter.get('Grass') && species.baseStats.atk >= 100;
+			},
+			Ground: (movePool, moves, abilities, types, counter) => !counter.get('Ground'),
+			Ice: (movePool, moves, abilities, types, counter) => {
+				if (!counter.get('Ice')) return true;
+				if (movePool.includes('iciclecrash')) return true;
+				return abilities.has('Snow Warning') && movePool.includes('blizzard');
+			},
+			Normal: (movePool, moves, abilities, types, counter) => (
+				(abilities.has('Guts') && movePool.includes('facade')) || (abilities.has('Pixilate') && !counter.get('Normal'))
+			),
+			Poison: (movePool, moves, abilities, types, counter) => {
+				if (counter.get('Poison')) return false;
+				return types.has('Ground') || types.has('Psychic') || types.has('Grass') || !!counter.setupType || movePool.includes('gunkshot');
+			},
+			Psychic: (movePool, moves, abilities, types, counter) => {
+				if (counter.get('Psychic')) return false;
+				if (types.has('Ghost') || types.has('Steel')) return false;
+				return abilities.has('Psychic Surge') || !!counter.setupType || movePool.includes('psychicfangs');
+			},
+			Rock: (movePool, moves, abilities, types, counter, species) => !counter.get('Rock') && species.baseStats.atk >= 80,
+			Steel: (movePool, moves, abilities, types, counter, species) => {
+				if (species.baseStats.atk < 95) return false;
+				if (movePool.includes('meteormash')) return true;
+				return !counter.get('Steel');
+			},
+			Water: (movePool, moves, abilities, types, counter, species) => {
+				if (!counter.get('Water') && !moves.has('hypervoice')) return true;
+				if (['hypervoice', 'liquidation', 'surgingstrikes'].some(m => movePool.includes(m))) return true;
+				return abilities.has('Huge Power') && movePool.includes('aquajet');
+			},
+		};
+	}
 	queryMoves(
 		moves: Set<string> | null,
 		types: string[],
@@ -436,9 +533,9 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return {cull: (moves.has('fireblast') && counter.setupType !== 'Physical') || otherFireMoves};
 		case 'overheat':
 			return {cull: moves.has('flareblitz') || (isDoubles && moves.has('calmmind'))};
-		case 'retaliate':
+		case 'aquatail': case 'flipturn': case 'retaliate':
 			// Retaliate: Special case for Braviary to prevent Retaliate on non-Choice
-			return {cull: !counter.get('Status')};
+			return {cull: moves.has('aquajet') || !counter.get('Status')};
 		case 'hydropump':
 			return {cull: (
 				moves.has('liquidation') ||
@@ -1304,9 +1401,6 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			if (setMoveid.startsWith('hiddenpower')) availableHP++;
 		}
 
-		// These moves can be used even if we aren't setting up to use them:
-		const SetupException = ['closecombat', 'diamondstorm', 'extremespeed', 'superpower', 'clangingscales'];
-
 		const moves = new Set<string>();
 		let counter: MoveCounter;
 		// We use a special variable to track Hidden Power
@@ -1315,18 +1409,11 @@ export class RandomRadicalRedTeams extends RandomTeams {
 
 		do {
 			// Choose next 4 moves from learnset/viable moves and add them to moves list:
-			while (moves.size < 4 && movePool.length) {
-				const moveid = this.sampleNoReplace(movePool);
+			const pool = (movePool.length ? movePool : rejectedPool);
+			while (moves.size < 4 && pool.length) {
+				const moveid = this.sampleNoReplace(pool);
 				if (moveid.startsWith('hiddenpower')) {
 					availableHP--;
-					if (hasHiddenPower) continue;
-					hasHiddenPower = true;
-				}
-				moves.add(moveid);
-			}
-			while (moves.size < 4 && rejectedPool.length) {
-				const moveid = this.sampleNoReplace(rejectedPool);
-				if (moveid.startsWith('hiddenpower')) {
 					if (hasHiddenPower) continue;
 					hasHiddenPower = true;
 				}
@@ -1346,97 +1433,60 @@ export class RandomRadicalRedTeams extends RandomTeams {
 				const move = this.dex.moves.get(moveid);
 
 				let {cull, isSetup} = this.shouldCullMove(
-					move, types, moves, abilities, counter, movePool, teamDetails,
-					species, isLead, isDoubles
+					move, types, moves, abilities, counter,
+					movePool, teamDetails, species, isLead, isDoubles
 				);
 
-				// This move doesn't satisfy our setup requirements:
-				if (
+				if (move.id !== 'photongeyser' && (
 					(move.category === 'Physical' && counter.setupType === 'Special') ||
 					(move.category === 'Special' && counter.setupType === 'Physical')
-				) {
+				)) {
 					// Reject STABs last in case the setup type changes later on
-					const stabs = counter.get(species.types[0]) + (counter.get(species.types[1]) || 0);
-					if (
-						!SetupException.includes(moveid) &&
-						(!types.has(move.type) || stabs > 1 || counter.get(move.category) < 2)
-					) cull = true;
-				}
-				// Hidden Power isn't good enough
-				if (
-					counter.setupType === 'Special' &&
-					moveid === 'hiddenpower' &&
-					species.types.length > 1 &&
-					counter.get('Special') <= 2 &&
-					!types.has(move.type) &&
-					!counter.get('Physical') &&
-					counter.get('specialpool')
-				) {
-					cull = true;
+					const stabs = counter.get(species.types[0]) + (species.types[1] ? counter.get(species.types[1]) : 0);
+					if (!types.has(move.type) || stabs > 1 || counter.get(move.category) < 2) cull = true;
 				}
 
-				const singlesEnforcement = (
-					!['judgment', 'lightscreen', 'reflect', 'sleeptalk', 'toxic'].includes(moveid) && (
-						move.category !== 'Status' ||
-						// should allow Meganium to cull a recovery move for the sake of STAB
-						!(move.flags.heal && species.id !== 'meganium')
-					)
+				// Pokemon should have moves that benefit their types, stats, or ability
+				const isLowBP = move.basePower && move.basePower < 50;
+
+				// Genesect-Douse should never reject Techno Blast
+				const moveIsRejectable = !(species.id === 'genesectdouse' && move.id === 'technoblast') && (
+					move.category === 'Status' ||
+					!types.has(move.type) ||
+					(isLowBP && !move.multihit && !abilities.has('Technician'))
 				);
-				// Pokemon should have moves that benefit their Type/Ability/Weather, as well as moves required by its forme
-				if (
-					!cull &&
-					!move.damage &&
-					!isSetup &&
-					!move.weather &&
-					!move.stallingMove &&
-					(isDoubles || singlesEnforcement) && (
-						!counter.setupType || counter.setupType === 'Mixed' ||
-						(move.category !== counter.setupType && move.category !== 'Status') ||
-						(counter.get(counter.setupType) + counter.get('Status') > 3 && !counter.get('hazards'))
-					) && (
-						move.category === 'Status' ||
-						!types.has(move.type) ||
-						(move.basePower && move.basePower < 40 && !move.multihit)
-					)
-				) {
+				// Setup-supported moves should only be rejected under specific circumstances
+				const notImportantSetup = (
+					!counter.setupType ||
+					counter.setupType === 'Mixed' ||
+					(counter.get(counter.setupType) + counter.get('Status') > 3 && !counter.get('hazards')) ||
+					(move.category !== counter.setupType && move.category !== 'Status')
+				);
+
+				if (moveIsRejectable && (
+					!cull && !isSetup && !move.weather && !move.stallingMove && notImportantSetup && !move.damage &&
+					(isDoubles ? this.unrejectableMovesInDoubles(move) : this.unrejectableMovesInSingles(move))
+				)) {
+					// There may be more important moves that this Pokemon needs
 					if (
-						(!counter.get('stab') && !moves.has('nightshade') && !moves.has('seismictoss') && (
-							species.types.length > 1 ||
-							(species.types[0] !== 'Normal' && species.types[0] !== 'Psychic') ||
-							!moves.has('icebeam') ||
-							species.baseStats.spa >= species.baseStats.spd
-						)) || (
-							moves.has('suckerpunch') && !abilities.has('Contrary') && counter.get('stab') < species.types.length
-						) || (
-							(['recover', 'roost', 'slackoff', 'softboiled'].some(m => movePool.includes(m))) &&
-							counter.get('Status') &&
-							!counter.setupType &&
-							['healingwish', 'trick', 'trickroom'].every(m => !moves.has(m))
-						) || (
-							movePool.includes('milkdrink') ||
-							movePool.includes('shoreup') ||
-							(movePool.includes('stickyweb') && !counter.setupType && !teamDetails.stickyWeb)
-						) || (
-							isLead &&
-							movePool.includes('stealthrock') &&
-							counter.get('Status') && !counter.setupType &&
-							!counter.get('speedsetup') && !moves.has('substitute')
-						) || (
-							species.requiredMove && movePool.includes(toID(species.requiredMove))
-						) || (
-							!counter.get('Normal') &&
-							(abilities.has('Aerilate') || abilities.has('Pixilate') || (abilities.has('Refrigerate') && !moves.has('blizzard')))
-						)
+						// Pokemon should have at least one STAB move
+						(!counter.get('stab') && counter.get('physicalpool') + counter.get('specialpool') > 0 && move.id !== 'stickyweb') ||
+						// Swords Dance Mew should have Brave Bird
+						(moves.has('swordsdance') && species.id === 'mew' && runEnforcementChecker('Flying')) ||
+						// Dhelmise should have Anchor Shot
+						(abilities.has('Steelworker') && runEnforcementChecker('Steel')) ||
+						// Check for miscellaneous important moves
+						(!isDoubles && runEnforcementChecker('recovery') && move.id !== 'stickyweb') ||
+						runEnforcementChecker('screens') ||
+						runEnforcementChecker('misc') ||
+						(isLead && runEnforcementChecker('lead')) ||
+						(moves.has('leechseed') && runEnforcementChecker('leechseed'))
 					) {
 						cull = true;
-					} else {
+					// Pokemon should have moves that benefit their typing
+					} else if (move.id !== 'stickyweb') { // Don't cull Sticky Web in type-based enforcement
 						for (const type of types) {
 							if (runEnforcementChecker(type)) {
-								cull = true;
-							}
-						}
-						for (const abil of abilities) {
-							if (runEnforcementChecker(abil)) {
 								cull = true;
 							}
 						}
@@ -1444,7 +1494,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 				}
 
 				// Sleep Talk shouldn't be selected without Rest
-				if (moveid === 'rest' && cull) {
+				if (move.id === 'rest' && cull) {
 					const sleeptalk = movePool.indexOf('sleeptalk');
 					if (sleeptalk >= 0) {
 						if (movePool.length < 2) {
@@ -1473,9 +1523,9 @@ export class RandomRadicalRedTeams extends RandomTeams {
 					moves.delete(moveid);
 					break;
 				}
-
+				
 				if (cull && rejectedPool.length) {
-					if (moveIsHP) hasHiddenPower = false;
+					if (moveid.startsWith('hiddenpower')) hasHiddenPower = false;
 					moves.delete(moveid);
 					break;
 				}
