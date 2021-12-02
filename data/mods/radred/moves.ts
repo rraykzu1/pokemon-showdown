@@ -882,6 +882,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		},
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
 		desc: "Hits three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
+		shortDesc: "Hits 3 times. Each hit can miss, but power rises.",
 	},
 	tropkick: {
 		inherit: true,
@@ -905,6 +906,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		},
 		onTry() {},
 		desc: "The user and its party members are protected from moves made by other Pokemon, including allies, during this turn that target all adjacent foes or all adjacent Pokemon. This attack has a 1/X chance of being successful, where X starts at 1 and doubles each time this move is successfully used. X resets to 1 if this attack fails or if the user's last used move is not Baneful Bunker, Detect, Endure, King's Shield, Obstruct, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. If X is 256 or more, this move has a 1/(2^32) chance of being successful. Fails if the user moves last this turn or if this move is already in effect for the user's side.",
+		shortDesc: "Protects allies from multi-target moves this turn.",
 	},
 	xscissor: {
 		inherit: true,
