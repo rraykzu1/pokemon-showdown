@@ -357,6 +357,21 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 2.5,
 		shortDesc: "Attacks that can poison also heal for 50% of the damage dealt.",
 	},
+	pressure: {
+		inherit: true,
+		onStart(pokemon) {
+			for (const action of this.queue) {
+				if (
+					action.choice === 'runPrimal' && action.pokemon === pokemon &&
+					(pokemon.species.id === 'dialga' || pokemon.species.id === 'eternatus')
+				) {
+					return;
+				}
+				if (action.choice !== 'runSwitch' && action.choice !== 'runPrimal') break;
+			}
+			this.add('-ability', pokemon, 'Pressure');
+		}
+	},
 	primalarmor: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.getMoveHitData(move).typeMod > 0) {
