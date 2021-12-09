@@ -1342,6 +1342,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	skitty: {
 		inherit: true,
+		abilities: {0: "Cute Charm", 1: "Wonder Skin", H: "Feline Prowess"},
 		items: {5: "Leppa Berry", 50: "Pecha Berry"},
 	},
 	delcatty: {
