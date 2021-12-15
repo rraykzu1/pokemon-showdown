@@ -3859,7 +3859,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 88,
 		randomBattleMoves: ["hurricane", "hydropump", "icebeam", "scald", "defog", "roost"],
 		randomDoubleBattleLevel: 88,
-		randomDoubleBattleMoves: ["bravebird", "hurricane", "icebeam", "protect", "scald", "tailwind"],
+		randomDoubleBattleMoves: ["hurricane", "hydropump", "icebeam", "scald", "tailwind", "protect"],
 		tier: "UU",
 	},
 	vanillite: {
