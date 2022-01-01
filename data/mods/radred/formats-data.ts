@@ -3181,7 +3181,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "psychocut", "sacredsword", "knockoff", "cut", "tripleaxel"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["sacredsword", "leafblade", "psychocut", "nightslash", "protect", "swordsdance"],
-		tier: "UU",
+		tier: "Uber",
 	},
 	probopass: {
 		randomBattleLevel: 88,
