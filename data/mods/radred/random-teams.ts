@@ -89,9 +89,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 				['dazzlinggleam', 'moonblast', 'fleurcannon', 'playrough', 'strangesteam'].some(moveid => movePool.includes(moveid))
 			),
 			Fighting: (movePool, moves, abilities, types, counter) => !counter.get('Fighting') || !counter.get('stab'),
-			Fire: (movePool, moves, abilities, types, counter, species) => {
-				return !moves.has('bellydrum') && (!counter.get('Fire'));
-			},
+			Fire: (movePool, moves, abilities, types, counter, species) => !moves.has('bellydrum') && (!counter.get('Fire')),
 			Flying: (movePool, moves, abilities, types, counter) => (
 				!counter.get('Flying') && !types.has('Dragon') && [
 					'airslash', 'bravebird', 'dualwingbeat', 'oblivionwing',
@@ -1523,7 +1521,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 					moves.delete(moveid);
 					break;
 				}
-				
+
 				if (cull && rejectedPool.length) {
 					if (moveid.startsWith('hiddenpower')) hasHiddenPower = false;
 					moves.delete(moveid);
