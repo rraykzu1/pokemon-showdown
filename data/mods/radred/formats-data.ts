@@ -3199,7 +3199,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	froslass: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["spikes", "taunt", "destinybond", "poltergeist", "tripleaxel", "iceshard", "thunderwave", "freezedry"],
+		randomBattleMoves: ["destinybond", "poltergeist", "spikes", "taunt", "tripleaxel", "willowisp"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["destinybond", "icebeam", "icywind", "protect", "shadowball", "willowisp"],
 		tier: "UU",
