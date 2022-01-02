@@ -169,4 +169,57 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 	},
+	sandsong: {
+		name: "Sand Song",
+		gen: 8,
+		onModifyMove(move, pokemon) {
+			if (move.flags['Sound']) {
+				move.type = 'Ground';
+			}
+		},
+	},
+	rampage: {
+		name: 'Rampage',
+		gen: 8,
+		onAfterHit(source, target, move) {
+			if (!target.hp && source.volatiles['mustrecharge']) {
+				source.removeVolatile('mustrecharge');
+			}
+		},
+	},
+	vengeance: {
+		name: 'Vengeance',
+		gen: 8,
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			this.debug('Vengeance boost');
+			if (move.type === 'Ghost') {
+				if (attacker.hp <= attacker.maxhp / 3) {
+					return this.chainModify(1.5);
+				} else {
+					return this.chainModify(1.2);
+				}
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, attacker, defender, move) {
+			this.debug('Vengeance boost');
+			if (move.type === 'Ghost') {
+				if (attacker.hp <= attacker.maxhp / 3) {
+					return this.chainModify(1.5);
+				} else {
+					return this.chainModify(1.2);
+				}
+			}
+		},
+	},
+	blitzboxer: {
+		name: "Blitz Boxer",
+		gen: 8,
+		onModifyPriority(priority, source, target, move) {
+			if (move.flags['punch']) {
+				return move.priority + 1;
+			}
+		},
+	},
 };
