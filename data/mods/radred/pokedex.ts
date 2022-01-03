@@ -599,8 +599,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	exeggcute: {
 		inherit: true,
 		evos: ["Exeggutor"],
-		otherFormes: ["Exeggcute-Galar"],
-		formeOrder: ["Exeggcute", "Exeggcute-Galar"],
+		otherFormes: ["Exeggcute-Alola"],
+		formeOrder: ["Exeggcute", "Exeggcute-Alola"],
 		items: {5: "Psychic Seed", 50: "None"},
 	},
 	exeggcutealola: {
@@ -627,8 +627,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Rock Head", 1: "Battle Armor", H: "Bone Zone"},
 		evos: ["Marowak"],
-		otherFormes: ["Cubone-Galar"],
-		formeOrder: ["Cubone", "Cubone-Galar"],
+		otherFormes: ["Cubone-Alola"],
+		formeOrder: ["Cubone", "Cubone-Alola"],
 		items: {5: "Thick Club", 50: "None"},
 	},
 	cubonealola: {
