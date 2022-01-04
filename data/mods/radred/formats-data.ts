@@ -3290,9 +3290,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	heatran: {
 		randomBattleLevel: 80,
-		randomBattleMoves: ["magmastorm", "earthpower", "taunt", "toxic", "stealthrock", "lavaplume", "hiddenpowerice", "protect"],
+		randomBattleMoves: ["earthpower", "flashcannon", "lavaplume", "magmastorm", "protect", "roar", "stealthrock", "toxic"],
 		randomDoubleBattleLevel: 80,
-		randomDoubleBattleMoves: ["earthpower", "flashcannon", "magmastorm", "protect"],
+		randomDoubleBattleMoves: ["earthpower", "eruption", "flashcannon", "heatwave", "protect"],
 		tier: "OU",
 	},
 	regigigas: {
