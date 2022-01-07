@@ -1200,7 +1200,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["gigadrain", "drainingkiss", "toxic", "synthesis", "hiddenpowerfire", "leafstorm"],
 		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["gigadrain", "drainingkiss", "healpulse", "leechseed", "protect", "toxic"],
-		tier: "OU",
+		tier: "UU",
 	},
 	cyndaquil: {
 		tier: "LC",
@@ -1213,7 +1213,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["eruption", "flamethrower", "scorchingsands", "hiddenpowergrass", "focusblast"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["eruption", "scorchingsands", "focusblast", "heatwave", "hiddenpowergrass"],
-		tier: "OU",
+		tier: "UU",
 	},
 	totodile: {
 		tier: "LC",
@@ -2270,7 +2270,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "facade", "knockoff", "quickattack", "closecombat"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["closecombat", "facade", "knockoff", "protect", "quickattack", "fakeout"],
-		tier: "OU",
+		tier: "UU",
 	},
 	seviper: {
 		randomBattleLevel: 88,
@@ -2671,7 +2671,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["stealthrock", "gravapple", "earthquake", "synthesis", "shellsmash", "stoneedge", "leechseed", "protect"],
 		randomDoubleBattleLevel: 87,
 		randomDoubleBattleMoves: ["highhorsepower", "protect", "shellsmash", "rockslide", "stoneedge", "woodhammer"],
-		tier: "OU",
+		tier: "UU",
 	},
 	chimchar: {
 		tier: "LC",
@@ -2831,7 +2831,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["fakeout", "surgingstrikes", "flipturn", "aquajet", "icepunch", "bulkup"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["aquajet", "icepunch", "surgingstrikes", "protect", "fakeout", "taunt"],
-		tier: "OU",
+		tier: "UU",
 	},
 	cherubi: {
 		tier: "LC",
@@ -3937,7 +3937,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["stickyweb", "bugbuzz", "thunder", "voltswitch", "hiddenpowerice", "gigadrain"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["bugbuzz", "electroweb", "energyball", "protect", "stickyweb", "thunder"],
-		tier: "OU",
+		tier: "UU",
 	},
 	ferroseed: {
 		tier: "LC",
