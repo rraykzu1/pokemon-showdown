@@ -271,6 +271,12 @@ export const Formats: FormatList = [
 		searchShow: false,
 		ruleset: ['-Nonexistent', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
+	{
+		name: "[Gen 8] Inclement Emerald",
+		desc: `The long awaited for IESH is here!`,
+		mod: 'inclementemerald',
+		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
+	},
 
 	// Randomized Metas
 	///////////////////////////////////////////////////////////////////

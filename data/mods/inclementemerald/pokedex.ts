@@ -527,7 +527,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	misdreavus: {
 		inherit: true,
-		types: ["Ghost", "Fairy"]
+		types: ["Ghost", "Fairy"],
 		baseStats: {hp: 80, atk: 110, def: 80, spa: 60, spd: 80, spe: 40},
 		abilities: {0: "Levitate", 1: "Magician", H: "Pixilate"},
 	},
