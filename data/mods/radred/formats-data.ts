@@ -910,7 +910,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 86,
 		randomBattleMoves: ["fishiousrend", "aquajet", "flipturn", "megahorn", "drillrun", "raindance"],
 		randomDoubleBattleLevel: 88,
-		randomDoubleBattleMoves: ["drillrun", "knockoff", "megahorn", "protect", "swordsdance", "fishousrend"],
+		randomDoubleBattleMoves: ["drillrun", "knockoff", "megahorn", "protect", "swordsdance", "fishiousrend"],
 		tier: "UU",
 	},
 	staryu: {
