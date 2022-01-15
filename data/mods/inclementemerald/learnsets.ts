@@ -66730,7 +66730,7 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			spite: ["7E"],
 		},
 	},
-	type: null: {
+	typenull: {
 		learnset: {
 			tackle: ["7L1"],
 			rage: ["7L5"],
