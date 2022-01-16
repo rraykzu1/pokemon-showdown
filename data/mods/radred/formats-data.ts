@@ -2266,9 +2266,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "UU",
 	},
 	zangoose: {
-		randomBattleLevel: 88,
+		randomBattleLevel: 83,
 		randomBattleMoves: ["swordsdance", "facade", "knockoff", "quickattack", "closecombat"],
-		randomDoubleBattleLevel: 88,
+		randomDoubleBattleLevel: 82,
 		randomDoubleBattleMoves: ["closecombat", "facade", "knockoff", "protect", "quickattack", "fakeout"],
 		tier: "UU",
 	},
