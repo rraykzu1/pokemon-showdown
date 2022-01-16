@@ -2391,7 +2391,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-	artozolt: {
+	arctozolt: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
