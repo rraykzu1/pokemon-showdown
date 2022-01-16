@@ -813,4 +813,25 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	// banned gen 8 items
+	blunderpolicy: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	ejectpack: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	heavydutyboots: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	throatspray: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	utilityumbrella: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
 };
