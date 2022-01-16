@@ -599,8 +599,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	exeggcute: {
 		inherit: true,
 		evos: ["Exeggutor"],
-		otherFormes: ["Exeggcute-Galar"],
-		formeOrder: ["Exeggcute", "Exeggcute-Galar"],
+		otherFormes: ["Exeggcute-Alola"],
+		formeOrder: ["Exeggcute", "Exeggcute-Alola"],
 		items: {5: "Psychic Seed", 50: "None"},
 	},
 	exeggcutealola: {
@@ -627,8 +627,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Rock Head", 1: "Battle Armor", H: "Bone Zone"},
 		evos: ["Marowak"],
-		otherFormes: ["Cubone-Galar"],
-		formeOrder: ["Cubone", "Cubone-Galar"],
+		otherFormes: ["Cubone-Alola"],
+		formeOrder: ["Cubone", "Cubone-Alola"],
 		items: {5: "Thick Club", 50: "None"},
 	},
 	cubonealola: {
@@ -1923,7 +1923,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	chatot: {
 		inherit: true,
 		baseStats: {hp: 76, atk: 65, def: 45, spa: 92, spd: 42, spe: 101},
-		abilities: {0: "Tangled Feet", H: "Frisk"},
+		abilities: {0: "Frisk", 1: "Tangled Feet", H: "Frisk"},
 	},
 	spiritomb: {
 		inherit: true,
@@ -2530,6 +2530,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	emolga: {
 		inherit: true,
 		baseStats: {hp: 55, atk: 55, def: 60, spa: 95, spd: 60, spe: 103},
+		abilities: {0: "Motor Drive", H: "Lightning Rod"},
 		items: {5: "Cheri Berry", 50: "Cheri Berry"},
 	},
 	escavalier: {
