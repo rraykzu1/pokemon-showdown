@@ -1,6 +1,6 @@
-export const Learnsets: { [k: string]: ModdedLearnsetData; } = {			
-	bulbasaur: {		
-		learnset: {	
+export const Learnsets: { [k: string]: ModdedLearnsetData } = {
+	bulbasaur: {
+		learnset: {
 			growl: ["7L1"],
 			tackle: ["7L1"],
 			vinewhip: ["7L3"],
@@ -68,8 +68,8 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			sludge: ["7E"],
 		},
 	},
-	ivysaur: {		
-		learnset: {	
+	ivysaur: {
+		learnset: {
 			sludge: ["7L0"],
 			growl: ["7L1"],
 			growth: ["7L1"],
@@ -128,9 +128,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerwhip: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	venusaur: {		
-		learnset: {	
+	},
+	venusaur: {
+		learnset: {
 			petalblizzard: ["7L0"],
 			petaldance: ["7L1"],
 			growl: ["7L1"],
@@ -199,9 +199,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	charmander: {		
-		learnset: {	
+	},
+	charmander: {
+		learnset: {
 			growl: ["7L1"],
 			scratch: ["7L1"],
 			ember: ["7L4"],
@@ -281,9 +281,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			crunch: ["7E"],
 			dragonrush: ["7E"],
 		},
-	},	
-	charmeleon: {		
-		learnset: {	
+	},
+	charmeleon: {
+		learnset: {
 			ember: ["7L1"],
 			growl: ["7L1"],
 			scratch: ["7L1"],
@@ -357,9 +357,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	charizard: {		
-		learnset: {	
+	},
+	charizard: {
+		learnset: {
 			airslash: ["7L0"],
 			dragonclaw: ["7L1"],
 			shadowclaw: ["7L1"],
@@ -457,9 +457,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	squirtle: {		
-		learnset: {	
+	},
+	squirtle: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			watergun: ["7L3"],
@@ -539,9 +539,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			waterspout: ["7E"],
 			aurasphere: ["7E"],
 		},
-	},	
-	wartortle: {		
-		learnset: {	
+	},
+	wartortle: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			watergun: ["7L1"],
@@ -607,9 +607,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	blastoise: {		
-		learnset: {	
+	},
+	blastoise: {
+		learnset: {
 			flashcannon: ["7L0"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
@@ -692,9 +692,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	caterpie: {		
-		learnset: {	
+	},
+	caterpie: {
+		learnset: {
 			tackle: ["7L1"],
 			stringshot: ["7L1"],
 			bugbite: ["7L6"],
@@ -705,17 +705,17 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			swagger: ["7T"],
 			electroweb: ["7T"],
 		},
-	},	
-	metapod: {		
-		learnset: {	
+	},
+	metapod: {
+		learnset: {
 			harden: ["7L0"],
 			bugbite: ["7T"],
 			irondefense: ["7T"],
 			electroweb: ["7T"],
 		},
-	},	
-	butterfree: {		
-		learnset: {	
+	},
+	butterfree: {
+		learnset: {
 			gust: ["7L0"],
 			bugbite: ["7L1"],
 			harden: ["7L1"],
@@ -786,9 +786,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			batonpass: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	weedle: {		
-		learnset: {	
+	},
+	weedle: {
+		learnset: {
 			poisonsting: ["7L1"],
 			stringshot: ["7L1"],
 			bugbite: ["7L6"],
@@ -808,17 +808,17 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			curse: ["7M"],
 			electroweb: ["7T"],
 		},
-	},	
-	kakuna: {		
-		learnset: {	
+	},
+	kakuna: {
+		learnset: {
 			harden: ["7L0"],
 			bugbite: ["7T"],
 			irondefense: ["7T"],
 			electroweb: ["7T"],
 		},
-	},	
-	beedrill: {		
-		learnset: {	
+	},
+	beedrill: {
+		learnset: {
 			twineedle: ["7L0"],
 			furyattack: ["7L1"],
 			rage: ["7L14"],
@@ -892,9 +892,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	pidgey: {		
-		learnset: {	
+	},
+	pidgey: {
+		learnset: {
 			tackle: ["7L1"],
 			sandattack: ["7L5"],
 			gust: ["7L9"],
@@ -948,9 +948,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feintattack: ["7E"],
 			foresight: ["7E"],
 		},
-	},	
-	pidgeotto: {		
-		learnset: {	
+	},
+	pidgeotto: {
+		learnset: {
 			aircutter: ["7L0"],
 			tackle: ["7L1"],
 			sandattack: ["7L1"],
@@ -1001,9 +1001,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bravebird: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	pidgeot: {		
-		learnset: {	
+	},
+	pidgeot: {
+		learnset: {
 			airslash: ["7L0"],
 			tackle: ["7L1"],
 			sandattack: ["7L1"],
@@ -1057,9 +1057,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bravebird: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	rattata: {		
-		learnset: {	
+	},
+	rattata: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			quickattack: ["7L4"],
@@ -1129,9 +1129,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			revenge: ["7E"],
 			finalgambit: ["7E"],
 		},
-	},	
-	rattataalola: {		
-		learnset: {	
+	},
+	rattataalola: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L3"],
 			quickattack: ["7L6"],
@@ -1196,9 +1196,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			swallow: ["7E"],
 			switcheroo: ["7E"],
 		},
-	},	
-	raticate: {		
-		learnset: {	
+	},
+	raticate: {
+		learnset: {
 			scaryface: ["7L0"],
 			icefang: ["7L1"],
 			firefang: ["7L1"],
@@ -1273,9 +1273,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			zenheadbutt: ["7T"],
 			throatchop: ["7T"],
 		},
-	},	
-	raticatealola: {		
-		learnset: {	
+	},
+	raticatealola: {
+		learnset: {
 			swordsdance: ["7L1"],
 			icefang: ["7L1"],
 			firefang: ["7L1"],
@@ -1352,9 +1352,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	spearow: {		
-		learnset: {	
+	},
+	spearow: {
+		learnset: {
 			peck: ["7L1"],
 			growl: ["7L1"],
 			leer: ["7L4"],
@@ -1414,9 +1414,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			featherdance: ["7E"],
 			razorwind: ["7E"],
 		},
-	},	
-	fearow: {		
-		learnset: {	
+	},
+	fearow: {
+		learnset: {
 			drillrun: ["7L0"],
 			pluck: ["7L1"],
 			peck: ["7L1"],
@@ -1473,9 +1473,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	ekans: {		
-		learnset: {	
+	},
+	ekans: {
+		learnset: {
 			wrap: ["7L1"],
 			leer: ["7L1"],
 			poisonsting: ["7L4"],
@@ -1549,9 +1549,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			switcheroo: ["7E"],
 			suckerpunch: ["7E"],
 		},
-	},	
-	arbok: {		
-		learnset: {	
+	},
+	arbok: {
+		learnset: {
 			crunch: ["7L0"],
 			icefang: ["7L1"],
 			thunderfang: ["7L1"],
@@ -1622,9 +1622,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	pikachu: {		
-		learnset: {	
+	},
+	pikachu: {
+		learnset: {
 			electroball: ["7L0"],
 			charm: ["7L1"],
 			growl: ["7L1"],
@@ -1700,9 +1700,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	raichu: {		
-		learnset: {	
+	},
+	raichu: {
+		learnset: {
 			thunderpunch: ["7L0"],
 			agility: ["7L1"],
 			charm: ["7L1"],
@@ -1784,9 +1784,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	raichualola: {		
-		learnset: {	
+	},
+	raichualola: {
+		learnset: {
 			psybeam: ["7L0"],
 			speedswap: ["7L1"],
 			agility: ["7L1"],
@@ -1879,9 +1879,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	sandshrew: {		
-		learnset: {	
+	},
+	sandshrew: {
+		learnset: {
 			scratch: ["7L1"],
 			defensecurl: ["7L1"],
 			sandattack: ["7L3"],
@@ -1954,9 +1954,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rockclimb: ["7E"],
 			rototiller: ["7E"],
 		},
-	},	
-	sandshrewalola: {		
-		learnset: {	
+	},
+	sandshrewalola: {
+		learnset: {
 			defensecurl: ["7L1"],
 			scratch: ["7L1"],
 			iceshard: ["7L1"],
@@ -2039,9 +2039,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			iciclecrash: ["7E"],
 			nightslash: ["7E"],
 		},
-	},	
-	sandslash: {		
-		learnset: {	
+	},
+	sandslash: {
+		learnset: {
 			crushclaw: ["7L0"],
 			scratch: ["7L1"],
 			defensecurl: ["7L1"],
@@ -2116,9 +2116,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	sandslashalola: {		
-		learnset: {	
+	},
+	sandslashalola: {
+		learnset: {
 			iciclespear: ["7L0"],
 			iciclecrash: ["7L1"],
 			metalburst: ["7L1"],
@@ -2205,9 +2205,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	nidoranf: {		
-		learnset: {	
+	},
+	nidoranf: {
+		learnset: {
 			growl: ["7L1"],
 			scratch: ["7L1"],
 			tailwhip: ["7L7"],
@@ -2279,9 +2279,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			chipaway: ["7E"],
 			venomdrench: ["7E"],
 		},
-	},	
-	nidorina: {		
-		learnset: {	
+	},
+	nidorina: {
+		learnset: {
 			poisonfang: ["7L0"],
 			growl: ["7L1"],
 			scratch: ["7L1"],
@@ -2344,9 +2344,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	nidoqueen: {		
-		learnset: {	
+	},
+	nidoqueen: {
+		learnset: {
 			scratch: ["7L1"],
 			tailwhip: ["7L1"],
 			doublekick: ["7L1"],
@@ -2448,9 +2448,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	nidoranm: {		
-		learnset: {	
+	},
+	nidoranm: {
+		learnset: {
 			leer: ["7L1"],
 			peck: ["7L1"],
 			focusenergy: ["7L7"],
@@ -2520,9 +2520,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			chipaway: ["7E"],
 			venomdrench: ["7E"],
 		},
-	},	
-	nidorino: {		
-		learnset: {	
+	},
+	nidorino: {
+		learnset: {
 			poisontail: ["7L0"],
 			leer: ["7L1"],
 			peck: ["7L1"],
@@ -2585,9 +2585,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			earthpower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	nidoking: {		
-		learnset: {	
+	},
+	nidoking: {
+		learnset: {
 			peck: ["7L1"],
 			focusenergy: ["7L1"],
 			doublekick: ["7L1"],
@@ -2689,9 +2689,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	clefairy: {		
-		learnset: {	
+	},
+	clefairy: {
+		learnset: {
 			spotlight: ["7L1"],
 			disarmingvoice: ["7L1"],
 			pound: ["7L1"],
@@ -2798,9 +2798,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	clefable: {		
-		learnset: {	
+	},
+	clefable: {
+		learnset: {
 			afteryou: ["7L1"],
 			spotlight: ["7L1"],
 			storedpower: ["7L1"],
@@ -2911,9 +2911,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	vulpix: {		
-		learnset: {	
+	},
+	vulpix: {
+		learnset: {
 			ember: ["7L1"],
 			tailwhip: ["7L1"],
 			disable: ["7L4"],
@@ -2985,9 +2985,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerswap: ["7E"],
 			tailslap: ["7E"],
 		},
-	},	
-	vulpixalola: {		
-		learnset: {	
+	},
+	vulpixalola: {
+		learnset: {
 			powdersnow: ["7L1"],
 			tailwhip: ["7L1"],
 			disable: ["7L4"],
@@ -3056,9 +3056,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerswap: ["7E"],
 			tailslap: ["7E"],
 		},
-	},	
-	ninetales: {		
-		learnset: {	
+	},
+	ninetales: {
+		learnset: {
 			moonblast: ["7L0"],
 			nastyplot: ["7L1"],
 			ember: ["7L1"],
@@ -3134,9 +3134,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	ninetalesalola: {		
-		learnset: {	
+	},
+	ninetalesalola: {
+		learnset: {
 			dazzlinggleam: ["7L0"],
 			nastyplot: ["7L1"],
 			iceshard: ["7L1"],
@@ -3211,9 +3211,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mistyterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	jigglypuff: {		
-		learnset: {	
+	},
+	jigglypuff: {
+		learnset: {
 			sing: ["7L1"],
 			defensecurl: ["7L3"],
 			pound: ["7L5"],
@@ -3309,9 +3309,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	wigglytuff: {		
-		learnset: {	
+	},
+	wigglytuff: {
+		learnset: {
 			playrough: ["7L1"],
 			pound: ["7L1"],
 			playnice: ["7L1"],
@@ -3411,9 +3411,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	zubat: {		
-		learnset: {	
+	},
+	zubat: {
+		learnset: {
 			absorb: ["7L1"],
 			supersonic: ["7L5"],
 			astonish: ["7L7"],
@@ -3482,9 +3482,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hypnosis: ["7E"],
 			venomdrench: ["7E"],
 		},
-	},	
-	golbat: {		
-		learnset: {	
+	},
+	golbat: {
+		learnset: {
 			screech: ["7L0"],
 			absorb: ["7L1"],
 			supersonic: ["7L1"],
@@ -3548,9 +3548,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	oddish: {		
-		learnset: {	
+	},
+	oddish: {
+		learnset: {
 			absorb: ["7L1"],
 			growth: ["7L1"],
 			acid: ["7L4"],
@@ -3611,9 +3611,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			strengthsap: ["7E"],
 			leechseed: ["7E"],
 		},
-	},	
-	gloom: {		
-		learnset: {	
+	},
+	gloom: {
+		learnset: {
 			absorb: ["7L1"],
 			acid: ["7L1"],
 			growth: ["7L1"],
@@ -3666,9 +3666,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			seedbomb: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	vileplume: {		
-		learnset: {	
+	},
+	vileplume: {
+		learnset: {
 			petalblizzard: ["7L0"],
 			petaldance: ["7L1"],
 			megadrain: ["7L1"],
@@ -3726,9 +3726,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bodyslam: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	paras: {		
-		learnset: {	
+	},
+	paras: {
+		learnset: {
 			scratch: ["7L1"],
 			stunspore: ["7L6"],
 			poisonpowder: ["7L6"],
@@ -3804,9 +3804,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rototiller: ["7E"],
 			fellstinger: ["7E"],
 		},
-	},	
-	parasect: {		
-		learnset: {	
+	},
+	parasect: {
+		learnset: {
 			crosspoison: ["7L0"],
 			scratch: ["7L1"],
 			stunspore: ["7L1"],
@@ -3876,9 +3876,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	venonat: {		
-		learnset: {	
+	},
+	venonat: {
+		learnset: {
 			tackle: ["7L1"],
 			disable: ["7L1"],
 			foresight: ["7L1"],
@@ -3931,9 +3931,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			morningsun: ["7E"],
 			ragepowder: ["7E"],
 		},
-	},	
-	venomoth: {		
-		learnset: {	
+	},
+	venomoth: {
+		learnset: {
 			gust: ["7L0"],
 			silverwind: ["7L0"],
 			tackle: ["7L1"],
@@ -4001,9 +4001,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	diglett: {		
-		learnset: {	
+	},
+	diglett: {
+		learnset: {
 			sandattack: ["7L1"],
 			scratch: ["7L1"],
 			growl: ["7L4"],
@@ -4062,9 +4062,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			finalgambit: ["7E"],
 			memento: ["7E"],
 		},
-	},	
-	diglettalola: {		
-		learnset: {	
+	},
+	diglettalola: {
+		learnset: {
 			metalclaw: ["7L1"],
 			sandattack: ["7L1"],
 			growl: ["7L4"],
@@ -4126,9 +4126,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			pursuit: ["7E"],
 			thrash: ["7E"],
 		},
-	},	
-	dugtrio: {		
-		learnset: {	
+	},
+	dugtrio: {
+		learnset: {
 			sandtomb: ["7L0"],
 			rototiller: ["7L1"],
 			nightslash: ["7L1"],
@@ -4188,9 +4188,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			highhorsepower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	dugtrioalola: {		
-		learnset: {	
+	},
+	dugtrioalola: {
+		learnset: {
 			sandtomb: ["7L0"],
 			triattack: ["7L1"],
 			nightslash: ["7L1"],
@@ -4253,9 +4253,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ironhead: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	meowth: {		
-		learnset: {	
+	},
+	meowth: {
+		learnset: {
 			scratch: ["7L1"],
 			growl: ["7L1"],
 			bite: ["7L5"],
@@ -4336,9 +4336,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			punishment: ["7E"],
 			tailwhip: ["7E"],
 		},
-	},	
-	meowthalola: {		
-		learnset: {	
+	},
+	meowthalola: {
+		learnset: {
 			pound: ["7L1"],
 			growl: ["7L1"],
 			bite: ["7L5"],
@@ -4419,9 +4419,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			punishment: ["7E"],
 			spite: ["7E"],
 		},
-	},	
-	meowthgalar: {		
-		learnset: {	
+	},
+	meowthgalar: {
+		learnset: {
 			fakeout: ["7L1"],
 			growl: ["7L1"],
 			honeclaws: ["7L4"],
@@ -4485,9 +4485,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flail: ["7E"],
 			nightslash: ["7E"],
 		},
-	},	
-	persian: {		
-		learnset: {	
+	},
+	persian: {
+		learnset: {
 			swift: ["7L0"],
 			focusenergy: ["7L1"],
 			switcheroo: ["7L1"],
@@ -4565,9 +4565,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	persianalola: {		
-		learnset: {	
+	},
+	persianalola: {
+		learnset: {
 			swift: ["7L0"],
 			focusenergy: ["7L1"],
 			switcheroo: ["7L1"],
@@ -4647,9 +4647,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	psyduck: {		
-		learnset: {	
+	},
+	psyduck: {
+		learnset: {
 			watersport: ["7L1"],
 			scratch: ["7L1"],
 			tailwhip: ["7L4"],
@@ -4737,9 +4737,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			simplebeam: ["7E"],
 			clearsmog: ["7E"],
 		},
-	},	
-	golduck: {		
-		learnset: {	
+	},
+	golduck: {
+		learnset: {
 			psyshock: ["7L0"],
 			mefirst: ["7L1"],
 			aquajet: ["7L1"],
@@ -4832,9 +4832,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	mankey: {		
-		learnset: {	
+	},
+	mankey: {
+		learnset: {
 			covet: ["7L1"],
 			scratch: ["7L1"],
 			lowkick: ["7L1"],
@@ -4927,9 +4927,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightslash: ["7E"],
 			powertrip: ["7E"],
 		},
-	},	
-	primeape: {		
-		learnset: {	
+	},
+	primeape: {
+		learnset: {
 			rage: ["7L0"],
 			fling: ["7L1"],
 			scratch: ["7L1"],
@@ -5026,9 +5026,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	growlithe: {		
-		learnset: {	
+	},
+	growlithe: {
+		learnset: {
 			bite: ["7L1"],
 			roar: ["7L1"],
 			ember: ["7L6"],
@@ -5094,9 +5094,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doublekick: ["7E"],
 			burnup: ["7E"],
 		},
-	},	
-	arcanine: {		
-		learnset: {	
+	},
+	arcanine: {
+		learnset: {
 			extremespeed: ["7L0"],
 			thunderfang: ["7L1"],
 			odorsleuth: ["7L1"],
@@ -5164,9 +5164,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	poliwag: {		
-		learnset: {	
+	},
+	poliwag: {
+		learnset: {
 			watersport: ["7L1"],
 			bubble: ["7L5"],
 			hypnosis: ["7L8"],
@@ -5221,9 +5221,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			iceball: ["7E"],
 			refresh: ["7E"],
 		},
-	},	
-	poliwhirl: {		
-		learnset: {	
+	},
+	poliwhirl: {
+		learnset: {
 			watersport: ["7L1"],
 			bubble: ["7L1"],
 			hypnosis: ["7L1"],
@@ -5285,9 +5285,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	poliwrath: {		
-		learnset: {	
+	},
+	poliwrath: {
+		learnset: {
 			submission: ["7L0"],
 			circlethrow: ["7L1"],
 			mudbomb: ["7L1"],
@@ -5368,9 +5368,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	abra: {		
-		learnset: {	
+	},
+	abra: {
+		learnset: {
 			teleport: ["7L1"],
 			focuspunch: ["7M"],
 			calmmind: ["7M"],
@@ -5442,9 +5442,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychoshift: ["7E"],
 			allyswitch: ["7E"],
 		},
-	},	
-	kadabra: {		
-		learnset: {	
+	},
+	kadabra: {
+		learnset: {
 			kinesis: ["7L0"],
 			confusion: ["7L0"],
 			teleport: ["7L1"],
@@ -5520,9 +5520,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	alakazam: {		
-		learnset: {	
+	},
+	alakazam: {
+		learnset: {
 			kinesis: ["7L0"],
 			teleport: ["7L1"],
 			confusion: ["7L1"],
@@ -5604,9 +5604,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	machop: {		
-		learnset: {	
+	},
+	machop: {
+		learnset: {
 			lowkick: ["7L1"],
 			leer: ["7L1"],
 			focusenergy: ["7L3"],
@@ -5684,9 +5684,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			tickle: ["7E"],
 			quickguard: ["7E"],
 		},
-	},	
-	machoke: {		
-		learnset: {	
+	},
+	machoke: {
+		learnset: {
 			lowkick: ["7L1"],
 			leer: ["7L1"],
 			focusenergy: ["7L1"],
@@ -5757,9 +5757,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	machamp: {		
-		learnset: {	
+	},
+	machamp: {
+		learnset: {
 			strength: ["7L0"],
 			wideguard: ["7L1"],
 			lowkick: ["7L1"],
@@ -5838,9 +5838,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	bellsprout: {		
-		learnset: {	
+	},
+	bellsprout: {
+		learnset: {
 			vinewhip: ["7L1"],
 			growth: ["7L3"],
 			wrap: ["7L7"],
@@ -5907,9 +5907,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			belch: ["7E"],
 			strengthsap: ["7E"],
 		},
-	},	
-	weepinbell: {		
-		learnset: {	
+	},
+	weepinbell: {
+		learnset: {
 			razorleaf: ["7L0"],
 			vinewhip: ["7L1"],
 			growth: ["7L1"],
@@ -5969,9 +5969,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	victreebel: {		
-		learnset: {	
+	},
+	victreebel: {
+		learnset: {
 			leaftornado: ["7L0"],
 			growth: ["7L1"],
 			poisonpowder: ["7L1"],
@@ -6035,9 +6035,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	tentacool: {		
-		learnset: {	
+	},
+	tentacool: {
+		learnset: {
 			poisonsting: ["7L1"],
 			bubble: ["7L1"],
 			constrict: ["7L1"],
@@ -6106,9 +6106,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aquaring: ["7E"],
 			tickle: ["7E"],
 		},
-	},	
-	tentacruel: {		
-		learnset: {	
+	},
+	tentacruel: {
+		learnset: {
 			aurorabeam: ["7L0"],
 			reflecttype: ["7L1"],
 			poisonsting: ["7L1"],
@@ -6172,9 +6172,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	geodude: {		
-		learnset: {	
+	},
+	geodude: {
+		learnset: {
 			tackle: ["7L1"],
 			defensecurl: ["7L1"],
 			mudsport: ["7L4"],
@@ -6244,9 +6244,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			autotomize: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	geodudealola: {		
-		learnset: {	
+	},
+	geodudealola: {
+		learnset: {
 			tackle: ["7L1"],
 			defensecurl: ["7L1"],
 			charge: ["7L4"],
@@ -6325,9 +6325,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			screech: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	graveler: {		
-		learnset: {	
+	},
+	graveler: {
+		learnset: {
 			tackle: ["7L1"],
 			defensecurl: ["7L1"],
 			mudsport: ["7L1"],
@@ -6391,9 +6391,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			earthpower: ["7T"],
 			poweruppunch: ["7T"],
 		},
-	},	
-	graveleralola: {		
-		learnset: {	
+	},
+	graveleralola: {
+		learnset: {
 			tackle: ["7L1"],
 			defensecurl: ["7L1"],
 			charge: ["7L1"],
@@ -6467,9 +6467,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			meteormash: ["7T"],
 			poweruppunch: ["7T"],
 		},
-	},	
-	golem: {		
-		learnset: {	
+	},
+	golem: {
+		learnset: {
 			steamroller: ["7L0"],
 			tackle: ["7L1"],
 			defensecurl: ["7L1"],
@@ -6543,9 +6543,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			earthpower: ["7T"],
 			poweruppunch: ["7T"],
 		},
-	},	
-	golemalola: {		
-		learnset: {	
+	},
+	golemalola: {
+		learnset: {
 			heavyslam: ["7L1"],
 			tackle: ["7L1"],
 			defensecurl: ["7L1"],
@@ -6627,9 +6627,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			meteormash: ["7T"],
 			poweruppunch: ["7T"],
 		},
-	},	
-	ponyta: {		
-		learnset: {	
+	},
+	ponyta: {
+		learnset: {
 			growl: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L4"],
@@ -6690,9 +6690,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			captivate: ["7E"],
 			allyswitch: ["7E"],
 		},
-	},	
-	ponytagalar: {		
-		learnset: {	
+	},
+	ponytagalar: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			tailwhip: ["7L5"],
@@ -6745,9 +6745,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			horndrill: ["7E"],
 			morningsun: ["7E"],
 		},
-	},	
-	rapidash: {		
-		learnset: {	
+	},
+	rapidash: {
+		learnset: {
 			furyattack: ["7L0"],
 			poisonjab: ["7L1"],
 			megahorn: ["7L1"],
@@ -6807,9 +6807,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	rapidashgalar: {		
-		learnset: {	
+	},
+	rapidashgalar: {
+		learnset: {
 			psychocut: ["7L0"],
 			megahorn: ["7L1"],
 			tackle: ["7L1"],
@@ -6868,9 +6868,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	slowpoke: {		
-		learnset: {	
+	},
+	slowpoke: {
+		learnset: {
 			curse: ["7L1"],
 			yawn: ["7L1"],
 			tackle: ["7L1"],
@@ -6956,9 +6956,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wonderroom: ["7E"],
 			belch: ["7E"],
 		},
-	},	
-	slowpokegalar: {		
-		learnset: {	
+	},
+	slowpokegalar: {
+		learnset: {
 			tackle: ["7L1"],
 			curse: ["7L1"],
 			growl: ["7L3"],
@@ -7037,9 +7037,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			block: ["7E"],
 			stomp: ["7E"],
 		},
-	},	
-	slowbro: {		
-		learnset: {	
+	},
+	slowbro: {
+		learnset: {
 			withdraw: ["7L0"],
 			healpulse: ["7L1"],
 			curse: ["7L1"],
@@ -7136,9 +7136,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	slowbrogalar: {		
-		learnset: {	
+	},
+	slowbrogalar: {
+		learnset: {
 			shellsidearm: ["7L0"],
 			withdraw: ["7L1"],
 			tackle: ["7L1"],
@@ -7232,9 +7232,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	magnemite: {		
-		learnset: {	
+	},
+	magnemite: {
+		learnset: {
 			tackle: ["7L1"],
 			supersonic: ["7L1"],
 			thundershock: ["7L5"],
@@ -7294,9 +7294,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bugbuzz: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	magneton: {		
-		learnset: {	
+	},
+	magneton: {
+		learnset: {
 			triattack: ["7L0"],
 			electricterrain: ["7L1"],
 			tackle: ["7L1"],
@@ -7360,9 +7360,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bugbuzz: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	farfetchd: {		
-		learnset: {	
+	},
+	farfetchd: {
+		learnset: {
 			poisonjab: ["7L1"],
 			aquajet: ["7L1"],
 			peck: ["7L1"],
@@ -7445,9 +7445,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			firstimpression: ["7E"],
 			finalgambit: ["7E"],
 		},
-	},	
-	farfetchdgalar: {		
-		learnset: {	
+	},
+	farfetchdgalar: {
+		learnset: {
 			peck: ["7L1"],
 			sandattack: ["7L1"],
 			leer: ["7L5"],
@@ -7505,9 +7505,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			simplebeam: ["7E"],
 			feint: ["7E"],
 		},
-	},	
-	doduo: {		
-		learnset: {	
+	},
+	doduo: {
+		learnset: {
 			peck: ["7L1"],
 			growl: ["7L1"],
 			quickattack: ["7L5"],
@@ -7564,9 +7564,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturalgift: ["7E"],
 			assurance: ["7E"],
 		},
-	},	
-	dodrio: {		
-		learnset: {	
+	},
+	dodrio: {
+		learnset: {
 			triattack: ["7L0"],
 			peck: ["7L1"],
 			growl: ["7L1"],
@@ -7624,9 +7624,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	seel: {		
-		learnset: {	
+	},
+	seel: {
+		learnset: {
 			headbutt: ["7L1"],
 			growl: ["7L3"],
 			watersport: ["7L7"],
@@ -7687,9 +7687,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			belch: ["7E"],
 			entrainment: ["7E"],
 		},
-	},	
-	dewgong: {		
-		learnset: {	
+	},
+	dewgong: {
+		learnset: {
 			sheercold: ["7L0"],
 			signalbeam: ["7L0"],
 			iciclecrash: ["7L1"],
@@ -7745,9 +7745,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	grimer: {		
-		learnset: {	
+	},
+	grimer: {
+		learnset: {
 			pound: ["7L1"],
 			poisongas: ["7L1"],
 			harden: ["7L4"],
@@ -7824,9 +7824,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acidspray: ["7E"],
 			poweruppunch: ["7E"],
 		},
-	},	
-	grimeralola: {		
-		learnset: {	
+	},
+	grimeralola: {
+		learnset: {
 			pound: ["7L1"],
 			poisongas: ["7L1"],
 			harden: ["7L4"],
@@ -7914,9 +7914,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			stockpile: ["7E"],
 			swallow: ["7E"],
 		},
-	},	
-	muk: {		
-		learnset: {	
+	},
+	muk: {
+		learnset: {
 			venomdrench: ["7L0"],
 			pound: ["7L1"],
 			poisongas: ["7L1"],
@@ -7992,9 +7992,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	mukalola: {		
-		learnset: {	
+	},
+	mukalola: {
+		learnset: {
 			venomdrench: ["7L0"],
 			pound: ["7L1"],
 			poisongas: ["7L1"],
@@ -8081,9 +8081,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	shellder: {		
-		learnset: {	
+	},
+	shellder: {
+		learnset: {
 			tackle: ["7L1"],
 			watergun: ["7L1"],
 			withdraw: ["7L4"],
@@ -8144,9 +8144,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			avalanche: ["7E"],
 			twineedle: ["7E"],
 		},
-	},	
-	cloyster: {		
-		learnset: {	
+	},
+	cloyster: {
+		learnset: {
 			iciclespear: ["7L0"],
 			iciclecrash: ["7L1"],
 			toxicspikes: ["7L1"],
@@ -8210,9 +8210,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	gastly: {		
-		learnset: {	
+	},
+	gastly: {
+		learnset: {
 			confuseray: ["7L1"],
 			lick: ["7L1"],
 			hypnosis: ["7L4"],
@@ -8285,9 +8285,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			smog: ["7E"],
 			reflecttype: ["7E"],
 		},
-	},	
-	haunter: {		
-		learnset: {	
+	},
+	haunter: {
+		learnset: {
 			shadowpunch: ["7L0"],
 			confuseray: ["7L1"],
 			hypnosis: ["7L1"],
@@ -8354,9 +8354,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	gengar: {		
-		learnset: {	
+	},
+	gengar: {
+		learnset: {
 			perishsong: ["7L1"],
 			reflecttype: ["7L1"],
 			shadowpunch: ["7L1"],
@@ -8442,9 +8442,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	onix: {		
-		learnset: {	
+	},
+	onix: {
+		learnset: {
 			bind: ["7L1"],
 			harden: ["7L1"],
 			mudsport: ["7L1"],
@@ -8513,9 +8513,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rototiller: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	drowzee: {		
-		learnset: {	
+	},
+	drowzee: {
+		learnset: {
 			pound: ["7L1"],
 			hypnosis: ["7L1"],
 			disable: ["7L5"],
@@ -8599,9 +8599,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			guardswap: ["7E"],
 			powersplit: ["7E"],
 		},
-	},	
-	hypno: {		
-		learnset: {	
+	},
+	hypno: {
+		learnset: {
 			nastyplot: ["7L0"],
 			futuresight: ["7L1"],
 			nightmare: ["7L1"],
@@ -8686,9 +8686,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	krabby: {		
-		learnset: {	
+	},
+	krabby: {
+		learnset: {
 			bubble: ["7L1"],
 			leer: ["7L1"],
 			mudsport: ["7L1"],
@@ -8760,9 +8760,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			allyswitch: ["7E"],
 			icehammer: ["7E"],
 		},
-	},	
-	kingler: {		
-		learnset: {	
+	},
+	kingler: {
+		learnset: {
 			crabhammer: ["7L0"],
 			hammerarm: ["7L1"],
 			bubble: ["7L1"],
@@ -8834,9 +8834,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	voltorb: {		
-		learnset: {	
+	},
+	voltorb: {
+		learnset: {
 			charge: ["7L1"],
 			tackle: ["7L1"],
 			sonicboom: ["7L4"],
@@ -8891,9 +8891,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			electricterrain: ["7T"],
 			foulplay: ["7T"],
 		},
-	},	
-	electrode: {		
-		learnset: {	
+	},
+	electrode: {
+		learnset: {
 			magneticflux: ["7L0"],
 			charge: ["7L1"],
 			tackle: ["7L1"],
@@ -8953,9 +8953,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			electricterrain: ["7T"],
 			foulplay: ["7T"],
 		},
-	},	
-	exeggcute: {		
-		learnset: {	
+	},
+	exeggcute: {
+		learnset: {
 			barrage: ["7L1"],
 			uproar: ["7L1"],
 			hypnosis: ["7L1"],
@@ -9022,9 +9022,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerswap: ["7E"],
 			block: ["7E"],
 		},
-	},	
-	exeggutor: {		
-		learnset: {	
+	},
+	exeggutor: {
+		learnset: {
 			stomp: ["7L0"],
 			seedbomb: ["7L1"],
 			reflect: ["7L1"],
@@ -9095,9 +9095,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	exeggutoralola: {		
-		learnset: {	
+	},
+	exeggutoralola: {
+		learnset: {
 			dragonbreath: ["7L0"],
 			seedbomb: ["7L1"],
 			reflect: ["7L1"],
@@ -9176,9 +9176,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			selfdestruct: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	cubone: {		
-		learnset: {	
+	},
+	cubone: {
+		learnset: {
 			mudslap: ["7L1"],
 			growl: ["7L1"],
 			tailwhip: ["7L4"],
@@ -9258,9 +9258,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			detect: ["7E"],
 			chipaway: ["7E"],
 		},
-	},	
-	marowak: {		
-		learnset: {	
+	},
+	marowak: {
+		learnset: {
 			shadowsneak: ["7L0"],
 			mudslap: ["7L1"],
 			growl: ["7L1"],
@@ -9343,9 +9343,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	marowakalola: {		
-		learnset: {	
+	},
+	marowakalola: {
+		learnset: {
 			shadowbone: ["7L0"],
 			shadowsneak: ["7L1"],
 			screech: ["7L1"],
@@ -9440,9 +9440,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	hitmonlee: {		
-		learnset: {	
+	},
+	hitmonlee: {
+		learnset: {
 			brickbreak: ["7L0"],
 			fakeout: ["7L1"],
 			feint: ["7L1"],
@@ -9513,9 +9513,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	hitmonchan: {		
-		learnset: {	
+	},
+	hitmonchan: {
+		learnset: {
 			drainpunch: ["7L0"],
 			bulletpunch: ["7L1"],
 			cometpunch: ["7L1"],
@@ -9586,9 +9586,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	lickitung: {		
-		learnset: {	
+	},
+	lickitung: {
+		learnset: {
 			lick: ["7L1"],
 			supersonic: ["7L5"],
 			defensecurl: ["7L9"],
@@ -9677,9 +9677,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			belch: ["7E"],
 			thrash: ["7E"],
 		},
-	},	
-	koffing: {		
-		learnset: {	
+	},
+	koffing: {
+		learnset: {
 			poisongas: ["7L1"],
 			tackle: ["7L1"],
 			smog: ["7L4"],
@@ -9742,9 +9742,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			spitup: ["7E"],
 			venomdrench: ["7E"],
 		},
-	},	
-	weezing: {		
-		learnset: {	
+	},
+	weezing: {
+		learnset: {
 			doublehit: ["7L0"],
 			heatwave: ["7L1"],
 			poisongas: ["7L1"],
@@ -9803,9 +9803,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			uproar: ["7T"],
 			toxicspikes: ["7T"],
 		},
-	},	
-	weezinggalar: {		
-		learnset: {	
+	},
+	weezinggalar: {
+		learnset: {
 			doublehit: ["7L0"],
 			strangesteam: ["7L1"],
 			defog: ["7L1"],
@@ -9872,9 +9872,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	rhyhorn: {		
-		learnset: {	
+	},
+	rhyhorn: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			furyattack: ["7L5"],
@@ -9960,9 +9960,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			metalburst: ["7E"],
 			guardsplit: ["7E"],
 		},
-	},	
-	rhydon: {		
-		learnset: {	
+	},
+	rhydon: {
+		learnset: {
 			hammerarm: ["7L0"],
 			bulldoze: ["7L1"],
 			smackdown: ["7L1"],
@@ -10063,9 +10063,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	chansey: {		
-		learnset: {	
+	},
+	chansey: {
+		learnset: {
 			defensecurl: ["7L1"],
 			pound: ["7L1"],
 			growl: ["7L1"],
@@ -10169,9 +10169,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wish: ["7E"],
 			naturalgift: ["7E"],
 		},
-	},	
-	tangela: {		
-		learnset: {	
+	},
+	tangela: {
+		learnset: {
 			ingrain: ["7L1"],
 			constrict: ["7L1"],
 			sleeppowder: ["7L4"],
@@ -10243,9 +10243,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ragepowder: ["7E"],
 			wakeupslap: ["7E"],
 		},
-	},	
-	kangaskhan: {		
-		learnset: {	
+	},
+	kangaskhan: {
+		learnset: {
 			cometpunch: ["7L1"],
 			leer: ["7L1"],
 			fakeout: ["7L7"],
@@ -10347,9 +10347,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			trumpcard: ["7E"],
 			circlethrow: ["7E"],
 		},
-	},	
-	horsea: {		
-		learnset: {	
+	},
+	horsea: {
+		learnset: {
 			bubble: ["7L1"],
 			smokescreen: ["7L5"],
 			leer: ["7L9"],
@@ -10405,9 +10405,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			muddywater: ["7E"],
 			clearsmog: ["7E"],
 		},
-	},	
-	seadra: {		
-		learnset: {	
+	},
+	seadra: {
+		learnset: {
 			bubble: ["7L1"],
 			smokescreen: ["7L1"],
 			leer: ["7L1"],
@@ -10456,9 +10456,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	goldeen: {		
-		learnset: {	
+	},
+	goldeen: {
+		learnset: {
 			peck: ["7L1"],
 			tailwhip: ["7L1"],
 			watersport: ["7L1"],
@@ -10515,9 +10515,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bodyslam: ["7E"],
 			skullbash: ["7E"],
 		},
-	},	
-	seaking: {		
-		learnset: {	
+	},
+	seaking: {
+		learnset: {
 			poisonjab: ["7L0"],
 			peck: ["7L1"],
 			tailwhip: ["7L1"],
@@ -10571,9 +10571,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	staryu: {		
-		learnset: {	
+	},
+	staryu: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L1"],
 			watergun: ["7L4"],
@@ -10639,9 +10639,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			teleport: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	starmie: {		
-		learnset: {	
+	},
+	starmie: {
+		learnset: {
 			spotlight: ["7L0"],
 			tackle: ["7L1"],
 			harden: ["7L1"],
@@ -10718,9 +10718,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			trick: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	mrmime: {		
-		learnset: {	
+	},
+	mrmime: {
+		learnset: {
 			barrier: ["7L0"],
 			batonpass: ["7L1"],
 			guardswap: ["7L1"],
@@ -10826,9 +10826,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powersplit: ["7E"],
 			magicroom: ["7E"],
 		},
-	},	
-	mrmimegalar: {		
-		learnset: {	
+	},
+	mrmimegalar: {
+		learnset: {
 			copycat: ["7L1"],
 			encore: ["7L1"],
 			roleplay: ["7L1"],
@@ -10924,9 +10924,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powersplit: ["7E"],
 			tickle: ["7E"],
 		},
-	},	
-	scyther: {		
-		learnset: {	
+	},
+	scyther: {
+		learnset: {
 			vacuumwave: ["7L1"],
 			quickattack: ["7L1"],
 			leer: ["7L1"],
@@ -10991,9 +10991,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			silverwind: ["7E"],
 			quickguard: ["7E"],
 		},
-	},	
-	jynx: {		
-		learnset: {	
+	},
+	jynx: {
+		learnset: {
 			lovelykiss: ["7L0"],
 			drainingkiss: ["7L0"],
 			perishsong: ["7L1"],
@@ -11081,9 +11081,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	electabuzz: {		
-		learnset: {	
+	},
+	electabuzz: {
+		learnset: {
 			quickattack: ["7L1"],
 			leer: ["7L1"],
 			thundershock: ["7L1"],
@@ -11154,9 +11154,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	magmar: {		
-		learnset: {	
+	},
+	magmar: {
+		learnset: {
 			smog: ["7L1"],
 			leer: ["7L1"],
 			ember: ["7L1"],
@@ -11221,9 +11221,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	pinsir: {		
-		learnset: {	
+	},
+	pinsir: {
+		learnset: {
 			visegrip: ["7L1"],
 			focusenergy: ["7L1"],
 			bind: ["7L4"],
@@ -11296,9 +11296,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feint: ["7E"],
 			mefirst: ["7E"],
 		},
-	},	
-	tauros: {		
-		learnset: {	
+	},
+	tauros: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L3"],
 			rage: ["7L5"],
@@ -11366,9 +11366,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	magikarp: {		
-		learnset: {	
+	},
+	magikarp: {
+		learnset: {
 			splash: ["7L1"],
 			tackle: ["7L15"],
 			flail: ["7L30"],
@@ -11377,9 +11377,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bounce: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	gyarados: {		
-		learnset: {	
+	},
+	gyarados: {
+		learnset: {
 			bite: ["7L0"],
 			thrash: ["7L1"],
 			flail: ["7L1"],
@@ -11455,9 +11455,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	lapras: {		
-		learnset: {	
+	},
+	lapras: {
+		learnset: {
 			sing: ["7L1"],
 			growl: ["7L1"],
 			watergun: ["7L1"],
@@ -11536,16 +11536,16 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			fissure: ["7E"],
 			futuresight: ["7E"],
 		},
-	},	
-	ditto: {		
-		learnset: {	
+	},
+	ditto: {
+		learnset: {
 			transform: ["7L1"],
 			mimic: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	eevee: {		
-		learnset: {	
+	},
+	eevee: {
+		learnset: {
 			covet: ["7L1"],
 			growl: ["7L1"],
 			helpinghand: ["7L1"],
@@ -11603,24 +11603,7 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturalgift: ["7E"],
 			synchronoise: ["7E"],
 			captivate: ["7E"],
-		},
-	},	
-	vaporeon: {		
-		learnset: {	
 			watergun: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
-			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
-			growl: ["7L1"],
-			tackle: ["7L1"],
-			tailwhip: ["7L1"],
-			sandattack: ["7L5"],
-			quickattack: ["7L10"],
-			babydolleyes: ["7L15"],
 			haze: ["7L20"],
 			bubblebeam: ["7L25"],
 			aurorabeam: ["7L30"],
@@ -11629,73 +11612,24 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acidarmor: ["7L45"],
 			mist: ["7L48"],
 			hydropump: ["7L50"],
-			lastresort: ["7L55"],
 			waterpulse: ["7M"],
 			roar: ["7M"],
-			toxic: ["7M"],
 			hail: ["7M"],
-			hiddenpower: ["7M"],
-			sunnyday: ["7M"],
 			icebeam: ["7M"],
 			blizzard: ["7M"],
 			hyperbeam: ["7M"],
-			protect: ["7M"],
-			raindance: ["7M"],
-			frustration: ["7M"],
-			irontail: ["7M"],
-			return: ["7M"],
-			dig: ["7M"],
-			shadowball: ["7M"],
-			doubleteam: ["7M"],
-			reflect: ["7M"],
-			facade: ["7M"],
-			secretpower: ["7M"],
-			rest: ["7M"],
-			attract: ["7M"],
-			sleeptalk: ["7M"],
 			scald: ["7M"],
-			endure: ["7M"],
 			gigaimpact: ["7M"],
-			substitute: ["7M"],
-			curse: ["7M"],
 			surf: ["7M"],
 			strength: ["7M"],
 			rocksmash: ["7M"],
 			waterfall: ["7M"],
 			dive: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
-			mimic: ["7T"],
-			mudslap: ["7T"],
-			swagger: ["7T"],
 			brine: ["7T"],
 			icywind: ["7T"],
 			signalbeam: ["7T"],
-			bodyslam: ["7T"],
-			weatherball: ["7T"],
 			aquatail: ["7T"],
-			healbell: ["7T"],
-			hypervoice: ["7T"],
-			storedpower: ["7T"],
-			doubleedge: ["7T"],
-		},
-	},	
-	jolteon: {		
-		learnset: {	
 			thundershock: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
-			growl: ["7L1"],
-			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
-			tackle: ["7L1"],
-			tailwhip: ["7L1"],
-			sandattack: ["7L5"],
-			quickattack: ["7L10"],
-			babydolleyes: ["7L15"],
 			thunderwave: ["7L20"],
 			doublekick: ["7L25"],
 			thunderfang: ["7L30"],
@@ -11703,83 +11637,129 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			discharge: ["7L40"],
 			agility: ["7L45"],
 			thunder: ["7L50"],
-			lastresort: ["7L55"],
-			roar: ["7M"],
-			toxic: ["7M"],
-			hiddenpower: ["7M"],
-			sunnyday: ["7M"],
-			hyperbeam: ["7M"],
 			lightscreen: ["7M"],
-			protect: ["7M"],
-			raindance: ["7M"],
-			frustration: ["7M"],
-			irontail: ["7M"],
 			thunderbolt: ["7M"],
-			return: ["7M"],
-			dig: ["7M"],
-			shadowball: ["7M"],
-			doubleteam: ["7M"],
-			reflect: ["7M"],
-			facade: ["7M"],
-			secretpower: ["7M"],
-			rest: ["7M"],
-			attract: ["7M"],
-			sleeptalk: ["7M"],
 			chargebeam: ["7M"],
-			endure: ["7M"],
-			gigaimpact: ["7M"],
 			voltswitch: ["7M"],
-			substitute: ["7M"],
 			wildcharge: ["7M"],
-			curse: ["7M"],
-			strength: ["7M"],
 			flash: ["7M"],
-			rocksmash: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
-			mimic: ["7T"],
-			mudslap: ["7T"],
 			shockwave: ["7T"],
-			swagger: ["7T"],
-			aurorabeam: ["7T"],
-			signalbeam: ["7T"],
-			bodyslam: ["7T"],
-			weatherball: ["7T"],
-			healbell: ["7T"],
-			hypervoice: ["7T"],
-			storedpower: ["7T"],
-			doubleedge: ["7T"],
-		},
-	},	
-	flareon: {		
-		learnset: {	
 			flamecharge: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
-			growl: ["7L1"],
-			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
-			tackle: ["7L1"],
-			tailwhip: ["7L1"],
-			sandattack: ["7L5"],
-			quickattack: ["7L10"],
-			babydolleyes: ["7L15"],
 			smog: ["7L20"],
-			doublekick: ["7L25"],
 			firefang: ["7L30"],
 			firespin: ["7L35"],
 			lavaplume: ["7L40"],
 			scaryface: ["7L45"],
 			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
+		},
+	},
+	vaporeon: {
+		learnset: {
+			covet: ["7L1"],
+			growl: ["7L1"],
+			helpinghand: ["7L1"],
+			tackle: ["7L1"],
+			tailwhip: ["7L1"],
+			sandattack: ["7L5"],
+			quickattack: ["7L10"],
+			babydolleyes: ["7L15"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
 			lastresort: ["7L55"],
-			roar: ["7M"],
+			extremespeed: ["7L60"],
 			toxic: ["7M"],
 			hiddenpower: ["7M"],
 			sunnyday: ["7M"],
-			hyperbeam: ["7M"],
 			protect: ["7M"],
 			raindance: ["7M"],
 			frustration: ["7M"],
@@ -11789,40 +11769,547 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			shadowball: ["7M"],
 			doubleteam: ["7M"],
 			reflect: ["7M"],
-			flamethrower: ["7M"],
-			fireblast: ["7M"],
 			facade: ["7M"],
 			secretpower: ["7M"],
 			rest: ["7M"],
 			attract: ["7M"],
 			sleeptalk: ["7M"],
-			overheat: ["7M"],
 			endure: ["7M"],
-			willowisp: ["7M"],
-			gigaimpact: ["7M"],
 			substitute: ["7M"],
 			curse: ["7M"],
-			strength: ["7M"],
-			rocksmash: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
 			mimic: ["7T"],
 			mudslap: ["7T"],
 			swagger: ["7T"],
-			blazekick: ["7T"],
 			bodyslam: ["7T"],
 			weatherball: ["7T"],
 			healbell: ["7T"],
 			hypervoice: ["7T"],
-			mysticalfire: ["7T"],
 			storedpower: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
 			superpower: ["7T"],
 			heatwave: ["7T"],
-			doubleedge: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
 		},
-	},	
-	porygon: {		
-		learnset: {	
+	},
+	jolteon: {
+		learnset: {
+			covet: ["7L1"],
+			growl: ["7L1"],
+			helpinghand: ["7L1"],
+			tackle: ["7L1"],
+			tailwhip: ["7L1"],
+			sandattack: ["7L5"],
+			quickattack: ["7L10"],
+			babydolleyes: ["7L15"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
+			lastresort: ["7L55"],
+			extremespeed: ["7L60"],
+			toxic: ["7M"],
+			hiddenpower: ["7M"],
+			sunnyday: ["7M"],
+			protect: ["7M"],
+			raindance: ["7M"],
+			frustration: ["7M"],
+			irontail: ["7M"],
+			return: ["7M"],
+			dig: ["7M"],
+			shadowball: ["7M"],
+			doubleteam: ["7M"],
+			reflect: ["7M"],
+			facade: ["7M"],
+			secretpower: ["7M"],
+			rest: ["7M"],
+			attract: ["7M"],
+			sleeptalk: ["7M"],
+			endure: ["7M"],
+			substitute: ["7M"],
+			curse: ["7M"],
+			mimic: ["7T"],
+			mudslap: ["7T"],
+			swagger: ["7T"],
+			bodyslam: ["7T"],
+			weatherball: ["7T"],
+			healbell: ["7T"],
+			hypervoice: ["7T"],
+			storedpower: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
+		},
+	},
+	flareon: {
+		learnset: {
+			covet: ["7L1"],
+			growl: ["7L1"],
+			helpinghand: ["7L1"],
+			tackle: ["7L1"],
+			tailwhip: ["7L1"],
+			sandattack: ["7L5"],
+			quickattack: ["7L10"],
+			babydolleyes: ["7L15"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
+			lastresort: ["7L55"],
+			extremespeed: ["7L60"],
+			toxic: ["7M"],
+			hiddenpower: ["7M"],
+			sunnyday: ["7M"],
+			protect: ["7M"],
+			raindance: ["7M"],
+			frustration: ["7M"],
+			irontail: ["7M"],
+			return: ["7M"],
+			dig: ["7M"],
+			shadowball: ["7M"],
+			doubleteam: ["7M"],
+			reflect: ["7M"],
+			facade: ["7M"],
+			secretpower: ["7M"],
+			rest: ["7M"],
+			attract: ["7M"],
+			sleeptalk: ["7M"],
+			endure: ["7M"],
+			substitute: ["7M"],
+			curse: ["7M"],
+			mimic: ["7T"],
+			mudslap: ["7T"],
+			swagger: ["7T"],
+			bodyslam: ["7T"],
+			weatherball: ["7T"],
+			healbell: ["7T"],
+			hypervoice: ["7T"],
+			storedpower: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
+		},
+	},
+	porygon: {
+		learnset: {
 			conversion2: ["7L1"],
 			tackle: ["7L1"],
 			conversion: ["7L1"],
@@ -11891,9 +12378,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			foulplay: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	omanyte: {		
-		learnset: {	
+	},
+	omanyte: {
+		learnset: {
 			constrict: ["7L1"],
 			withdraw: ["7L1"],
 			tickle: ["7L1"],
@@ -11962,9 +12449,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			whirlpool: ["7E"],
 			reflecttype: ["7E"],
 		},
-	},	
-	omastar: {		
-		learnset: {	
+	},
+	omastar: {
+		learnset: {
 			crunch: ["7L0"],
 			spikecannon: ["7L1"],
 			constrict: ["7L1"],
@@ -12032,9 +12519,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	kabuto: {		
-		learnset: {	
+	},
+	kabuto: {
+		learnset: {
 			harden: ["7L1"],
 			absorb: ["7L1"],
 			wringout: ["7L1"],
@@ -12105,9 +12592,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			foresight: ["7E"],
 			takedown: ["7E"],
 		},
-	},	
-	kabutops: {		
-		learnset: {	
+	},
+	kabutops: {
+		learnset: {
 			slash: ["7L0"],
 			nightslash: ["7L1"],
 			feint: ["7L1"],
@@ -12188,9 +12675,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	aerodactyl: {		
-		learnset: {	
+	},
+	aerodactyl: {
+		learnset: {
 			bite: ["7L1"],
 			ancientpower: ["7L1"],
 			supersonic: ["7L5"],
@@ -12271,9 +12758,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			assurance: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	snorlax: {		
-		learnset: {	
+	},
+	snorlax: {
+		learnset: {
 			block: ["7L1"],
 			covet: ["7L1"],
 			flail: ["7L1"],
@@ -12377,9 +12864,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturalgift: ["7E"],
 			afteryou: ["7E"],
 		},
-	},	
-	articuno: {		
-		learnset: {	
+	},
+	articuno: {
+		learnset: {
 			gust: ["7L1"],
 			powdersnow: ["7L1"],
 			mist: ["7L8"],
@@ -12442,9 +12929,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bravebird: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	articunogalar: {		
-		learnset: {	
+	},
+	articunogalar: {
+		learnset: {
 			gust: ["7L1"],
 			psychoshift: ["7L1"],
 			confusion: ["7L5"],
@@ -12507,9 +12994,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			storedpower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	zapdos: {		
-		learnset: {	
+	},
+	zapdos: {
+		learnset: {
 			peck: ["7L1"],
 			thundershock: ["7L1"],
 			thunderwave: ["7L8"],
@@ -12575,9 +13062,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	zapdosgalar: {		
-		learnset: {	
+	},
+	zapdosgalar: {
+		learnset: {
 			peck: ["7L1"],
 			focusenergy: ["7L1"],
 			rocksmash: ["7L5"],
@@ -12639,9 +13126,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	moltres: {		
-		learnset: {	
+	},
+	moltres: {
+		learnset: {
 			aerialace: ["7L1"],
 			ember: ["7L1"],
 			firespin: ["7L8"],
@@ -12699,9 +13186,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	moltresgalar: {		
-		learnset: {	
+	},
+	moltresgalar: {
+		learnset: {
 			gust: ["7L1"],
 			leer: ["7L1"],
 			payback: ["7L5"],
@@ -12756,9 +13243,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			foulplay: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	dratini: {		
-		learnset: {	
+	},
+	dratini: {
+		learnset: {
 			wrap: ["7L1"],
 			leer: ["7L1"],
 			thunderwave: ["7L5"],
@@ -12821,9 +13308,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			extremespeed: ["7E"],
 			aquajet: ["7E"],
 		},
-	},	
-	dragonair: {		
-		learnset: {	
+	},
+	dragonair: {
+		learnset: {
 			wrap: ["7L1"],
 			leer: ["7L1"],
 			thunderwave: ["7L1"],
@@ -12881,9 +13368,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerwhip: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	dragonite: {		
-		learnset: {	
+	},
+	dragonite: {
+		learnset: {
 			wingattack: ["7L0"],
 			extremespeed: ["7L1"],
 			firepunch: ["7L1"],
@@ -12983,9 +13470,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerwhip: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	mewtwo: {		
-		learnset: {	
+	},
+	mewtwo: {
+		learnset: {
 			laserfocus: ["7L1"],
 			psywave: ["7L1"],
 			confusion: ["7L1"],
@@ -13102,9 +13589,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	mew: {		
-		learnset: {	
+	},
+	mew: {
+		learnset: {
 			pound: ["7L1"],
 			reflecttype: ["7L1"],
 			transform: ["7L1"],
@@ -13346,9 +13833,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quiverdance: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	chikorita: {		
-		learnset: {	
+	},
+	chikorita: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			vinewhip: ["7L4"],
@@ -13412,9 +13899,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			refresh: ["7E"],
 			healpulse: ["7E"],
 		},
-	},	
-	bayleef: {		
-		learnset: {	
+	},
+	bayleef: {
+		learnset: {
 			ancientpower: ["7L0"],
 			tackle: ["7L1"],
 			growl: ["7L1"],
@@ -13472,9 +13959,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	meganium: {		
-		learnset: {	
+	},
+	meganium: {
+		learnset: {
 			moonblast: ["7L0"],
 			petaldance: ["7L1"],
 			petalblizzard: ["7L1"],
@@ -13549,9 +14036,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	cyndaquil: {		
-		learnset: {	
+	},
+	cyndaquil: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			ember: ["7L5"],
@@ -13612,9 +14099,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturepower: ["7E"],
 			flameburst: ["7E"],
 		},
-	},	
-	quilava: {		
-		learnset: {	
+	},
+	quilava: {
+		learnset: {
 			mudbomb: ["7L0"],
 			tackle: ["7L1"],
 			leer: ["7L1"],
@@ -13675,9 +14162,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	typhlosion: {		
-		learnset: {	
+	},
+	typhlosion: {
+		learnset: {
 			earthpower: ["7L0"],
 			gyroball: ["7L1"],
 			mudbomb: ["7L1"],
@@ -13761,9 +14248,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	totodile: {		
-		learnset: {	
+	},
+	totodile: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			watergun: ["7L4"],
@@ -13843,9 +14330,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			block: ["7E"],
 			flatter: ["7E"],
 		},
-	},	
-	croconaw: {		
-		learnset: {	
+	},
+	croconaw: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			watergun: ["7L4"],
@@ -13921,9 +14408,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	feraligatr: {		
-		learnset: {	
+	},
+	feraligatr: {
+		learnset: {
 			agility: ["7L0"],
 			scratch: ["7L1"],
 			leer: ["7L1"],
@@ -14014,9 +14501,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	sentret: {		
-		learnset: {	
+	},
+	sentret: {
+		learnset: {
 			scratch: ["7L1"],
 			foresight: ["7L1"],
 			defensecurl: ["7L4"],
@@ -14098,9 +14585,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			captivate: ["7E"],
 			babydolleyes: ["7E"],
 		},
-	},	
-	furret: {		
-		learnset: {	
+	},
+	furret: {
+		learnset: {
 			agility: ["7L0"],
 			coil: ["7L1"],
 			scratch: ["7L1"],
@@ -14182,9 +14669,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	hoothoot: {		
-		learnset: {	
+	},
+	hoothoot: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			foresight: ["7L1"],
@@ -14254,9 +14741,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightshade: ["7E"],
 			meanlook: ["7E"],
 		},
-	},	
-	noctowl: {		
-		learnset: {	
+	},
+	noctowl: {
+		learnset: {
 			dreameater: ["7L0"],
 			skyattack: ["7L1"],
 			tackle: ["7L1"],
@@ -14322,9 +14809,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	ledyba: {		
-		learnset: {	
+	},
+	ledyba: {
+		learnset: {
 			tackle: ["7L1"],
 			supersonic: ["7L5"],
 			swift: ["7L8"],
@@ -14390,9 +14877,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			screech: ["7E"],
 			dizzypunch: ["7E"],
 		},
-	},	
-	ledian: {		
-		learnset: {	
+	},
+	ledian: {
+		learnset: {
 			firepunch: ["7L1"],
 			thunderpunch: ["7L1"],
 			icepunch: ["7L1"],
@@ -14464,9 +14951,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	spinarak: {		
-		learnset: {	
+	},
+	spinarak: {
+		learnset: {
 			poisonsting: ["7L1"],
 			stringshot: ["7L1"],
 			constrict: ["7L1"],
@@ -14539,9 +15026,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightslash: ["7E"],
 			lunge: ["7E"],
 		},
-	},	
-	ariados: {		
-		learnset: {	
+	},
+	ariados: {
+		learnset: {
 			swordsdance: ["7L0"],
 			focusenergy: ["7L1"],
 			fellstinger: ["7L1"],
@@ -14614,9 +15101,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	crobat: {		
-		learnset: {	
+	},
+	crobat: {
+		learnset: {
 			crosspoison: ["7L0"],
 			screech: ["7L1"],
 			absorb: ["7L1"],
@@ -14687,9 +15174,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	chinchou: {		
-		learnset: {	
+	},
+	chinchou: {
+		learnset: {
 			bubble: ["7L1"],
 			supersonic: ["7L1"],
 			thunderwave: ["7L6"],
@@ -14753,9 +15240,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mist: ["7E"],
 			soak: ["7E"],
 		},
-	},	
-	lanturn: {		
-		learnset: {	
+	},
+	lanturn: {
+		learnset: {
 			stockpile: ["7L0"],
 			swallow: ["7L0"],
 			spitup: ["7L0"],
@@ -14822,9 +15309,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			healbell: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	pichu: {		
-		learnset: {	
+	},
+	pichu: {
+		learnset: {
 			tailwhip: ["7L1"],
 			thundershock: ["7L1"],
 			playnice: ["7L4"],
@@ -14891,9 +15378,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bestow: ["7E"],
 			disarmingvoice: ["7E"],
 		},
-	},	
-	cleffa: {		
-		learnset: {	
+	},
+	cleffa: {
+		learnset: {
 			copycat: ["7L1"],
 			pound: ["7L1"],
 			splash: ["7L1"],
@@ -14975,9 +15462,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			tickle: ["7E"],
 			healpulse: ["7E"],
 		},
-	},	
-	igglybuff: {		
-		learnset: {	
+	},
+	igglybuff: {
+		learnset: {
 			sing: ["7L1"],
 			charm: ["7L1"],
 			defensecurl: ["7L3"],
@@ -15056,9 +15543,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			punishment: ["7E"],
 			healpulse: ["7E"],
 		},
-	},	
-	togepi: {		
-		learnset: {	
+	},
+	togepi: {
+		learnset: {
 			growl: ["7L1"],
 			charm: ["7L1"],
 			metronome: ["7L5"],
@@ -15141,9 +15628,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			extrasensory: ["7E"],
 			morningsun: ["7E"],
 		},
-	},	
-	togetic: {		
-		learnset: {	
+	},
+	togetic: {
+		learnset: {
 			drainingkiss: ["7L0"],
 			magicalleaf: ["7L1"],
 			growl: ["7L1"],
@@ -15232,9 +15719,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	natu: {		
-		learnset: {	
+	},
+	natu: {
+		learnset: {
 			peck: ["7L1"],
 			leer: ["7L1"],
 			nightshade: ["7L6"],
@@ -15314,9 +15801,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			simplebeam: ["7E"],
 			allyswitch: ["7E"],
 		},
-	},	
-	xatu: {		
-		learnset: {	
+	},
+	xatu: {
+		learnset: {
 			airslash: ["7L0"],
 			tailwind: ["7L1"],
 			peck: ["7L1"],
@@ -15392,9 +15879,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heatwave: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	mareep: {		
-		learnset: {	
+	},
+	mareep: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			thunderwave: ["7L4"],
@@ -15452,9 +15939,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			afteryou: ["7E"],
 			eerieimpulse: ["7E"],
 		},
-	},	
-	flaaffy: {		
-		learnset: {	
+	},
+	flaaffy: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			thunderwave: ["7L1"],
@@ -15516,9 +16003,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			electricterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	ampharos: {		
-		learnset: {	
+	},
+	ampharos: {
+		learnset: {
 			dragonbreath: ["7L0"],
 			zapcannon: ["7L1"],
 			magneticflux: ["7L1"],
@@ -15594,9 +16081,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	bellossom: {		
-		learnset: {	
+	},
+	bellossom: {
+		learnset: {
 			petalblizzard: ["7L0"],
 			fierydance: ["7L1"],
 			quiverdance: ["7L1"],
@@ -15660,9 +16147,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	marill: {		
-		learnset: {	
+	},
+	marill: {
+		learnset: {
 			tackle: ["7L1"],
 			watergun: ["7L1"],
 			tailwhip: ["7L2"],
@@ -15737,9 +16224,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			muddywater: ["7E"],
 			camouflage: ["7E"],
 		},
-	},	
-	azumarill: {		
-		learnset: {	
+	},
+	azumarill: {
+		learnset: {
 			tackle: ["7L1"],
 			watergun: ["7L1"],
 			tailwhip: ["7L1"],
@@ -15810,9 +16297,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	sudowoodo: {		
-		learnset: {	
+	},
+	sudowoodo: {
+		learnset: {
 			slam: ["7L0"],
 			woodhammer: ["7L1"],
 			copycat: ["7L1"],
@@ -15889,9 +16376,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			harden: ["7E"],
 			sandtomb: ["7E"],
 		},
-	},	
-	politoed: {		
-		learnset: {	
+	},
+	politoed: {
+		learnset: {
 			watersport: ["7L1"],
 			bubble: ["7L1"],
 			mudbomb: ["7L1"],
@@ -15963,9 +16450,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	hoppip: {		
-		learnset: {	
+	},
+	hoppip: {
+		learnset: {
 			splash: ["7L1"],
 			absorb: ["7L1"],
 			synthesis: ["7L1"],
@@ -16029,9 +16516,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			cottonguard: ["7E"],
 			strengthsap: ["7E"],
 		},
-	},	
-	skiploom: {		
-		learnset: {	
+	},
+	skiploom: {
+		learnset: {
 			seedbomb: ["7L0"],
 			splash: ["7L1"],
 			absorb: ["7L1"],
@@ -16090,9 +16577,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	jumpluff: {		
-		learnset: {	
+	},
+	jumpluff: {
+		learnset: {
 			swordsdance: ["7L0"],
 			strengthsap: ["7L1"],
 			seedbomb: ["7L1"],
@@ -16155,9 +16642,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	aipom: {		
-		learnset: {	
+	},
+	aipom: {
+		learnset: {
 			scratch: ["7L1"],
 			tailwhip: ["7L1"],
 			sandattack: ["7L4"],
@@ -16250,9 +16737,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quickguard: ["7E"],
 			tailslap: ["7E"],
 		},
-	},	
-	sunkern: {		
-		learnset: {	
+	},
+	sunkern: {
+		learnset: {
 			absorb: ["7L1"],
 			growth: ["7L1"],
 			ingrain: ["7L4"],
@@ -16306,9 +16793,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bide: ["7E"],
 			morningsun: ["7E"],
 		},
-	},	
-	sunflora: {		
-		learnset: {	
+	},
+	sunflora: {
+		learnset: {
 			flowershield: ["7L0"],
 			mysticalfire: ["7L0"],
 			absorb: ["7L1"],
@@ -16371,9 +16858,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			grassyterrain: ["7T"],
 			solarblade: ["7T"],
 		},
-	},	
-	yanma: {		
-		learnset: {	
+	},
+	yanma: {
+		learnset: {
 			tackle: ["7L1"],
 			foresight: ["7L1"],
 			quickattack: ["7L4"],
@@ -16434,9 +16921,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feint: ["7E"],
 			feintattack: ["7E"],
 		},
-	},	
-	wooper: {		
-		learnset: {	
+	},
+	wooper: {
+		learnset: {
 			tailwhip: ["7L1"],
 			watergun: ["7L1"],
 			raindance: ["7L4"],
@@ -16510,9 +16997,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			eerieimpulse: ["7E"],
 			poweruppunch: ["7E"],
 		},
-	},	
-	quagsire: {		
-		learnset: {	
+	},
+	quagsire: {
+		learnset: {
 			recover: ["7L0"],
 			mudshot: ["7L1"],
 			raindance: ["7L1"],
@@ -16591,36 +17078,32 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	espeon: {		
-		learnset: {	
-			confusion: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
+	},
+	espeon: {
+		learnset: {
+			covet: ["7L1"],
 			growl: ["7L1"],
 			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			sandattack: ["7L5"],
 			quickattack: ["7L10"],
 			babydolleyes: ["7L15"],
-			psybeam: ["7L25"],
-			morningsun: ["7L30"],
-			powerswap: ["7L35"],
-			psychic: ["7L40"],
-			psychup: ["7L45"],
-			futuresight: ["7L50"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
 			lastresort: ["7L55"],
-			calmmind: ["7M"],
+			extremespeed: ["7L60"],
 			toxic: ["7M"],
 			hiddenpower: ["7M"],
 			sunnyday: ["7M"],
-			hyperbeam: ["7M"],
-			lightscreen: ["7M"],
 			protect: ["7M"],
 			raindance: ["7M"],
 			frustration: ["7M"],
@@ -16634,55 +17117,135 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			secretpower: ["7M"],
 			rest: ["7M"],
 			attract: ["7M"],
-			skillswap: ["7M"],
 			sleeptalk: ["7M"],
-			psyshock: ["7M"],
 			endure: ["7M"],
-			gigaimpact: ["7M"],
-			dreameater: ["7M"],
-			grassknot: ["7M"],
 			substitute: ["7M"],
-			trickroom: ["7M"],
-			dazzlinggleam: ["7M"],
 			curse: ["7M"],
-			cut: ["7M"],
-			flash: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
 			mimic: ["7T"],
 			mudslap: ["7T"],
-			magiccoat: ["7T"],
 			swagger: ["7T"],
-			signalbeam: ["7T"],
-			teleport: ["7T"],
 			bodyslam: ["7T"],
 			weatherball: ["7T"],
-			zenheadbutt: ["7T"],
 			healbell: ["7T"],
 			hypervoice: ["7T"],
-			powergem: ["7T"],
 			storedpower: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
 			trick: ["7T"],
 			psychicfangs: ["7T"],
-			doubleedge: ["7T"],
-		},
-	},	
-	umbreon: {		
-		learnset: {	
 			snarl: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
-			growl: ["7L1"],
-			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
-			tackle: ["7L1"],
-			tailwhip: ["7L1"],
-			sandattack: ["7L5"],
-			quickattack: ["7L10"],
-			babydolleyes: ["7L15"],
 			confuseray: ["7L20"],
 			feintattack: ["7L20"],
 			assurance: ["7L25"],
@@ -16691,56 +17254,215 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			foulplay: ["7L40"],
 			screech: ["7L45"],
 			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
+		},
+	},
+	umbreon: {
+		learnset: {
+			covet: ["7L1"],
+			growl: ["7L1"],
+			helpinghand: ["7L1"],
+			tackle: ["7L1"],
+			tailwhip: ["7L1"],
+			sandattack: ["7L5"],
+			quickattack: ["7L10"],
+			babydolleyes: ["7L15"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
 			lastresort: ["7L55"],
+			extremespeed: ["7L60"],
 			toxic: ["7M"],
 			hiddenpower: ["7M"],
 			sunnyday: ["7M"],
-			taunt: ["7M"],
-			hyperbeam: ["7M"],
 			protect: ["7M"],
 			raindance: ["7M"],
 			frustration: ["7M"],
 			irontail: ["7M"],
 			return: ["7M"],
 			dig: ["7M"],
-			psychic: ["7M"],
 			shadowball: ["7M"],
 			doubleteam: ["7M"],
-			torment: ["7M"],
+			reflect: ["7M"],
 			facade: ["7M"],
 			secretpower: ["7M"],
 			rest: ["7M"],
 			attract: ["7M"],
 			sleeptalk: ["7M"],
 			endure: ["7M"],
-			payback: ["7M"],
-			gigaimpact: ["7M"],
-			dreameater: ["7M"],
 			substitute: ["7M"],
-			suckerpunch: ["7M"],
-			darkpulse: ["7M"],
 			curse: ["7M"],
-			cut: ["7M"],
-			flash: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
 			mimic: ["7T"],
 			mudslap: ["7T"],
-			psychup: ["7T"],
-			snatch: ["7T"],
 			swagger: ["7T"],
 			bodyslam: ["7T"],
 			weatherball: ["7T"],
-			crunch: ["7T"],
 			healbell: ["7T"],
 			hypervoice: ["7T"],
 			storedpower: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
 			throatchop: ["7T"],
-			doubleedge: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
 		},
-	},	
-	murkrow: {		
-		learnset: {	
+	},
+	murkrow: {
+		learnset: {
 			peck: ["7L1"],
 			astonish: ["7L1"],
 			pursuit: ["7L4"],
@@ -16814,9 +17536,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flatter: ["7E"],
 			punishment: ["7E"],
 		},
-	},	
-	slowking: {		
-		learnset: {	
+	},
+	slowking: {
+		learnset: {
 			nastyplot: ["7L0"],
 			slackoff: ["7L1"],
 			healpulse: ["7L1"],
@@ -16913,9 +17635,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	slowkinggalar: {		
-		learnset: {	
+	},
+	slowkinggalar: {
+		learnset: {
 			eeriespell: ["7L0"],
 			powergem: ["7L1"],
 			nastyplot: ["7L1"],
@@ -17009,9 +17731,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	misdreavus: {		
-		learnset: {	
+	},
+	misdreavus: {
+		learnset: {
 			growl: ["7L1"],
 			psywave: ["7L1"],
 			spite: ["7L4"],
@@ -17090,15 +17812,15 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wonderroom: ["7E"],
 			mefirst: ["7E"],
 		},
-	},	
-	unown: {		
-		learnset: {	
+	},
+	unown: {
+		learnset: {
 			hiddenpower: ["7L1"],
 			storedpower: ["7T"],
 		},
-	},	
-	wobbuffet: {		
-		learnset: {	
+	},
+	wobbuffet: {
+		learnset: {
 			counter: ["7L0"],
 			destinybond: ["7L0"],
 			mirrorcoat: ["7L0"],
@@ -17110,9 +17832,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mimic: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	girafarig: {		
-		learnset: {	
+	},
+	girafarig: {
+		learnset: {
 			psychicterrain: ["7L1"],
 			icefang: ["7L1"],
 			firefang: ["7L1"],
@@ -17204,9 +17926,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			razorwind: ["7E"],
 			meanlook: ["7E"],
 		},
-	},	
-	pineco: {		
-		learnset: {	
+	},
+	pineco: {
+		learnset: {
 			tackle: ["7L1"],
 			protect: ["7L1"],
 			selfdestruct: ["7L6"],
@@ -17267,9 +17989,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			toxicspikes: ["7E"],
 			powertrick: ["7E"],
 		},
-	},	
-	forretress: {		
-		learnset: {	
+	},
+	forretress: {
+		learnset: {
 			mirrorshot: ["7L0"],
 			autotomize: ["7L0"],
 			stickyweb: ["7L1"],
@@ -17340,9 +18062,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bugbuzz: ["7T"],
 			drillrun: ["7T"],
 		},
-	},	
-	dunsparce: {		
-		learnset: {	
+	},
+	dunsparce: {
+		learnset: {
 			rage: ["7L1"],
 			defensecurl: ["7L1"],
 			rollout: ["7L3"],
@@ -17430,9 +18152,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			trumpcard: ["7E"],
 			snore: ["7E"],
 		},
-	},	
-	gligar: {		
-		learnset: {	
+	},
+	gligar: {
+		learnset: {
 			poisonsting: ["7L1"],
 			sandattack: ["7L4"],
 			harden: ["7L7"],
@@ -17522,9 +18244,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rockclimb: ["7E"],
 			poisontail: ["7E"],
 		},
-	},	
-	steelix: {		
-		learnset: {	
+	},
+	steelix: {
+		learnset: {
 			irontail: ["7L0"],
 			bind: ["7L1"],
 			crunch: ["7L1"],
@@ -17604,9 +18326,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	snubbull: {		
-		learnset: {	
+	},
+	snubbull: {
+		learnset: {
 			icefang: ["7L1"],
 			firefang: ["7L1"],
 			thunderfang: ["7L1"],
@@ -17693,9 +18415,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			smellingsalts: ["7E"],
 			faketears: ["7E"],
 		},
-	},	
-	granbull: {		
-		learnset: {	
+	},
+	granbull: {
+		learnset: {
 			poweruppunch: ["7L0"],
 			icefang: ["7L1"],
 			firefang: ["7L1"],
@@ -17787,9 +18509,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	qwilfish: {		
-		learnset: {	
+	},
+	qwilfish: {
+		learnset: {
 			fellstinger: ["7L1"],
 			watergun: ["7L1"],
 			spikes: ["7L1"],
@@ -17867,9 +18589,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aquajet: ["7E"],
 			acidspray: ["7E"],
 		},
-	},	
-	scizor: {		
-		learnset: {	
+	},
+	scizor: {
+		learnset: {
 			metalclaw: ["7L0"],
 			bulletpunch: ["7L1"],
 			feint: ["7L1"],
@@ -17944,9 +18666,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	shuckle: {		
-		learnset: {	
+	},
+	shuckle: {
+		learnset: {
 			stickyweb: ["7L1"],
 			withdraw: ["7L1"],
 			constrict: ["7L1"],
@@ -18016,9 +18738,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acid: ["7E"],
 			finalgambit: ["7E"],
 		},
-	},	
-	heracross: {		
-		learnset: {	
+	},
+	heracross: {
+		learnset: {
 			armthrust: ["7L1"],
 			bulletseed: ["7L1"],
 			nightslash: ["7L1"],
@@ -18097,9 +18819,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flail: ["7E"],
 			pursuit: ["7E"],
 		},
-	},	
-	sneasel: {		
-		learnset: {	
+	},
+	sneasel: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			taunt: ["7L1"],
@@ -18193,9 +18915,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feint: ["7E"],
 			iciclecrash: ["7E"],
 		},
-	},	
-	teddiursa: {		
-		learnset: {	
+	},
+	teddiursa: {
+		learnset: {
 			fling: ["7L1"],
 			covet: ["7L1"],
 			scratch: ["7L1"],
@@ -18283,9 +19005,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bellydrum: ["7E"],
 			chipaway: ["7E"],
 		},
-	},	
-	ursaring: {		
-		learnset: {	
+	},
+	ursaring: {
+		learnset: {
 			hammerarm: ["7L0"],
 			covet: ["7L1"],
 			scratch: ["7L1"],
@@ -18379,9 +19101,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	slugma: {		
-		learnset: {	
+	},
+	slugma: {
+		learnset: {
 			yawn: ["7L1"],
 			smog: ["7L1"],
 			ember: ["7L6"],
@@ -18443,9 +19165,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			inferno: ["7E"],
 			guardswap: ["7E"],
 		},
-	},	
-	magcargo: {		
-		learnset: {	
+	},
+	magcargo: {
+		learnset: {
 			shellsmash: ["7L0"],
 			earthpower: ["7L1"],
 			yawn: ["7L1"],
@@ -18515,9 +19237,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	swinub: {		
-		learnset: {	
+	},
+	swinub: {
+		learnset: {
 			mudslap: ["7L1"],
 			odorsleuth: ["7L1"],
 			tackle: ["7L1"],
@@ -18578,9 +19300,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			avalanche: ["7E"],
 			iciclecrash: ["7E"],
 		},
-	},	
-	piloswine: {		
-		learnset: {	
+	},
+	piloswine: {
+		learnset: {
 			icefang: ["7L0"],
 			ancientpower: ["7L1"],
 			flail: ["7L1"],
@@ -18648,9 +19370,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			earthpower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	corsola: {		
-		learnset: {	
+	},
+	corsola: {
+		learnset: {
 			harden: ["7L1"],
 			tackle: ["7L1"],
 			bubble: ["7L4"],
@@ -18738,9 +19460,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			headsmash: ["7E"],
 			camouflage: ["7E"],
 		},
-	},	
-	corsolagalar: {		
-		learnset: {	
+	},
+	corsolagalar: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L1"],
 			astonish: ["7L5"],
@@ -18817,9 +19539,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			destinybond: ["7E"],
 			headsmash: ["7E"],
 		},
-	},	
-	remoraid: {		
-		learnset: {	
+	},
+	remoraid: {
+		learnset: {
 			watergun: ["7L1"],
 			lockon: ["7L6"],
 			psybeam: ["7L10"],
@@ -18884,9 +19606,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acidspray: ["7E"],
 			entrainment: ["7E"],
 		},
-	},	
-	octillery: {		
-		learnset: {	
+	},
+	octillery: {
+		learnset: {
 			octazooka: ["7L0"],
 			gunkshot: ["7L1"],
 			rockblast: ["7L1"],
@@ -18953,9 +19675,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bounce: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	delibird: {		
-		learnset: {	
+	},
+	delibird: {
+		learnset: {
 			present: ["7L1"],
 			drillpeck: ["7L25"],
 			extremespeed: ["7L35"],
@@ -19022,9 +19744,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bestow: ["7E"],
 			destinybond: ["7E"],
 		},
-	},	
-	mantine: {		
-		learnset: {	
+	},
+	mantine: {
+		learnset: {
 			bubble: ["7L1"],
 			bulletseed: ["7L1"],
 			psybeam: ["7L1"],
@@ -19103,9 +19825,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			splash: ["7E"],
 			amnesia: ["7E"],
 		},
-	},	
-	skarmory: {		
-		learnset: {	
+	},
+	skarmory: {
+		learnset: {
 			leer: ["7L1"],
 			peck: ["7L1"],
 			sandattack: ["7L6"],
@@ -19177,9 +19899,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			assurance: ["7E"],
 			guardswap: ["7E"],
 		},
-	},	
-	houndour: {		
-		learnset: {	
+	},
+	houndour: {
+		learnset: {
 			leer: ["7L1"],
 			ember: ["7L1"],
 			howl: ["7L1"],
@@ -19254,9 +19976,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feint: ["7E"],
 			destinybond: ["7E"],
 		},
-	},	
-	houndoom: {		
-		learnset: {	
+	},
+	houndoom: {
+		learnset: {
 			darkpulse: ["7L0"],
 			thunderfang: ["7L1"],
 			leer: ["7L1"],
@@ -19328,9 +20050,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	kingdra: {		
-		learnset: {	
+	},
+	kingdra: {
+		learnset: {
 			yawn: ["7L0"],
 			bubble: ["7L1"],
 			smokescreen: ["7L1"],
@@ -19384,9 +20106,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	phanpy: {		
-		learnset: {	
+	},
+	phanpy: {
+		learnset: {
 			odorsleuth: ["7L1"],
 			tackle: ["7L1"],
 			growl: ["7L1"],
@@ -19449,9 +20171,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heavyslam: ["7E"],
 			highhorsepower: ["7E"],
 		},
-	},	
-	donphan: {		
-		learnset: {	
+	},
+	donphan: {
+		learnset: {
 			furyattack: ["7L0"],
 			highhorsepower: ["7L0"],
 			firefang: ["7L1"],
@@ -19522,9 +20244,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	porygon2: {		
-		learnset: {	
+	},
+	porygon2: {
+		learnset: {
 			conversion2: ["7L0"],
 			zapcannon: ["7L1"],
 			magiccoat: ["7L1"],
@@ -19593,9 +20315,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	stantler: {		
-		learnset: {	
+	},
+	stantler: {
+		learnset: {
 			mefirst: ["7L1"],
 			tackle: ["7L1"],
 			leer: ["7L3"],
@@ -19678,17 +20400,17 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mudsport: ["7E"],
 			rage: ["7E"],
 		},
-	},	
-	smeargle: {		
-		learnset: {	
+	},
+	smeargle: {
+		learnset: {
 			sketch: ["7L1"],
 			mimic: ["7T"],
 			swagger: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	tyrogue: {		
-		learnset: {	
+	},
+	tyrogue: {
+		learnset: {
 			tackle: ["7L1"],
 			helpinghand: ["7L1"],
 			fakeout: ["7L1"],
@@ -19740,9 +20462,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			pursuit: ["7E"],
 			feint: ["7E"],
 		},
-	},	
-	hitmontop: {		
-		learnset: {	
+	},
+	hitmontop: {
+		learnset: {
 			rollingkick: ["7L0"],
 			topsyturvy: ["7L1"],
 			fakeout: ["7L1"],
@@ -19810,9 +20532,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			superpower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	smoochum: {		
-		learnset: {	
+	},
+	smoochum: {
+		learnset: {
 			pound: ["7L1"],
 			lick: ["7L5"],
 			sweetkiss: ["7L8"],
@@ -19892,9 +20614,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wakeupslap: ["7E"],
 			captivate: ["7E"],
 		},
-	},	
-	elekid: {		
-		learnset: {	
+	},
+	elekid: {
+		learnset: {
 			quickattack: ["7L1"],
 			leer: ["7L1"],
 			thundershock: ["7L5"],
@@ -19961,9 +20683,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feint: ["7E"],
 			hammerarm: ["7E"],
 		},
-	},	
-	magby: {		
-		learnset: {	
+	},
+	magby: {
+		learnset: {
 			smog: ["7L1"],
 			leer: ["7L1"],
 			ember: ["7L5"],
@@ -20030,9 +20752,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerswap: ["7E"],
 			belch: ["7E"],
 		},
-	},	
-	miltank: {		
-		learnset: {	
+	},
+	miltank: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L3"],
 			defensecurl: ["7L5"],
@@ -20116,9 +20838,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heartstamp: ["7E"],
 			belch: ["7E"],
 		},
-	},	
-	blissey: {		
-		learnset: {	
+	},
+	blissey: {
+		learnset: {
 			doubleedge: ["7L1"],
 			defensecurl: ["7L1"],
 			pound: ["7L1"],
@@ -20221,9 +20943,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	raikou: {		
-		learnset: {	
+	},
+	raikou: {
+		learnset: {
 			extremespeed: ["7L1"],
 			bite: ["7L1"],
 			leer: ["7L1"],
@@ -20290,9 +21012,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	entei: {		
-		learnset: {	
+	},
+	entei: {
+		learnset: {
 			extremespeed: ["7L1"],
 			sacredfire: ["7L1"],
 			bite: ["7L1"],
@@ -20360,9 +21082,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	suicune: {		
-		learnset: {	
+	},
+	suicune: {
+		learnset: {
 			extremespeed: ["7L1"],
 			sheercold: ["7L1"],
 			bite: ["7L1"],
@@ -20432,9 +21154,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	larvitar: {		
-		learnset: {	
+	},
+	larvitar: {
+		learnset: {
 			leer: ["7L1"],
 			tackle: ["7L1"],
 			rockthrow: ["7L3"],
@@ -20500,9 +21222,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ancientpower: ["7E"],
 			assurance: ["7E"],
 		},
-	},	
-	pupitar: {		
-		learnset: {	
+	},
+	pupitar: {
+		learnset: {
 			irondefense: ["7L0"],
 			leer: ["7L1"],
 			payback: ["7L1"],
@@ -20564,9 +21286,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	tyranitar: {		
-		learnset: {	
+	},
+	tyranitar: {
+		learnset: {
 			firefang: ["7L1"],
 			icefang: ["7L1"],
 			thunderfang: ["7L1"],
@@ -20669,9 +21391,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	lugia: {		
-		learnset: {	
+	},
+	lugia: {
+		learnset: {
 			whirlwind: ["7L1"],
 			weatherball: ["7L1"],
 			gust: ["7L9"],
@@ -20766,9 +21488,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	hooh: {		
-		learnset: {	
+	},
+	hooh: {
+		learnset: {
 			whirlwind: ["7L1"],
 			weatherball: ["7L1"],
 			gust: ["7L9"],
@@ -20851,9 +21573,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	celebi: {		
-		learnset: {	
+	},
+	celebi: {
+		learnset: {
 			leechseed: ["7L1"],
 			confusion: ["7L1"],
 			recover: ["7L1"],
@@ -20940,9 +21662,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	treecko: {		
-		learnset: {	
+	},
+	treecko: {
+		learnset: {
 			pound: ["7L1"],
 			leer: ["7L1"],
 			absorb: ["7L3"],
@@ -21026,9 +21748,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			razorwind: ["7E"],
 			naturalgift: ["7E"],
 		},
-	},	
-	grovyle: {		
-		learnset: {	
+	},
+	grovyle: {
+		learnset: {
 			furycutter: ["7L0"],
 			dragonbreath: ["7L0"],
 			screech: ["7L1"],
@@ -21108,9 +21830,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	sceptile: {		
-		learnset: {	
+	},
+	sceptile: {
+		learnset: {
 			dualchop: ["7L0"],
 			furycutter: ["7L1"],
 			dragonbreath: ["7L1"],
@@ -21207,9 +21929,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	torchic: {		
-		learnset: {	
+	},
+	torchic: {
+		learnset: {
 			scratch: ["7L1"],
 			growl: ["7L1"],
 			ember: ["7L3"],
@@ -21278,9 +22000,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feint: ["7E"],
 			featherdance: ["7E"],
 		},
-	},	
-	combusken: {		
-		learnset: {	
+	},
+	combusken: {
+		learnset: {
 			doublekick: ["7L0"],
 			agility: ["7L1"],
 			firespin: ["7L1"],
@@ -21360,9 +22082,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	blaziken: {		
-		learnset: {	
+	},
+	blaziken: {
+		learnset: {
 			skyuppercut: ["7L0"],
 			firepunch: ["7L1"],
 			bravebird: ["7L1"],
@@ -21461,9 +22183,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	mudkip: {		
-		learnset: {	
+	},
+	mudkip: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			watergun: ["7L3"],
@@ -21537,9 +22259,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wideguard: ["7E"],
 			barrier: ["7E"],
 		},
-	},	
-	marshtomp: {		
-		learnset: {	
+	},
+	marshtomp: {
+		learnset: {
 			mudshot: ["7L0"],
 			bulldoze: ["7L1"],
 			rocksmash: ["7L1"],
@@ -21612,9 +22334,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	swampert: {		
-		learnset: {	
+	},
+	swampert: {
+		learnset: {
 			dive: ["7L0"],
 			hammerarm: ["7L1"],
 			mudshot: ["7L1"],
@@ -21700,9 +22422,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	poochyena: {		
-		learnset: {	
+	},
+	poochyena: {
+		learnset: {
 			tackle: ["7L1"],
 			howl: ["7L4"],
 			sandattack: ["7L7"],
@@ -21764,9 +22486,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			thunderfang: ["7E"],
 			mefirst: ["7E"],
 		},
-	},	
-	mightyena: {		
-		learnset: {	
+	},
+	mightyena: {
+		learnset: {
 			snarl: ["7L0"],
 			firefang: ["7L1"],
 			thunderfang: ["7L1"],
@@ -21828,9 +22550,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	zigzagoon: {		
-		learnset: {	
+	},
+	zigzagoon: {
+		learnset: {
 			growl: ["7L1"],
 			tackle: ["7L1"],
 			sandattack: ["7L3"],
@@ -21905,9 +22627,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			simplebeam: ["7E"],
 			extremespeed: ["7E"],
 		},
-	},	
-	zigzagoongalar: {		
-		learnset: {	
+	},
+	zigzagoongalar: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			sandattack: ["7L3"],
@@ -21975,9 +22697,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			partingshot: ["7E"],
 			quickguard: ["7E"],
 		},
-	},	
-	linoone: {		
-		learnset: {	
+	},
+	linoone: {
+		learnset: {
 			slash: ["7L0"],
 			extremespeed: ["7L1"],
 			playrough: ["7L1"],
@@ -22056,9 +22778,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			trick: ["7T"],
 			throatchop: ["7T"],
 		},
-	},	
-	linoonegalar: {		
-		learnset: {	
+	},
+	linoonegalar: {
+		learnset: {
 			nightslash: ["7L0"],
 			switcheroo: ["7L1"],
 			pinmissile: ["7L1"],
@@ -22133,26 +22855,26 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	wurmple: {		
-		learnset: {	
+	},
+	wurmple: {
+		learnset: {
 			tackle: ["7L1"],
 			stringshot: ["7L1"],
 			poisonsting: ["7L3"],
 			bugbite: ["7L5"],
 			electroweb: ["7T"],
 		},
-	},	
-	silcoon: {		
-		learnset: {	
+	},
+	silcoon: {
+		learnset: {
 			harden: ["7L0"],
 			bugbite: ["7T"],
 			irondefense: ["7T"],
 			electroweb: ["7T"],
 		},
-	},	
-	beautifly: {		
-		learnset: {	
+	},
+	beautifly: {
+		learnset: {
 			gust: ["7L0"],
 			tackle: ["7L1"],
 			stringshot: ["7L1"],
@@ -22217,17 +22939,17 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	cascoon: {		
-		learnset: {	
+	},
+	cascoon: {
+		learnset: {
 			harden: ["7L0"],
 			bugbite: ["7T"],
 			irondefense: ["7T"],
 			electroweb: ["7T"],
 		},
-	},	
-	dustox: {		
-		learnset: {	
+	},
+	dustox: {
+		learnset: {
 			gust: ["7L0"],
 			tackle: ["7L1"],
 			stringshot: ["7L1"],
@@ -22293,9 +23015,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	lotad: {		
-		learnset: {	
+	},
+	lotad: {
+		learnset: {
 			astonish: ["7L1"],
 			growl: ["7L1"],
 			absorb: ["7L3"],
@@ -22353,9 +23075,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			tickle: ["7E"],
 			teeterdance: ["7E"],
 		},
-	},	
-	lombre: {		
-		learnset: {	
+	},
+	lombre: {
+		learnset: {
 			fakeout: ["7L0"],
 			knockoff: ["7L1"],
 			growl: ["7L1"],
@@ -22425,9 +23147,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	ludicolo: {		
-		learnset: {	
+	},
+	ludicolo: {
+		learnset: {
 			teeterdance: ["7L0"],
 			fakeout: ["7L1"],
 			knockoff: ["7L1"],
@@ -22508,9 +23230,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	seedot: {		
-		learnset: {	
+	},
+	seedot: {
+		learnset: {
 			bide: ["7L1"],
 			harden: ["7L1"],
 			tackle: ["7L1"],
@@ -22569,9 +23291,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerswap: ["7E"],
 			beatup: ["7E"],
 		},
-	},	
-	nuzleaf: {		
-		learnset: {	
+	},
+	nuzleaf: {
+		learnset: {
 			razorleaf: ["7L0"],
 			fakeout: ["7L1"],
 			aircutter: ["7L1"],
@@ -22649,9 +23371,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	shiftry: {		
-		learnset: {	
+	},
+	shiftry: {
+		learnset: {
 			leaftornado: ["7L0"],
 			whirlwind: ["7L1"],
 			nastyplot: ["7L1"],
@@ -22747,9 +23469,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	taillow: {		
-		learnset: {	
+	},
+	taillow: {
+		learnset: {
 			peck: ["7L1"],
 			growl: ["7L1"],
 			focusenergy: ["7L5"],
@@ -22805,9 +23527,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			whirlwind: ["7E"],
 			boomburst: ["7E"],
 		},
-	},	
-	swellow: {		
-		learnset: {	
+	},
+	swellow: {
+		learnset: {
 			extremespeed: ["7L0"],
 			pluck: ["7L1"],
 			peck: ["7L1"],
@@ -22860,9 +23582,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	wingull: {		
-		learnset: {	
+	},
+	wingull: {
+		learnset: {
 			growl: ["7L1"],
 			watergun: ["7L1"],
 			supersonic: ["7L5"],
@@ -22923,9 +23645,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			soak: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	pelipper: {		
-		learnset: {	
+	},
+	pelipper: {
+		learnset: {
 			protect: ["7L0"],
 			tailwind: ["7L1"],
 			soak: ["7L1"],
@@ -22992,9 +23714,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	ralts: {		
-		learnset: {	
+	},
+	ralts: {
+		learnset: {
 			confusion: ["7L1"],
 			growl: ["7L1"],
 			doubleteam: ["7L3"],
@@ -23080,9 +23802,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			synchronoise: ["7E"],
 			allyswitch: ["7E"],
 		},
-	},	
-	kirlia: {		
-		learnset: {	
+	},
+	kirlia: {
+		learnset: {
 			confusion: ["7L1"],
 			disarmingvoice: ["7L1"],
 			doubleteam: ["7L1"],
@@ -23159,9 +23881,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mistyterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	gardevoir: {		
-		learnset: {	
+	},
+	gardevoir: {
+		learnset: {
 			dazzlinggleam: ["7L0"],
 			storedpower: ["7L1"],
 			mistyterrain: ["7L1"],
@@ -23247,9 +23969,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	surskit: {		
-		learnset: {	
+	},
+	surskit: {
+		learnset: {
 			bubble: ["7L1"],
 			quickattack: ["7L6"],
 			sweetscent: ["7L9"],
@@ -23308,9 +24030,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powersplit: ["7E"],
 			lunge: ["7E"],
 		},
-	},	
-	masquerain: {		
-		learnset: {	
+	},
+	masquerain: {
+		learnset: {
 			scaryface: ["7L0"],
 			aircutter: ["7L0"],
 			bubblebeam: ["7L1"],
@@ -23380,9 +24102,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	shroomish: {		
-		learnset: {	
+	},
+	shroomish: {
+		learnset: {
 			absorb: ["7L1"],
 			tackle: ["7L1"],
 			stunspore: ["7L5"],
@@ -23435,9 +24157,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wakeupslap: ["7E"],
 			naturalgift: ["7E"],
 		},
-	},	
-	breloom: {		
-		learnset: {	
+	},
+	breloom: {
+		learnset: {
 			machpunch: ["7L0"],
 			gigadrain: ["7L1"],
 			growth: ["7L1"],
@@ -23511,9 +24233,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	slakoth: {		
-		learnset: {	
+	},
+	slakoth: {
+		learnset: {
 			scratch: ["7L1"],
 			yawn: ["7L1"],
 			encore: ["7L6"],
@@ -23587,9 +24309,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			afteryou: ["7E"],
 			tickle: ["7E"],
 		},
-	},	
-	vigoroth: {		
-		learnset: {	
+	},
+	vigoroth: {
+		learnset: {
 			reversal: ["7L0"],
 			uproar: ["7L1"],
 			scratch: ["7L1"],
@@ -23663,9 +24385,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	slaking: {		
-		learnset: {	
+	},
+	slaking: {
+		learnset: {
 			swagger: ["7L0"],
 			hammerarm: ["7L1"],
 			focuspunch: ["7L1"],
@@ -23750,9 +24472,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	nincada: {		
-		learnset: {	
+	},
+	nincada: {
+		learnset: {
 			scratch: ["7L1"],
 			harden: ["7L1"],
 			absorb: ["7L5"],
@@ -23803,9 +24525,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightslash: ["7E"],
 			finalgambit: ["7E"],
 		},
-	},	
-	ninjask: {		
-		learnset: {	
+	},
+	ninjask: {
+		learnset: {
 			doubleteam: ["7L0"],
 			screech: ["7L0"],
 			furycutter: ["7L0"],
@@ -23870,9 +24592,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	shedinja: {		
-		learnset: {	
+	},
+	shedinja: {
+		learnset: {
 			metalclaw: ["7L1"],
 			dig: ["7L1"],
 			aerialace: ["7L1"],
@@ -23933,9 +24655,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			trick: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	whismur: {		
-		learnset: {	
+	},
+	whismur: {
+		learnset: {
 			pound: ["7L1"],
 			echoedvoice: ["7L4"],
 			astonish: ["7L8"],
@@ -23999,9 +24721,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			disarmingvoice: ["7E"],
 			whirlwind: ["7E"],
 		},
-	},	
-	loudred: {		
-		learnset: {	
+	},
+	loudred: {
+		learnset: {
 			bite: ["7L0"],
 			pound: ["7L1"],
 			echoedvoice: ["7L1"],
@@ -24071,9 +24793,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicfangs: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	exploud: {		
-		learnset: {	
+	},
+	exploud: {
+		learnset: {
 			crunch: ["7L0"],
 			bite: ["7L1"],
 			icefang: ["7L1"],
@@ -24156,9 +24878,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	makuhita: {		
-		learnset: {	
+	},
+	makuhita: {
+		learnset: {
 			tackle: ["7L1"],
 			focusenergy: ["7L1"],
 			sandattack: ["7L4"],
@@ -24234,9 +24956,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wideguard: ["7E"],
 			chipaway: ["7E"],
 		},
-	},	
-	hariyama: {		
-		learnset: {	
+	},
+	hariyama: {
+		learnset: {
 			brine: ["7L0"],
 			tackle: ["7L1"],
 			focusenergy: ["7L1"],
@@ -24313,9 +25035,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	azurill: {		
-		learnset: {	
+	},
+	azurill: {
+		learnset: {
 			splash: ["7L1"],
 			watergun: ["7L1"],
 			tailwhip: ["7L2"],
@@ -24377,9 +25099,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aquajet: ["7E"],
 			camouflage: ["7E"],
 		},
-	},	
-	nosepass: {		
-		learnset: {	
+	},
+	nosepass: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L4"],
 			block: ["7L7"],
@@ -24448,9 +25170,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			headsmash: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	skitty: {		
-		learnset: {	
+	},
+	skitty: {
+		learnset: {
 			fakeout: ["7L1"],
 			growl: ["7L1"],
 			tailwhip: ["7L1"],
@@ -24527,9 +25249,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			simplebeam: ["7E"],
 			cosmicpower: ["7E"],
 		},
-	},	
-	delcatty: {		
-		learnset: {	
+	},
+	delcatty: {
+		learnset: {
 			assist: ["7L0"],
 			foresight: ["7L1"],
 			sing: ["7L1"],
@@ -24605,9 +25327,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hypervoice: ["7T"],
 			batonpass: ["7T"],
 		},
-	},	
-	sableye: {		
-		learnset: {	
+	},
+	sableye: {
+		learnset: {
 			leer: ["7L1"],
 			scratch: ["7L1"],
 			astonish: ["7L3"],
@@ -24704,9 +25426,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			metalburst: ["7E"],
 			imprison: ["7E"],
 		},
-	},	
-	mawile: {		
-		learnset: {	
+	},
+	mawile: {
+		learnset: {
 			taunt: ["7L1"],
 			growl: ["7L1"],
 			fairywind: ["7L1"],
@@ -24804,9 +25526,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			slam: ["7E"],
 			metalburst: ["7E"],
 		},
-	},	
-	aron: {		
-		learnset: {	
+	},
+	aron: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L1"],
 			mudslap: ["7L4"],
@@ -24873,9 +25595,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragonrush: ["7E"],
 			headsmash: ["7E"],
 		},
-	},	
-	lairon: {		
-		learnset: {	
+	},
+	lairon: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L1"],
 			mudslap: ["7L1"],
@@ -24940,9 +25662,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			superpower: ["7T"],
 			earthpower: ["7T"],
 		},
-	},	
-	aggron: {		
-		learnset: {	
+	},
+	aggron: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L1"],
 			mudslap: ["7L1"],
@@ -25047,9 +25769,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	meditite: {		
-		learnset: {	
+	},
+	meditite: {
+		learnset: {
 			bide: ["7L1"],
 			meditate: ["7L4"],
 			confusion: ["7L7"],
@@ -25136,9 +25858,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bulletpunch: ["7E"],
 			quickguard: ["7E"],
 		},
-	},	
-	medicham: {		
-		learnset: {	
+	},
+	medicham: {
+		learnset: {
 			zenheadbutt: ["7L0"],
 			firepunch: ["7L1"],
 			thunderpunch: ["7L1"],
@@ -25222,9 +25944,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	electrike: {		
-		learnset: {	
+	},
+	electrike: {
+		learnset: {
 			tackle: ["7L1"],
 			thunderwave: ["7L1"],
 			leer: ["7L4"],
@@ -25286,9 +26008,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flameburst: ["7E"],
 			eerieimpulse: ["7E"],
 		},
-	},	
-	manectric: {		
-		learnset: {	
+	},
+	manectric: {
+		learnset: {
 			flameburst: ["7L0"],
 			electricterrain: ["7L1"],
 			firefang: ["7L1"],
@@ -25350,9 +26072,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicfangs: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	plusle: {		
-		learnset: {	
+	},
+	plusle: {
+		learnset: {
 			nuzzle: ["7L1"],
 			playnice: ["7L1"],
 			growl: ["7L1"],
@@ -25425,9 +26147,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			faketears: ["7E"],
 			tearfullook: ["7E"],
 		},
-	},	
-	minun: {		
-		learnset: {	
+	},
+	minun: {
+		learnset: {
 			nuzzle: ["7L1"],
 			playnice: ["7L1"],
 			growl: ["7L1"],
@@ -25501,9 +26223,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			charm: ["7E"],
 			tearfullook: ["7E"],
 		},
-	},	
-	volbeat: {		
-		learnset: {	
+	},
+	volbeat: {
+		learnset: {
 			flash: ["7L1"],
 			tackle: ["7L1"],
 			doubleteam: ["7L5"],
@@ -25585,9 +26307,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dizzypunch: ["7E"],
 			lunge: ["7E"],
 		},
-	},	
-	illumise: {		
-		learnset: {	
+	},
+	illumise: {
+		learnset: {
 			playnice: ["7L1"],
 			tackle: ["7L1"],
 			sweetscent: ["7L5"],
@@ -25675,9 +26397,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			confuseray: ["7E"],
 			aromatherapy: ["7E"],
 		},
-	},	
-	roselia: {		
-		learnset: {	
+	},
+	roselia: {
+		learnset: {
 			poisonsting: ["7L0"],
 			watersport: ["7L1"],
 			absorb: ["7L1"],
@@ -25745,9 +26467,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mindreader: ["7E"],
 			naturalgift: ["7E"],
 		},
-	},	
-	gulpin: {		
-		learnset: {	
+	},
+	gulpin: {
+		learnset: {
 			pound: ["7L1"],
 			yawn: ["7L5"],
 			poisongas: ["7L8"],
@@ -25816,9 +26538,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			destinybond: ["7E"],
 			venomdrench: ["7E"],
 		},
-	},	
-	swalot: {		
-		learnset: {	
+	},
+	swalot: {
+		learnset: {
 			bodyslam: ["7L0"],
 			venomdrench: ["7L1"],
 			gunkshot: ["7L1"],
@@ -25888,9 +26610,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	carvanha: {		
-		learnset: {	
+	},
+	carvanha: {
+		learnset: {
 			leer: ["7L1"],
 			bite: ["7L1"],
 			rage: ["7L4"],
@@ -25954,9 +26676,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			destinybond: ["7E"],
 			psychicfangs: ["7E"],
 		},
-	},	
-	sharpedo: {		
-		learnset: {	
+	},
+	sharpedo: {
+		learnset: {
 			slash: ["7L0"],
 			nightslash: ["7L1"],
 			feint: ["7L1"],
@@ -26030,9 +26752,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	wailmer: {		
-		learnset: {	
+	},
+	wailmer: {
+		learnset: {
 			splash: ["7L1"],
 			growl: ["7L4"],
 			watergun: ["7L7"],
@@ -26095,9 +26817,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			soak: ["7E"],
 			clearsmog: ["7E"],
 		},
-	},	
-	wailord: {		
-		learnset: {	
+	},
+	wailord: {
+		learnset: {
 			soak: ["7L1"],
 			nobleroar: ["7L1"],
 			heavyslam: ["7L1"],
@@ -26159,9 +26881,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	numel: {		
-		learnset: {	
+	},
+	numel: {
+		learnset: {
 			growl: ["7L1"],
 			tackle: ["7L1"],
 			ember: ["7L5"],
@@ -26223,9 +26945,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			growth: ["7E"],
 			heavyslam: ["7E"],
 		},
-	},	
-	camerupt: {		
-		learnset: {	
+	},
+	camerupt: {
+		learnset: {
 			rockslide: ["7L0"],
 			growl: ["7L1"],
 			tackle: ["7L1"],
@@ -26291,9 +27013,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	torkoal: {		
-		learnset: {	
+	},
+	torkoal: {
+		learnset: {
 			ember: ["7L1"],
 			smog: ["7L1"],
 			withdraw: ["7L4"],
@@ -26362,9 +27084,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			skullbash: ["7E"],
 			flameburst: ["7E"],
 		},
-	},	
-	spoink: {		
-		learnset: {	
+	},
+	spoink: {
+		learnset: {
 			splash: ["7L1"],
 			psywave: ["7L7"],
 			odorsleuth: ["7L10"],
@@ -26435,9 +27157,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			luckychant: ["7E"],
 			simplebeam: ["7E"],
 		},
-	},	
-	grumpig: {		
-		learnset: {	
+	},
+	grumpig: {
+		learnset: {
 			teeterdance: ["7L0"],
 			belch: ["7L1"],
 			splash: ["7L1"],
@@ -26521,9 +27243,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	spinda: {		
-		learnset: {	
+	},
+	spinda: {
+		learnset: {
 			tackle: ["7L1"],
 			copycat: ["7L5"],
 			feintattack: ["7L10"],
@@ -26617,9 +27339,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			guardsplit: ["7E"],
 			spotlight: ["7E"],
 		},
-	},	
-	trapinch: {		
-		learnset: {	
+	},
+	trapinch: {
+		learnset: {
 			astonish: ["7L1"],
 			bide: ["7L1"],
 			feintattack: ["7L1"],
@@ -26673,9 +27395,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			gust: ["7E"],
 			flail: ["7E"],
 		},
-	},	
-	vibrava: {		
-		learnset: {	
+	},
+	vibrava: {
+		learnset: {
 			dragonbreath: ["7L0"],
 			fissure: ["7L1"],
 			laserfocus: ["7L1"],
@@ -26748,9 +27470,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quiverdance: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	flygon: {		
-		learnset: {	
+	},
+	flygon: {
+		learnset: {
 			dragonclaw: ["7L0"],
 			dragonbreath: ["7L1"],
 			dragondance: ["7L1"],
@@ -26835,9 +27557,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quiverdance: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	cacnea: {		
-		learnset: {	
+	},
+	cacnea: {
+		learnset: {
 			poisonsting: ["7L1"],
 			leer: ["7L1"],
 			absorb: ["7L4"],
@@ -26914,9 +27636,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			belch: ["7E"],
 			rototiller: ["7E"],
 		},
-	},	
-	cacturne: {		
-		learnset: {	
+	},
+	cacturne: {
+		learnset: {
 			spikyshield: ["7L0"],
 			destinybond: ["7L1"],
 			revenge: ["7L1"],
@@ -26995,9 +27717,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	swablu: {		
-		learnset: {	
+	},
+	swablu: {
+		learnset: {
 			peck: ["7L1"],
 			growl: ["7L1"],
 			astonish: ["7L3"],
@@ -27068,9 +27790,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragonrush: ["7E"],
 			powerswap: ["7E"],
 		},
-	},	
-	altaria: {		
-		learnset: {	
+	},
+	altaria: {
+		learnset: {
 			dragonbreath: ["7L0"],
 			dragondance: ["7L1"],
 			skyattack: ["7L1"],
@@ -27150,9 +27872,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	zangoose: {		
-		learnset: {	
+	},
+	zangoose: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			quickattack: ["7L5"],
@@ -27254,9 +27976,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quickguard: ["7E"],
 			bellydrum: ["7E"],
 		},
-	},	
-	seviper: {		
-		learnset: {	
+	},
+	seviper: {
+		learnset: {
 			wrap: ["7L1"],
 			swagger: ["7L1"],
 			bite: ["7L4"],
@@ -27344,9 +28066,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			punishment: ["7E"],
 			finalgambit: ["7E"],
 		},
-	},	
-	lunatone: {		
-		learnset: {	
+	},
+	lunatone: {
+		learnset: {
 			stoneedge: ["7L1"],
 			moonlight: ["7L1"],
 			psyshock: ["7L1"],
@@ -27435,9 +28157,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	solrock: {		
-		learnset: {	
+	},
+	solrock: {
+		learnset: {
 			flareblitz: ["7L1"],
 			morningsun: ["7L1"],
 			tackle: ["7L1"],
@@ -27528,9 +28250,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	barboach: {		
-		learnset: {	
+	},
+	barboach: {
+		learnset: {
 			mudslap: ["7L1"],
 			watergun: ["7L1"],
 			mudsport: ["7L6"],
@@ -27586,9 +28308,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flail: ["7E"],
 			takedown: ["7E"],
 		},
-	},	
-	whiscash: {		
-		learnset: {	
+	},
+	whiscash: {
+		learnset: {
 			thrash: ["7L0"],
 			zenheadbutt: ["7L1"],
 			belch: ["7L1"],
@@ -27652,9 +28374,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	corphish: {		
-		learnset: {	
+	},
+	corphish: {
+		learnset: {
 			bubble: ["7L1"],
 			harden: ["7L1"],
 			leer: ["7L4"],
@@ -27726,9 +28448,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aquajet: ["7E"],
 			switcheroo: ["7E"],
 		},
-	},	
-	crawdaunt: {		
-		learnset: {	
+	},
+	crawdaunt: {
+		learnset: {
 			swift: ["7L0"],
 			bubble: ["7L1"],
 			harden: ["7L1"],
@@ -27805,9 +28527,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	baltoy: {		
-		learnset: {	
+	},
+	baltoy: {
+		learnset: {
 			harden: ["7L1"],
 			mudslap: ["7L1"],
 			rapidspin: ["7L3"],
@@ -27881,9 +28603,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	claydol: {		
-		learnset: {	
+	},
+	claydol: {
+		learnset: {
 			hyperbeam: ["7L0"],
 			confusion: ["7L1"],
 			harden: ["7L1"],
@@ -27964,9 +28686,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	lileep: {		
-		learnset: {	
+	},
+	lileep: {
+		learnset: {
 			astonish: ["7L1"],
 			constrict: ["7L1"],
 			acid: ["7L5"],
@@ -28030,9 +28752,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acidspray: ["7E"],
 			megadrain: ["7E"],
 		},
-	},	
-	cradily: {		
-		learnset: {	
+	},
+	cradily: {
+		learnset: {
 			acidspray: ["7L0"],
 			powergem: ["7L1"],
 			astonish: ["7L1"],
@@ -28102,9 +28824,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	anorith: {		
-		learnset: {	
+	},
+	anorith: {
+		learnset: {
 			scratch: ["7L1"],
 			harden: ["7L1"],
 			mudsport: ["7L4"],
@@ -28168,9 +28890,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			sandattack: ["7E"],
 			aquajet: ["7E"],
 		},
-	},	
-	armaldo: {		
-		learnset: {	
+	},
+	armaldo: {
+		learnset: {
 			crushclaw: ["7L0"],
 			scratch: ["7L1"],
 			harden: ["7L1"],
@@ -28247,9 +28969,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	feebas: {		
-		learnset: {	
+	},
+	feebas: {
+		learnset: {
 			splash: ["7L1"],
 			tackle: ["7L15"],
 			flail: ["7L30"],
@@ -28296,9 +29018,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			brine: ["7E"],
 			captivate: ["7E"],
 		},
-	},	
-	milotic: {		
-		learnset: {	
+	},
+	milotic: {
+		learnset: {
 			bubblebeam: ["7L0"],
 			wrap: ["7L1"],
 			watergun: ["7L1"],
@@ -28364,9 +29086,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			dragondance: ["7T"],
 		},
-	},	
-	castform: {		
-		learnset: {	
+	},
+	castform: {
+		learnset: {
 			tackle: ["7L1"],
 			watergun: ["7L10"],
 			ember: ["7L10"],
@@ -28431,9 +29153,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			guardswap: ["7E"],
 			cosmicpower: ["7E"],
 		},
-	},	
-	kecleon: {		
-		learnset: {	
+	},
+	kecleon: {
+		learnset: {
 			thief: ["7L1"],
 			tailwhip: ["7L1"],
 			astonish: ["7L1"],
@@ -28533,9 +29255,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dizzypunch: ["7E"],
 			recover: ["7E"],
 		},
-	},	
-	shuppet: {		
-		learnset: {	
+	},
+	shuppet: {
+		learnset: {
 			knockoff: ["7L1"],
 			screech: ["7L4"],
 			nightshade: ["7L7"],
@@ -28608,9 +29330,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			pursuit: ["7E"],
 			confuseray: ["7E"],
 		},
-	},	
-	banette: {		
-		learnset: {	
+	},
+	banette: {
+		learnset: {
 			crushclaw: ["7L0"],
 			knockoff: ["7L1"],
 			screech: ["7L1"],
@@ -28686,9 +29408,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	duskull: {		
-		learnset: {	
+	},
+	duskull: {
+		learnset: {
 			astonish: ["7L1"],
 			leer: ["7L1"],
 			disable: ["7L4"],
@@ -28754,9 +29476,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feintattack: ["7E"],
 			haze: ["7E"],
 		},
-	},	
-	dusclops: {		
-		learnset: {	
+	},
+	dusclops: {
+		learnset: {
 			shadowpunch: ["7L0"],
 			firepunch: ["7L1"],
 			icepunch: ["7L1"],
@@ -28838,9 +29560,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	tropius: {		
-		learnset: {	
+	},
+	tropius: {
+		learnset: {
 			leer: ["7L1"],
 			gust: ["7L1"],
 			growth: ["7L1"],
@@ -28918,9 +29640,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturepower: ["7E"],
 			dragonhammer: ["7E"],
 		},
-	},	
-	chimecho: {		
-		learnset: {	
+	},
+	chimecho: {
+		learnset: {
 			healingwish: ["7L1"],
 			synchronoise: ["7L1"],
 			wrap: ["7L1"],
@@ -29003,9 +29725,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			craftyshield: ["7E"],
 			perishsong: ["7E"],
 		},
-	},	
-	absol: {		
-		learnset: {	
+	},
+	absol: {
+		learnset: {
 			perishsong: ["7L1"],
 			futuresight: ["7L1"],
 			sacredsword: ["7L1"],
@@ -29110,9 +29832,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			punishment: ["7E"],
 			assurance: ["7E"],
 		},
-	},	
-	wynaut: {		
-		learnset: {	
+	},
+	wynaut: {
+		learnset: {
 			amnesia: ["7L1"],
 			charm: ["7L1"],
 			counter: ["7L1"],
@@ -29124,9 +29846,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mimic: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	snorunt: {		
-		learnset: {	
+	},
+	snorunt: {
+		learnset: {
 			powdersnow: ["7L1"],
 			leer: ["7L1"],
 			doubleteam: ["7L5"],
@@ -29176,9 +29898,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			faketears: ["7E"],
 			switcheroo: ["7E"],
 		},
-	},	
-	glalie: {		
-		learnset: {	
+	},
+	glalie: {
+		learnset: {
 			rockslide: ["7L0"],
 			sheercold: ["7L1"],
 			powdersnow: ["7L1"],
@@ -29246,9 +29968,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	spheal: {		
-		learnset: {	
+	},
+	spheal: {
+		learnset: {
 			defensecurl: ["7L1"],
 			powdersnow: ["7L1"],
 			growl: ["7L1"],
@@ -29312,9 +30034,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aquaring: ["7E"],
 			bellydrum: ["7E"],
 		},
-	},	
-	sealeo: {		
-		learnset: {	
+	},
+	sealeo: {
+		learnset: {
 			swagger: ["7L0"],
 			defensecurl: ["7L1"],
 			powdersnow: ["7L1"],
@@ -29371,9 +30093,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	walrein: {		
-		learnset: {	
+	},
+	walrein: {
+		learnset: {
 			icefang: ["7L0"],
 			waterfall: ["7L1"],
 			swagger: ["7L1"],
@@ -29440,9 +30162,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	clamperl: {		
-		learnset: {	
+	},
+	clamperl: {
+		learnset: {
 			clamp: ["7L1"],
 			watergun: ["7L1"],
 			whirlpool: ["7L1"],
@@ -29487,9 +30209,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aquaring: ["7E"],
 			muddywater: ["7E"],
 		},
-	},	
-	huntail: {		
-		learnset: {	
+	},
+	huntail: {
+		learnset: {
 			crunch: ["7L0"],
 			clamp: ["7L1"],
 			watergun: ["7L1"],
@@ -29553,9 +30275,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	gorebyss: {		
-		learnset: {	
+	},
+	gorebyss: {
+		learnset: {
 			psychic: ["7L0"],
 			clamp: ["7L1"],
 			watergun: ["7L1"],
@@ -29617,9 +30339,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			dragondance: ["7T"],
 		},
-	},	
-	relicanth: {		
-		learnset: {	
+	},
+	relicanth: {
+		learnset: {
 			flail: ["7L1"],
 			headsmash: ["7L1"],
 			tackle: ["7L1"],
@@ -29690,9 +30412,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			snore: ["7E"],
 			muddywater: ["7E"],
 		},
-	},	
-	luvdisc: {		
-		learnset: {	
+	},
+	luvdisc: {
+		learnset: {
 			tackle: ["7L1"],
 			charm: ["7L1"],
 			watergun: ["7L4"],
@@ -29751,9 +30473,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			healpulse: ["7E"],
 			entrainment: ["7E"],
 		},
-	},	
-	bagon: {		
-		learnset: {	
+	},
+	bagon: {
+		learnset: {
 			rage: ["7L1"],
 			ember: ["7L4"],
 			leer: ["7L7"],
@@ -29812,9 +30534,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			twister: ["7E"],
 			dragonrush: ["7E"],
 		},
-	},	
-	shelgon: {		
-		learnset: {	
+	},
+	shelgon: {
+		learnset: {
 			protect: ["7L0"],
 			rage: ["7L1"],
 			ember: ["7L1"],
@@ -29873,9 +30595,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	salamence: {		
-		learnset: {	
+	},
+	salamence: {
+		learnset: {
 			fly: ["7L0"],
 			protect: ["7L1"],
 			dragontail: ["7L1"],
@@ -29954,9 +30676,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	beldum: {		
-		learnset: {	
+	},
+	beldum: {
+		learnset: {
 			takedown: ["7L1"],
 			mimic: ["7T"],
 			irondefense: ["7T"],
@@ -29964,9 +30686,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ironhead: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	metang: {		
-		learnset: {	
+	},
+	metang: {
+		learnset: {
 			confusion: ["7L0"],
 			metalclaw: ["7L0"],
 			magnetrise: ["7L1"],
@@ -30044,9 +30766,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	metagross: {		
-		learnset: {	
+	},
+	metagross: {
+		learnset: {
 			hammerarm: ["7L0"],
 			confusion: ["7L1"],
 			metalclaw: ["7L1"],
@@ -30129,9 +30851,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	regirock: {		
-		learnset: {	
+	},
+	regirock: {
+		learnset: {
 			explosion: ["7L1"],
 			stomp: ["7L1"],
 			rockthrow: ["7L1"],
@@ -30205,9 +30927,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	regice: {		
-		learnset: {	
+	},
+	regice: {
+		learnset: {
 			explosion: ["7L1"],
 			stomp: ["7L1"],
 			icywind: ["7L1"],
@@ -30281,9 +31003,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	registeel: {		
-		learnset: {	
+	},
+	registeel: {
+		learnset: {
 			explosion: ["7L1"],
 			stomp: ["7L1"],
 			metalclaw: ["7L1"],
@@ -30356,9 +31078,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	latias: {		
-		learnset: {	
+	},
+	latias: {
+		learnset: {
 			healingwish: ["7L1"],
 			helpinghand: ["7L1"],
 			wish: ["7L1"],
@@ -30457,9 +31179,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	latios: {		
-		learnset: {	
+	},
+	latios: {
+		learnset: {
 			memento: ["7L1"],
 			helpinghand: ["7L1"],
 			healblock: ["7L1"],
@@ -30554,9 +31276,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	kyogre: {		
-		learnset: {	
+	},
+	kyogre: {
+		learnset: {
 			ancientpower: ["7L1"],
 			bubblebeam: ["7L1"],
 			scaryface: ["7L5"],
@@ -30625,9 +31347,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ironhead: ["7T"],
 			liquidation: ["7T"],
 		},
-	},	
-	groudon: {		
-		learnset: {	
+	},
+	groudon: {
+		learnset: {
 			ancientpower: ["7L1"],
 			mudshot: ["7L1"],
 			scaryface: ["7L5"],
@@ -30714,9 +31436,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	rayquaza: {		
-		learnset: {	
+	},
+	rayquaza: {
+		learnset: {
 			twister: ["7L1"],
 			scaryface: ["7L5"],
 			ancientpower: ["7L15"],
@@ -30807,9 +31529,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dracometeor: ["7T"],
 			dragonascent: ["7T"],
 		},
-	},	
-	jirachi: {		
-		learnset: {	
+	},
+	jirachi: {
+		learnset: {
 			wish: ["7L1"],
 			confusion: ["7L1"],
 			rest: ["7L5"],
@@ -30896,9 +31618,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	deoxys: {		
-		learnset: {	
+	},
+	deoxys: {
+		learnset: {
 			leer: ["7L1"],
 			wrap: ["7L1"],
 			nightshade: ["7L7"],
@@ -30999,9 +31721,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	deoxysattack: {		
-		learnset: {	
+	},
+	deoxysattack: {
+		learnset: {
 			leer: ["7L1"],
 			wrap: ["7L1"],
 			nightshade: ["7L7"],
@@ -31054,9 +31776,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	deoxysdefense: {		
-		learnset: {	
+	},
+	deoxysdefense: {
+		learnset: {
 			leer: ["7L1"],
 			wrap: ["7L1"],
 			nightshade: ["7L7"],
@@ -31112,9 +31834,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	deoxysspeed: {		
-		learnset: {	
+	},
+	deoxysspeed: {
+		learnset: {
 			leer: ["7L1"],
 			wrap: ["7L1"],
 			nightshade: ["7L7"],
@@ -31173,9 +31895,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	turtwig: {		
-		learnset: {	
+	},
+	turtwig: {
+		learnset: {
 			tackle: ["7L1"],
 			withdraw: ["7L1"],
 			absorb: ["7L4"],
@@ -31241,9 +31963,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wideguard: ["7E"],
 			heavyslam: ["7E"],
 		},
-	},	
-	grotle: {		
-		learnset: {	
+	},
+	grotle: {
+		learnset: {
 			earthpower: ["7L0"],
 			tackle: ["7L1"],
 			withdraw: ["7L1"],
@@ -31300,9 +32022,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	torterra: {		
-		learnset: {	
+	},
+	torterra: {
+		learnset: {
 			earthquake: ["7L0"],
 			earthpower: ["7L1"],
 			tackle: ["7L1"],
@@ -31377,9 +32099,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	chimchar: {		
-		learnset: {	
+	},
+	chimchar: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			ember: ["7L4"],
@@ -31466,9 +32188,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quickguard: ["7E"],
 			submission: ["7E"],
 		},
-	},	
-	monferno: {		
-		learnset: {	
+	},
+	monferno: {
+		learnset: {
 			machpunch: ["7L0"],
 			scratch: ["7L1"],
 			leer: ["7L1"],
@@ -31559,9 +32281,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	infernape: {		
-		learnset: {	
+	},
+	infernape: {
+		learnset: {
 			closecombat: ["7L0"],
 			punishment: ["7L1"],
 			machpunch: ["7L1"],
@@ -31664,9 +32386,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	piplup: {		
-		learnset: {	
+	},
+	piplup: {
+		learnset: {
 			pound: ["7L1"],
 			growl: ["7L1"],
 			bubble: ["7L4"],
@@ -31734,9 +32456,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			featherdance: ["7E"],
 			powertrip: ["7E"],
 		},
-	},	
-	prinplup: {		
-		learnset: {	
+	},
+	prinplup: {
+		learnset: {
 			metalclaw: ["7L0"],
 			pound: ["7L1"],
 			growl: ["7L1"],
@@ -31801,9 +32523,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	empoleon: {		
-		learnset: {	
+	},
+	empoleon: {
+		learnset: {
 			aquajet: ["7L0"],
 			flashcannon: ["7L1"],
 			agility: ["7L1"],
@@ -31886,9 +32608,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	starly: {		
-		learnset: {	
+	},
+	starly: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			quickattack: ["7L5"],
@@ -31945,9 +32667,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			detect: ["7E"],
 			mirrormove: ["7E"],
 		},
-	},	
-	staravia: {		
-		learnset: {	
+	},
+	staravia: {
+		learnset: {
 			revenge: ["7L0"],
 			tackle: ["7L1"],
 			growl: ["7L1"],
@@ -31996,9 +32718,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heatwave: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	staraptor: {		
-		learnset: {	
+	},
+	staraptor: {
+		learnset: {
 			closecombat: ["7L0"],
 			revenge: ["7L1"],
 			tackle: ["7L1"],
@@ -32052,9 +32774,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	bidoof: {		
-		learnset: {	
+	},
+	bidoof: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			defensecurl: ["7L5"],
@@ -32123,9 +32845,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			skullbash: ["7E"],
 			mudsport: ["7E"],
 		},
-	},	
-	bibarel: {		
-		learnset: {	
+	},
+	bibarel: {
+		learnset: {
 			watergun: ["7L0"],
 			aquajet: ["7L0"],
 			rototiller: ["7L1"],
@@ -32201,9 +32923,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	kricketot: {		
-		learnset: {	
+	},
+	kricketot: {
+		learnset: {
 			growl: ["7L1"],
 			bide: ["7L1"],
 			strugglebug: ["7L5"],
@@ -32214,9 +32936,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			uproar: ["7T"],
 			bugbuzz: ["7T"],
 		},
-	},	
-	kricketune: {		
-		learnset: {	
+	},
+	kricketune: {
+		learnset: {
 			furycutter: ["7L0"],
 			synchronoise: ["7L0"],
 			uproar: ["7L0"],
@@ -32283,9 +33005,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	shinx: {		
-		learnset: {	
+	},
+	shinx: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			thundershock: ["7L4"],
@@ -32351,9 +33073,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			eerieimpulse: ["7E"],
 			faketears: ["7E"],
 		},
-	},	
-	luxio: {		
-		learnset: {	
+	},
+	luxio: {
+		learnset: {
 			doublekick: ["7L0"],
 			tackle: ["7L1"],
 			leer: ["7L1"],
@@ -32413,9 +33135,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	luxray: {		
-		learnset: {	
+	},
+	luxray: {
+		learnset: {
 			nightslash: ["7L0"],
 			icefang: ["7L1"],
 			firefang: ["7L1"],
@@ -32483,9 +33205,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	budew: {		
-		learnset: {	
+	},
+	budew: {
+		learnset: {
 			absorb: ["7L1"],
 			growth: ["7L4"],
 			watersport: ["7L7"],
@@ -32542,9 +33264,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturalgift: ["7E"],
 			grasswhistle: ["7E"],
 		},
-	},	
-	roserade: {		
-		learnset: {	
+	},
+	roserade: {
+		learnset: {
 			venomdrench: ["7L1"],
 			grassyterrain: ["7L1"],
 			weatherball: ["7L1"],
@@ -32612,9 +33334,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerwhip: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	cranidos: {		
-		learnset: {	
+	},
+	cranidos: {
+		learnset: {
 			headbutt: ["7L1"],
 			leer: ["7L1"],
 			focusenergy: ["7L6"],
@@ -32692,9 +33414,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			whirlwind: ["7E"],
 			hammerarm: ["7E"],
 		},
-	},	
-	rampardos: {		
-		learnset: {	
+	},
+	rampardos: {
+		learnset: {
 			endeavor: ["7L0"],
 			accelerock: ["7L1"],
 			headbutt: ["7L1"],
@@ -32791,9 +33513,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	shieldon: {		
-		learnset: {	
+	},
+	shieldon: {
+		learnset: {
 			tackle: ["7L1"],
 			protect: ["7L1"],
 			taunt: ["7L6"],
@@ -32862,9 +33584,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wideguard: ["7E"],
 			guardsplit: ["7E"],
 		},
-	},	
-	bastiodon: {		
-		learnset: {	
+	},
+	bastiodon: {
+		learnset: {
 			block: ["7L0"],
 			tackle: ["7L1"],
 			protect: ["7L1"],
@@ -32936,9 +33658,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	burmy: {		
-		learnset: {	
+	},
+	burmy: {
+		learnset: {
 			protect: ["7L1"],
 			tackle: ["7L10"],
 			bugbite: ["7L15"],
@@ -32946,9 +33668,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			electroweb: ["7T"],
 			bugbuzz: ["7T"],
 		},
-	},	
-	wormadam: {		
-		learnset: {	
+	},
+	wormadam: {
+		learnset: {
 			quiverdance: ["7L0"],
 			razorleaf: ["7L1"],
 			suckerpunch: ["7L1"],
@@ -33007,9 +33729,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			signalbeam: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	wormadamsandy: {		
-		learnset: {	
+	},
+	wormadamsandy: {
+		learnset: {
 			quiverdance: ["7L0"],
 			suckerpunch: ["7L1"],
 			rockblast: ["7L1"],
@@ -33072,9 +33794,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			earthpower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	wormadamtrash: {		
-		learnset: {	
+	},
+	wormadamtrash: {
+		learnset: {
 			quiverdance: ["7L0"],
 			metalburst: ["7L1"],
 			mirrorshot: ["7L1"],
@@ -33136,9 +33858,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			gunkshot: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	mothim: {		
-		learnset: {	
+	},
+	mothim: {
+		learnset: {
 			quiverdance: ["7L0"],
 			gust: ["7L1"],
 			tackle: ["7L1"],
@@ -33203,9 +33925,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			tailwind: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	combee: {		
-		learnset: {	
+	},
+	combee: {
+		learnset: {
 			sweetscent: ["7L1"],
 			gust: ["7L1"],
 			bugbite: ["7L13"],
@@ -33219,9 +33941,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			tailwind: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	vespiquen: {		
-		learnset: {	
+	},
+	vespiquen: {
+		learnset: {
 			slash: ["7L0"],
 			sweetscent: ["7L1"],
 			gust: ["7L1"],
@@ -33294,9 +34016,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	pachirisu: {		
-		learnset: {	
+	},
+	pachirisu: {
+		learnset: {
 			growl: ["7L1"],
 			bide: ["7L1"],
 			quickattack: ["7L5"],
@@ -33370,9 +34092,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			iondeluge: ["7E"],
 			babydolleyes: ["7E"],
 		},
-	},	
-	buizel: {		
-		learnset: {	
+	},
+	buizel: {
+		learnset: {
 			growl: ["7L1"],
 			quickattack: ["7L1"],
 			watersport: ["7L3"],
@@ -33446,9 +34168,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			tailslap: ["7E"],
 			soak: ["7E"],
 		},
-	},	
-	floatzel: {		
-		learnset: {	
+	},
+	floatzel: {
+		learnset: {
 			crunch: ["7L0"],
 			icefang: ["7L1"],
 			growl: ["7L1"],
@@ -33528,9 +34250,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	cherubi: {		
-		learnset: {	
+	},
+	cherubi: {
+		learnset: {
 			morningsun: ["7L1"],
 			tackle: ["7L1"],
 			growth: ["7L7"],
@@ -33588,9 +34310,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturalgift: ["7E"],
 			flowershield: ["7E"],
 		},
-	},	
-	cherrim: {		
-		learnset: {	
+	},
+	cherrim: {
+		learnset: {
 			playrough: ["7L0"],
 			petaldance: ["7L1"],
 			morningsun: ["7L1"],
@@ -33642,9 +34364,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	shellos: {		
-		learnset: {	
+	},
+	shellos: {
+		learnset: {
 			mudslap: ["7L1"],
 			watergun: ["7L1"],
 			mudsport: ["7L2"],
@@ -33704,9 +34426,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mist: ["7E"],
 			acidarmor: ["7E"],
 		},
-	},	
-	gastrodon: {		
-		learnset: {	
+	},
+	gastrodon: {
+		learnset: {
 			sludge: ["7L0"],
 			mudslap: ["7L1"],
 			mudsport: ["7L1"],
@@ -33772,9 +34494,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	ambipom: {		
-		learnset: {	
+	},
+	ambipom: {
+		learnset: {
 			dualchop: ["7L1"],
 			scratch: ["7L1"],
 			tailwhip: ["7L1"],
@@ -33862,9 +34584,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	drifloon: {		
-		learnset: {	
+	},
+	drifloon: {
+		learnset: {
 			astonish: ["7L1"],
 			constrict: ["7L1"],
 			minimize: ["7L1"],
@@ -33941,9 +34663,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hypnosis: ["7E"],
 			clearsmog: ["7E"],
 		},
-	},	
-	drifblim: {		
-		learnset: {	
+	},
+	drifblim: {
+		learnset: {
 			phantomforce: ["7L0"],
 			strengthsap: ["7L1"],
 			astonish: ["7L1"],
@@ -34020,9 +34742,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	buneary: {		
-		learnset: {	
+	},
+	buneary: {
+		learnset: {
 			frustration: ["7L1"],
 			defensecurl: ["7L1"],
 			splash: ["7L1"],
@@ -34109,9 +34831,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			cosmicpower: ["7E"],
 			mudsport: ["7E"],
 		},
-	},	
-	lopunny: {		
-		learnset: {	
+	},
+	lopunny: {
+		learnset: {
 			return: ["7L0"],
 			healingwish: ["7L1"],
 			bounce: ["7L1"],
@@ -34200,9 +34922,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	mismagius: {		
-		learnset: {	
+	},
+	mismagius: {
+		learnset: {
 			mysticalfire: ["7L0"],
 			phantomforce: ["7L1"],
 			luckychant: ["7L1"],
@@ -34280,9 +35002,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	honchkrow: {		
-		learnset: {	
+	},
+	honchkrow: {
+		learnset: {
 			drillpeck: ["7L0"],
 			nightslash: ["7L1"],
 			wingattack: ["7L1"],
@@ -34347,9 +35069,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	glameow: {		
-		learnset: {	
+	},
+	glameow: {
+		learnset: {
 			fakeout: ["7L1"],
 			scratch: ["7L5"],
 			growl: ["7L8"],
@@ -34424,9 +35146,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flail: ["7E"],
 			wakeupslap: ["7E"],
 		},
-	},	
-	purugly: {		
-		learnset: {	
+	},
+	purugly: {
+		learnset: {
 			swagger: ["7L0"],
 			playrough: ["7L1"],
 			fakeout: ["7L1"],
@@ -34501,9 +35223,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	chingling: {		
-		learnset: {	
+	},
+	chingling: {
+		learnset: {
 			wrap: ["7L1"],
 			growl: ["7L4"],
 			astonish: ["7L7"],
@@ -34572,9 +35294,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			recover: ["7E"],
 			cosmicpower: ["7E"],
 		},
-	},	
-	stunky: {		
-		learnset: {	
+	},
+	stunky: {
+		learnset: {
 			poisongas: ["7L1"],
 			scratch: ["7L1"],
 			feint: ["7L3"],
@@ -34650,9 +35372,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			haze: ["7E"],
 			flameburst: ["7E"],
 		},
-	},	
-	skuntank: {		
-		learnset: {	
+	},
+	skuntank: {
+		learnset: {
 			flamethrower: ["7L0"],
 			feint: ["7L1"],
 			poisongas: ["7L1"],
@@ -34724,9 +35446,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	bronzor: {		
-		learnset: {	
+	},
+	bronzor: {
+		learnset: {
 			confusion: ["7L1"],
 			tackle: ["7L1"],
 			confuseray: ["7L4"],
@@ -34794,9 +35516,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			trick: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	bronzong: {		
-		learnset: {	
+	},
+	bronzong: {
+		learnset: {
 			block: ["7L0"],
 			weatherball: ["7L1"],
 			sunnyday: ["7L1"],
@@ -34876,9 +35598,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	bonsly: {		
-		learnset: {	
+	},
+	bonsly: {
+		learnset: {
 			faketears: ["7L1"],
 			copycat: ["7L1"],
 			flail: ["7L5"],
@@ -34935,9 +35657,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			harden: ["7E"],
 			sandtomb: ["7E"],
 		},
-	},	
-	mimejr: {		
-		learnset: {	
+	},
+	mimejr: {
+		learnset: {
 			barrier: ["7L1"],
 			copycat: ["7L1"],
 			pound: ["7L1"],
@@ -35022,9 +35744,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powersplit: ["7E"],
 			magicroom: ["7E"],
 		},
-	},	
-	happiny: {		
-		learnset: {	
+	},
+	happiny: {
+		learnset: {
 			pound: ["7L1"],
 			charm: ["7L1"],
 			copycat: ["7L5"],
@@ -35092,9 +35814,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturalgift: ["7E"],
 			wish: ["7E"],
 		},
-	},	
-	chatot: {		
-		learnset: {	
+	},
+	chatot: {
+		learnset: {
 			confide: ["7L1"],
 			taunt: ["7L1"],
 			peck: ["7L1"],
@@ -35153,9 +35875,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightshade: ["7E"],
 			supersonic: ["7E"],
 		},
-	},	
-	spiritomb: {		
-		learnset: {	
+	},
+	spiritomb: {
+		learnset: {
 			recover: ["7L1"],
 			curse: ["7L1"],
 			pursuit: ["7L1"],
@@ -35222,9 +35944,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightmare: ["7E"],
 			disable: ["7E"],
 		},
-	},	
-	gible: {		
-		learnset: {	
+	},
+	gible: {
+		learnset: {
 			tackle: ["7L1"],
 			sandattack: ["7L3"],
 			dragonrage: ["7L7"],
@@ -35289,9 +36011,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			metalclaw: ["7E"],
 			rockclimb: ["7E"],
 		},
-	},	
-	gabite: {		
-		learnset: {	
+	},
+	gabite: {
+		learnset: {
 			dualchop: ["7L0"],
 			tackle: ["7L1"],
 			sandattack: ["7L1"],
@@ -35352,9 +36074,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	garchomp: {		
-		learnset: {	
+	},
+	garchomp: {
+		learnset: {
 			crunch: ["7L0"],
 			dualchop: ["7L1"],
 			firefang: ["7L1"],
@@ -35432,9 +36154,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	munchlax: {		
-		learnset: {	
+	},
+	munchlax: {
+		learnset: {
 			lick: ["7L1"],
 			tackle: ["7L1"],
 			odorsleuth: ["7L1"],
@@ -35521,9 +36243,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			afteryou: ["7E"],
 			belch: ["7E"],
 		},
-	},	
-	riolu: {		
-		learnset: {	
+	},
+	riolu: {
+		learnset: {
 			endure: ["7L1"],
 			foresight: ["7L1"],
 			quickattack: ["7L1"],
@@ -35608,9 +36330,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			followme: ["7E"],
 			circlethrow: ["7E"],
 		},
-	},	
-	lucario: {		
-		learnset: {	
+	},
+	lucario: {
+		learnset: {
 			bulletpunch: ["7L0"],
 			screech: ["7L1"],
 			feint: ["7L1"],
@@ -35705,9 +36427,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			helpinghand: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	hippopotas: {		
-		learnset: {	
+	},
+	hippopotas: {
+		learnset: {
 			sandattack: ["7L1"],
 			tackle: ["7L1"],
 			bite: ["7L4"],
@@ -35765,9 +36487,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			spitup: ["7E"],
 			whirlwind: ["7E"],
 		},
-	},	
-	hippowdon: {		
-		learnset: {	
+	},
+	hippowdon: {
+		learnset: {
 			firefang: ["7L1"],
 			icefang: ["7L1"],
 			thunderfang: ["7L1"],
@@ -35825,9 +36547,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			superpower: ["7T"],
 			earthpower: ["7T"],
 		},
-	},	
-	skorupi: {		
-		learnset: {	
+	},
+	skorupi: {
+		learnset: {
 			leer: ["7L1"],
 			poisonsting: ["7L1"],
 			honeclaws: ["7L3"],
@@ -35899,9 +36621,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			twineedle: ["7E"],
 			poisontail: ["7E"],
 		},
-	},	
-	drapion: {		
-		learnset: {	
+	},
+	drapion: {
+		learnset: {
 			focusenergy: ["7L1"],
 			thunderfang: ["7L1"],
 			icefang: ["7L1"],
@@ -35983,9 +36705,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	croagunk: {		
-		learnset: {	
+	},
+	croagunk: {
+		learnset: {
 			mudslap: ["7L1"],
 			poisonsting: ["7L1"],
 			astonish: ["7L4"],
@@ -36075,9 +36797,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acupressure: ["7E"],
 			quickguard: ["7E"],
 		},
-	},	
-	toxicroak: {		
-		learnset: {	
+	},
+	toxicroak: {
+		learnset: {
 			astonish: ["7L1"],
 			mudslap: ["7L1"],
 			poisonsting: ["7L1"],
@@ -36164,9 +36886,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	carnivine: {		
-		learnset: {	
+	},
+	carnivine: {
+		learnset: {
 			bind: ["7L1"],
 			growth: ["7L1"],
 			bite: ["7L7"],
@@ -36237,9 +36959,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			grasswhistle: ["7E"],
 			acidspray: ["7E"],
 		},
-	},	
-	finneon: {		
-		learnset: {	
+	},
+	finneon: {
+		learnset: {
 			pound: ["7L1"],
 			watergun: ["7L4"],
 			attract: ["7L8"],
@@ -36302,9 +37024,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aurorabeam: ["7E"],
 			confuseray: ["7E"],
 		},
-	},	
-	lumineon: {		
-		learnset: {	
+	},
+	lumineon: {
+		learnset: {
 			airslash: ["7L0"],
 			silverwind: ["7L1"],
 			gust: ["7L1"],
@@ -36364,9 +37086,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			aquatail: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	mantyke: {		
-		learnset: {	
+	},
+	mantyke: {
+		learnset: {
 			tackle: ["7L1"],
 			bubble: ["7L1"],
 			supersonic: ["7L3"],
@@ -36427,9 +37149,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			splash: ["7E"],
 			amnesia: ["7E"],
 		},
-	},	
-	snover: {		
-		learnset: {	
+	},
+	snover: {
+		learnset: {
 			leer: ["7L1"],
 			powdersnow: ["7L1"],
 			leafage: ["7L5"],
@@ -36493,9 +37215,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			skullbash: ["7E"],
 			naturalgift: ["7E"],
 		},
-	},	
-	abomasnow: {		
-		learnset: {	
+	},
+	abomasnow: {
+		learnset: {
 			icepunch: ["7L0"],
 			auroraveil: ["7L1"],
 			leafage: ["7L1"],
@@ -36573,9 +37295,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	weavile: {		
-		learnset: {	
+	},
+	weavile: {
+		learnset: {
 			nightslash: ["7L0"],
 			iciclespear: ["7L1"],
 			iceshard: ["7L1"],
@@ -36665,9 +37387,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	magnezone: {		
-		learnset: {	
+	},
+	magnezone: {
+		learnset: {
 			mirrorcoat: ["7L0"],
 			triattack: ["7L1"],
 			zapcannon: ["7L1"],
@@ -36737,9 +37459,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	lickilicky: {		
-		learnset: {	
+	},
+	lickilicky: {
+		learnset: {
 			lick: ["7L1"],
 			supersonic: ["7L1"],
 			defensecurl: ["7L1"],
@@ -36822,9 +37544,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	rhyperior: {		
-		learnset: {	
+	},
+	rhyperior: {
+		learnset: {
 			hammerarm: ["7L0"],
 			poisonjab: ["7L1"],
 			bulldoze: ["7L1"],
@@ -36926,9 +37648,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	tangrowth: {		
-		learnset: {	
+	},
+	tangrowth: {
+		learnset: {
 			block: ["7L1"],
 			ingrain: ["7L1"],
 			constrict: ["7L1"],
@@ -37009,9 +37731,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	electivire: {		
-		learnset: {	
+	},
+	electivire: {
+		learnset: {
 			crosschop: ["7L0"],
 			electricterrain: ["7L1"],
 			iondeluge: ["7L1"],
@@ -37097,9 +37819,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	magmortar: {		
-		learnset: {	
+	},
+	magmortar: {
+		learnset: {
 			aurasphere: ["7L0"],
 			darkpulse: ["7L1"],
 			thunderpunch: ["7L1"],
@@ -37179,9 +37901,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	togekiss: {		
-		learnset: {	
+	},
+	togekiss: {
+		learnset: {
 			airslash: ["7L0"],
 			afteryou: ["7L1"],
 			skyattack: ["7L1"],
@@ -37278,9 +38000,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	yanmega: {		
-		learnset: {	
+	},
+	yanmega: {
+		learnset: {
 			airslash: ["7L0"],
 			nightslash: ["7L1"],
 			bugbite: ["7L1"],
@@ -37344,115 +38066,223 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	leafeon: {		
-		learnset: {	
-			razorleaf: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
+	},
+	leafeon: {
+		learnset: {
+			covet: ["7L1"],
 			growl: ["7L1"],
 			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			sandattack: ["7L5"],
 			quickattack: ["7L10"],
 			babydolleyes: ["7L15"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
+			lastresort: ["7L55"],
+			extremespeed: ["7L60"],
+			toxic: ["7M"],
+			hiddenpower: ["7M"],
+			sunnyday: ["7M"],
+			protect: ["7M"],
+			raindance: ["7M"],
+			frustration: ["7M"],
+			irontail: ["7M"],
+			return: ["7M"],
+			dig: ["7M"],
+			shadowball: ["7M"],
+			doubleteam: ["7M"],
+			reflect: ["7M"],
+			facade: ["7M"],
+			secretpower: ["7M"],
+			rest: ["7M"],
+			attract: ["7M"],
+			sleeptalk: ["7M"],
+			endure: ["7M"],
+			substitute: ["7M"],
+			curse: ["7M"],
+			mimic: ["7T"],
+			mudslap: ["7T"],
+			swagger: ["7T"],
+			bodyslam: ["7T"],
+			weatherball: ["7T"],
+			healbell: ["7T"],
+			hypervoice: ["7T"],
+			storedpower: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
 			grasswhistle: ["7L17"],
 			leechseed: ["7L20"],
 			magicalleaf: ["7L25"],
 			synthesis: ["7L30"],
-			sunnyday: ["7L35"],
 			leafblade: ["7L40"],
 			swordsdance: ["7L45"],
 			gigadrain: ["7L50"],
-			lastresort: ["7L55"],
 			strengthsap: ["7L60"],
-			roar: ["7M"],
-			toxic: ["7M"],
 			bulletseed: ["7M"],
-			hiddenpower: ["7M"],
-			hyperbeam: ["7M"],
-			protect: ["7M"],
-			raindance: ["7M"],
-			frustration: ["7M"],
 			solarbeam: ["7M"],
-			irontail: ["7M"],
-			return: ["7M"],
-			dig: ["7M"],
-			shadowball: ["7M"],
-			doubleteam: ["7M"],
 			aerialace: ["7M"],
-			facade: ["7M"],
-			secretpower: ["7M"],
-			rest: ["7M"],
-			attract: ["7M"],
-			sleeptalk: ["7M"],
 			energyball: ["7M"],
-			endure: ["7M"],
-			gigaimpact: ["7M"],
 			xscissor: ["7M"],
 			grassknot: ["7M"],
-			substitute: ["7M"],
-			curse: ["7M"],
-			strength: ["7M"],
-			flash: ["7M"],
-			rocksmash: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
 			furycutter: ["7T"],
-			mimic: ["7T"],
-			mudslap: ["7T"],
-			swagger: ["7T"],
 			worryseed: ["7T"],
 			seedbomb: ["7T"],
-			bodyslam: ["7T"],
-			weatherball: ["7T"],
-			healbell: ["7T"],
-			hypervoice: ["7T"],
-			storedpower: ["7T"],
 			earthpower: ["7T"],
 			solarblade: ["7T"],
-			doubleedge: ["7T"],
 			knockoff: ["7T"],
 			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
 		},
-	},	
-	glaceon: {		
-		learnset: {	
-			icywind: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
+	},
+	glaceon: {
+		learnset: {
+			covet: ["7L1"],
 			growl: ["7L1"],
 			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			sandattack: ["7L5"],
 			quickattack: ["7L10"],
 			babydolleyes: ["7L15"],
-			iceshard: ["7L20"],
-			barrier: ["7L29"],
-			icefang: ["7L30"],
-			hail: ["7L35"],
-			freezedry: ["7L40"],
-			mirrorcoat: ["7L45"],
-			blizzard: ["7L50"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
 			lastresort: ["7L55"],
-			iciclecrash: ["7L60"],
-			waterpulse: ["7M"],
-			roar: ["7M"],
+			extremespeed: ["7L60"],
 			toxic: ["7M"],
 			hiddenpower: ["7M"],
 			sunnyday: ["7M"],
-			icebeam: ["7M"],
-			hyperbeam: ["7M"],
 			protect: ["7M"],
 			raindance: ["7M"],
 			frustration: ["7M"],
@@ -37461,39 +38291,166 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dig: ["7M"],
 			shadowball: ["7M"],
 			doubleteam: ["7M"],
+			reflect: ["7M"],
 			facade: ["7M"],
 			secretpower: ["7M"],
 			rest: ["7M"],
 			attract: ["7M"],
 			sleeptalk: ["7M"],
 			endure: ["7M"],
-			gigaimpact: ["7M"],
-			auroraveil: ["7M"],
 			substitute: ["7M"],
-			avalanche: ["7M"],
 			curse: ["7M"],
-			strength: ["7M"],
-			rocksmash: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
 			mimic: ["7T"],
 			mudslap: ["7T"],
 			swagger: ["7T"],
-			aurorabeam: ["7T"],
-			signalbeam: ["7T"],
 			bodyslam: ["7T"],
-			iciclespear: ["7T"],
 			weatherball: ["7T"],
-			aquatail: ["7T"],
 			healbell: ["7T"],
 			hypervoice: ["7T"],
-			powergem: ["7T"],
 			storedpower: ["7T"],
-			doubleedge: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
+			playrough: ["7T"],
 		},
-	},	
-	gliscor: {		
-		learnset: {	
+	},
+	gliscor: {
+		learnset: {
 			poisonjab: ["7L0"],
 			wingattack: ["7L1"],
 			thunderfang: ["7L1"],
@@ -37577,9 +38534,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	mamoswine: {		
-		learnset: {	
+	},
+	mamoswine: {
+		learnset: {
 			doublehit: ["7L0"],
 			ancientpower: ["7L1"],
 			flail: ["7L1"],
@@ -37652,9 +38609,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	porygonz: {		
-		learnset: {	
+	},
+	porygonz: {
+		learnset: {
 			trickroom: ["7L1"],
 			nastyplot: ["7L1"],
 			zapcannon: ["7L1"],
@@ -37729,9 +38686,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			foulplay: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	gallade: {		
-		learnset: {	
+	},
+	gallade: {
+		learnset: {
 			slash: ["7L0"],
 			psychocut: ["7L1"],
 			leafblade: ["7L1"],
@@ -37846,9 +38803,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	probopass: {		
-		learnset: {	
+	},
+	probopass: {
+		learnset: {
 			triattack: ["7L0"],
 			magneticflux: ["7L1"],
 			magnetrise: ["7L1"],
@@ -37918,9 +38875,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ironhead: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	dusknoir: {		
-		learnset: {	
+	},
+	dusknoir: {
+		learnset: {
 			phantomforce: ["7L0"],
 			shadowpunch: ["7L1"],
 			firepunch: ["7L1"],
@@ -38004,9 +38961,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	froslass: {		
-		learnset: {	
+	},
+	froslass: {
+		learnset: {
 			ominouswind: ["7L0"],
 			destinybond: ["7L1"],
 			powdersnow: ["7L1"],
@@ -38077,9 +39034,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	rotom: {		
-		learnset: {	
+	},
+	rotom: {
+		learnset: {
 			astonish: ["7L1"],
 			doubleteam: ["7L1"],
 			thundershock: ["7L5"],
@@ -38138,9 +39095,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	uxie: {		
-		learnset: {	
+	},
+	uxie: {
+		learnset: {
 			memento: ["7L1"],
 			naturalgift: ["7L1"],
 			flail: ["7L1"],
@@ -38228,9 +39185,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	mesprit: {		
-		learnset: {	
+	},
+	mesprit: {
+		learnset: {
 			healingwish: ["7L1"],
 			naturalgift: ["7L1"],
 			copycat: ["7L1"],
@@ -38316,9 +39273,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	azelf: {		
-		learnset: {	
+	},
+	azelf: {
+		learnset: {
 			naturalgift: ["7L1"],
 			lastresort: ["7L1"],
 			rest: ["7L1"],
@@ -38408,9 +39365,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	dialga: {		
-		learnset: {	
+	},
+	dialga: {
+		learnset: {
 			dragonbreath: ["7L1"],
 			scaryface: ["7L1"],
 			metalclaw: ["7L6"],
@@ -38492,9 +39449,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	palkia: {		
-		learnset: {	
+	},
+	palkia: {
+		learnset: {
 			dragonbreath: ["7L1"],
 			scaryface: ["7L1"],
 			bubblebeam: ["7L6"],
@@ -38582,9 +39539,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	heatran: {		
-		learnset: {	
+	},
+	heatran: {
+		learnset: {
 			magmastorm: ["7L1"],
 			heatwave: ["7L1"],
 			earthpower: ["7L1"],
@@ -38652,9 +39609,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	regigigas: {		
-		learnset: {	
+	},
+	regigigas: {
+		learnset: {
 			heavyslam: ["7L1"],
 			crushgrip: ["7L1"],
 			firepunch: ["7L1"],
@@ -38729,9 +39686,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	giratina: {		
-		learnset: {	
+	},
+	giratina: {
+		learnset: {
 			dragonbreath: ["7L1"],
 			scaryface: ["7L1"],
 			ominouswind: ["7L6"],
@@ -38815,9 +39772,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	cresselia: {		
-		learnset: {	
+	},
+	cresselia: {
+		learnset: {
 			lunardance: ["7L1"],
 			psychoshift: ["7L1"],
 			psychocut: ["7L1"],
@@ -38884,9 +39841,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	phione: {		
-		learnset: {	
+	},
+	phione: {
+		learnset: {
 			bubble: ["7L1"],
 			watersport: ["7L1"],
 			charm: ["7L9"],
@@ -38942,9 +39899,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	manaphy: {		
-		learnset: {	
+	},
+	manaphy: {
+		learnset: {
 			tailglow: ["7L1"],
 			bubble: ["7L1"],
 			watersport: ["7L1"],
@@ -39013,9 +39970,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	darkrai: {		
-		learnset: {	
+	},
+	darkrai: {
+		learnset: {
 			ominouswind: ["7L1"],
 			disable: ["7L1"],
 			quickattack: ["7L11"],
@@ -39097,9 +40054,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	shaymin: {		
-		learnset: {	
+	},
+	shaymin: {
+		learnset: {
 			growth: ["7L1"],
 			magicalleaf: ["7L10"],
 			leechseed: ["7L19"],
@@ -39157,9 +40114,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	shayminsky: {		
-		learnset: {	
+	},
+	shayminsky: {
+		learnset: {
 			growth: ["7L1"],
 			magicalleaf: ["7L10"],
 			leechseed: ["7L19"],
@@ -39216,9 +40173,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			grassyterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	arceus: {		
-		learnset: {	
+	},
+	arceus: {
+		learnset: {
 			seismictoss: ["7L1"],
 			cosmicpower: ["7L1"],
 			naturalgift: ["7L1"],
@@ -39345,9 +40302,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	victini: {		
-		learnset: {	
+	},
+	victini: {
+		learnset: {
 			searingshot: ["7L1"],
 			fusionbolt: ["7L1"],
 			fusionflare: ["7L1"],
@@ -39443,9 +40400,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	snivy: {		
-		learnset: {	
+	},
+	snivy: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			vinewhip: ["7L4"],
@@ -39520,9 +40477,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			pursuit: ["7E"],
 			meanlook: ["7E"],
 		},
-	},	
-	servine: {		
-		learnset: {	
+	},
+	servine: {
+		learnset: {
 			dragonbreath: ["7L0"],
 			tackle: ["7L1"],
 			leer: ["7L1"],
@@ -39590,9 +40547,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerwhip: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	serperior: {		
-		learnset: {	
+	},
+	serperior: {
+		learnset: {
 			dragonrush: ["7L0"],
 			glare: ["7L1"],
 			dragonbreath: ["7L1"],
@@ -39672,9 +40629,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	tepig: {		
-		learnset: {	
+	},
+	tepig: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			ember: ["7L4"],
@@ -39741,9 +40698,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heavyslam: ["7E"],
 			burnup: ["7E"],
 		},
-	},	
-	pignite: {		
-		learnset: {	
+	},
+	pignite: {
+		learnset: {
 			armthrust: ["7L0"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
@@ -39823,9 +40780,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	emboar: {		
-		learnset: {	
+	},
+	emboar: {
+		learnset: {
 			slackoff: ["7L0"],
 			hammerarm: ["7L1"],
 			armthrust: ["7L1"],
@@ -39919,9 +40876,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	oshawott: {		
-		learnset: {	
+	},
+	oshawott: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			watergun: ["7L4"],
@@ -39994,9 +40951,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			screech: ["7E"],
 			sacredsword: ["7E"],
 		},
-	},	
-	dewott: {		
-		learnset: {	
+	},
+	dewott: {
+		learnset: {
 			karatechop: ["7L0"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
@@ -40066,9 +41023,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	samurott: {		
-		learnset: {	
+	},
+	samurott: {
+		learnset: {
 			slash: ["7L0"],
 			sacredsword: ["7L1"],
 			megahorn: ["7L1"],
@@ -40155,9 +41112,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	patrat: {		
-		learnset: {	
+	},
+	patrat: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L3"],
 			bite: ["7L6"],
@@ -40229,9 +41186,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flail: ["7E"],
 			tearfullook: ["7E"],
 		},
-	},	
-	watchog: {		
-		learnset: {	
+	},
+	watchog: {
+		learnset: {
 			confuseray: ["7L0"],
 			rototiller: ["7L1"],
 			tackle: ["7L1"],
@@ -40320,9 +41277,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	lillipup: {		
-		learnset: {	
+	},
+	lillipup: {
+		learnset: {
 			leer: ["7L1"],
 			tackle: ["7L1"],
 			odorsleuth: ["7L5"],
@@ -40385,9 +41342,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			pursuit: ["7E"],
 			afteryou: ["7E"],
 		},
-	},	
-	herdier: {		
-		learnset: {	
+	},
+	herdier: {
+		learnset: {
 			leer: ["7L1"],
 			tackle: ["7L1"],
 			odorsleuth: ["7L1"],
@@ -40445,9 +41402,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicfangs: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	stoutland: {		
-		learnset: {	
+	},
+	stoutland: {
+		learnset: {
 			icefang: ["7L1"],
 			firefang: ["7L1"],
 			thunderfang: ["7L1"],
@@ -40511,9 +41468,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	purrloin: {		
-		learnset: {	
+	},
+	purrloin: {
+		learnset: {
 			growl: ["7L1"],
 			scratch: ["7L1"],
 			sandattack: ["7L4"],
@@ -40590,9 +41547,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			yawn: ["7E"],
 			copycat: ["7E"],
 		},
-	},	
-	liepard: {		
-		learnset: {	
+	},
+	liepard: {
+		learnset: {
 			foulplay: ["7L0"],
 			copycat: ["7L1"],
 			darkpulse: ["7L1"],
@@ -40668,9 +41625,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	pansage: {		
-		learnset: {	
+	},
+	pansage: {
+		learnset: {
 			scratch: ["7L1"],
 			playnice: ["7L1"],
 			leer: ["7L3"],
@@ -40753,9 +41710,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			disarmingvoice: ["7E"],
 			spikyshield: ["7E"],
 		},
-	},	
-	simisage: {		
-		learnset: {	
+	},
+	simisage: {
+		learnset: {
 			scratch: ["7L1"],
 			playnice: ["7L1"],
 			leer: ["7L1"],
@@ -40844,9 +41801,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	pansear: {		
-		learnset: {	
+	},
+	pansear: {
+		learnset: {
 			scratch: ["7L1"],
 			playnice: ["7L1"],
 			leer: ["7L3"],
@@ -40931,9 +41888,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			disarmingvoice: ["7E"],
 			belch: ["7E"],
 		},
-	},	
-	simisear: {		
-		learnset: {	
+	},
+	simisear: {
+		learnset: {
 			scratch: ["7L1"],
 			playnice: ["7L1"],
 			yawn: ["7L1"],
@@ -41022,9 +41979,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	panpour: {		
-		learnset: {	
+	},
+	panpour: {
+		learnset: {
 			scratch: ["7L1"],
 			playnice: ["7L1"],
 			leer: ["7L3"],
@@ -41109,9 +42066,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mudsport: ["7E"],
 			disarmingvoice: ["7E"],
 		},
-	},	
-	simipour: {		
-		learnset: {	
+	},
+	simipour: {
+		learnset: {
 			scratch: ["7L1"],
 			playnice: ["7L1"],
 			leer: ["7L1"],
@@ -41199,9 +42156,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	munna: {		
-		learnset: {	
+	},
+	munna: {
+		learnset: {
 			defensecurl: ["7L1"],
 			psywave: ["7L1"],
 			storedpower: ["7L1"],
@@ -41275,9 +42232,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			sonicboom: ["7E"],
 			healingwish: ["7E"],
 		},
-	},	
-	musharna: {		
-		learnset: {	
+	},
+	musharna: {
+		learnset: {
 			psychicterrain: ["7L0"],
 			psybeam: ["7L1"],
 			hypnosis: ["7L1"],
@@ -41351,9 +42308,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			batonpass: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	pidove: {		
-		learnset: {	
+	},
+	pidove: {
+		learnset: {
 			gust: ["7L1"],
 			growl: ["7L4"],
 			leer: ["7L8"],
@@ -41405,9 +42362,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			luckychant: ["7E"],
 			nightslash: ["7E"],
 		},
-	},	
-	tranquill: {		
-		learnset: {	
+	},
+	tranquill: {
+		learnset: {
 			gust: ["7L1"],
 			growl: ["7L1"],
 			leer: ["7L1"],
@@ -41453,9 +42410,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heatwave: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	unfezant: {		
-		learnset: {	
+	},
+	unfezant: {
+		learnset: {
 			submission: ["7L0"],
 			gust: ["7L1"],
 			growl: ["7L1"],
@@ -41508,9 +42465,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	blitzle: {		
-		learnset: {	
+	},
+	blitzle: {
+		learnset: {
 			quickattack: ["7L1"],
 			tailwhip: ["7L1"],
 			charge: ["7L4"],
@@ -41569,9 +42526,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rage: ["7E"],
 			feint: ["7E"],
 		},
-	},	
-	zebstrika: {		
-		learnset: {	
+	},
+	zebstrika: {
+		learnset: {
 			blazekick: ["7L0"],
 			jumpkick: ["7L1"],
 			iondeluge: ["7L1"],
@@ -41632,9 +42589,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	roggenrola: {		
-		learnset: {	
+	},
+	roggenrola: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L4"],
 			sandattack: ["7L7"],
@@ -41694,9 +42651,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			takedown: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	boldore: {		
-		learnset: {	
+	},
+	boldore: {
+		learnset: {
 			powergem: ["7L0"],
 			tackle: ["7L1"],
 			harden: ["7L1"],
@@ -41751,9 +42708,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	gigalith: {		
-		learnset: {	
+	},
+	gigalith: {
+		learnset: {
 			morningsun: ["7L0"],
 			powergem: ["7L1"],
 			rockslide: ["7L1"],
@@ -41816,9 +42773,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	woobat: {		
-		learnset: {	
+	},
+	woobat: {
+		learnset: {
 			attract: ["7L1"],
 			gust: ["7L1"],
 			odorsleuth: ["7L4"],
@@ -41906,9 +42863,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			venomdrench: ["7E"],
 			psychoshift: ["7E"],
 		},
-	},	
-	swoobat: {		
-		learnset: {	
+	},
+	swoobat: {
+		learnset: {
 			storedpower: ["7L0"],
 			attract: ["7L1"],
 			confusion: ["7L1"],
@@ -41993,9 +42950,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	drilbur: {		
-		learnset: {	
+	},
+	drilbur: {
+		learnset: {
 			mudslap: ["7L1"],
 			mudsport: ["7L1"],
 			rapidspin: ["7L1"],
@@ -42054,9 +43011,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			skullbash: ["7E"],
 			rockclimb: ["7E"],
 		},
-	},	
-	excadrill: {		
-		learnset: {	
+	},
+	excadrill: {
+		learnset: {
 			horndrill: ["7L0"],
 			honeclaws: ["7L1"],
 			mudslap: ["7L1"],
@@ -42122,9 +43079,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			earthpower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	audino: {		
-		learnset: {	
+	},
+	audino: {
+		learnset: {
 			mistyterrain: ["7L1"],
 			playnice: ["7L1"],
 			pound: ["7L1"],
@@ -42230,9 +43187,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			healingwish: ["7E"],
 			amnesia: ["7E"],
 		},
-	},	
-	timburr: {		
-		learnset: {	
+	},
+	timburr: {
+		learnset: {
 			pound: ["7L1"],
 			leer: ["7L1"],
 			focusenergy: ["7L4"],
@@ -42304,9 +43261,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			forcepalm: ["7E"],
 			machpunch: ["7E"],
 		},
-	},	
-	gurdurr: {		
-		learnset: {	
+	},
+	gurdurr: {
+		learnset: {
 			pound: ["7L1"],
 			leer: ["7L1"],
 			focusenergy: ["7L1"],
@@ -42374,9 +43331,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	conkeldurr: {		
-		learnset: {	
+	},
+	conkeldurr: {
+		learnset: {
 			pound: ["7L1"],
 			leer: ["7L1"],
 			focusenergy: ["7L1"],
@@ -42450,9 +43407,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	tympole: {		
-		learnset: {	
+	},
+	tympole: {
+		learnset: {
 			bubble: ["7L1"],
 			echoedvoice: ["7L1"],
 			growl: ["7L1"],
@@ -42508,9 +43465,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			afteryou: ["7E"],
 			venomdrench: ["7E"],
 		},
-	},	
-	palpitoad: {		
-		learnset: {	
+	},
+	palpitoad: {
+		learnset: {
 			acid: ["7L0"],
 			bubble: ["7L1"],
 			echoedvoice: ["7L1"],
@@ -42567,9 +43524,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	seismitoad: {		
-		learnset: {	
+	},
+	seismitoad: {
+		learnset: {
 			drainpunch: ["7L0"],
 			acid: ["7L1"],
 			gastroacid: ["7L1"],
@@ -42650,9 +43607,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	throh: {		
-		learnset: {	
+	},
+	throh: {
+		learnset: {
 			matblock: ["7L1"],
 			bind: ["7L1"],
 			leer: ["7L1"],
@@ -42721,9 +43678,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	sawk: {		
-		learnset: {	
+	},
+	sawk: {
+		learnset: {
 			rocksmash: ["7L1"],
 			leer: ["7L1"],
 			bide: ["7L1"],
@@ -42793,9 +43750,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	sewaddle: {		
-		learnset: {	
+	},
+	sewaddle: {
+		learnset: {
 			tackle: ["7L1"],
 			stringshot: ["7L1"],
 			bugbite: ["7L8"],
@@ -42855,9 +43812,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mefirst: ["7E"],
 			camouflage: ["7E"],
 		},
-	},	
-	swadloon: {		
-		learnset: {	
+	},
+	swadloon: {
+		learnset: {
 			protect: ["7L0"],
 			strugglebug: ["7L1"],
 			endure: ["7L1"],
@@ -42913,9 +43870,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			grassyterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	leavanny: {		
-		learnset: {	
+	},
+	leavanny: {
+		learnset: {
 			slash: ["7L0"],
 			wingattack: ["7L0"],
 			strugglebug: ["7L1"],
@@ -43001,9 +43958,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	venipede: {		
-		learnset: {	
+	},
+	venipede: {
+		learnset: {
 			defensecurl: ["7L1"],
 			rollout: ["7L1"],
 			poisonsting: ["7L5"],
@@ -43058,9 +44015,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			twineedle: ["7E"],
 			takedown: ["7E"],
 		},
-	},	
-	whirlipede: {		
-		learnset: {	
+	},
+	whirlipede: {
+		learnset: {
 			irondefense: ["7L0"],
 			defensecurl: ["7L1"],
 			rollout: ["7L1"],
@@ -43113,9 +44070,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bugbuzz: ["7T"],
 			toxicspikes: ["7T"],
 		},
-	},	
-	scolipede: {		
-		learnset: {	
+	},
+	scolipede: {
+		learnset: {
 			batonpass: ["7L0"],
 			poisonjab: ["7L1"],
 			irondefense: ["7L1"],
@@ -43188,9 +44145,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			toxicspikes: ["7T"],
 			throatchop: ["7T"],
 		},
-	},	
-	cottonee: {		
-		learnset: {	
+	},
+	cottonee: {
+		learnset: {
 			absorb: ["7L1"],
 			fairywind: ["7L1"],
 			growth: ["7L4"],
@@ -43254,9 +44211,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			switcheroo: ["7E"],
 			captivate: ["7E"],
 		},
-	},	
-	whimsicott: {		
-		learnset: {	
+	},
+	whimsicott: {
+		learnset: {
 			tailwind: ["7L0"],
 			gust: ["7L1"],
 			absorb: ["7L1"],
@@ -43327,9 +44284,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	petilil: {		
-		learnset: {	
+	},
+	petilil: {
+		learnset: {
 			absorb: ["7L1"],
 			growth: ["7L4"],
 			fairywind: ["7L6"],
@@ -43389,9 +44346,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bide: ["7E"],
 			healingwish: ["7E"],
 		},
-	},	
-	lilligant: {		
-		learnset: {	
+	},
+	lilligant: {
+		learnset: {
 			teeterdance: ["7L0"],
 			synthesis: ["7L1"],
 			growth: ["7L1"],
@@ -43460,9 +44417,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			solarblade: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	basculin: {		
-		learnset: {	
+	},
+	basculin: {
+		learnset: {
 			tailwhip: ["7L1"],
 			tackle: ["7L1"],
 			watergun: ["7L1"],
@@ -43527,9 +44484,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			whirlpool: ["7E"],
 			rage: ["7E"],
 		},
-	},	
-	sandile: {		
-		learnset: {	
+	},
+	sandile: {
+		learnset: {
 			leer: ["7L1"],
 			rage: ["7L1"],
 			bite: ["7L4"],
@@ -43598,9 +44555,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mefirst: ["7E"],
 			powertrip: ["7E"],
 		},
-	},	
-	krokorok: {		
-		learnset: {	
+	},
+	krokorok: {
+		learnset: {
 			leer: ["7L1"],
 			rage: ["7L1"],
 			bite: ["7L1"],
@@ -43678,9 +44635,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	krookodile: {		
-		learnset: {	
+	},
+	krookodile: {
+		learnset: {
 			powertrip: ["7L1"],
 			leer: ["7L1"],
 			rage: ["7L1"],
@@ -43774,9 +44731,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	darumaka: {		
-		learnset: {	
+	},
+	darumaka: {
+		learnset: {
 			ember: ["7L1"],
 			tackle: ["7L1"],
 			rollout: ["7L3"],
@@ -43850,9 +44807,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			yawn: ["7E"],
 			extrasensory: ["7E"],
 		},
-	},	
-	darumakagalar: {		
-		learnset: {	
+	},
+	darumakagalar: {
+		learnset: {
 			powdersnow: ["7L1"],
 			tackle: ["7L1"],
 			taunt: ["7L4"],
@@ -43919,9 +44876,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			yawn: ["7E"],
 			incinerate: ["7E"],
 		},
-	},	
-	darmanitan: {		
-		learnset: {	
+	},
+	darmanitan: {
+		learnset: {
 			hammerarm: ["7L0"],
 			bite: ["7L1"],
 			ember: ["7L1"],
@@ -44006,9 +44963,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	darmanitangalar: {		
-		learnset: {	
+	},
+	darmanitangalar: {
+		learnset: {
 			iciclecrash: ["7L0"],
 			powdersnow: ["7L1"],
 			tackle: ["7L1"],
@@ -44087,9 +45044,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	maractus: {		
-		learnset: {	
+	},
+	maractus: {
+		learnset: {
 			spikyshield: ["7L1"],
 			absorb: ["7L1"],
 			afteryou: ["7L1"],
@@ -44156,9 +45113,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			woodhammer: ["7E"],
 			grasswhistle: ["7E"],
 		},
-	},	
-	dwebble: {		
-		learnset: {	
+	},
+	dwebble: {
+		learnset: {
 			furycutter: ["7L1"],
 			rockblast: ["7L5"],
 			withdraw: ["7L7"],
@@ -44224,9 +45181,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wideguard: ["7E"],
 			rototiller: ["7E"],
 		},
-	},	
-	crustle: {		
-		learnset: {	
+	},
+	crustle: {
+		learnset: {
 			crabhammer: ["7L0"],
 			rockblast: ["7L1"],
 			withdraw: ["7L1"],
@@ -44291,9 +45248,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	scraggy: {		
-		learnset: {	
+	},
+	scraggy: {
+		learnset: {
 			leer: ["7L1"],
 			lowkick: ["7L1"],
 			payback: ["7L4"],
@@ -44381,9 +45338,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quickguard: ["7E"],
 			acidspray: ["7E"],
 		},
-	},	
-	scrafty: {		
-		learnset: {	
+	},
+	scrafty: {
+		learnset: {
 			acidspray: ["7L0"],
 			headbutt: ["7L1"],
 			leer: ["7L1"],
@@ -44472,9 +45429,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	sigilyph: {		
-		learnset: {	
+	},
+	sigilyph: {
+		learnset: {
 			confusion: ["7L1"],
 			gust: ["7L1"],
 			miracleeye: ["7L1"],
@@ -44555,9 +45512,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ancientpower: ["7E"],
 			futuresight: ["7E"],
 		},
-	},	
-	yamask: {		
-		learnset: {	
+	},
+	yamask: {
+		learnset: {
 			astonish: ["7L1"],
 			protect: ["7L1"],
 			haze: ["7L4"],
@@ -44623,9 +45580,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightmare: ["7E"],
 			allyswitch: ["7E"],
 		},
-	},	
-	yamaskgalar: {		
-		learnset: {	
+	},
+	yamaskgalar: {
+		learnset: {
 			astonish: ["7L1"],
 			protect: ["7L1"],
 			haze: ["7L4"],
@@ -44682,9 +45639,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			memento: ["7E"],
 		},
-	},	
-	cofagrigus: {		
-		learnset: {	
+	},
+	cofagrigus: {
+		learnset: {
 			mirrorshot: ["7L0"],
 			darkpulse: ["7L1"],
 			scaryface: ["7L1"],
@@ -44757,9 +45714,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	tirtouga: {		
-		learnset: {	
+	},
+	tirtouga: {
+		learnset: {
 			bide: ["7L1"],
 			withdraw: ["7L1"],
 			watergun: ["7L1"],
@@ -44832,9 +45789,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			whirlpool: ["7E"],
 			guardswap: ["7E"],
 		},
-	},	
-	carracosta: {		
-		learnset: {	
+	},
+	carracosta: {
+		learnset: {
 			bide: ["7L1"],
 			withdraw: ["7L1"],
 			watergun: ["7L1"],
@@ -44913,9 +45870,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	archen: {		
-		learnset: {	
+	},
+	archen: {
+		learnset: {
 			quickattack: ["7L1"],
 			leer: ["7L1"],
 			aerialace: ["7L1"],
@@ -44990,9 +45947,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			allyswitch: ["7E"],
 			switcheroo: ["7E"],
 		},
-	},	
-	archeops: {		
-		learnset: {	
+	},
+	archeops: {
+		learnset: {
 			quickattack: ["7L1"],
 			leer: ["7L1"],
 			aerialace: ["7L1"],
@@ -45074,9 +46031,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	trubbish: {		
-		learnset: {	
+	},
+	trubbish: {
+		learnset: {
 			pound: ["7L1"],
 			doubleslap: ["7L1"],
 			poisongas: ["7L1"],
@@ -45137,9 +46094,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mudsport: ["7E"],
 			autotomize: ["7E"],
 		},
-	},	
-	garbodor: {		
-		learnset: {	
+	},
+	garbodor: {
+		learnset: {
 			metalclaw: ["7L0"],
 			takedown: ["7L1"],
 			pound: ["7L1"],
@@ -45210,9 +46167,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	zorua: {		
-		learnset: {	
+	},
+	zorua: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			pursuit: ["7L4"],
@@ -45288,9 +46245,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			extrasensory: ["7E"],
 			copycat: ["7E"],
 		},
-	},	
-	zoroark: {		
-		learnset: {	
+	},
+	zoroark: {
+		learnset: {
 			nightslash: ["7L0"],
 			imprison: ["7L1"],
 			uturn: ["7L1"],
@@ -45375,9 +46332,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	minccino: {		
-		learnset: {	
+	},
+	minccino: {
+		learnset: {
 			pound: ["7L1"],
 			babydolleyes: ["7L3"],
 			helpinghand: ["7L7"],
@@ -45441,9 +46398,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			faketears: ["7E"],
 			flail: ["7E"],
 		},
-	},	
-	cinccino: {		
-		learnset: {	
+	},
+	cinccino: {
+		learnset: {
 			bulletseed: ["7L1"],
 			rockblast: ["7L1"],
 			tailslap: ["7L1"],
@@ -45512,9 +46469,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	gothita: {		
-		learnset: {	
+	},
+	gothita: {
+		learnset: {
 			pound: ["7L1"],
 			confusion: ["7L3"],
 			tickle: ["7L7"],
@@ -45598,9 +46555,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			meanlook: ["7E"],
 			healpulse: ["7E"],
 		},
-	},	
-	gothorita: {		
-		learnset: {	
+	},
+	gothorita: {
+		learnset: {
 			pound: ["7L1"],
 			confusion: ["7L1"],
 			tickle: ["7L1"],
@@ -45679,9 +46636,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	gothitelle: {		
-		learnset: {	
+	},
+	gothitelle: {
+		learnset: {
 			darkpulse: ["7L0"],
 			pound: ["7L1"],
 			confusion: ["7L1"],
@@ -45765,9 +46722,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	solosis: {		
-		learnset: {	
+	},
+	solosis: {
+		learnset: {
 			confusion: ["7L1"],
 			protect: ["7L1"],
 			psywave: ["7L1"],
@@ -45843,9 +46800,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acidarmor: ["7E"],
 			imprison: ["7E"],
 		},
-	},	
-	duosion: {		
-		learnset: {	
+	},
+	duosion: {
+		learnset: {
 			confusion: ["7L1"],
 			endeavor: ["7L1"],
 			protect: ["7L1"],
@@ -45916,9 +46873,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	reuniclus: {		
-		learnset: {	
+	},
+	reuniclus: {
+		learnset: {
 			hammerarm: ["7L0"],
 			confusion: ["7L1"],
 			dizzypunch: ["7L1"],
@@ -46008,9 +46965,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	ducklett: {		
-		learnset: {	
+	},
+	ducklett: {
+		learnset: {
 			watergun: ["7L1"],
 			watersport: ["7L3"],
 			defog: ["7L6"],
@@ -46066,9 +47023,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mudsport: ["7E"],
 			aquajet: ["7E"],
 		},
-	},	
-	swanna: {		
-		learnset: {	
+	},
+	swanna: {
+		learnset: {
 			watergun: ["7L1"],
 			watersport: ["7L1"],
 			defog: ["7L1"],
@@ -46122,9 +47079,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	vanillite: {		
-		learnset: {	
+	},
+	vanillite: {
+		learnset: {
 			astonish: ["7L1"],
 			harden: ["7L1"],
 			taunt: ["7L4"],
@@ -46178,9 +47135,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			iceshard: ["7E"],
 			powdersnow: ["7E"],
 		},
-	},	
-	vanillish: {		
-		learnset: {	
+	},
+	vanillish: {
+		learnset: {
 			astonish: ["7L1"],
 			harden: ["7L1"],
 			mist: ["7L1"],
@@ -46229,9 +47186,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	vanilluxe: {		
-		learnset: {	
+	},
+	vanilluxe: {
+		learnset: {
 			freezedry: ["7L0"],
 			weatherball: ["7L1"],
 			iciclespear: ["7L1"],
@@ -46284,9 +47241,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	deerling: {		
-		learnset: {	
+	},
+	deerling: {
+		learnset: {
 			tackle: ["7L1"],
 			camouflage: ["7L1"],
 			growl: ["7L4"],
@@ -46349,9 +47306,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			grasswhistle: ["7E"],
 			headbutt: ["7E"],
 		},
-	},	
-	sawsbuck: {		
-		learnset: {	
+	},
+	sawsbuck: {
+		learnset: {
 			hornleech: ["7L0"],
 			megahorn: ["7L1"],
 			tackle: ["7L1"],
@@ -46420,9 +47377,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			solarblade: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	emolga: {		
-		learnset: {	
+	},
+	emolga: {
+		learnset: {
 			thundershock: ["7L1"],
 			quickattack: ["7L1"],
 			tailwhip: ["7L1"],
@@ -46493,9 +47450,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			iondeluge: ["7E"],
 			speedswap: ["7E"],
 		},
-	},	
-	karrablast: {		
-		learnset: {	
+	},
+	karrablast: {
+		learnset: {
 			leer: ["7L1"],
 			peck: ["7L1"],
 			furycutter: ["7L4"],
@@ -46553,9 +47510,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feintattack: ["7E"],
 			screech: ["7E"],
 		},
-	},	
-	escavalier: {		
-		learnset: {	
+	},
+	escavalier: {
+		learnset: {
 			twineedle: ["7L0"],
 			doubleedge: ["7L1"],
 			quickguard: ["7L1"],
@@ -46622,9 +47579,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	foongus: {		
-		learnset: {	
+	},
+	foongus: {
+		learnset: {
 			absorb: ["7L1"],
 			growth: ["7L6"],
 			astonish: ["7L8"],
@@ -46676,9 +47633,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			stunspore: ["7E"],
 			bodyslam: ["7E"],
 		},
-	},	
-	amoonguss: {		
-		learnset: {	
+	},
+	amoonguss: {
+		learnset: {
 			absorb: ["7L1"],
 			growth: ["7L1"],
 			astonish: ["7L1"],
@@ -46733,9 +47690,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			grassyterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	frillish: {		
-		learnset: {	
+	},
+	frillish: {
+		learnset: {
 			absorb: ["7L1"],
 			bubble: ["7L1"],
 			watersport: ["7L1"],
@@ -46803,9 +47760,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mist: ["7E"],
 			constrict: ["7E"],
 		},
-	},	
-	jellicent: {		
-		learnset: {	
+	},
+	jellicent: {
+		learnset: {
 			absorb: ["7L1"],
 			wringout: ["7L1"],
 			bubble: ["7L1"],
@@ -46871,9 +47828,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			trick: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	alomomola: {		
-		learnset: {	
+	},
+	alomomola: {
+		learnset: {
 			playnice: ["7L1"],
 			helpinghand: ["7L1"],
 			pound: ["7L1"],
@@ -46936,9 +47893,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mirrorcoat: ["7E"],
 			mist: ["7E"],
 		},
-	},	
-	joltik: {		
-		learnset: {	
+	},
+	joltik: {
+		learnset: {
 			absorb: ["7L1"],
 			furycutter: ["7L1"],
 			spiderweb: ["7L1"],
@@ -47003,9 +47960,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			camouflage: ["7E"],
 			lunge: ["7E"],
 		},
-	},	
-	galvantula: {		
-		learnset: {	
+	},
+	galvantula: {
+		learnset: {
 			stickyweb: ["7L0"],
 			absorb: ["7L1"],
 			furycutter: ["7L1"],
@@ -47069,9 +48026,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	ferroseed: {		
-		learnset: {	
+	},
+	ferroseed: {
+		learnset: {
 			harden: ["7L1"],
 			tackle: ["7L1"],
 			metalclaw: ["7L5"],
@@ -47130,9 +48087,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rockclimb: ["7E"],
 			acidspray: ["7E"],
 		},
-	},	
-	ferrothorn: {		
-		learnset: {	
+	},
+	ferrothorn: {
+		learnset: {
 			powerwhip: ["7L0"],
 			rockclimb: ["7L1"],
 			tackle: ["7L1"],
@@ -47199,9 +48156,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	klink: {		
-		learnset: {	
+	},
+	klink: {
+		learnset: {
 			thundershock: ["7L1"],
 			visegrip: ["7L1"],
 			bind: ["7L4"],
@@ -47254,9 +48211,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bodyslam: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	klang: {		
-		learnset: {	
+	},
+	klang: {
+		learnset: {
 			bind: ["7L1"],
 			charge: ["7L1"],
 			thundershock: ["7L1"],
@@ -47309,9 +48266,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bodyslam: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	klinklang: {		
-		learnset: {	
+	},
+	klinklang: {
+		learnset: {
 			magneticflux: ["7L0"],
 			bind: ["7L1"],
 			charge: ["7L1"],
@@ -47371,9 +48328,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bodyslam: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	tynamo: {		
-		learnset: {	
+	},
+	tynamo: {
+		learnset: {
 			tackle: ["7L1"],
 			thunderwave: ["7L1"],
 			spark: ["7L1"],
@@ -47381,9 +48338,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			agility: ["7T"],
 			magnetrise: ["7T"],
 		},
-	},	
-	eelektrik: {		
-		learnset: {	
+	},
+	eelektrik: {
+		learnset: {
 			crunch: ["7L0"],
 			headbutt: ["7L1"],
 			thunderwave: ["7L1"],
@@ -47441,9 +48398,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	eelektross: {		
-		learnset: {	
+	},
+	eelektross: {
+		learnset: {
 			crushclaw: ["7L0"],
 			crunch: ["7L1"],
 			zapcannon: ["7L1"],
@@ -47533,9 +48490,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	elgyem: {		
-		learnset: {	
+	},
+	elgyem: {
+		learnset: {
 			confusion: ["7L1"],
 			growl: ["7L4"],
 			healblock: ["7L8"],
@@ -47617,9 +48574,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			cosmicpower: ["7E"],
 			allyswitch: ["7E"],
 		},
-	},	
-	beheeyem: {		
-		learnset: {	
+	},
+	beheeyem: {
+		learnset: {
 			psychicterrain: ["7L0"],
 			wonderroom: ["7L1"],
 			synchronoise: ["7L1"],
@@ -47700,9 +48657,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	litwick: {		
-		learnset: {	
+	},
+	litwick: {
+		learnset: {
 			astonish: ["7L1"],
 			smog: ["7L1"],
 			ember: ["7L4"],
@@ -47765,9 +48722,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			clearsmog: ["7E"],
 			powersplit: ["7E"],
 		},
-	},	
-	lampent: {		
-		learnset: {	
+	},
+	lampent: {
+		learnset: {
 			astonish: ["7L1"],
 			ember: ["7L1"],
 			minimize: ["7L1"],
@@ -47824,9 +48781,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heatwave: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	chandelure: {		
-		learnset: {	
+	},
+	chandelure: {
+		learnset: {
 			painsplit: ["7L1"],
 			astonish: ["7L1"],
 			ember: ["7L1"],
@@ -47885,9 +48842,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heatwave: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	axew: {		
-		learnset: {	
+	},
+	axew: {
+		learnset: {
 			leer: ["7L1"],
 			scratch: ["7L1"],
 			bite: ["7L3"],
@@ -47953,9 +48910,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightslash: ["7E"],
 			harden: ["7E"],
 		},
-	},	
-	fraxure: {		
-		learnset: {	
+	},
+	fraxure: {
+		learnset: {
 			leer: ["7L1"],
 			scratch: ["7L1"],
 			bite: ["7L1"],
@@ -48024,9 +48981,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	haxorus: {		
-		learnset: {	
+	},
+	haxorus: {
+		learnset: {
 			leer: ["7L1"],
 			scratch: ["7L1"],
 			bite: ["7L1"],
@@ -48106,9 +49063,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	cubchoo: {		
-		learnset: {	
+	},
+	cubchoo: {
+		learnset: {
 			growl: ["7L1"],
 			powdersnow: ["7L1"],
 			endure: ["7L3"],
@@ -48177,9 +49134,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightslash: ["7E"],
 			assurance: ["7E"],
 		},
-	},	
-	beartic: {		
-		learnset: {	
+	},
+	beartic: {
+		learnset: {
 			iciclecrash: ["7L0"],
 			liquidation: ["7L1"],
 			submission: ["7L1"],
@@ -48267,9 +49224,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	cryogonal: {		
-		learnset: {	
+	},
+	cryogonal: {
+		learnset: {
 			bind: ["7L1"],
 			iceshard: ["7L1"],
 			sharpen: ["7L1"],
@@ -48332,9 +49289,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	shelmet: {		
-		learnset: {	
+	},
+	shelmet: {
+		learnset: {
 			absorb: ["7L1"],
 			protect: ["7L1"],
 			acid: ["7L4"],
@@ -48387,9 +49344,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			feint: ["7E"],
 			pursuit: ["7E"],
 		},
-	},	
-	accelgor: {		
-		learnset: {	
+	},
+	accelgor: {
+		learnset: {
 			watershuriken: ["7L0"],
 			toxic: ["7L1"],
 			yawn: ["7L1"],
@@ -48454,9 +49411,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	stunfisk: {		
-		learnset: {	
+	},
+	stunfisk: {
+		learnset: {
 			mudslap: ["7L1"],
 			mudsport: ["7L1"],
 			tackle: ["7L1"],
@@ -48532,9 +49489,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			reflecttype: ["7E"],
 			mefirst: ["7E"],
 		},
-	},	
-	stunfiskgalar: {		
-		learnset: {	
+	},
+	stunfiskgalar: {
+		learnset: {
 			mudslap: ["7L1"],
 			tackle: ["7L1"],
 			watergun: ["7L1"],
@@ -48602,9 +49559,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			spite: ["7E"],
 			reflecttype: ["7E"],
 		},
-	},	
-	mienfoo: {		
-		learnset: {	
+	},
+	mienfoo: {
+		learnset: {
 			pound: ["7L1"],
 			meditate: ["7L5"],
 			detect: ["7L9"],
@@ -48683,9 +49640,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mefirst: ["7E"],
 			allyswitch: ["7E"],
 		},
-	},	
-	mienshao: {		
-		learnset: {	
+	},
+	mienshao: {
+		learnset: {
 			pound: ["7L1"],
 			meditate: ["7L1"],
 			detect: ["7L1"],
@@ -48765,9 +49722,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	druddigon: {		
-		learnset: {	
+	},
+	druddigon: {
+		learnset: {
 			leer: ["7L1"],
 			scratch: ["7L1"],
 			honeclaws: ["7L7"],
@@ -48867,9 +49824,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			metalclaw: ["7E"],
 			glare: ["7E"],
 		},
-	},	
-	golett: {		
-		learnset: {	
+	},
+	golett: {
+		learnset: {
 			astonish: ["7L1"],
 			mudslap: ["7L1"],
 			defensecurl: ["7L4"],
@@ -48945,9 +49902,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	golurk: {		
-		learnset: {	
+	},
+	golurk: {
+		learnset: {
 			highhorsepower: ["7L0"],
 			pound: ["7L1"],
 			astonish: ["7L1"],
@@ -49035,9 +49992,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	pawniard: {		
-		learnset: {	
+	},
+	pawniard: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			furycutter: ["7L5"],
@@ -49116,9 +50073,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			meanlook: ["7E"],
 			quickguard: ["7E"],
 		},
-	},	
-	bisharp: {		
-		learnset: {	
+	},
+	bisharp: {
+		learnset: {
 			metalburst: ["7L1"],
 			scratch: ["7L1"],
 			leer: ["7L1"],
@@ -49203,9 +50160,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	bouffalant: {		
-		learnset: {	
+	},
+	bouffalant: {
+		learnset: {
 			pursuit: ["7L1"],
 			leer: ["7L1"],
 			rage: ["7L6"],
@@ -49275,9 +50232,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			belch: ["7E"],
 			cottonguard: ["7E"],
 		},
-	},	
-	rufflet: {		
-		learnset: {	
+	},
+	rufflet: {
+		learnset: {
 			peck: ["7L1"],
 			leer: ["7L1"],
 			furyattack: ["7L4"],
@@ -49337,9 +50294,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	braviary: {		
-		learnset: {	
+	},
+	braviary: {
+		learnset: {
 			superpower: ["7L0"],
 			peck: ["7L1"],
 			leer: ["7L1"],
@@ -49402,9 +50359,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	vullaby: {		
-		learnset: {	
+	},
+	vullaby: {
+		learnset: {
 			punishment: ["7L1"],
 			embargo: ["7L1"],
 			mirrormove: ["7L1"],
@@ -49469,9 +50426,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			scaryface: ["7E"],
 			faketears: ["7E"],
 		},
-	},	
-	mandibuzz: {		
-		learnset: {	
+	},
+	mandibuzz: {
+		learnset: {
 			bonerush: ["7L0"],
 			punishment: ["7L1"],
 			embargo: ["7L1"],
@@ -49537,9 +50494,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	heatmor: {		
-		learnset: {	
+	},
+	heatmor: {
+		learnset: {
 			honeclaws: ["7L1"],
 			tackle: ["7L1"],
 			incinerate: ["7L1"],
@@ -49627,9 +50584,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bulletpunch: ["7E"],
 			belch: ["7E"],
 		},
-	},	
-	durant: {		
-		learnset: {	
+	},
+	durant: {
+		learnset: {
 			metalsound: ["7L1"],
 			guillotine: ["7L1"],
 			visegrip: ["7L1"],
@@ -49688,9 +50645,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rockclimb: ["7E"],
 			feintattack: ["7E"],
 		},
-	},	
-	deino: {		
-		learnset: {	
+	},
+	deino: {
+		learnset: {
 			tackle: ["7L1"],
 			dragonrage: ["7L1"],
 			focusenergy: ["7L4"],
@@ -49754,9 +50711,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			assurance: ["7E"],
 			belch: ["7E"],
 		},
-	},	
-	zweilous: {		
-		learnset: {	
+	},
+	zweilous: {
+		learnset: {
 			doublehit: ["7L0"],
 			dragonrage: ["7L1"],
 			focusenergy: ["7L1"],
@@ -49814,9 +50771,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	hydreigon: {		
-		learnset: {	
+	},
+	hydreigon: {
+		learnset: {
 			triattack: ["7L0"],
 			hypervoice: ["7L1"],
 			dragonrage: ["7L1"],
@@ -49906,9 +50863,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	larvesta: {		
-		learnset: {	
+	},
+	larvesta: {
+		learnset: {
 			ember: ["7L1"],
 			stringshot: ["7L1"],
 			absorb: ["7L1"],
@@ -49961,9 +50918,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			foresight: ["7E"],
 			morningsun: ["7E"],
 		},
-	},	
-	volcarona: {		
-		learnset: {	
+	},
+	volcarona: {
+		learnset: {
 			quiverdance: ["7L0"],
 			fierydance: ["7L1"],
 			takedown: ["7L1"],
@@ -50032,9 +50989,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			zenheadbutt: ["7T"],
 			mysticalfire: ["7T"],
 		},
-	},	
-	cobalion: {		
-		learnset: {	
+	},
+	cobalion: {
+		learnset: {
 			quickattack: ["7L1"],
 			leer: ["7L1"],
 			doublekick: ["7L1"],
@@ -50106,9 +51063,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			megahorn: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	terrakion: {		
-		learnset: {	
+	},
+	terrakion: {
+		learnset: {
 			quickattack: ["7L1"],
 			leer: ["7L1"],
 			doublekick: ["7L1"],
@@ -50180,9 +51137,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			megahorn: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	virizion: {		
-		learnset: {	
+	},
+	virizion: {
+		learnset: {
 			quickattack: ["7L1"],
 			leer: ["7L1"],
 			doublekick: ["7L1"],
@@ -50256,9 +51213,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	tornadus: {		
-		learnset: {	
+	},
+	tornadus: {
+		learnset: {
 			uproar: ["7L1"],
 			astonish: ["7L1"],
 			gust: ["7L1"],
@@ -50329,9 +51286,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	thundurus: {		
-		learnset: {	
+	},
+	thundurus: {
+		learnset: {
 			uproar: ["7L1"],
 			astonish: ["7L1"],
 			thundershock: ["7L1"],
@@ -50407,9 +51364,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	reshiram: {		
-		learnset: {	
+	},
+	reshiram: {
+		learnset: {
 			firefang: ["7L1"],
 			dragonrage: ["7L1"],
 			imprison: ["7L8"],
@@ -50485,9 +51442,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	zekrom: {		
-		learnset: {	
+	},
+	zekrom: {
+		learnset: {
 			thunderfang: ["7L1"],
 			dragonrage: ["7L1"],
 			imprison: ["7L8"],
@@ -50565,9 +51522,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	landorus: {		
-		learnset: {	
+	},
+	landorus: {
+		learnset: {
 			block: ["7L1"],
 			mudshot: ["7L1"],
 			rocktomb: ["7L1"],
@@ -50640,9 +51597,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	kyurem: {		
-		learnset: {	
+	},
+	kyurem: {
+		learnset: {
 			icywind: ["7L1"],
 			dragonrage: ["7L1"],
 			imprison: ["7L8"],
@@ -50714,9 +51671,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	kyuremblack: {		
-		learnset: {	
+	},
+	kyuremblack: {
+		learnset: {
 			icywind: ["7L1"],
 			dragonrage: ["7L1"],
 			imprison: ["7L8"],
@@ -50733,9 +51690,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7L85"],
 			hypervoice: ["7L92"],
 		},
-	},	
-	kyuremwhite: {		
-		learnset: {	
+	},
+	kyuremwhite: {
+		learnset: {
 			icywind: ["7L1"],
 			dragonrage: ["7L1"],
 			imprison: ["7L8"],
@@ -50752,9 +51709,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7L85"],
 			hypervoice: ["7L92"],
 		},
-	},	
-	keldeo: {		
-		learnset: {	
+	},
+	keldeo: {
+		learnset: {
 			aquajet: ["7L1"],
 			leer: ["7L1"],
 			doublekick: ["7L1"],
@@ -50829,9 +51786,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			secretsword: ["7T"],
 		},
-	},	
-	keldeoresolute: {		
-		learnset: {	
+	},
+	keldeoresolute: {
+		learnset: {
 			waterpulse: ["7M"],
 			calmmind: ["7M"],
 			roar: ["7M"],
@@ -50898,9 +51855,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			secretsword: ["7T"],
 		},
-	},	
-	meloetta: {		
-		learnset: {	
+	},
+	meloetta: {
+		learnset: {
 			round: ["7L1"],
 			quickattack: ["7L1"],
 			confusion: ["7L1"],
@@ -50995,9 +51952,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	genesect: {		
-		learnset: {	
+	},
+	genesect: {
+		learnset: {
 			fellstinger: ["7L1"],
 			technoblast: ["7L1"],
 			quickattack: ["7L1"],
@@ -51078,9 +52035,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			flareblitz: ["7T"],
 		},
-	},	
-	chespin: {		
-		learnset: {	
+	},
+	chespin: {
+		learnset: {
 			growl: ["7L1"],
 			tackle: ["7L1"],
 			vinewhip: ["7L5"],
@@ -51173,9 +52130,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bellydrum: ["7E"],
 			quickguard: ["7E"],
 		},
-	},	
-	quilladin: {		
-		learnset: {	
+	},
+	quilladin: {
+		learnset: {
 			growl: ["7L1"],
 			tackle: ["7L1"],
 			vinewhip: ["7L1"],
@@ -51268,9 +52225,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	chesnaught: {		
-		learnset: {	
+	},
+	chesnaught: {
+		learnset: {
 			spikyshield: ["7L0"],
 			crunch: ["7L0"],
 			hammerarm: ["7L1"],
@@ -51381,9 +52338,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	fennekin: {		
-		learnset: {	
+	},
+	fennekin: {
+		learnset: {
 			scratch: ["7L1"],
 			tailwhip: ["7L1"],
 			ember: ["7L5"],
@@ -51448,9 +52405,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wish: ["7E"],
 			hypnosis: ["7E"],
 		},
-	},	
-	braixen: {		
-		learnset: {	
+	},
+	braixen: {
+		learnset: {
 			magicalleaf: ["7L0"],
 			hypnosis: ["7L1"],
 			scratch: ["7L1"],
@@ -51526,9 +52483,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	delphox: {		
-		learnset: {	
+	},
+	delphox: {
+		learnset: {
 			mysticalfire: ["7L0"],
 			futuresight: ["7L1"],
 			inferno: ["7L1"],
@@ -51617,9 +52574,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	froakie: {		
-		learnset: {	
+	},
+	froakie: {
+		learnset: {
 			pound: ["7L1"],
 			growl: ["7L1"],
 			bubble: ["7L5"],
@@ -51691,9 +52648,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			camouflage: ["7E"],
 			watersport: ["7E"],
 		},
-	},	
-	frogadier: {		
-		learnset: {	
+	},
+	frogadier: {
+		learnset: {
 			pound: ["7L1"],
 			growl: ["7L1"],
 			bubble: ["7L1"],
@@ -51764,9 +52721,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	greninja: {		
-		learnset: {	
+	},
+	greninja: {
+		learnset: {
 			watershuriken: ["7L0"],
 			nightslash: ["7L1"],
 			smackdown: ["7L1"],
@@ -51848,9 +52805,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	greninjaash: {		
-		learnset: {	
+	},
+	greninjaash: {
+		learnset: {
 			waterpulse: ["7M"],
 			toxic: ["7M"],
 			hiddenpower: ["7M"],
@@ -51892,9 +52849,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			waterfall: ["7M"],
 			dive: ["7M"],
 		},
-	},	
-	bunnelby: {		
-		learnset: {	
+	},
+	bunnelby: {
+		learnset: {
 			tackle: ["7L1"],
 			agility: ["7L1"],
 			leer: ["7L1"],
@@ -51960,9 +52917,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			highhorsepower: ["7E"],
 		},
-	},	
-	diggersby: {		
-		learnset: {	
+	},
+	diggersby: {
+		learnset: {
 			hammerarm: ["7L1"],
 			rototiller: ["7L1"],
 			bulldoze: ["7L1"],
@@ -52049,9 +53006,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	fletchling: {		
-		learnset: {	
+	},
+	fletchling: {
+		learnset: {
 			peck: ["7L1"],
 			tackle: ["7L1"],
 			growl: ["7L1"],
@@ -52102,9 +53059,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			quickguard: ["7E"],
 		},
-	},	
-	fletchinder: {		
-		learnset: {	
+	},
+	fletchinder: {
+		learnset: {
 			flamecharge: ["7L0"],
 			peck: ["7L1"],
 			tackle: ["7L1"],
@@ -52156,9 +53113,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			heatwave: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	talonflame: {		
-		learnset: {	
+	},
+	talonflame: {
+		learnset: {
 			flareblitz: ["7L0"],
 			flamecharge: ["7L1"],
 			feint: ["7L1"],
@@ -52219,9 +53176,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	scatterbug: {		
-		learnset: {	
+	},
+	scatterbug: {
+		learnset: {
 			tackle: ["7L1"],
 			stringshot: ["7L1"],
 			stunspore: ["7L6"],
@@ -52229,18 +53186,18 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poisonpowder: ["7E"],
 			ragepowder: ["7E"],
 		},
-	},	
-	spewpa: {		
-		learnset: {	
+	},
+	spewpa: {
+		learnset: {
 			protect: ["7L0"],
 			harden: ["7L1"],
 			bugbite: ["7T"],
 			irondefense: ["7T"],
 			electroweb: ["7T"],
 		},
-	},	
-	vivillon: {		
-		learnset: {	
+	},
+	vivillon: {
+		learnset: {
 			gust: ["7L0"],
 			bugbite: ["7L1"],
 			powder: ["7L1"],
@@ -52305,9 +53262,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			weatherball: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	vivillonfancy: {		
-		learnset: {	
+	},
+	vivillonfancy: {
+		learnset: {
 			calmmind: ["7M"],
 			toxic: ["7M"],
 			hiddenpower: ["7M"],
@@ -52364,9 +53321,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	vivillonpokeball: {		
-		learnset: {	
+	},
+	vivillonpokeball: {
+		learnset: {
 			aircutter: ["7T"],
 			bugbite: ["7T"],
 			infestation: ["7T"],
@@ -52389,9 +53346,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	litleo: {		
-		learnset: {	
+	},
+	litleo: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			ember: ["7L4"],
@@ -52458,9 +53415,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			yawn: ["7E"],
 			firespin: ["7E"],
 		},
-	},	
-	pyroar: {		
-		learnset: {	
+	},
+	pyroar: {
+		learnset: {
 			hyperbeam: ["7L0"],
 			tackle: ["7L1"],
 			leer: ["7L1"],
@@ -52527,9 +53484,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	flabebe: {		
-		learnset: {	
+	},
+	flabebe: {
+		learnset: {
 			tackle: ["7L1"],
 			vinewhip: ["7L1"],
 			fairywind: ["7L6"],
@@ -52588,9 +53545,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			camouflage: ["7E"],
 			tearfullook: ["7E"],
 		},
-	},	
-	floette: {		
-		learnset: {	
+	},
+	floette: {
+		learnset: {
 			drainingkiss: ["7L0"],
 			tackle: ["7L1"],
 			vinewhip: ["7L1"],
@@ -52646,9 +53603,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			storedpower: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	floetteeternal: {		
-		learnset: {	
+	},
+	floetteeternal: {
+		learnset: {
 			tackle: ["7L1"],
 			vinewhip: ["7L1"],
 			fairywind: ["7L1"],
@@ -52665,9 +53622,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			petaldance: ["7L51"],
 			solarbeam: ["7L58"],
 		},
-	},	
-	florges: {		
-		learnset: {	
+	},
+	florges: {
+		learnset: {
 			mistyterrain: ["7L0"],
 			grassyterrain: ["7L1"],
 			drainingkiss: ["7L1"],
@@ -52728,9 +53685,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	skiddo: {		
-		learnset: {	
+	},
+	skiddo: {
+		learnset: {
 			tackle: ["7L1"],
 			growth: ["7L1"],
 			vinewhip: ["7L7"],
@@ -52792,9 +53749,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			highhorsepower: ["7E"],
 		},
-	},	
-	gogoat: {		
-		learnset: {	
+	},
+	gogoat: {
+		learnset: {
 			aerialace: ["7L0"],
 			tackle: ["7L1"],
 			growth: ["7L1"],
@@ -52865,9 +53822,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	pancham: {		
-		learnset: {	
+	},
+	pancham: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			armthrust: ["7L7"],
@@ -52960,9 +53917,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			stormthrow: ["7E"],
 			powertrip: ["7E"],
 		},
-	},	
-	pangoro: {		
-		learnset: {	
+	},
+	pangoro: {
+		learnset: {
 			bulletpunch: ["7L0"],
 			hammerarm: ["7L1"],
 			lowsweep: ["7L1"],
@@ -53073,9 +54030,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	furfrou: {		
-		learnset: {	
+	},
+	furfrou: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			sandattack: ["7L5"],
@@ -53137,9 +54094,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			captivate: ["7E"],
 			refresh: ["7E"],
 		},
-	},	
-	espurr: {		
-		learnset: {	
+	},
+	espurr: {
+		learnset: {
 			scratch: ["7L1"],
 			leer: ["7L1"],
 			covet: ["7L5"],
@@ -53209,9 +54166,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			assist: ["7E"],
 			barrier: ["7E"],
 		},
-	},	
-	meowstic: {		
-		learnset: {	
+	},
+	meowstic: {
+		learnset: {
 			quickguard: ["7L1"],
 			meanlook: ["7L1"],
 			helpinghand: ["7L1"],
@@ -53290,9 +54247,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	meowsticf: {		
-		learnset: {	
+	},
+	meowsticf: {
+		learnset: {
 			storedpower: ["7L1"],
 			mefirst: ["7L1"],
 			magicalleaf: ["7L1"],
@@ -53365,9 +54322,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	honedge: {		
-		learnset: {	
+	},
+	honedge: {
+		learnset: {
 			tackle: ["7L1"],
 			swordsdance: ["7L1"],
 			furycutter: ["7L5"],
@@ -53421,9 +54378,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			destinybond: ["7E"],
 			wideguard: ["7E"],
 		},
-	},	
-	doublade: {		
-		learnset: {	
+	},
+	doublade: {
+		learnset: {
 			tackle: ["7L1"],
 			swordsdance: ["7L1"],
 			furycutter: ["7L1"],
@@ -53475,9 +54432,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	aegislash: {		
-		learnset: {	
+	},
+	aegislash: {
+		learnset: {
 			kingsshield: ["7L0"],
 			ironhead: ["7L1"],
 			headsmash: ["7L1"],
@@ -53532,9 +54489,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	spritzee: {		
-		learnset: {	
+	},
+	spritzee: {
+		learnset: {
 			sweetscent: ["7L1"],
 			fairywind: ["7L1"],
 			sweetkiss: ["7L6"],
@@ -53598,9 +54555,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			captivate: ["7E"],
 			refresh: ["7E"],
 		},
-	},	
-	aromatisse: {		
-		learnset: {	
+	},
+	aromatisse: {
+		learnset: {
 			aromaticmist: ["7L1"],
 			healpulse: ["7L1"],
 			sweetscent: ["7L1"],
@@ -53671,9 +54628,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	swirlix: {		
-		learnset: {	
+	},
+	swirlix: {
+		learnset: {
 			sweetscent: ["7L1"],
 			tackle: ["7L1"],
 			fairywind: ["7L5"],
@@ -53733,9 +54690,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			copycat: ["7E"],
 			stickyweb: ["7E"],
 		},
-	},	
-	slurpuff: {		
-		learnset: {	
+	},
+	slurpuff: {
+		learnset: {
 			sweetscent: ["7L1"],
 			tackle: ["7L1"],
 			fairywind: ["7L1"],
@@ -53798,9 +54755,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			helpinghand: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	inkay: {		
-		learnset: {	
+	},
+	inkay: {
+		learnset: {
 			tackle: ["7L1"],
 			peck: ["7L1"],
 			constrict: ["7L1"],
@@ -53872,9 +54829,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			destinybond: ["7E"],
 			guardswap: ["7E"],
 		},
-	},	
-	malamar: {		
-		learnset: {	
+	},
+	malamar: {
+		learnset: {
 			reversal: ["7L0"],
 			tackle: ["7L1"],
 			peck: ["7L1"],
@@ -53947,9 +54904,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	binacle: {		
-		learnset: {	
+	},
+	binacle: {
+		learnset: {
 			mudslap: ["7L1"],
 			sandattack: ["7L1"],
 			scratch: ["7L1"],
@@ -54038,9 +54995,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			switcheroo: ["7E"],
 			watersport: ["7E"],
 		},
-	},	
-	barbaracle: {		
-		learnset: {	
+	},
+	barbaracle: {
+		learnset: {
 			mudslap: ["7L1"],
 			sandattack: ["7L1"],
 			scratch: ["7L1"],
@@ -54141,9 +55098,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	skrelp: {		
-		learnset: {	
+	},
+	skrelp: {
+		learnset: {
 			tackle: ["7L1"],
 			smokescreen: ["7L1"],
 			watergun: ["7L1"],
@@ -54201,9 +55158,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acidarmor: ["7E"],
 			venomdrench: ["7E"],
 		},
-	},	
-	dragalge: {		
-		learnset: {	
+	},
+	dragalge: {
+		learnset: {
 			twister: ["7L0"],
 			dragontail: ["7L1"],
 			tackle: ["7L1"],
@@ -54267,9 +55224,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	clauncher: {		
-		learnset: {	
+	},
+	clauncher: {
+		learnset: {
 			splash: ["7L1"],
 			watergun: ["7L1"],
 			watersport: ["7L7"],
@@ -54326,9 +55283,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			entrainment: ["7E"],
 		},
-	},	
-	clawitzer: {		
-		learnset: {	
+	},
+	clawitzer: {
+		learnset: {
 			aurasphere: ["7L0"],
 			darkpulse: ["7L1"],
 			dragonpulse: ["7L1"],
@@ -54394,9 +55351,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	helioptile: {		
-		learnset: {	
+	},
+	helioptile: {
+		learnset: {
 			pound: ["7L1"],
 			tailwhip: ["7L1"],
 			thundershock: ["7L6"],
@@ -54458,9 +55415,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			glare: ["7E"],
 			camouflage: ["7E"],
 		},
-	},	
-	heliolisk: {		
-		learnset: {	
+	},
+	heliolisk: {
+		learnset: {
 			eerieimpulse: ["7L0"],
 			electrify: ["7L1"],
 			pound: ["7L1"],
@@ -54533,9 +55490,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			electricterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	tyrunt: {		
-		learnset: {	
+	},
+	tyrunt: {
+		learnset: {
 			tailwhip: ["7L1"],
 			tackle: ["7L1"],
 			roar: ["7L6"],
@@ -54611,9 +55568,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dracometeor: ["7T"],
 			poisonfang: ["7E"],
 		},
-	},	
-	tyrantrum: {		
-		learnset: {	
+	},
+	tyrantrum: {
+		learnset: {
 			rockslide: ["7L0"],
 			tailwhip: ["7L1"],
 			tackle: ["7L1"],
@@ -54695,9 +55652,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	amaura: {		
-		learnset: {	
+	},
+	amaura: {
+		learnset: {
 			growl: ["7L1"],
 			powdersnow: ["7L1"],
 			thunderwave: ["7L5"],
@@ -54780,9 +55737,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			mirrorcoat: ["7E"],
 			discharge: ["7E"],
 		},
-	},	
-	aurorus: {		
-		learnset: {	
+	},
+	aurorus: {
+		learnset: {
 			freezedry: ["7L0"],
 			growl: ["7L1"],
 			powdersnow: ["7L1"],
@@ -54865,38 +55822,34 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	sylveon: {		
-		learnset: {	
-			disarmingvoice: ["7L0"],
-			batonpass: ["7L1"],
-			bite: ["7L1"],
-			charm: ["7L1"],
-			copycat: ["7L1"],
+	},
+	sylveon: {
+		learnset: {
+			covet: ["7L1"],
 			growl: ["7L1"],
 			helpinghand: ["7L1"],
-			swift: ["7L1"],
-			takedown: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			sandattack: ["7L5"],
 			quickattack: ["7L10"],
 			babydolleyes: ["7L15"],
-			lightscreen: ["7L25"],
-			drainingkiss: ["7L30"],
-			mistyterrain: ["7L35"],
-			skillswap: ["7L40"],
-			psychup: ["7L45"],
-			moonblast: ["7L50"],
+			refresh: ["7L20"],
+			swift: ["7L20"],
+			bite: ["7L25"],
+			copycat: ["7L30"],
+			batonpass: ["7L35"],
+			focusenergy: ["7L36"],
+			takedown: ["7L40"],
+			charm: ["7L45"],
+			trumpcard: ["7L45"],
+			doubleedge: ["7L50"],
 			lastresort: ["7L55"],
-			calmmind: ["7M"],
+			extremespeed: ["7L60"],
 			toxic: ["7M"],
 			hiddenpower: ["7M"],
 			sunnyday: ["7M"],
-			hyperbeam: ["7M"],
 			protect: ["7M"],
 			raindance: ["7M"],
-			safeguard: ["7M"],
 			frustration: ["7M"],
 			irontail: ["7M"],
 			return: ["7M"],
@@ -54909,32 +55862,160 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			rest: ["7M"],
 			attract: ["7M"],
 			sleeptalk: ["7M"],
-			psyshock: ["7M"],
 			endure: ["7M"],
-			gigaimpact: ["7M"],
 			substitute: ["7M"],
-			dazzlinggleam: ["7M"],
 			curse: ["7M"],
-			cut: ["7M"],
-			flash: ["7M"],
-			covet: ["7T"],
-			focusenergy: ["7T"],
 			mimic: ["7T"],
 			mudslap: ["7T"],
-			magiccoat: ["7T"],
 			swagger: ["7T"],
 			bodyslam: ["7T"],
 			weatherball: ["7T"],
 			healbell: ["7T"],
 			hypervoice: ["7T"],
-			mysticalfire: ["7T"],
 			storedpower: ["7T"],
-			doubleedge: ["7T"],
+			flail: ["7E"],
+			tickle: ["7E"],
+			wish: ["7E"],
+			yawn: ["7E"],
+			faketears: ["7E"],
+			detect: ["7E"],
+			naturalgift: ["7E"],
+			synchronoise: ["7E"],
+			captivate: ["7E"],
+			watergun: ["7L0"],
+			haze: ["7L20"],
+			bubblebeam: ["7L25"],
+			aurorabeam: ["7L30"],
+			aquaring: ["7L35"],
+			muddywater: ["7L40"],
+			acidarmor: ["7L45"],
+			mist: ["7L48"],
+			hydropump: ["7L50"],
+			waterpulse: ["7M"],
+			roar: ["7M"],
+			hail: ["7M"],
+			icebeam: ["7M"],
+			blizzard: ["7M"],
+			hyperbeam: ["7M"],
+			scald: ["7M"],
+			gigaimpact: ["7M"],
+			surf: ["7M"],
+			strength: ["7M"],
+			rocksmash: ["7M"],
+			waterfall: ["7M"],
+			dive: ["7M"],
+			brine: ["7T"],
+			icywind: ["7T"],
+			signalbeam: ["7T"],
+			aquatail: ["7T"],
+			thundershock: ["7L0"],
+			thunderwave: ["7L20"],
+			doublekick: ["7L25"],
+			thunderfang: ["7L30"],
+			pinmissile: ["7L35"],
+			discharge: ["7L40"],
+			agility: ["7L45"],
+			thunder: ["7L50"],
+			lightscreen: ["7M"],
+			thunderbolt: ["7M"],
+			chargebeam: ["7M"],
+			voltswitch: ["7M"],
+			wildcharge: ["7M"],
+			flash: ["7M"],
+			shockwave: ["7T"],
+			flamecharge: ["7L0"],
+			smog: ["7L20"],
+			firefang: ["7L30"],
+			firespin: ["7L35"],
+			lavaplume: ["7L40"],
+			scaryface: ["7L45"],
+			flareblitz: ["7L50"],
+			flamethrower: ["7M"],
+			fireblast: ["7M"],
+			overheat: ["7M"],
+			willowisp: ["7M"],
+			blazekick: ["7T"],
+			mysticalfire: ["7T"],
+			superpower: ["7T"],
+			heatwave: ["7T"],
+			razorleaf: ["7L0"],
+			grasswhistle: ["7L17"],
+			leechseed: ["7L20"],
+			magicalleaf: ["7L25"],
+			synthesis: ["7L30"],
+			leafblade: ["7L40"],
+			swordsdance: ["7L45"],
+			gigadrain: ["7L50"],
+			strengthsap: ["7L60"],
+			bulletseed: ["7M"],
+			solarbeam: ["7M"],
+			aerialace: ["7M"],
+			energyball: ["7M"],
+			xscissor: ["7M"],
+			grassknot: ["7M"],
+			furycutter: ["7T"],
+			worryseed: ["7T"],
+			seedbomb: ["7T"],
+			earthpower: ["7T"],
+			solarblade: ["7T"],
+			knockoff: ["7T"],
+			leafstorm: ["7T"],
+			iceshard: ["7L20"],
+			barrier: ["7L29"],
+			icefang: ["7L30"],
+			freezedry: ["7L40"],
+			mirrorcoat: ["7L45"],
+			iciclecrash: ["7L60"],
+			auroraveil: ["7M"],
+			avalanche: ["7M"],
+			iciclespear: ["7T"],
+			powergem: ["7T"],
+			confusion: ["7L0"],
+			psybeam: ["7L25"],
+			morningsun: ["7L30"],
+			powerswap: ["7L35"],
+			psychic: ["7L40"],
+			psychup: ["7L45"],
+			futuresight: ["7L50"],
+			calmmind: ["7M"],
+			skillswap: ["7M"],
+			psyshock: ["7M"],
+			dreameater: ["7M"],
+			trickroom: ["7M"],
+			dazzlinggleam: ["7M"],
+			cut: ["7M"],
+			magiccoat: ["7T"],
+			teleport: ["7T"],
+			zenheadbutt: ["7T"],
+			trick: ["7T"],
+			psychicfangs: ["7T"],
+			snarl: ["7L0"],
+			confuseray: ["7L20"],
+			feintattack: ["7L20"],
+			assurance: ["7L25"],
+			moonlight: ["7L30"],
+			guardswap: ["7L35"],
+			foulplay: ["7L40"],
+			screech: ["7L45"],
+			meanlook: ["7L50"],
+			taunt: ["7M"],
+			torment: ["7M"],
+			payback: ["7M"],
+			suckerpunch: ["7M"],
+			darkpulse: ["7M"],
+			snatch: ["7T"],
+			crunch: ["7T"],
+			throatchop: ["7T"],
+			disarmingvoice: ["7L0"],
+			drainingkiss: ["7L30"],
+			mistyterrain: ["7L35"],
+			moonblast: ["7L50"],
+			safeguard: ["7M"],
 			playrough: ["7T"],
 		},
-	},	
-	hawlucha: {		
-		learnset: {	
+	},
+	hawlucha: {
+		learnset: {
 			honeclaws: ["7L1"],
 			tackle: ["7L1"],
 			karatechop: ["7L4"],
@@ -55034,9 +56115,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quickguard: ["7E"],
 			feint: ["7E"],
 		},
-	},	
-	dedenne: {		
-		learnset: {	
+	},
+	dedenne: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			thundershock: ["7L7"],
@@ -55105,9 +56186,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturalgift: ["7E"],
 			tearfullook: ["7E"],
 		},
-	},	
-	carbink: {		
-		learnset: {	
+	},
+	carbink: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L1"],
 			rockthrow: ["7L5"],
@@ -55169,9 +56250,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	goomy: {		
-		learnset: {	
+	},
+	goomy: {
+		learnset: {
 			tackle: ["7L1"],
 			bubble: ["7L1"],
 			absorb: ["7L5"],
@@ -55218,9 +56299,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			acidarmor: ["7E"],
 			poisontail: ["7E"],
 		},
-	},	
-	sliggoo: {		
-		learnset: {	
+	},
+	sliggoo: {
+		learnset: {
 			tackle: ["7L1"],
 			bubble: ["7L1"],
 			absorb: ["7L1"],
@@ -55267,9 +56348,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	goodra: {		
-		learnset: {	
+	},
+	goodra: {
+		learnset: {
 			aquatail: ["7L0"],
 			dragonrush: ["7L1"],
 			acidspray: ["7L1"],
@@ -55348,9 +56429,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	klefki: {		
-		learnset: {	
+	},
+	klefki: {
+		learnset: {
 			fairylock: ["7L1"],
 			tackle: ["7L1"],
 			fairywind: ["7L5"],
@@ -55412,9 +56493,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			switcheroo: ["7E"],
 			lockon: ["7E"],
 		},
-	},	
-	phantump: {		
-		learnset: {	
+	},
+	phantump: {
+		learnset: {
 			tackle: ["7L1"],
 			confuseray: ["7L1"],
 			astonish: ["7L5"],
@@ -55489,9 +56570,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			venomdrench: ["7E"],
 			poweruppunch: ["7E"],
 		},
-	},	
-	trevenant: {		
-		learnset: {	
+	},
+	trevenant: {
+		learnset: {
 			shadowclaw: ["7L0"],
 			tackle: ["7L1"],
 			confuseray: ["7L1"],
@@ -55575,9 +56656,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	pumpkaboo: {		
-		learnset: {	
+	},
+	pumpkaboo: {
+		learnset: {
 			trick: ["7L1"],
 			astonish: ["7L1"],
 			confuseray: ["7L1"],
@@ -55650,9 +56731,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bestow: ["7E"],
 			destinybond: ["7E"],
 		},
-	},	
-	gourgeist: {		
-		learnset: {	
+	},
+	gourgeist: {
+		learnset: {
 			trick: ["7L1"],
 			astonish: ["7L1"],
 			confuseray: ["7L1"],
@@ -55732,9 +56813,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powerwhip: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	bergmite: {		
-		learnset: {	
+	},
+	bergmite: {
+		learnset: {
 			tackle: ["7L1"],
 			bite: ["7L1"],
 			harden: ["7L1"],
@@ -55797,9 +56878,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			barrier: ["7E"],
 			mirrorcoat: ["7E"],
 		},
-	},	
-	avalugg: {		
-		learnset: {	
+	},
+	avalugg: {
+		learnset: {
 			bodyslam: ["7L0"],
 			wideguard: ["7L1"],
 			skullbash: ["7L1"],
@@ -55870,9 +56951,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			superpower: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	noibat: {		
-		learnset: {	
+	},
+	noibat: {
+		learnset: {
 			screech: ["7L1"],
 			supersonic: ["7L1"],
 			tackle: ["7L1"],
@@ -55944,9 +57025,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dracometeor: ["7T"],
 			switcheroo: ["7E"],
 		},
-	},	
-	noivern: {		
-		learnset: {	
+	},
+	noivern: {
+		learnset: {
 			dragonbreath: ["7L0"],
 			moonlight: ["7L1"],
 			screech: ["7L1"],
@@ -56030,9 +57111,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	xerneas: {		
-		learnset: {	
+	},
+	xerneas: {
+		learnset: {
 			healpulse: ["7L1"],
 			aromatherapy: ["7L1"],
 			ingrain: ["7L1"],
@@ -56102,9 +57183,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	yveltal: {		
-		learnset: {	
+	},
+	yveltal: {
+		learnset: {
 			hurricane: ["7L1"],
 			razorwind: ["7L1"],
 			taunt: ["7L1"],
@@ -56170,9 +57251,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	zygarde: {		
-		learnset: {	
+	},
+	zygarde: {
+		learnset: {
 			glare: ["7L1"],
 			bulldoze: ["7L1"],
 			dragonbreath: ["7L1"],
@@ -56236,9 +57317,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dragondance: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	diancie: {		
-		learnset: {	
+	},
+	diancie: {
+		learnset: {
 			tackle: ["7L1"],
 			harden: ["7L1"],
 			rockthrow: ["7L1"],
@@ -56309,9 +57390,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	hoopa: {		
-		learnset: {	
+	},
+	hoopa: {
+		learnset: {
 			trick: ["7L1"],
 			destinybond: ["7L1"],
 			allyswitch: ["7L1"],
@@ -56401,9 +57482,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	hoopaunbound: {		
-		learnset: {	
+	},
+	hoopaunbound: {
+		learnset: {
 			hyperspacehole: ["7L1"],
 			trick: ["7L1"],
 			destinybond: ["7L1"],
@@ -56492,9 +57573,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	volcanion: {		
-		learnset: {	
+	},
+	volcanion: {
+		learnset: {
 			takedown: ["7L1"],
 			mist: ["7L8"],
 			haze: ["7L11"],
@@ -56566,9 +57647,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	rowlet: {		
-		learnset: {	
+	},
+	rowlet: {
+		learnset: {
 			tackle: ["7L1"],
 			leafage: ["7L1"],
 			growl: ["7L4"],
@@ -56635,9 +57716,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			confuseray: ["7E"],
 			haze: ["7E"],
 		},
-	},	
-	dartrix: {		
-		learnset: {	
+	},
+	dartrix: {
+		learnset: {
 			tackle: ["7L1"],
 			leafage: ["7L1"],
 			growl: ["7L1"],
@@ -56702,9 +57783,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	decidueye: {		
-		learnset: {	
+	},
+	decidueye: {
+		learnset: {
 			spiritshackle: ["7L0"],
 			jumpkick: ["7L1"],
 			phantomforce: ["7L1"],
@@ -56790,9 +57871,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	litten: {		
-		learnset: {	
+	},
+	litten: {
+		learnset: {
 			scratch: ["7L1"],
 			ember: ["7L1"],
 			growl: ["7L4"],
@@ -56860,9 +57941,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			fakeout: ["7E"],
 			powertrip: ["7E"],
 		},
-	},	
-	torracat: {		
-		learnset: {	
+	},
+	torracat: {
+		learnset: {
 			scratch: ["7L1"],
 			ember: ["7L1"],
 			growl: ["7L1"],
@@ -56929,9 +58010,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	incineroar: {		
-		learnset: {	
+	},
+	incineroar: {
+		learnset: {
 			darkestlariat: ["7L0"],
 			morningsun: ["7L1"],
 			scaryface: ["7L1"],
@@ -57034,9 +58115,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	popplio: {		
-		learnset: {	
+	},
+	popplio: {
+		learnset: {
 			pound: ["7L1"],
 			watergun: ["7L1"],
 			growl: ["7L4"],
@@ -57099,9 +58180,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			perishsong: ["7E"],
 			wonderroom: ["7E"],
 		},
-	},	
-	brionne: {		
-		learnset: {	
+	},
+	brionne: {
+		learnset: {
 			pound: ["7L1"],
 			watergun: ["7L1"],
 			growl: ["7L1"],
@@ -57158,9 +58239,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	primarina: {		
-		learnset: {	
+	},
+	primarina: {
+		learnset: {
 			sparklingaria: ["7L0"],
 			pound: ["7L1"],
 			watergun: ["7L1"],
@@ -57232,9 +58313,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	pikipek: {		
-		learnset: {	
+	},
+	pikipek: {
+		learnset: {
 			peck: ["7L1"],
 			growl: ["7L3"],
 			echoedvoice: ["7L7"],
@@ -57291,9 +58372,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			boomburst: ["7E"],
 			mirrormove: ["7E"],
 		},
-	},	
-	trumbeak: {		
-		learnset: {	
+	},
+	trumbeak: {
+		learnset: {
 			rockblast: ["7L0"],
 			peck: ["7L1"],
 			growl: ["7L1"],
@@ -57348,9 +58429,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	toucannon: {		
-		learnset: {	
+	},
+	toucannon: {
+		learnset: {
 			beakblast: ["7L0"],
 			fly: ["7L0"],
 			rockblast: ["7L1"],
@@ -57411,9 +58492,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	yungoos: {		
-		learnset: {	
+	},
+	yungoos: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L3"],
 			pursuit: ["7L7"],
@@ -57473,9 +58554,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicfangs: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	gumshoos: {		
-		learnset: {	
+	},
+	gumshoos: {
+		learnset: {
 			psychicfangs: ["7L0"],
 			firefang: ["7L1"],
 			icefang: ["7L1"],
@@ -57547,9 +58628,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poweruppunch: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	grubbin: {		
-		learnset: {	
+	},
+	grubbin: {
+		learnset: {
 			visegrip: ["7L1"],
 			stringshot: ["7L4"],
 			mudslap: ["7L7"],
@@ -57594,9 +58675,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			harden: ["7E"],
 		},
-	},	
-	charjabug: {		
-		learnset: {	
+	},
+	charjabug: {
+		learnset: {
 			charge: ["7L0"],
 			visegrip: ["7L1"],
 			stringshot: ["7L1"],
@@ -57644,9 +58725,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			thunderfang: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	vikavolt: {		
-		learnset: {	
+	},
+	vikavolt: {
+		learnset: {
 			thunderbolt: ["7L0"],
 			airslash: ["7L1"],
 			charge: ["7L1"],
@@ -57711,9 +58792,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	crabrawler: {		
-		learnset: {	
+	},
+	crabrawler: {
+		learnset: {
 			bubble: ["7L1"],
 			rocksmash: ["7L5"],
 			leer: ["7L9"],
@@ -57782,9 +58863,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wideguard: ["7E"],
 			amnesia: ["7E"],
 		},
-	},	
-	crabominable: {		
-		learnset: {	
+	},
+	crabominable: {
+		learnset: {
 			icepunch: ["7L0"],
 			iceshard: ["7L1"],
 			bubble: ["7L1"],
@@ -57862,9 +58943,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	oricorio: {		
-		learnset: {	
+	},
+	oricorio: {
+		learnset: {
 			pound: ["7L1"],
 			growl: ["7L1"],
 			peck: ["7L1"],
@@ -57924,9 +59005,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			pluck: ["7E"],
 		},
-	},	
-	cutiefly: {		
-		learnset: {	
+	},
+	cutiefly: {
+		learnset: {
 			absorb: ["7L1"],
 			fairywind: ["7L4"],
 			stunspore: ["7L7"],
@@ -57992,9 +59073,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			powder: ["7E"],
 			stickyweb: ["7E"],
 		},
-	},	
-	ribombee: {		
-		learnset: {	
+	},
+	ribombee: {
+		learnset: {
 			pollenpuff: ["7L0"],
 			absorb: ["7L1"],
 			fairywind: ["7L1"],
@@ -58060,9 +59141,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	rockruff: {		
-		learnset: {	
+	},
+	rockruff: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			sandattack: ["7L4"],
@@ -58125,9 +59206,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			crushclaw: ["7E"],
 			thrash: ["7E"],
 		},
-	},	
-	lycanroc: {		
-		learnset: {	
+	},
+	lycanroc: {
+		learnset: {
 			accelerock: ["7L0"],
 			quickguard: ["7L1"],
 			quickattack: ["7L1"],
@@ -58200,9 +59281,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	lycanrocmidnight: {		
-		learnset: {	
+	},
+	lycanrocmidnight: {
+		learnset: {
 			counter: ["7L0"],
 			crosschop: ["7L1"],
 			reversal: ["7L1"],
@@ -58285,9 +59366,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	lycanrocdusk: {		
-		learnset: {	
+	},
+	lycanrocdusk: {
+		learnset: {
 			thrash: ["7L0"],
 			accelerock: ["7L1"],
 			counter: ["7L1"],
@@ -58361,9 +59442,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	wishiwashi: {		
-		learnset: {	
+	},
+	wishiwashi: {
+		learnset: {
 			watergun: ["7L1"],
 			growl: ["7L1"],
 			helpinghand: ["7L6"],
@@ -58417,9 +59498,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			watersport: ["7E"],
 			whirlpool: ["7E"],
 		},
-	},	
-	mareanie: {		
-		learnset: {	
+	},
+	mareanie: {
+		learnset: {
 			poisonsting: ["7L1"],
 			peck: ["7L5"],
 			bite: ["7L9"],
@@ -58484,9 +59565,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			spitup: ["7E"],
 			haze: ["7E"],
 		},
-	},	
-	toxapex: {		
-		learnset: {	
+	},
+	toxapex: {
+		learnset: {
 			banefulbunker: ["7L0"],
 			poisonsting: ["7L1"],
 			peck: ["7L1"],
@@ -58553,9 +59634,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	mudbray: {		
-		learnset: {	
+	},
+	mudbray: {
+		learnset: {
 			mudslap: ["7L1"],
 			mudsport: ["7L3"],
 			rototiller: ["7L8"],
@@ -58608,9 +59689,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			magnitude: ["7E"],
 			mudbomb: ["7E"],
 		},
-	},	
-	mudsdale: {		
-		learnset: {	
+	},
+	mudsdale: {
+		learnset: {
 			mudslap: ["7L1"],
 			mudsport: ["7L1"],
 			rototiller: ["7L1"],
@@ -58667,9 +59748,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	dewpider: {		
-		learnset: {	
+	},
+	dewpider: {
+		learnset: {
 			watersport: ["7L1"],
 			bubble: ["7L1"],
 			infestation: ["7L5"],
@@ -58725,9 +59806,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			spitup: ["7E"],
 			stickyweb: ["7E"],
 		},
-	},	
-	araquanid: {		
-		learnset: {	
+	},
+	araquanid: {
+		learnset: {
 			icefang: ["7L0"],
 			wideguard: ["7L1"],
 			soak: ["7L1"],
@@ -58786,9 +59867,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	fomantis: {		
-		learnset: {	
+	},
+	fomantis: {
+		learnset: {
 			furycutter: ["7L1"],
 			leafage: ["7L5"],
 			razorleaf: ["7L10"],
@@ -58846,9 +59927,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			aromatherapy: ["7E"],
 		},
-	},	
-	lurantis: {		
-		learnset: {	
+	},
+	lurantis: {
+		learnset: {
 			petalblizzard: ["7L0"],
 			xscissor: ["7L1"],
 			nightslash: ["7L1"],
@@ -58921,9 +60002,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	morelull: {		
-		learnset: {	
+	},
+	morelull: {
+		learnset: {
 			absorb: ["7L1"],
 			astonish: ["7L4"],
 			flash: ["7L8"],
@@ -58979,9 +60060,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			growth: ["7E"],
 			leechseed: ["7E"],
 		},
-	},	
-	shiinotic: {		
-		learnset: {	
+	},
+	shiinotic: {
+		learnset: {
 			dazzlinggleam: ["7L0"],
 			absorb: ["7L1"],
 			astonish: ["7L1"],
@@ -59035,9 +60116,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			weatherball: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	salandit: {		
-		learnset: {	
+	},
+	salandit: {
+		learnset: {
 			scratch: ["7L1"],
 			poisongas: ["7L1"],
 			ember: ["7L5"],
@@ -59100,9 +60181,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			sandattack: ["7E"],
 			fakeout: ["7E"],
 		},
-	},	
-	salazzle: {		
-		learnset: {	
+	},
+	salazzle: {
+		learnset: {
 			captivate: ["7L0"],
 			disable: ["7L1"],
 			encore: ["7L1"],
@@ -59170,9 +60251,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	stufful: {		
-		learnset: {	
+	},
+	stufful: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L1"],
 			bide: ["7L5"],
@@ -59237,9 +60318,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wideguard: ["7E"],
 			megakick: ["7E"],
 		},
-	},	
-	bewear: {		
-		learnset: {	
+	},
+	bewear: {
+		learnset: {
 			bind: ["7L0"],
 			tackle: ["7L1"],
 			leer: ["7L1"],
@@ -59313,9 +60394,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	bounsweet: {		
-		learnset: {	
+	},
+	bounsweet: {
+		learnset: {
 			splash: ["7L1"],
 			playnice: ["7L5"],
 			rapidspin: ["7L9"],
@@ -59375,9 +60456,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			charm: ["7E"],
 			acupressure: ["7E"],
 		},
-	},	
-	steenee: {		
-		learnset: {	
+	},
+	steenee: {
+		learnset: {
 			doubleslap: ["7L0"],
 			splash: ["7L1"],
 			playnice: ["7L1"],
@@ -59445,9 +60526,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	tsareena: {		
-		learnset: {	
+	},
+	tsareena: {
+		learnset: {
 			tropkick: ["7L0"],
 			punishment: ["7L1"],
 			doubleslap: ["7L1"],
@@ -59529,9 +60610,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	comfey: {		
-		learnset: {	
+	},
+	comfey: {
+		learnset: {
 			helpinghand: ["7L1"],
 			vinewhip: ["7L1"],
 			flowershield: ["7L1"],
@@ -59601,9 +60682,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			afteryou: ["7E"],
 			luckychant: ["7E"],
 		},
-	},	
-	oranguru: {		
-		learnset: {	
+	},
+	oranguru: {
+		learnset: {
 			confusion: ["7L1"],
 			afteryou: ["7L4"],
 			taunt: ["7L8"],
@@ -59677,9 +60758,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			extrasensory: ["7E"],
 			wonderroom: ["7E"],
 		},
-	},	
-	passimian: {		
-		learnset: {	
+	},
+	passimian: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L4"],
 			rocksmash: ["7L8"],
@@ -59761,9 +60842,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quickattack: ["7E"],
 			feint: ["7E"],
 		},
-	},	
-	wimpod: {		
-		learnset: {	
+	},
+	wimpod: {
+		learnset: {
 			strugglebug: ["7L1"],
 			sandattack: ["7L1"],
 			toxic: ["7M"],
@@ -59803,9 +60884,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			harden: ["7E"],
 			aquajet: ["7E"],
 		},
-	},	
-	golisopod: {		
-		learnset: {	
+	},
+	golisopod: {
+		learnset: {
 			firstimpression: ["7L0"],
 			strugglebug: ["7L1"],
 			sandattack: ["7L1"],
@@ -59895,9 +60976,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	sandygast: {		
-		learnset: {	
+	},
+	sandygast: {
+		learnset: {
 			harden: ["7L1"],
 			absorb: ["7L1"],
 			astonish: ["7L5"],
@@ -59959,9 +61040,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			swallow: ["7E"],
 			spitup: ["7E"],
 		},
-	},	
-	palossand: {		
-		learnset: {	
+	},
+	palossand: {
+		learnset: {
 			harden: ["7L1"],
 			absorb: ["7L1"],
 			astonish: ["7L1"],
@@ -60021,9 +61102,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	pyukumuku: {		
-		learnset: {	
+	},
+	pyukumuku: {
+		learnset: {
 			block: ["7L1"],
 			batonpass: ["7L1"],
 			watersport: ["7L1"],
@@ -60063,9 +61144,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			tickle: ["7E"],
 			spite: ["7E"],
 		},
-	},	
-	typenull: {		
-		learnset: {	
+	},
+	typenull: {
+		learnset: {
 			tackle: ["7L1"],
 			rage: ["7L5"],
 			pursuit: ["7L10"],
@@ -60132,9 +61213,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			lastresort: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	silvally: {		
-		learnset: {	
+	},
+	silvally: {
+		learnset: {
 			multiattack: ["7L0"],
 			healblock: ["7L1"],
 			imprison: ["7L1"],
@@ -60232,9 +61313,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	minior: {		
-		learnset: {	
+	},
+	minior: {
+		learnset: {
 			tackle: ["7L1"],
 			defensecurl: ["7L3"],
 			rollout: ["7L8"],
@@ -60300,9 +61381,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			ironhead: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	komala: {		
-		learnset: {	
+	},
+	komala: {
+		learnset: {
 			defensecurl: ["7L1"],
 			rollout: ["7L1"],
 			stockpile: ["7L6"],
@@ -60364,9 +61445,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			wish: ["7E"],
 			sing: ["7E"],
 		},
-	},	
-	turtonator: {		
-		learnset: {	
+	},
+	turtonator: {
+		learnset: {
 			ember: ["7L1"],
 			tackle: ["7L1"],
 			smog: ["7L5"],
@@ -60448,9 +61529,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			headsmash: ["7E"],
 			firespin: ["7E"],
 		},
-	},	
-	togedemaru: {		
-		learnset: {	
+	},
+	togedemaru: {
+		learnset: {
 			tackle: ["7L1"],
 			thundershock: ["7L1"],
 			defensecurl: ["7L5"],
@@ -60529,9 +61610,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flail: ["7E"],
 			disarmingvoice: ["7E"],
 		},
-	},	
-	mimikyu: {		
-		learnset: {	
+	},
+	mimikyu: {
+		learnset: {
 			woodhammer: ["7L1"],
 			astonish: ["7L1"],
 			copycat: ["7L1"],
@@ -60606,9 +61687,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			destinybond: ["7E"],
 			nightmare: ["7E"],
 		},
-	},	
-	bruxish: {		
-		learnset: {	
+	},
+	bruxish: {
+		learnset: {
 			watergun: ["7L1"],
 			astonish: ["7L4"],
 			confusion: ["7L9"],
@@ -60681,9 +61762,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			poisonfang: ["7E"],
 			rage: ["7E"],
 		},
-	},	
-	drampa: {		
-		learnset: {	
+	},
+	drampa: {
+		learnset: {
 			playnice: ["7L1"],
 			echoedvoice: ["7L1"],
 			twister: ["7L5"],
@@ -60771,9 +61852,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			razorwind: ["7E"],
 			mist: ["7E"],
 		},
-	},	
-	dhelmise: {		
-		learnset: {	
+	},
+	dhelmise: {
+		learnset: {
 			liquidation: ["7L1"],
 			switcheroo: ["7L1"],
 			absorb: ["7L1"],
@@ -60844,9 +61925,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	jangmoo: {		
-		learnset: {	
+	},
+	jangmoo: {
+		learnset: {
 			tackle: ["7L1"],
 			leer: ["7L4"],
 			bide: ["7L7"],
@@ -60916,9 +61997,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			dracometeor: ["7T"],
 			dragonbreath: ["7E"],
 		},
-	},	
-	hakamoo: {		
-		learnset: {	
+	},
+	hakamoo: {
+		learnset: {
 			skyuppercut: ["7L0"],
 			autotomize: ["7L1"],
 			tackle: ["7L1"],
@@ -60994,9 +62075,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	kommoo: {		
-		learnset: {	
+	},
+	kommoo: {
+		learnset: {
 			clangingscales: ["7L0"],
 			skyuppercut: ["7L1"],
 			bellydrum: ["7L1"],
@@ -61095,9 +62176,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	tapukoko: {		
-		learnset: {	
+	},
+	tapukoko: {
+		learnset: {
 			electricterrain: ["7L1"],
 			bravebird: ["7L1"],
 			powerswap: ["7L1"],
@@ -61183,9 +62264,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	tapulele: {		
-		learnset: {	
+	},
+	tapulele: {
+		learnset: {
 			psychicterrain: ["7L1"],
 			aromaticmist: ["7L1"],
 			aromatherapy: ["7L1"],
@@ -61259,9 +62340,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	tapubulu: {		
-		learnset: {	
+	},
+	tapubulu: {
+		learnset: {
 			grassyterrain: ["7L1"],
 			woodhammer: ["7L1"],
 			superpower: ["7L1"],
@@ -61349,9 +62430,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	tapufini: {		
-		learnset: {	
+	},
+	tapufini: {
+		learnset: {
 			mistyterrain: ["7L1"],
 			moonblast: ["7L1"],
 			healpulse: ["7L1"],
@@ -61427,25 +62508,25 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	cosmog: {		
-		learnset: {	
+	},
+	cosmog: {
+		learnset: {
 			splash: ["7L1"],
 			teleport: ["7L23"],
 			mimic: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	cosmoem: {		
-		learnset: {	
+	},
+	cosmoem: {
+		learnset: {
 			cosmicpower: ["7L0"],
 			teleport: ["7L1"],
 			mimic: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	solgaleo: {		
-		learnset: {	
+	},
+	solgaleo: {
+		learnset: {
 			sunsteelstrike: ["7L0"],
 			cosmicpower: ["7L1"],
 			wakeupslap: ["7L1"],
@@ -61531,9 +62612,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	lunala: {		
-		learnset: {	
+	},
+	lunala: {
+		learnset: {
 			moongeistbeam: ["7L0"],
 			cosmicpower: ["7L1"],
 			hypnosis: ["7L1"],
@@ -61615,9 +62696,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hurricane: ["7T"],
 		},
-	},	
-	nihilego: {		
-		learnset: {	
+	},
+	nihilego: {
+		learnset: {
 			powersplit: ["7L1"],
 			guardsplit: ["7L1"],
 			tickle: ["7L1"],
@@ -61688,9 +62769,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	buzzwole: {		
-		learnset: {	
+	},
+	buzzwole: {
+		learnset: {
 			fellstinger: ["7L1"],
 			thunderpunch: ["7L1"],
 			icepunch: ["7L1"],
@@ -61765,9 +62846,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	pheromosa: {		
-		learnset: {	
+	},
+	pheromosa: {
+		learnset: {
 			quiverdance: ["7L1"],
 			quickguard: ["7L1"],
 			lowkick: ["7L1"],
@@ -61837,9 +62918,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	xurkitree: {		
-		learnset: {	
+	},
+	xurkitree: {
+		learnset: {
 			tailglow: ["7L1"],
 			spark: ["7L1"],
 			charge: ["7L1"],
@@ -61902,9 +62983,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	celesteela: {		
-		learnset: {	
+	},
+	celesteela: {
+		learnset: {
 			wideguard: ["7L1"],
 			airslash: ["7L1"],
 			ingrain: ["7L1"],
@@ -61977,9 +63058,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			leafstorm: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	kartana: {		
-		learnset: {	
+	},
+	kartana: {
+		learnset: {
 			sacredsword: ["7L1"],
 			defog: ["7L1"],
 			vacuumwave: ["7L1"],
@@ -62033,9 +63114,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	guzzlord: {		
-		learnset: {	
+	},
+	guzzlord: {
+		learnset: {
 			belch: ["7L1"],
 			wideguard: ["7L1"],
 			swallow: ["7L1"],
@@ -62118,9 +63199,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	necrozma: {		
-		learnset: {	
+	},
+	necrozma: {
+		learnset: {
 			moonlight: ["7L1"],
 			morningsun: ["7L1"],
 			chargebeam: ["7L1"],
@@ -62201,9 +63282,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	magearna: {		
-		learnset: {	
+	},
+	magearna: {
+		learnset: {
 			craftyshield: ["7L1"],
 			gearup: ["7L1"],
 			shiftgear: ["7L1"],
@@ -62274,9 +63355,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	marshadow: {		
-		learnset: {	
+	},
+	marshadow: {
+		learnset: {
 			laserfocus: ["7L1"],
 			assurance: ["7L1"],
 			firepunch: ["7L1"],
@@ -62363,9 +63444,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	poipole: {		
-		learnset: {	
+	},
+	poipole: {
+		learnset: {
 			dragonpulse: ["7L1"],
 			peck: ["7L1"],
 			growl: ["7L1"],
@@ -62408,9 +63489,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			toxicspikes: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	naganadel: {		
-		learnset: {	
+	},
+	naganadel: {
+		learnset: {
 			aircutter: ["7L0"],
 			dragonpulse: ["7L1"],
 			peck: ["7L1"],
@@ -62488,9 +63569,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	stakataka: {		
-		learnset: {	
+	},
+	stakataka: {
+		learnset: {
 			protect: ["7L1"],
 			tackle: ["7L1"],
 			rockslide: ["7L5"],
@@ -62551,9 +63632,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			superpower: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	blacephalon: {		
-		learnset: {	
+	},
+	blacephalon: {
+		learnset: {
 			ember: ["7L1"],
 			astonish: ["7L1"],
 			magiccoat: ["7L7"],
@@ -62615,9 +63696,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	zeraora: {		
-		learnset: {	
+	},
+	zeraora: {
+		learnset: {
 			scratch: ["7L1"],
 			spark: ["7L1"],
 			honeclaws: ["7L5"],
@@ -62704,9 +63785,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	meltan: {		
-		learnset: {	
+	},
+	meltan: {
+		learnset: {
 			headbutt: ["7L1"],
 			harden: ["7L1"],
 			tailwhip: ["7L9"],
@@ -62735,9 +63816,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			magnetrise: ["7T"],
 			swagger: ["7T"],
 		},
-	},	
-	melmetal: {		
-		learnset: {	
+	},
+	melmetal: {
+		learnset: {
 			thunderpunch: ["7L0"],
 			headbutt: ["7L1"],
 			harden: ["7L1"],
@@ -62790,9 +63871,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	grookey: {		
-		learnset: {	
+	},
+	grookey: {
+		learnset: {
 			scratch: ["7L1"],
 			growl: ["7L1"],
 			branchpoke: ["7L6"],
@@ -62848,9 +63929,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			naturepower: ["7E"],
 			leechseed: ["7E"],
 		},
-	},	
-	thwackey: {		
-		learnset: {	
+	},
+	thwackey: {
+		learnset: {
 			doublehit: ["7L0"],
 			scratch: ["7L1"],
 			growl: ["7L1"],
@@ -62903,9 +63984,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	rillaboom: {		
-		learnset: {	
+	},
+	rillaboom: {
+		learnset: {
 			drumbeating: ["7L0"],
 			doublehit: ["7L1"],
 			grassyterrain: ["7L1"],
@@ -62985,9 +64066,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			frenzyplant: ["7T"],
 			grasspledge: ["7T"],
 		},
-	},	
-	scorbunny: {		
-		learnset: {	
+	},
+	scorbunny: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			ember: ["7L6"],
@@ -63048,9 +64129,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			highjumpkick: ["7E"],
 			sandattack: ["7E"],
 		},
-	},	
-	raboot: {		
-		learnset: {	
+	},
+	raboot: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			ember: ["7L1"],
@@ -63110,9 +64191,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	cinderace: {		
-		learnset: {	
+	},
+	cinderace: {
+		learnset: {
 			pyroball: ["7L0"],
 			feint: ["7L1"],
 			tackle: ["7L1"],
@@ -63189,9 +64270,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			blastburn: ["7T"],
 			firepledge: ["7T"],
 		},
-	},	
-	sobble: {		
-		learnset: {	
+	},
+	sobble: {
+		learnset: {
 			pound: ["7L1"],
 			growl: ["7L1"],
 			watergun: ["7L6"],
@@ -63245,9 +64326,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			iceshard: ["7E"],
 			fellstinger: ["7E"],
 		},
-	},	
-	drizzile: {		
-		learnset: {	
+	},
+	drizzile: {
+		learnset: {
 			pound: ["7L1"],
 			growl: ["7L1"],
 			watergun: ["7L1"],
@@ -63296,9 +64377,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	inteleon: {		
-		learnset: {	
+	},
+	inteleon: {
+		learnset: {
 			snipeshot: ["7L0"],
 			acrobatics: ["7L1"],
 			pound: ["7L1"],
@@ -63367,9 +64448,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
 		},
-	},	
-	skwovet: {		
-		learnset: {	
+	},
+	skwovet: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			bite: ["7L5"],
@@ -63417,9 +64498,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			lastresort: ["7E"],
 			bellydrum: ["7E"],
 		},
-	},	
-	greedent: {		
-		learnset: {	
+	},
+	greedent: {
+		learnset: {
 			covet: ["7L0"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
@@ -63479,9 +64560,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicfangs: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	rookidee: {		
-		learnset: {	
+	},
+	rookidee: {
+		learnset: {
 			peck: ["7L1"],
 			leer: ["7L1"],
 			powertrip: ["7L4"],
@@ -63532,9 +64613,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			sandattack: ["7E"],
 			spite: ["7E"],
 		},
-	},	
-	corvisquire: {		
-		learnset: {	
+	},
+	corvisquire: {
+		learnset: {
 			peck: ["7L1"],
 			leer: ["7L1"],
 			powertrip: ["7L1"],
@@ -63583,9 +64664,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	corviknight: {		
-		learnset: {	
+	},
+	corviknight: {
+		learnset: {
 			steelwing: ["7L0"],
 			irondefense: ["7L1"],
 			metalsound: ["7L1"],
@@ -63648,9 +64729,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	blipbug: {		
-		learnset: {	
+	},
+	blipbug: {
+		learnset: {
 			strugglebug: ["7L1"],
 			infestation: ["7T"],
 			mimic: ["7T"],
@@ -63659,9 +64740,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			stickyweb: ["7E"],
 			recover: ["7E"],
 		},
-	},	
-	dottler: {		
-		learnset: {	
+	},
+	dottler: {
+		learnset: {
 			reflect: ["7L0"],
 			lightscreen: ["7L0"],
 			confusion: ["7L0"],
@@ -63712,9 +64793,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	orbeetle: {		
-		learnset: {	
+	},
+	orbeetle: {
+		learnset: {
 			reflect: ["7L1"],
 			lightscreen: ["7L1"],
 			confusion: ["7L1"],
@@ -63790,9 +64871,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			quiverdance: ["7T"],
 		},
-	},	
-	nickit: {		
-		learnset: {	
+	},
+	nickit: {
+		learnset: {
 			quickattack: ["7L1"],
 			tailwhip: ["7L1"],
 			beatup: ["7L4"],
@@ -63839,9 +64920,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quickguard: ["7E"],
 			howl: ["7E"],
 		},
-	},	
-	thievul: {		
-		learnset: {	
+	},
+	thievul: {
+		learnset: {
 			thief: ["7L0"],
 			quickattack: ["7L1"],
 			tailwhip: ["7L1"],
@@ -63901,9 +64982,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	gossifleur: {		
-		learnset: {	
+	},
+	gossifleur: {
+		learnset: {
 			leafage: ["7L1"],
 			sing: ["7L1"],
 			rapidspin: ["7L4"],
@@ -63951,9 +65032,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			stunspore: ["7E"],
 			sleeppowder: ["7E"],
 		},
-	},	
-	eldegoss: {		
-		learnset: {	
+	},
+	eldegoss: {
+		learnset: {
 			cottonspore: ["7L0"],
 			leafage: ["7L1"],
 			sing: ["7L1"],
@@ -64001,9 +65082,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			grassyterrain: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	wooloo: {		
-		learnset: {	
+	},
+	wooloo: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			defensecurl: ["7L4"],
@@ -64045,9 +65126,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			swagger: ["7T"],
 			stomp: ["7E"],
 		},
-	},	
-	dubwool: {		
-		learnset: {	
+	},
+	dubwool: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			defensecurl: ["7L1"],
@@ -64096,9 +65177,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			bounce: ["7T"],
 			batonpass: ["7T"],
 		},
-	},	
-	chewtle: {		
-		learnset: {	
+	},
+	chewtle: {
+		learnset: {
 			tackle: ["7L1"],
 			watergun: ["7L1"],
 			bite: ["7L7"],
@@ -64145,9 +65226,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			skullbash: ["7E"],
 		},
-	},	
-	drednaw: {		
-		learnset: {	
+	},
+	drednaw: {
+		learnset: {
 			rocktomb: ["7L0"],
 			razorshell: ["7L1"],
 			crunch: ["7L1"],
@@ -64227,9 +65308,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	yamper: {		
-		learnset: {	
+	},
+	yamper: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			nuzzle: ["7L5"],
@@ -64288,9 +65369,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			discharge: ["7E"],
 			howl: ["7E"],
 		},
-	},	
-	boltund: {		
-		learnset: {	
+	},
+	boltund: {
+		learnset: {
 			electrify: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
@@ -64357,9 +65438,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychicfangs: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	rolycoly: {		
-		learnset: {	
+	},
+	rolycoly: {
+		learnset: {
 			tackle: ["7L1"],
 			smokescreen: ["7L1"],
 			rapidspin: ["7L5"],
@@ -64408,9 +65489,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			explosion: ["7E"],
 			block: ["7E"],
 		},
-	},	
-	carkol: {		
-		learnset: {	
+	},
+	carkol: {
+		learnset: {
 			flamecharge: ["7L0"],
 			tackle: ["7L1"],
 			smokescreen: ["7L1"],
@@ -64469,9 +65550,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	coalossal: {		
-		learnset: {	
+	},
+	coalossal: {
+		learnset: {
 			tarshot: ["7L0"],
 			flamecharge: ["7L1"],
 			tackle: ["7L1"],
@@ -64544,9 +65625,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			flareblitz: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	applin: {		
-		learnset: {	
+	},
+	applin: {
+		learnset: {
 			withdraw: ["7L1"],
 			astonish: ["7L1"],
 			attract: ["7M"],
@@ -64559,9 +65640,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			swagger: ["7T"],
 			suckerpunch: ["7E"],
 		},
-	},	
-	flapple: {		
-		learnset: {	
+	},
+	flapple: {
+		learnset: {
 			wingattack: ["7L0"],
 			recycle: ["7L1"],
 			withdraw: ["7L1"],
@@ -64630,9 +65711,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			quiverdance: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	appletun: {		
-		learnset: {	
+	},
+	appletun: {
+		learnset: {
 			headbutt: ["7L0"],
 			recycle: ["7L1"],
 			withdraw: ["7L1"],
@@ -64699,9 +65780,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	silicobra: {		
-		learnset: {	
+	},
+	silicobra: {
+		learnset: {
 			wrap: ["7L1"],
 			sandattack: ["7L1"],
 			minimize: ["7L5"],
@@ -64748,9 +65829,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			belch: ["7E"],
 			poisontail: ["7E"],
 		},
-	},	
-	sandaconda: {		
-		learnset: {	
+	},
+	sandaconda: {
+		learnset: {
 			skullbash: ["7L1"],
 			wrap: ["7L1"],
 			sandattack: ["7L1"],
@@ -64811,9 +65892,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	cramorant: {		
-		learnset: {	
+	},
+	cramorant: {
+		learnset: {
 			belch: ["7L1"],
 			peck: ["7L1"],
 			stockpile: ["7L1"],
@@ -64877,9 +65958,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			featherdance: ["7E"],
 			aquaring: ["7E"],
 		},
-	},	
-	arrokuda: {		
-		learnset: {	
+	},
+	arrokuda: {
+		learnset: {
 			peck: ["7L1"],
 			aquajet: ["7L1"],
 			furyattack: ["7L6"],
@@ -64927,9 +66008,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			slash: ["7E"],
 			nightslash: ["7E"],
 		},
-	},	
-	barraskewda: {		
-		learnset: {	
+	},
+	barraskewda: {
+		learnset: {
 			throatchop: ["7L1"],
 			peck: ["7L1"],
 			aquajet: ["7L1"],
@@ -64977,9 +66058,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	toxel: {		
-		learnset: {	
+	},
+	toxel: {
+		learnset: {
 			belch: ["7L1"],
 			tearfullook: ["7L1"],
 			nuzzle: ["7L1"],
@@ -65010,9 +66091,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			metalsound: ["7E"],
 			poweruppunch: ["7E"],
 		},
-	},	
-	toxtricity: {		
-		learnset: {	
+	},
+	toxtricity: {
+		learnset: {
 			spark: ["7L0"],
 			eerieimpulse: ["7L1"],
 			belch: ["7L1"],
@@ -65099,9 +66180,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	toxtricitylowkey: {		
-		learnset: {	
+	},
+	toxtricitylowkey: {
+		learnset: {
 			spark: ["7L0"],
 			eerieimpulse: ["7L1"],
 			belch: ["7L1"],
@@ -65188,9 +66269,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	sizzlipede: {		
-		learnset: {	
+	},
+	sizzlipede: {
+		learnset: {
 			ember: ["7L1"],
 			smokescreen: ["7L1"],
 			wrap: ["7L5"],
@@ -65238,9 +66319,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	centiskorch: {		
-		learnset: {	
+	},
+	centiskorch: {
+		learnset: {
 			inferno: ["7L1"],
 			ember: ["7L1"],
 			smokescreen: ["7L1"],
@@ -65301,9 +66382,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	clobbopus: {		
-		learnset: {	
+	},
+	clobbopus: {
+		learnset: {
 			rocksmash: ["7L1"],
 			leer: ["7L1"],
 			feint: ["7L5"],
@@ -65362,9 +66443,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			soak: ["7E"],
 			circlethrow: ["7E"],
 		},
-	},	
-	grapploct: {		
-		learnset: {	
+	},
+	grapploct: {
+		learnset: {
 			octolock: ["7L0"],
 			octazooka: ["7L1"],
 			rocksmash: ["7L1"],
@@ -65434,9 +66515,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	sinistea: {		
-		learnset: {	
+	},
+	sinistea: {
+		learnset: {
 			astonish: ["7L1"],
 			withdraw: ["7L1"],
 			aromaticmist: ["7L6"],
@@ -65491,9 +66572,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	polteageist: {		
-		learnset: {	
+	},
+	polteageist: {
+		learnset: {
 			teatime: ["7L0"],
 			strengthsap: ["7L1"],
 			astonish: ["7L1"],
@@ -65556,9 +66637,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	hatenna: {		
-		learnset: {	
+	},
+	hatenna: {
+		learnset: {
 			confusion: ["7L1"],
 			playnice: ["7L1"],
 			lifedew: ["7L5"],
@@ -65618,9 +66699,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			afteryou: ["7E"],
 			quash: ["7E"],
 		},
-	},	
-	hattrem: {		
-		learnset: {	
+	},
+	hattrem: {
+		learnset: {
 			brutalswing: ["7L0"],
 			confusion: ["7L1"],
 			playnice: ["7L1"],
@@ -65677,9 +66758,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	hatterene: {		
-		learnset: {	
+	},
+	hatterene: {
+		learnset: {
 			psychocut: ["7L0"],
 			brutalswing: ["7L1"],
 			confusion: ["7L1"],
@@ -65748,9 +66829,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			playrough: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	impidimp: {		
-		learnset: {	
+	},
+	impidimp: {
+		learnset: {
 			fakeout: ["7L1"],
 			confide: ["7L1"],
 			bite: ["7L4"],
@@ -65817,9 +66898,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	morgrem: {		
-		learnset: {	
+	},
+	morgrem: {
+		learnset: {
 			falsesurrender: ["7L0"],
 			fakeout: ["7L1"],
 			confide: ["7L1"],
@@ -65892,9 +66973,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	grimmsnarl: {		
-		learnset: {	
+	},
+	grimmsnarl: {
+		learnset: {
 			spiritbreak: ["7L0"],
 			falsesurrender: ["7L1"],
 			bulkup: ["7L1"],
@@ -65991,9 +67072,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	obstagoon: {		
-		learnset: {	
+	},
+	obstagoon: {
+		learnset: {
 			obstruct: ["7L0"],
 			crosschop: ["7L1"],
 			submission: ["7L1"],
@@ -66092,9 +67173,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	perrserker: {		
-		learnset: {	
+	},
+	perrserker: {
+		learnset: {
 			ironhead: ["7L0"],
 			metalburst: ["7L1"],
 			irondefense: ["7L1"],
@@ -66170,9 +67251,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nastyplot: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	cursola: {		
-		learnset: {	
+	},
+	cursola: {
+		learnset: {
 			perishsong: ["7L1"],
 			tackle: ["7L1"],
 			harden: ["7L1"],
@@ -66253,9 +67334,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hydropump: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	sirfetchd: {		
-		learnset: {	
+	},
+	sirfetchd: {
+		learnset: {
 			irondefense: ["7L0"],
 			firstimpression: ["7L1"],
 			peck: ["7L1"],
@@ -66313,9 +67394,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	mrrime: {		
-		learnset: {	
+	},
+	mrrime: {
+		learnset: {
 			faketears: ["7L1"],
 			slackoff: ["7L1"],
 			afteryou: ["7L1"],
@@ -66412,9 +67493,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	runerigus: {		
-		learnset: {	
+	},
+	runerigus: {
+		learnset: {
 			shadowclaw: ["7L0"],
 			scaryface: ["7L1"],
 			astonish: ["7L1"],
@@ -66492,9 +67573,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	milcery: {		
-		learnset: {	
+	},
+	milcery: {
+		learnset: {
 			tackle: ["7L1"],
 			aromaticmist: ["7L1"],
 			sweetkiss: ["7L5"],
@@ -66532,9 +67613,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			babydolleyes: ["7E"],
 			lastresort: ["7E"],
 		},
-	},	
-	alcremie: {		
-		learnset: {	
+	},
+	alcremie: {
+		learnset: {
 			decorate: ["7L0"],
 			tackle: ["7L1"],
 			aromaticmist: ["7L1"],
@@ -66590,9 +67671,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	falinks: {		
-		learnset: {	
+	},
+	falinks: {
+		learnset: {
 			tackle: ["7L1"],
 			protect: ["7L1"],
 			rocksmash: ["7L5"],
@@ -66646,9 +67727,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			throatchop: ["7T"],
 			doubleedge: ["7T"],
 		},
-	},	
-	pincurchin: {		
-		learnset: {	
+	},
+	pincurchin: {
+		learnset: {
 			peck: ["7L1"],
 			thundershock: ["7L1"],
 			watergun: ["7L5"],
@@ -66708,9 +67789,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			selfdestruct: ["7T"],
 			memento: ["7E"],
 		},
-	},	
-	snom: {		
-		learnset: {	
+	},
+	snom: {
+		learnset: {
 			powdersnow: ["7L1"],
 			strugglebug: ["7L1"],
 			protect: ["7M"],
@@ -66736,9 +67817,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			fairywind: ["7E"],
 			mirrorcoat: ["7E"],
 		},
-	},	
-	frosmoth: {		
-		learnset: {	
+	},
+	frosmoth: {
+		learnset: {
 			icywind: ["7L0"],
 			powdersnow: ["7L1"],
 			strugglebug: ["7L1"],
@@ -66802,9 +67883,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			hurricane: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	stonjourner: {		
-		learnset: {	
+	},
+	stonjourner: {
+		learnset: {
 			rockthrow: ["7L1"],
 			block: ["7L1"],
 			rockpolish: ["7L6"],
@@ -66864,9 +67945,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			selfdestruct: ["7T"],
 			ancientpower: ["7E"],
 		},
-	},	
-	eiscue: {		
-		learnset: {	
+	},
+	eiscue: {
+		learnset: {
 			powdersnow: ["7L1"],
 			tackle: ["7L1"],
 			mist: ["7L6"],
@@ -66921,9 +68002,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			iciclecrash: ["7E"],
 			headsmash: ["7E"],
 		},
-	},	
-	indeedee: {		
-		learnset: {	
+	},
+	indeedee: {
+		learnset: {
 			storedpower: ["7L1"],
 			playnice: ["7L1"],
 			encore: ["7L5"],
@@ -66984,9 +68065,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			fakeout: ["7E"],
 			extrasensory: ["7E"],
 		},
-	},	
-	indeedeef: {		
-		learnset: {	
+	},
+	indeedeef: {
+		learnset: {
 			storedpower: ["7L1"],
 			playnice: ["7L1"],
 			batonpass: ["7L5"],
@@ -67050,9 +68131,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			psychoshift: ["7E"],
 			healpulse: ["7E"],
 		},
-	},	
-	morpeko: {		
-		learnset: {	
+	},
+	morpeko: {
+		learnset: {
 			thundershock: ["7L1"],
 			tailwhip: ["7L1"],
 			leer: ["7L5"],
@@ -67127,9 +68208,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			partingshot: ["7E"],
 			fakeout: ["7E"],
 		},
-	},	
-	cufant: {		
-		learnset: {	
+	},
+	cufant: {
+		learnset: {
 			tackle: ["7L1"],
 			growl: ["7L1"],
 			rollout: ["7L5"],
@@ -67186,9 +68267,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			fissure: ["7E"],
 			whirlwind: ["7E"],
 		},
-	},	
-	copperajah: {		
-		learnset: {	
+	},
+	copperajah: {
+		learnset: {
 			heavyslam: ["7L0"],
 			tackle: ["7L1"],
 			growl: ["7L1"],
@@ -67253,9 +68334,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			powerwhip: ["7T"],
 		},
-	},	
-	dracozolt: {		
-		learnset: {	
+	},
+	dracozolt: {
+		learnset: {
 			tackle: ["7L1"],
 			thundershock: ["7L1"],
 			charge: ["7L7"],
@@ -67327,9 +68408,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	arctozolt: {		
-		learnset: {	
+	},
+	arctozolt: {
+		learnset: {
 			powdersnow: ["7L1"],
 			thundershock: ["7L1"],
 			charge: ["7L7"],
@@ -67402,9 +68483,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	dracovish: {		
-		learnset: {	
+	},
+	dracovish: {
+		learnset: {
 			tackle: ["7L1"],
 			watergun: ["7L1"],
 			protect: ["7L7"],
@@ -67468,9 +68549,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	arctovish: {		
-		learnset: {	
+	},
+	arctovish: {
+		learnset: {
 			powdersnow: ["7L1"],
 			watergun: ["7L1"],
 			protect: ["7L7"],
@@ -67528,9 +68609,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			hydropump: ["7T"],
 		},
-	},	
-	duraludon: {		
-		learnset: {	
+	},
+	duraludon: {
+		learnset: {
 			metalclaw: ["7L1"],
 			leer: ["7L1"],
 			rocksmash: ["7L6"],
@@ -67601,9 +68682,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			nightslash: ["7E"],
 			mirrorcoat: ["7E"],
 		},
-	},	
-	dreepy: {		
-		learnset: {	
+	},
+	dreepy: {
+		learnset: {
 			astonish: ["7L1"],
 			infestation: ["7L1"],
 			quickattack: ["7L1"],
@@ -67642,9 +68723,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			disable: ["7E"],
 			suckerpunch: ["7E"],
 		},
-	},	
-	drakloak: {		
-		learnset: {	
+	},
+	drakloak: {
+		learnset: {
 			dragonpulse: ["7L0"],
 			astonish: ["7L1"],
 			infestation: ["7L1"],
@@ -67724,9 +68805,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	dragapult: {		
-		learnset: {	
+	},
+	dragapult: {
+		learnset: {
 			dragondarts: ["7L0"],
 			dragonbreath: ["7L1"],
 			suckerpunch: ["7L1"],
@@ -67819,9 +68900,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			outrage: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	zacian: {		
-		learnset: {	
+	},
+	zacian: {
+		learnset: {
 			sacredsword: ["7L1"],
 			quickguard: ["7L1"],
 			metalclaw: ["7L1"],
@@ -67884,9 +68965,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	zamazenta: {		
-		learnset: {	
+	},
+	zamazenta: {
+		learnset: {
 			metalburst: ["7L1"],
 			wideguard: ["7L1"],
 			metalclaw: ["7L1"],
@@ -67953,9 +69034,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			playrough: ["7T"],
 		},
-	},	
-	eternatus: {		
-		learnset: {	
+	},
+	eternatus: {
+		learnset: {
 			poisontail: ["7L1"],
 			confuseray: ["7L1"],
 			dragontail: ["7L1"],
@@ -68007,9 +69088,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	kubfu: {		
-		learnset: {	
+	},
+	kubfu: {
+		learnset: {
 			rocksmash: ["7L1"],
 			leer: ["7L1"],
 			endure: ["7L4"],
@@ -68068,9 +69149,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	urshifu: {		
-		learnset: {	
+	},
+	urshifu: {
+		learnset: {
 			wickedblow: ["7L0"],
 			suckerpunch: ["7L1"],
 			rocksmash: ["7L1"],
@@ -68151,9 +69232,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	urshifurapidstrike: {		
-		learnset: {	
+	},
+	urshifurapidstrike: {
+		learnset: {
 			surgingstrikes: ["7L0"],
 			aquajet: ["7L1"],
 			rocksmash: ["7L1"],
@@ -68234,9 +69315,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	zarude: {		
-		learnset: {	
+	},
+	zarude: {
+		learnset: {
 			bind: ["7L1"],
 			scratch: ["7L1"],
 			leer: ["7L6"],
@@ -68320,9 +69401,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			knockoff: ["7T"],
 			nastyplot: ["7T"],
 		},
-	},	
-	regieleki: {		
-		learnset: {	
+	},
+	regieleki: {
+		learnset: {
 			thundershock: ["7L1"],
 			rapidspin: ["7L1"],
 			electroweb: ["7L6"],
@@ -68373,9 +69454,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			selfdestruct: ["7T"],
 		},
-	},	
-	regidrago: {		
-		learnset: {	
+	},
+	regidrago: {
+		learnset: {
 			twister: ["7L1"],
 			visegrip: ["7L1"],
 			bite: ["7L6"],
@@ -68421,9 +69502,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			selfdestruct: ["7T"],
 			dracometeor: ["7T"],
 		},
-	},	
-	glastrier: {		
-		learnset: {	
+	},
+	glastrier: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			doublekick: ["7L6"],
@@ -68484,9 +69565,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			outrage: ["7T"],
 		},
-	},	
-	spectrier: {		
-		learnset: {	
+	},
+	spectrier: {
+		learnset: {
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
 			doublekick: ["7L6"],
@@ -68545,9 +69626,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			foulplay: ["7T"],
 			phantomforce: ["7T"],
 		},
-	},	
-	calyrex: {		
-		learnset: {	
+	},
+	calyrex: {
+		learnset: {
 			pound: ["7L1"],
 			megadrain: ["7L1"],
 			confusion: ["7L1"],
@@ -68619,9 +69700,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			doubleedge: ["7T"],
 			leafstorm: ["7T"],
 		},
-	},	
-	calyrexice: {		
-		learnset: {	
+	},
+	calyrexice: {
+		learnset: {
 			glaciallance: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
@@ -68709,9 +69790,9 @@ export const Learnsets: { [k: string]: ModdedLearnsetData; } = {
 			closecombat: ["7T"],
 			knockoff: ["7T"],
 		},
-	},	
-	calyrexshadow: {		
-		learnset: {	
+	},
+	calyrexshadow: {
+		learnset: {
 			astralbarrage: ["7L1"],
 			tackle: ["7L1"],
 			tailwhip: ["7L1"],
