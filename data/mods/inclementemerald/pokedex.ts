@@ -2034,4 +2034,458 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		evoType: "levelExtra",
 		evoCondition: "while holding a Metal Coat",
 	},
+	// gen 8 mons
+	grookey: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	thwackey: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	rillaboom: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	scorbunny: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	raboot: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	cinderace: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	sobble: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	drizzle: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	inteleon: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	skwovet: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	greedent: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	rookidee: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	corvisquire: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	corviknight: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	blipbug: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	dottler: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	orbeetle: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	nickit: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	thievul: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	gossifleur: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	edegoss: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	wooloo: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	dubwool: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	chewtle: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	drednaw: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	yamper: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	boltund: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	rolycoly: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	carkol: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	coalossal: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	applin: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	flapple: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	appletun: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	silicobra: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	sandaconda: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	cramorant: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	arrokuda: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	barraskewda: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	toxel: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	toxtricity: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	sizzlipede: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	centiskorch: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	clobbopus: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	grapploct: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	sinistea: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	polteageist: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	hatenna: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	hattern: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	hatterene: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	impidimp: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	morgerm: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	grimmsnarl: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zigzagoongalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	linoonegalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	obstagoon: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	meowthgalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	perrserker: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	corsolagalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	cursola: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	farfetchdgalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	sirfetchd: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	weezinggalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	mrmimegalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	mrrime: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	darumakagalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	darmanitangalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	yamaskgalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	runerigus: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	stunfiskgalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	slowpokegalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	slowbrogalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	slowkinggalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	articunogalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zapdosgalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	moltresgalar: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	milcery: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	alcremie: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	falinks: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	pincurchin: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	snom: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	frosmoth: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	stonjourner: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	eiscue: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	indeedeem: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	indeedef: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	morpeko: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	cufant: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	copperajah: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	dracozolt: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	artozolt: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	dracovish: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	arctovish: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	duraludon: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	dreepy: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	drakloak: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	dragapult: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zacian: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zaciancrowned: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zamazenta: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zamazentacrowned: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	eternatus: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	kubfu: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	urshifu: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	urshifurapidstrike: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zarude: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	zarudedada: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	regieleki: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	regidrago: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	glastrier: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	spectrier: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	calyrex: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	calyrexice: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	calyrexshadow: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
 };
+
