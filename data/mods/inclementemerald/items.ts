@@ -834,4 +834,93 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
+	// new mega stones
+	butterfrenite: {
+		name: "Butterfrenite",
+		spritenum: 592,
+		megaStone: "Butterfree-Mega",
+		megaEvolves: "Butterfree",
+		itemUser: ["Butterfree"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Butterfree, this item allows it to Mega Evolve in battle.",
+	},
+	machampite: {
+		name: "Machampite",
+		spritenum: 578,
+		megaStone: "Machamp-Mega",
+		megaEvolves: "Machamp",
+		itemUser: ["Machamp"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Machamp, this item allows it to Mega Evolve in battle.",
+	},
+	kinglerite: {
+		name: "Kinglerite",
+		spritenum: 583,
+		megaStone: "Kingler-Mega",
+		megaEvolves: "Kingler",
+		itemUser: ["Kingler"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Kingler, this item allows it to Mega Evolve in battle.",
+	},
+	laprasite: {
+		name: "Laprasite",
+		spritenum: 612,
+		megaStone: "Lapras-Mega",
+		megaEvolves: "Lapras",
+		itemUser: ["Lapras"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Lapras, this item allows it to Mega Evolve in battle.",
+	},
+	flygonite: {
+		name: "Flygonite",
+		megaStone: "Flygon-Mega",
+		megaEvolves: "Flygon",
+		itemUser: ["Flygon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Flygon, this item allows it to Mega Evolve in battle.",
+	},
+	kingdranite: {
+		name: "Kingdranite",
+		megaStone: "Kingdra-Mega",
+		megaEvolves: "Kingdra",
+		itemUser: ["Kingdra"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Kingdra, this item allows it to Mega Evolve in battle.",
+	},
+	miloticite: {
+		name: "Miloticite",
+		megaStone: "Milotic-Mega",
+		megaEvolves: "Milotic",
+		itemUser: ["Milotic"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Milotic, this item allows it to Mega Evolve in battle.",
+	},
 };
