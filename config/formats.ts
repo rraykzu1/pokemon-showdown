@@ -275,13 +275,13 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Inclement Emerald AG",
 		desc: `The long awaited for IESH is here!`,
 		mod: 'inclementemerald',
-		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
+		ruleset: ['-Nonexistent', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
 	},
 	{
 		name: "[Gen 8] IEDL",
 		desc: `IE Draft League`,
 		mod: 'inclementemerald',
-		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
+		ruleset: ['-Nonexistent', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: ['Swagger', 'Misty Explosion', 'Explosion', 'Self-Destruct', 'Hidden Power', 'Shadow Tag', 'Moody', 'Power Construct', 'Baton Pass',
 		// mons
 			'Alakazam-Mega', 'Arceus', 'Blaziken-Mega', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Dialga', 'Genesect', 'Gengar-Mega', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-White', 'Kyurem-Black', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Meloetta-Pirouette', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Unown', 'Xerneas', 'Yveltal', 'Zekrom', 'Zygarde-Complete',
