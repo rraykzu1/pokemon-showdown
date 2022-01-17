@@ -370,7 +370,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 				if (action.choice !== 'runSwitch' && action.choice !== 'runPrimal') break;
 			}
 			this.add('-ability', pokemon, 'Pressure');
-		}
+		},
 	},
 	primalarmor: {
 		onSourceModifyDamage(damage, source, target, move) {
