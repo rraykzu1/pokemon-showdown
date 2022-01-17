@@ -196,6 +196,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 25,
 		type: 'Water',
 		accuracy: 90,
+		isNonstandard: null,
 	},
 	absorb: {
 		inherit: true,
@@ -212,6 +213,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	mudbomb: {
 		inherit: true,
 		pp: 15,
+		isNonstandard: null,
 		accuracy: 90,
 	},
 	mysticalfire: {
@@ -262,6 +264,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: {
 			chance: 30,
 		},
+		isNonstandard: null,
 	},
 	geargrind: {
 		inherit: true,
@@ -290,6 +293,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	needlearm: {
 		inherit: true,
 		basePower: 90,
+		isNonstandard: null,
 	},
 	crosspoison: {
 		inherit: true,
@@ -300,6 +304,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	rockclimb: {
 		inherit: true,
 		type: 'Rock',
+		isNonstandard: null,
 	},
 	disarmingvoice: {
 		inherit: true,
@@ -321,6 +326,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		accuracy: 100,
 		basePower: 25,
+		isNonstandard: null,
 	},
 	xscissor: {
 		inherit: true,
@@ -338,6 +344,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			chance: 30,
 		},
 		pp: 15,
+		isNonstandard: null,
 	},
 	bonerush: {
 		inherit: true,
@@ -416,5 +423,278 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	meteorassault: {
 		inherit: true,
 		flags: {protect: 1, recharge: 1, mirror: 1, blade: 1},
+	},
+	karatechop: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	doubleslap: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	razorwind: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	jumpkick: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rollingkick: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	sonicboom: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	dragonrage: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	meditate: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rage: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	barrier: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	bide: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	mirrormove: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	eggbomb: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	clamp: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	constrict: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	kinesis: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	barrage: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	bubble: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	dizzypunch: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	flash: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	psywave: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sharpen: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	spiderweb: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	nightmare: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	feintattack: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	foresight: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	return: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	frustration: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	magnitude: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	pursuit: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpower: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	smellingsalts: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	assist: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	refresh: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	snatch: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	secretpower: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	camouflage: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	mudsport: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	iceball: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	odorsleuth: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	silverwind: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	grasswhistle: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	signalbeam: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	skyuppercut: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	watersport: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	miracleeye: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	wakeupslap: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	naturalgift: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	embargo: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	trumpcard: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	healblock: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	wringout: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	luckychant: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	mefirst: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	punishment: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	mirrorshot: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	magnetbomb: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	captivate: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	healorder: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	ominouswind: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	telekinesis: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	flameburst: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	synchronoise: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	chipaway: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	skydrop: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	bestow: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	heartstamp: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	tailglow: {
+		inherit: true,
+		isNonstandard: null,
 	},
 };
