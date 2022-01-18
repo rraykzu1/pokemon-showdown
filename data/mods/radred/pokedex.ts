@@ -798,9 +798,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 65, atk: 130, def: 60, spa: 65, spd: 100, spe: 95},
 	},
+	kabuto: {
+		inherit: true,
+		abilities: {0: "Weak Armor", 1: "Battle Armor", H: "Swift Swim"},
+	},
 	kabutops: {
 		inherit: true,
-		abilities: {0: "Swift Swim", 1: "Battle Armor", H: "Blademaster"},
+		abilities: {0: "Blademaster", H: "Swift Swim"},
 	},
 	snorlax: {
 		inherit: true,
@@ -2701,7 +2705,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	fletchinder: {
 		inherit: true,
-		abilities: {0: "Frisk", H: "Gale Wings"},
+		abilities: {0: "Flame Body", H: "Gale Wings"},
 	},
 	talonflame: {
 		inherit: true,
@@ -3408,15 +3412,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	cramorant: {
 		inherit: true,
-		baseStats: {hp: 70, atk: 85, def: 65, spa: 100, spd: 95, spe: 105},
+		baseStats: {hp: 85, atk: 85, def: 65, spa: 100, spd: 95, spe: 105},
 	},
 	cramorantgulping: {
 		inherit: true,
-		baseStats: {hp: 70, atk: 85, def: 65, spa: 100, spd: 95, spe: 105},
+		baseStats: {hp: 85, atk: 85, def: 65, spa: 100, spd: 95, spe: 105},
 	},
 	cramorantgorging: {
 		inherit: true,
-		baseStats: {hp: 70, atk: 85, def: 65, spa: 100, spd: 95, spe: 105},
+		baseStats: {hp: 85, atk: 85, def: 65, spa: 100, spd: 95, spe: 105},
 	},
 	arrokuda: {
 		inherit: true,
