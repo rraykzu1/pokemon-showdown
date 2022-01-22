@@ -697,4 +697,156 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	aciddownpour: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	alloutpummeling: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	beakblast: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	curse: {
+		inherit: true,
+		target: "normal",
+	},
+	doubleironbash: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	heartswap: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerbug: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerdark: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerdragon: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerelectric: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerfighting: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerfire: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerflying: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerghost: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowergrass: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerground: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerice: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerpoison: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerpsychic: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerrock: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowersteel: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hiddenpowerwater: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hyperfang: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hyperspacefury: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hyperspacehole: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	icehammer: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	iondeluge: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	judgment: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	lightofruin: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	powder: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	precipiceblades: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	psychoboost: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	revelationdance: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	rototiller: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	seedflare: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sketch: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	spotlight: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	steamroller: {
+		inherit: true,
+		isNonstandard: null,
+	},
 };
