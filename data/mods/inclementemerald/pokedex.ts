@@ -218,6 +218,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	rapidash: {
 		inherit: true,
+		types: ["Fire", "Fairy"],
 		baseStats: {hp: 85, atk: 110, def: 70, spa: 80, spd: 80, spe: 105},
 		abilities: {0: "Reckless", 1: "Flash Fire", H: "Flame Body"},
 	},
@@ -394,6 +395,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	meganium: {
 		inherit: true,
+		types: ["Grass", "Fairy"],
 		baseStats: {hp: 80, atk: 82, def: 100, spa: 92, spd: 100, spe: 80},
 		abilities: {0: "Overgrow", 1: "Flower Veil", H: "Triage"},
 	},

@@ -41111,6 +41111,7 @@ export const Learnsets: { [k: string]: ModdedLearnsetData } = {
 			knockoff: ["7T"],
 			hydrocannon: ["7T"],
 			waterpledge: ["7T"],
+			earthquake: ["7T"],
 		},
 	},
 	patrat: {

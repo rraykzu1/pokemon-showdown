@@ -25,6 +25,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		inherit: true,
 		onAfterMoveSecondarySelfPriority: -1,
 		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.category === "Status" || !move.hit) return;
 			const missinghp = pokemon.maxhp - pokemon.hp;
 			this.heal(missinghp / 3, pokemon);
 		},
