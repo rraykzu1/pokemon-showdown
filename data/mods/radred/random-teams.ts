@@ -73,15 +73,15 @@ export class RandomRadicalRedTeams extends RandomTeams {
 				['protect', 'substitute', 'spikyshield'].some(m => movePool.includes(m))
 			),
 			Bug: (movePool) => movePool.includes('megahorn') || movePool.includes('pinmissile'),
-			Dark: (movePool, moves, abilities, types, counter) => {
-				if (!counter.get('Dark')) return true;
-				return moves.has('suckerpunch') && (movePool.includes('knockoff') || movePool.includes('wickedblow'));
-			},
+			Dark: (movePool, moves, abilities, types, counter) => (
+				!counter.get('Dark') ||
+				movePool.includes('wickedblow') ||
+				(moves.has('suckerpunch') && movePool.includes('knockoff'))
+			),
 			Dragon: (movePool, moves, abilities, types, counter) => (
 				!counter.get('Dragon') &&
-				!moves.has('dragonascent') &&
-				!moves.has('substitute') &&
-				!(moves.has('rest') && moves.has('sleeptalk'))
+				!abilities.has('Aerilate') && !abilities.has('Pixilate') &&
+				!moves.has('fly') && !moves.has('rest') && !moves.has('sleeptalk')
 			),
 			Electric: (movePool, moves, abilities, types, counter) => !counter.get('Electric') || movePool.includes('thunder'),
 			Fairy: (movePool, moves, abilities, types, counter) => (
@@ -105,11 +105,13 @@ export class RandomRadicalRedTeams extends RandomTeams {
 				return !counter.get('Grass') && species.baseStats.atk >= 100;
 			},
 			Ground: (movePool, moves, abilities, types, counter) => !counter.get('Ground'),
-			Ice: (movePool, moves, abilities, types, counter) => {
-				if (!counter.get('Ice')) return true;
-				if (movePool.includes('iciclecrash')) return true;
-				return abilities.has('Snow Warning') && movePool.includes('blizzard');
-			},
+			Ice: (movePool, moves, abilities, types, counter) => (
+				!abilities.has('Refrigerate') && (
+					!counter.get('Ice') ||
+					movePool.includes('iciclecrash') ||
+					(abilities.has('Snow Warning') && movePool.includes('blizzard'))
+				)
+			),
 			Normal: (movePool, moves, abilities, types, counter) => (
 				(abilities.has('Guts') && movePool.includes('facade')) || (abilities.has('Pixilate') && !counter.get('Normal'))
 			),
@@ -507,7 +509,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 		case 'explosion':
 			// Rock Blast: Special case for Gigalith to prevent Stone Edge-less Choice Band sets
 			const otherMoves = ['curse', 'stompingtantrum', 'rockblast', 'painsplit', 'wish'].some(m => moves.has(m));
-			return {cull: !!counter.get('speedsetup') || !!counter.get('recovery') || otherMoves};
+			return {cull: !!counter.setupType || otherMoves || abilities.has('Refrigerate') && moves.has('freezedry')};
 		case 'facade':
 			// Special cases for Braviary and regular Snorlax, respectively
 			return {cull: !!counter.get('recovery') || movePool.includes('doubleedge')};
