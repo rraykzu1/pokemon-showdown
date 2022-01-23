@@ -124,6 +124,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	ninetales: {
 		inherit: true,
+		types: ["Fire", "Fairy"],
 		baseStats: {hp: 73, atk: 76, def: 75, spa: 91, spd: 100, spe: 100},
 		abilities: {0: "Flash Fire", 1: "Pyromancy", H: "Drought"},
 	},
@@ -218,7 +219,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	rapidash: {
 		inherit: true,
-		types: ["Fire", "Fairy"],
 		baseStats: {hp: 85, atk: 110, def: 70, spa: 80, spd: 80, spe: 105},
 		abilities: {0: "Reckless", 1: "Flash Fire", H: "Flame Body"},
 	},
@@ -1130,14 +1130,17 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	cherubi: {
 		inherit: true,
+		types: ["Grass", "Fairy"],
 		baseStats: {hp: 45, atk: 62, def: 45, spa: 62, spd: 53, spe: 35},
 	},
 	cherrim: {
 		inherit: true,
+		types: ["Grass", "Fairy"],
 		baseStats: {hp: 70, atk: 100, def: 70, spa: 87, spd: 78, spe: 85},
 	},
 	cherrimsunshine: {
 		inherit: true,
+		types: ["Grass", "Fairy"],
 		baseStats: {hp: 70, atk: 100, def: 70, spa: 87, spd: 78, spe: 115},
 	},
 	ambipom: {
