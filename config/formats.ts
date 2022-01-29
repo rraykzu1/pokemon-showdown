@@ -218,6 +218,22 @@ export const Formats: FormatList = [
 		searchShow: false,
 		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
 	},
+	{
+		name: "[Gen 8] RRC Draft",
+		mod: 'radred',
+		gameType: 'doubles',
+		ruleset: ['Standard', 'VGC Timer', 'Item Clause', 'Dynamax Clause', 'Z-Move Clause', 'Adjust Level = 50', 'Picked Team Size = 4'],
+	},
+	{
+		name: "[Gen 8] Doubles Draft",
+
+		mod: 'radred',
+		gameType: 'doubles',
+		searchShow: false,
+		debug: true,
+		// no restrictions, for serious (other than team preview)
+		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
+	},
 
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
