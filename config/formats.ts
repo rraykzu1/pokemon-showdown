@@ -28,14 +28,14 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'random',
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause'],
 	},
 	{
 		name: "[Gen 8] Free-For-All Random Battle",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'random',
 		gameType: 'freeforall',
 		tournamentShow: false,
@@ -45,14 +45,14 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] Random Battle (Blitz)",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'random',
 		ruleset: ['[Gen 8] Random Battle', 'Blitz'],
 	},
 	{
 		name: "[Gen 8] Multi Random Battle",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'random',
 		gameType: 'multi',
 		searchShow: false,
@@ -65,25 +65,25 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] OU",
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion'],
 	},
 	{
 		name: "[Gen 8] Ubers",
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause', 'Mega Rayquaza Clause'],
 		banlist: ['AG', 'Moody'],
 	},
 	{
 		name: "[Gen 8] UU",
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['[Gen 8] OU'],
 		banlist: ['OU', 'UUBL', 'Damp Rock'],
 	},
 	{
 		name: "[Gen 8] LC",
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['Little Cup', 'Standard', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
 			'Aipom', 'Corsola-Galar', 'Cutiefly', 'Drifloon', 'Gligar', 'Goldeen', 'Gothita',
@@ -97,7 +97,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] Monotype",
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['Standard', 'Same Type Clause', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
 			'AG', 'Uber',
@@ -108,12 +108,12 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] Anything Goes",
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
 	{
 		name: "[Gen 8] Random Pool",
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['[Gen 8] OU'],
 		searchShow: false,
 		challengeShow: false,
@@ -138,7 +138,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] Custom Game",
-		mod: 'radred',
+		mod: 'gen8rr',
 		searchShow: false,
 		debug: true,
 		battle: {trunc: Math.trunc},
@@ -155,14 +155,14 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] Random Doubles Battle",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		gameType: 'doubles',
 		team: 'random',
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause'],
 	},
 	{
 		name: "[Gen 8] RRC",
-		mod: 'radred',
+		mod: 'gen8rr',
 		gameType: 'doubles',
 		ruleset: ['Standard', 'VGC Timer', 'Item Clause', 'Dynamax Clause', 'Z-Move Clause', 'Adjust Level = 50', 'Picked Team Size = 4'],
 		banlist: [
@@ -179,7 +179,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] Doubles Custom Game",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		gameType: 'doubles',
 		searchShow: false,
 		battle: {trunc: Math.trunc},
@@ -214,7 +214,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] RRDL",
-		mod: 'radred',
+		mod: 'gen8rr',
 		searchShow: false,
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
@@ -232,13 +232,13 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] Draft",
-		mod: 'radred',
+		mod: 'gen8rr',
 		searchShow: false,
 		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
 	},
 	{
 		name: "[Gen 8] RRC Draft",
-		mod: 'radred',
+		mod: 'gen8rr',
 		searchShow: false,
 		gameType: 'doubles',
 		ruleset: ['Standard', 'VGC Timer', 'Item Clause', 'Dynamax Clause', 'Z-Move Clause', 'Adjust Level = 50', 'Picked Team Size = 4'],
@@ -246,7 +246,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] Doubles Draft",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		gameType: 'doubles',
 		searchShow: false,
 		debug: true,
@@ -265,7 +265,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Balanced Hackmons",
 		desc: `Anything that can be hacked in-game and is usable in local battles is allowed.`,
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		ruleset: ['-Nonexistent', '2 Ability Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Forme Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Endless Battle Clause', 'Arceus Forme Clause', 'Dynamax Clause', 'Z-Move Clause', 'CFZ Clause'],
 		banlist: [
 			'Eternatus-Eternamax', 'Groudon-Primal', 'Calyrex-Shadow', 'Darmanitan-Galar-Zen', 'Shedinja', 'Rayquaza-Mega', 'Zacian-Crowned', 'Dialga-Primal', 'Cramorant-Gorging',
@@ -302,20 +302,20 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Pure Hackmons",
 		desc: `Anything that can be hacked in-game and is usable in local battles is allowed.`,
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		searchShow: false,
 		ruleset: ['-Nonexistent', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
 	{
 		name: "[Gen 8] Inclement Emerald AG",
 		desc: `The long awaited for IESH is here!`,
-		mod: 'inclementemerald',
+		mod: 'gen8ie',
 		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
 	},
 	{
 		name: "[Gen 8] IEDL",
 		desc: `IE Draft League`,
-		mod: 'inclementemerald',
+		mod: 'gen8ie',
 		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: ['Swagger', 'Misty Explosion', 'Explosion', 'Self-Destruct', 'Hidden Power', 'Shadow Tag', 'Moody', 'Power Construct', 'Baton Pass',
 		// mons
@@ -332,14 +332,14 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] Monotype Random Battle",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'random',
 		ruleset: ['Obtainable', 'Same Type Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause'],
 	},
 	{
 		name: "[Gen 8] Challenge Cup",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'randomCC',
 		searchShow: false,
 		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
@@ -347,14 +347,14 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] Challenge Cup 1v1",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'randomCC',
 		ruleset: ['[Gen 8] Challenge Cup', 'Team Preview', 'Picked Team Size = 1'],
 	},
 	{
 		name: "[Gen 8] Challenge Cup 2v2",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'randomCC',
 		gameType: 'doubles',
 		searchShow: false,
@@ -364,14 +364,14 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Hackmons Cup",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with absolutely any ability, moves, and item.`,
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		team: 'randomHC',
 		ruleset: ['Obtainable Formes', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
 	},
 	{
 		name: "[Gen 8] Doubles Hackmons Cup",
 
-		mod: 'radred',
+		mod: 'gen8rr',
 		gameType: 'doubles',
 		team: 'randomHC',
 		searchShow: false,
