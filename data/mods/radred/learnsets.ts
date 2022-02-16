@@ -48878,6 +48878,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			shadowsneak: ["8L20"],
 			slash: ["8L29"],
 			sleeptalk: ["8M"],
+			smartstrike: ["8L0"],
 			snore: ["8T"],
 			solarblade: ["8M", "8T"],
 			spite: ["8T"],

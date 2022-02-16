@@ -2686,6 +2686,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Bulletproof", H: "Iron Barbs"},
 	},
+	fennekin: {
+		inherit: true,
+		abilities: {0: "Blaze", H: "Magic Guard"},
+	},
+	braixen: {
+		inherit: true,
+		abilities: {0: "Blaze", H: "Magic Guard"},
+	},
 	delphox: {
 		inherit: true,
 		abilities: {0: "Blaze", H: "Magic Guard"},
@@ -2947,6 +2955,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		evoLevel: 16,
 		evoCondition: "during the day",
 		items: {5: "Pecha Berry", 50: "None"},
+	},
+	charjabug: {
+		inherit: true,
+		abilities: {0: "Swarm"},
 	},
 	crabrawler: {
 		inherit: true,
