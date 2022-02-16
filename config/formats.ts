@@ -195,6 +195,24 @@ export const Formats: FormatList = [
 		section: "Draft",
 	},
 	{
+		name: "[Gen 8] PLA",
+		mod: 'PLAdraft',
+		searchShow: false,
+		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
+		banlist: [
+			// mons
+			'Alakazam-Mega', 'Arceus', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Base', 'Dialga', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-White', 'Latias-Mega', 'Latios-Mega', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Meloetta-Pirouette', 'Metagross-Mega', 'Mewtwo', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Unown', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Complete',
+			// abilities
+			'Moody', 'Power Construct', 'Shadow Tag',
+			// moves
+			'Swagger', 'Misty Explosion', 'Explosion', 'Self-Destruct', 'Hidden Power',
+			// complex bans
+			'Blastoise-Mega + Shell Smash', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero', 'Kyurem-Black + Dragon Dance', 'Kyurem-Black + Scale Shot', 'Deoxys-Speed + Nasty Plot',
+			// Items
+			'Quick Claw', 'Razor Fang', 'Razor Claw', 'Kings Rock', 'Bright Powder', 'Lax Incense',
+		],
+	},
+	{
 		name: "[Gen 8] RRDL",
 		mod: 'radred',
 		searchShow: false,
