@@ -196,7 +196,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 8] PLA",
-		mod: 'PLAdraft',
+		mod: 'gen8pla',
 		searchShow: false,
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
