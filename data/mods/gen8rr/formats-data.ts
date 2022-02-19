@@ -3234,9 +3234,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	rotomfan: {
 		randomBattleLevel: 86,
-		randomBattleMoves: ["hurricane", "voltswitch", "hiddenpowerice", "defog", "nastyplot"],
+		randomBattleMoves: ["hurricane", "defog", "painsplit", "thunderbolt", "voltswitch", "willowisp"],
 		randomDoubleBattleLevel: 88,
-		randomDoubleBattleMoves: ["hurricane", "darkpulse", "nastyplot", "protect", "thunderbolt"],
+		randomDoubleBattleMoves: ["hurricane", "electroweb", "protect", "thunderbolt", "voltswitch", "willowisp"],
 		tier: "UU",
 	},
 	rotommow: {
