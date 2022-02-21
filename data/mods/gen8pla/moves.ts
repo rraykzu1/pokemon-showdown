@@ -16,6 +16,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Poison",
+		desc: "100% chance to lower target's defense",
 	},
 	psyshieldbash: {
 		num: 851,
@@ -42,6 +43,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Psychic",
+		desc: "Uses the higher attacking stat and has a 30% chance to boost the higher defense stat",
 	},
 	stoneaxe: {
 		num: 852,
@@ -63,6 +65,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Rock",
+		desc: "10% chance of causing the foe to flinch. Also boosted by 1.2x under a Sandstorm.",
 	},
 	ragingfury: {
 		num: 853,
@@ -77,6 +80,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Fire",
+		desc: "Inflicts damage on the first turn then traps the opponent, causing them to lose 1/8 of their maximum HP after each turn, for 4-5 turns.",
 	},
 	wavecrash: {
 		num: 853,
@@ -94,6 +98,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Water",
+		desc: "Raises user's speed by one stage.",
 	},
 	chloroblast: {
 		num: 854,
@@ -118,6 +123,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				});
 			}
 		},
+		desc: "Decreases users speed by two stages. 100% Chance to burn the opponent under Bright Sunshine.",
 	},
 	mountaingale: {
 		num: 855,
@@ -131,6 +137,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Ice",
+		desc: "No additional effects",
 	},
 	victorydance: {
 		num: 856,
@@ -149,6 +156,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "self",
 		type: "Grass",
+		desc: "Raises Attack, Defense and Speed by one stage",
 	},
 	headlongrush: {
 		num: 857,
@@ -168,6 +176,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Ground",
+		desc: "Lowers user's Defense and Special Defense by one stage.",
 	},
 	barbbarrage: {
 		num: 858,
@@ -189,6 +198,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		target: "normal",
 		type: "Poison",
 		ignoreImmunity: true,
+		desc: "30% Chance to Poison, Doubles in BP if Opponent has a Status Condition. Can also Hit Steel Types for Neutral Damage.",
 	},
 	esperwing: {
 		num: 859,
@@ -206,6 +216,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "any",
 		type: "Psychic",
+		desc: "Deals damage with a 10% chance to Flinch and the user will recover 75% of the HP drained.",
 	},
 	bittermalice: {
 		num: 860,
@@ -227,6 +238,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			if (target.status || target.hasAbility('comatose')) return move.basePower * 2;
 			return move.basePower;
 		},
+		desc: "Deals damage and will strike twice. 20% chance of poisoning the target. If the opponent is Statused, it will do double damage.",
 	},
 	shelter: {
 		num: 861,
@@ -244,6 +256,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "self",
 		type: "Steel",
+		desc: "Raises the user's Defense and Accuracy by two stages each.",
 	},
 	triplearrows: {
 		num: 862,
@@ -258,6 +271,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Fighting",
+		desc: "Deals damage, will strike three times, and has increased priority of +1.",
+
 	},
 	infernalparade: {
 		num: 863,
@@ -272,6 +287,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Ghost",
+		desc: "Inflicts damage based on the target's Defense, not Special Defense.",
 	},
 	ceaselessedge: {
 		num: 864,
@@ -286,6 +302,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Dark",
+		desc: "High critical hit chance",
 	},
 	springtidestorm: {
 		num: 865,
@@ -329,6 +346,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Fairy",
+		desc: "If used by Enamorus-Incarnate, deals damage and has a 50% chance to decrease defense by one stage. If used by Enamorus-Therian, deals damage and has a 50% chance to increase special attack by one stage.",
 	},
 	bleakwingstorm: {
 		num: 866,
@@ -345,6 +363,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Flying",
+		desc: "20% chance of confusion.",
 	},
 	wildboltstorm: {
 		num: 867,
@@ -361,6 +380,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Electric",
+		desc: "20% chance of paralysis",
 	},
 	sandsearstorm: {
 		num: 868,
@@ -377,6 +397,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		target: "normal",
 		type: "Ground",
+		desc: "20% chance of burn.",
 	},
 	lunarblessing: {
 		num: 869,
@@ -394,6 +415,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "allies",
 		type: "Psychic",
+		desc: "Restores target's health by 25% of their HP and cures allies' status conditions.",
 	},
 	takeheart: {
 		num: 870,
@@ -424,6 +446,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "self",
 		type: "Water",
+		desc: "If this move is used right after an ally faints, the move sets up rain and also increases your Special Attack and Special Defense by one stage. This move will fail if not used under the right circumstances.",
 	},
 	mysticalpower: {
 		num: 871,
@@ -462,5 +485,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		type: "Psychic",
 		target: "normal",
+		desc: "50% Chance to Raise It's Attack & Special Attack if excels in Offense, 50% Chance to Raise It's Defense & Special Defense if excels in Defense",
 	},
 };
