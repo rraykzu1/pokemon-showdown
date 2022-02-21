@@ -307,7 +307,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		onModifyMove(move, pokemon, source) {
 			move.secondaries = [];
-			if (source && source.species.name === "Enamorus-Therian") {
+			if (source && source.species.name === 'Enamorus-Therian') {
 				move.secondaries.push({
 					chance: 50,
 					self: {
@@ -316,8 +316,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 						},
 					},
 				});
-			}
-			if (source && source.species.name === "Enamorus-Incarnate") {
+			} else {
 				move.secondaries.push({
 					chance: 50,
 					self: {
@@ -428,15 +427,13 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	mysticalpower: {
 		num: 871,
-		category: "Special",
-		basePower: 70,
 		accuracy: 90,
+		basePower: 70,
+		category: "Special",
 		name: "Mystical Power",
-		type: "Psychic",
-		target: "normal",
 		pp: 15,
-		flags: {mirror: 1, protect: 1},
 		priority: 0,
+		flags: {mirror: 1, protect: 1},
 		onModifyMove(move, pokemon) {
 			move.secondaries = [];
 			const offense = pokemon.getStat("atk", true, false) + pokemon.getStat("spa", true, false);
@@ -463,5 +460,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				});
 			}
 		},
+		type: "Psychic",
+		target: "normal",
 	},
 };
