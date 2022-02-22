@@ -28,18 +28,27 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1, contact: 1},
 		onModifyMove(move, pokemon) {
+			move.secondaries = [];
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
-			if (move.secondary && move.secondary.boosts) {
-				if (pokemon.getStat('def', false, true) > pokemon.getStat('spd', false, true)) {
-					move.secondary.boosts.def = 1;
-				} else {
-					move.secondary.boosts.spd = 1;
-				}
+			if (pokemon.getStat('def', false, true) > pokemon.getStat('spd', false, true)) {
+				move.secondaries.push({
+					chance: 30,
+					self: {
+						boosts: {
+							def: 1,
+						},
+					},
+				});
+			} else {
+				move.secondaries.push({
+					chance: 30,
+					self: {
+						boosts: {
+							spd: 1,
+						},
+					},
+				});
 			}
-		},
-		secondary: {
-			chance: 30,
-			boosts: null,
 		},
 		target: "normal",
 		type: "Psychic",
@@ -333,7 +342,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 						},
 					},
 				});
-			} else {
+			} else if (source && source.species.name === 'Enamorus-Incarnate') {
 				move.secondaries.push({
 					chance: 50,
 					self: {
@@ -463,7 +472,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			const defense = pokemon.getStat("def", true, false) + pokemon.getStat("spd", true, false);
 			if (defense > offense) {
 				move.secondaries.push({
-					chance: 100,
+					chance: 50,
 					self: {
 						boosts: {
 							def: 1,
@@ -473,7 +482,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 				});
 			} else {
 				move.secondaries.push({
-					chance: 100,
+					chance: 50,
 					self: {
 						boosts: {
 							atk: 1,
@@ -486,5 +495,56 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		type: "Psychic",
 		target: "normal",
 		desc: "50% Chance to Raise It's Attack & Special Attack if excels in Offense, 50% Chance to Raise It's Defense & Special Defense if excels in Defense",
+	},
+	powershift: {
+		num: 872,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		type: "Normal",
+		name: "Power Shift",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1},
+		volatileStatus: 'powershift',
+		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'Power Shift');
+				const newatk = pokemon.storedStats.def;
+				const newdef = pokemon.storedStats.atk;
+				const newspa = pokemon.storedStats.spd;
+				const newspd = pokemon.storedStats.spa;
+				pokemon.storedStats.atk = newatk;
+				pokemon.storedStats.def = newdef;
+				pokemon.storedStats.spa = newspa;
+				pokemon.storedStats.spd = newspd;
+			},
+			onCopy(pokemon) {
+				const newatk = pokemon.storedStats.def;
+				const newdef = pokemon.storedStats.atk;
+				const newspa = pokemon.storedStats.spd;
+				const newspd = pokemon.storedStats.spa;
+				pokemon.storedStats.atk = newatk;
+				pokemon.storedStats.def = newdef;
+				pokemon.storedStats.spa = newspa;
+				pokemon.storedStats.spd = newspd;
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Power Shift');
+				const newatk = pokemon.storedStats.def;
+				const newdef = pokemon.storedStats.atk;
+				const newspa = pokemon.storedStats.spd;
+				const newspd = pokemon.storedStats.spa;
+				pokemon.storedStats.atk = newatk;
+				pokemon.storedStats.def = newdef;
+				pokemon.storedStats.spa = newspa;
+				pokemon.storedStats.spd = newspd;
+			},
+			onRestart(pokemon) {
+				pokemon.removeVolatile('Power Shift');
+			},
+		},
+		secondary: null,
+		target: "self",
 	},
 };
