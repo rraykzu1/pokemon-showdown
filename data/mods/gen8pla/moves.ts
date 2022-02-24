@@ -331,7 +331,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 			this.hint("Only Enamorus can use this move.");
 			return null;
 		},
-		onModifyMove(move, pokemon, source) {
+		onModifyMove(move, source) {
 			move.secondaries = [];
 			if (source && source.species.name === 'Enamorus-Therian') {
 				move.secondaries.push({
@@ -342,7 +342,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 						},
 					},
 				});
-			} else if (source && source.species.name === 'Enamorus-Incarnate') {
+			} else {
 				move.secondaries.push({
 					chance: 50,
 					self: {
