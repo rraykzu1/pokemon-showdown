@@ -368,7 +368,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 20,
-			status: "confusion",
+			volatileStatus: "confusion",
 		},
 		target: "normal",
 		type: "Flying",
