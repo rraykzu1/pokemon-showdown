@@ -259,7 +259,7 @@ export const Formats: FormatList = [
 		mod: 'gen8pla',
 		gameType: "doubles",
 		searchShow: false,
-		ruleset: ['PLA NatDex', 'Flat Rules', '!! Adjust Level = 50', 'Picked Team Size = 4', 'Z-Move Clause'],
+		ruleset: ['PLA NatDex', 'Flat Rules', '!! Adjust Level = 50', 'Z-Move Clause'],
 		unbanlist: ['Restricted Legendary', 'Mythical', 'Floette-Eternal', 'Pichu-Spiky-eared', 'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star'],
 	},
 
