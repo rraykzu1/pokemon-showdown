@@ -8358,6 +8358,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	machop: {
 		inherit: true,
 		learnset: {
+			doublehit: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["8V", "7V"],
 			bodyslam: ["8M", "7V", "3T"],
@@ -8555,6 +8556,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	machamp: {
 		inherit: true,
 		learnset: {
+			drainpunch: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["8V", "7V"],
@@ -75710,7 +75712,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			confusion: ["8L1"],
 			hypnosis: ["8L1"],
 			extrasensory: ["8L1"],
-			doubleedge: ["8L1"],	
+			doubleedge: ["8L1"],
 			psyshieldbash: ["8L1"],
 		},
 	},
