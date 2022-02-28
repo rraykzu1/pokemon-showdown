@@ -760,7 +760,7 @@ export class RandomRadicalRedTeams extends RandomTeams {
 
 			return {cull};
 		case 'painsplit': case 'recover': case 'synthesis':
-			return {cull: moves.has('rest') || moves.has('wish') || (move.id === 'synthesis' && moves.has('gigadrain'))};
+			return {cull: moves.has('leechseed') || moves.has('rest') || moves.has('wish')};
 		case 'roost':
 			return {cull:
 				moves.has('throatchop') ||
