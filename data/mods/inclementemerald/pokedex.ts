@@ -913,7 +913,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	milotic: {
 		inherit: true,
-		abilities: {0: "Shed Skin", 1: "Merciless", H: "Infiltrator"},
+		abilities: {0: "Marvel Scale", 1: "Competitive", H: "Multiscale"},
 		evoType: "levelExtra",
 		evoCondition: "while holding a Prism Scale",
 		otherFormes: ["Milotic-Mega"],
