@@ -1006,7 +1006,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["boomburst", "dracometeor", "wish", "protect"],
 		randomDoubleBattleLevel: 82,
 		randomDoubleBattleMoves: ["boomburst", "dragonhammer", "irontail", "dragondance"],
-		tier: "OU",
+		tier: "UU",
 	},
 	laprasgmax: {
 		isNonstandard: "Gigantamax",
@@ -1523,7 +1523,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "bulletpunch", "bugbite", "roost", "defog", "uturn", "knockoff"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["bugbite", "bulletpunch", "feint", "knockoff", "protect", "roost", "superpower", "swordsdance", "uturn"],
-		tier: "OU",
+		tier: "UUBL",
 	},
 	shuckle: {
 		randomBattleLevel: 90,
@@ -3104,7 +3104,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["focusblast", "gigadrain", "knockoff", "leechseed", "sleeppowder", "sludgebomb", "hiddenpowerice"],
 		randomDoubleBattleLevel: 82,
 		randomDoubleBattleMoves: ["focusblast", "knockoff", "powerwhip", "ragepowder", "sleeppowder"],
-		tier: "OU",
+		tier: "UU",
 	},
 	electivire: {
 		randomBattleLevel: 80,
@@ -5360,7 +5360,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "leafblade", "sacredsword", "cut", "knockoff", "synthesis"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["knockoff", "leafblade", "sacredsword", "cut", "swordsdance"],
-		tier: "UUBL",
+		tier: "OU",
 	},
 	guzzlord: {
 		randomBattleLevel: 88,
