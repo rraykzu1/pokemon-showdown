@@ -567,7 +567,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	judgement: {
+	judgment: {
 		inherit: true,
 		isNonstandard: null,
 	},
