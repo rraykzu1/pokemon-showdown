@@ -235,6 +235,13 @@ export const Formats: FormatList = [
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
 	},
+
+	// PLA Drafts
+
+	{
+		section: "PLA Draft",
+		column: 2,
+	},
 	{
 		name: "[Gen 8] PLA Draft",
 		mod: 'gen8pla',
@@ -250,16 +257,16 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] PLA Doubles Draft",
 		mod: 'gen8pla',
-		gameType: 'doubles',
+		gameType: "doubles",
 		searchShow: false,
 		ruleset: ['PLA NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Sleep Clause Mod', 'Dynamax Clause', 'Z-Move Clause'],
 	},
 	{
 		name: "[Gen 8] PLA VGC Draft",
 		mod: 'gen8pla',
-		gameType: 'doubles',
+		gameType: "doubles",
 		searchShow: false,
-		ruleset: ['PLA NatDex', 'Flat Rules', '!! Adjust Level = 50', 'Z-Move Clause'],
+		ruleset: ['PLA NatDex', 'Flat Rules', '!! Adjust Level = 50', '!! Picked Team Size = 4', 'Z-Move Clause'],
 		unbanlist: ['Restricted Legendary', 'Mythical', 'Floette-Eternal', 'Pichu-Spiky-eared', 'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star'],
 	},
 

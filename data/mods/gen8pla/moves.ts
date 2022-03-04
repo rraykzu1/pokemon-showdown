@@ -547,4 +547,60 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		secondary: null,
 		target: "self",
 	},
+	toxicthread: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	sketch: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	chatter: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	darkvoid: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	seedflare: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	judgement: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	relicsong: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	powder: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	lightofruin: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hyperspacehole: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	hyperspacefury: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	beakblast: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	icehammer: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	revelationdance: {
+		inherit: true,
+		isNonstandard: null,
+	},
 };
