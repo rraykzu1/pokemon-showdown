@@ -75646,6 +75646,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	sliggohisui: {
 		learnset: {
 			rest: ["8L1"],
+			bubble: ["8L1"],
+			steelbeam: ["8L1"],
 			rockslide: ["8L1"],
 			ironhead: ["8L1"],
 			irontail: ["8L1"],
@@ -75655,8 +75657,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderbolt: ["8L1"],
 			icebeam: ["8L1"],
 			dracometeor: ["8L1"],
-			steelbeam: ["8L1"],
-			bubble: ["8L1"],
 			acidspray: ["8L1"],
 			acidarmor: ["8L1"],
 			dragonpulse: ["8L1"],
@@ -75667,6 +75667,9 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	goodrahisui: {
 		learnset: {
 			rest: ["8L1"],
+			bubble: ["8L1"],
+			flamethrower: ["8L1"],
+			hyperbeam: ["8L1"],
 			rockslide: ["8L1"],
 			ironhead: ["8L1"],
 			irontail: ["8L1"],
@@ -75677,7 +75680,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			icebeam: ["8L1"],
 			dracometeor: ["8L1"],
 			steelbeam: ["8L1"],
-			bubble: ["8L1"],
 			acidspray: ["8L1"],
 			acidarmor: ["8L1"],
 			dragonpulse: ["8L1"],
@@ -75963,6 +75965,8 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	overqwil: {
 		learnset: {
 			aquatail: ["8L1"],
+			hyperbeam: ["8L1"],
+			gigaimpact: ["8L1"],
 			barbbarrage: ["8L1"],
 			darkpulse: ["8L1"],
 			doubleedge: ["8L1"],
