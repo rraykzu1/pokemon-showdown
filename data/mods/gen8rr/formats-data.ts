@@ -6039,7 +6039,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["playrough", "closecombat", "wildcharge", "psychicfangs", "crunch", "swordsdance", "substitute"],
 		randomDoubleBattleLevel: 72,
 		randomDoubleBattleMoves: ["closecombat", "crunch", "playrough", "protect", "psychicfangs", "swordsdance"],
-		tier: "Uber",
+		tier: "AG",
 	},
 	zaciancrowned: {
 		randomBattleLevel: 65,
