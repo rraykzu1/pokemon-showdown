@@ -2068,7 +2068,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-	drizzle: {
+	drizzile: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
@@ -2120,7 +2120,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-	edegoss: {
+	eldegoss: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
@@ -2240,7 +2240,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-	morgerm: {
+	morgrem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
