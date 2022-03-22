@@ -2228,7 +2228,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-	hattern: {
+	hattrem: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
