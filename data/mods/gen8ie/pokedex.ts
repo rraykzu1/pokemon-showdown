@@ -2372,7 +2372,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-	indeedeem: {
+	indeedee: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
