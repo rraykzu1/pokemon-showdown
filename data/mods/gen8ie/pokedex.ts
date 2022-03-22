@@ -1804,7 +1804,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		evoType: "levelFriendship",
 		evoCondition: "at night",
 	},
-	rowlett: {
+	rowlet: {
 		inherit: true,
 		abilities: {0: "Overgrow", 1: "Long Reach", H: "Tinted Lens"},
 		evoLevel: 16,
