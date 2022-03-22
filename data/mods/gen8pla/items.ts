@@ -18,4 +18,20 @@ export const Items: {[k: string]: ModdedItemData} = {
 			}
 		},
 	},
+	adamantorb: {
+		inherit: true,
+		onBasePower(basePower, user, target, move) {
+			if (move && user.baseSpecies.baseSpecies === 'Dialga' && (move.type === 'Steel' || move.type === 'Dragon')) {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+	},
+	lustrousorb: {
+		inherit: true,
+		onBasePower(basePower, user, target, move) {
+			if (move && user.baseSpecies.baseSpecies === 'Palkia' && (move.type === 'Water' || move.type === 'Dragon')) {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+	},
 };
