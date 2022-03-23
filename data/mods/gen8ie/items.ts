@@ -861,6 +861,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		},
 		gen: 8,
 		desc: "If held by a Machamp, this item allows it to Mega Evolve in battle.",
+		num: -5
 	},
 	kinglerite: {
 		name: "Kinglerite",
@@ -874,6 +875,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		},
 		gen: 8,
 		desc: "If held by a Kingler, this item allows it to Mega Evolve in battle.",
+		num: -6,
 	},
 	laprasite: {
 		name: "Laprasite",
@@ -886,6 +888,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 			return true;
 		},
 		gen: 8,
+		num: -7,
 		desc: "If held by a Lapras, this item allows it to Mega Evolve in battle.",
 	},
 	flygonite: {
@@ -899,6 +902,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 		},
 		gen: 8,
 		desc: "If held by a Flygon, this item allows it to Mega Evolve in battle.",
+		num: -8,
 	},
 	kingdranite: {
 		name: "Kingdranite",
@@ -910,6 +914,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 			return true;
 		},
 		gen: 8,
+		num: -9,
 		desc: "If held by a Kingdra, this item allows it to Mega Evolve in battle.",
 	},
 	miloticite: {
@@ -922,6 +927,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 			return true;
 		},
 		gen: 8,
+		num: -10,
 		desc: "If held by a Milotic, this item allows it to Mega Evolve in battle.",
 	},
 };
