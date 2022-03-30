@@ -2171,7 +2171,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomBattleMoves: ["protect", "aquafang", "crunch", "closecombat", "psychicfangs", "icefang"],
 		randomDoubleBattleLevel: 82,
-		randomDoubleBattleMoves: ["crunch", "icefang", "aquafang", "protect", "psychicfangs"],
+		randomDoubleBattleMoves: ["crunch", "closecombat", "icefang", "aquafang", "protect", "psychicfangs"],
 		tier: "UU",
 	},
 	wailmer: {
@@ -4423,7 +4423,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleLevel: 85,
 		randomBattleMoves: ["wickedblow", "suckerpunch", "drainpunch", "bulletpunch", "gunkshot"],
 		randomDoubleBattleLevel: 85,
-		randomDoubleBattleMoves: ["bulletpunch", "closecombat", "drainpunch", "gunkshot", "icepunch", "knockoff", "wickedblow", "protect"],
+		randomDoubleBattleMoves: ["bulletpunch", "closecombat", "drainpunch", "gunkshot", "icepunch", "wickedblow", "protect"],
 		tier: "UU",
 	},
 	furfrou: {
@@ -5054,134 +5054,134 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	typenull: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["uturn", "crushclaw", "rest", "sleeptalk", "toxic", "swordsdance", "irondefense", "crunch"],
+		randomBattleMoves: ["rest", "return", "sleeptalk", "swordsdance", "uturn"],
 		tier: "NFE",
 	},
 	silvally: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["return", "explosion", "crunch", "uturn"],
+		randomBattleMoves: ["crunch", "explosion", "flamecharge", "flamethrower", "multiattack", "swordsdance", "uturn"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["crunch", "explosion", "flamethrower", "multiattack", "protect", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallybug: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["multiattack", "icebeam", "flamethrower", "partingshot"],
+		randomBattleMoves: ["flamethrower", "multiattack", "partingshot", "psychicfangs", "thunderbolt"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "multiattack", "psychicfangs", "tailwind", "uturn"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallydark: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["multiattack", "pursuit", "uturn", "psychicfangs"],
+		randomBattleMoves: ["ironhead", "multiattack", "partingshot", "psychicfangs", "swordsdance"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["ironhead", "multiattack", "psychicfangs", "swordsdance", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallydragon: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["workup", "dracometeor", "multiattack", "flamethrower"],
+		randomBattleMoves: ["flamecharge", "ironhead", "multiattack", "partingshot", "swordsdance"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["firefang", "ironhead", "multiattack", "swordsdance", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyelectric: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["multiattack", "icebeam", "partingshot", "defog"],
+		randomBattleMoves: ["flamethrower", "icebeam", "multiattack", "partingshot", "toxic"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "grasspledge", "icebeam", "multiattack", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyfairy: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["multiattack", "flamethrower", "partingshot", "defog"],
+		randomBattleMoves: ["flamecharge", "multiattack", "psychicfangs", "swordsdance"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "multiattack", "partingshot", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyfighting: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["swordsdance", "multiattack", "crunch", "flamecharge"],
+		randomBattleMoves: ["crunch", "ironhead", "multiattack", "swordsdance", "uturn"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["crunch", "multiattack", "rockslide", "swordsdance", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyfire: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["multiattack", "icebeam", "thunderbolt", "partingshot"],
+		randomBattleMoves: ["crunch", "ironhead", "multiattack", "swordsdance"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["heatwave", "icebeam", "multiattack", "tailwind", "thunderbolt"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyflying: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["swordsdance", "multiattack", "flamecharge", "explosion"],
+		randomBattleMoves: ["firefang", "ironhead", "multiattack", "rockslide", "swordsdance"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["firefang", "ironhead", "multiattack", "swordsdance", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyghost: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["swordsdance", "multiattack", "flamecharge", "partingshot"],
+		randomBattleMoves: ["multiattack", "partingshot", "swordsdance", "xscissor"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["multiattack", "swordsdance", "tailwind", "xscissor"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallygrass: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["multiattack", "icebeam", "flamethrower", "partingshot"],
+		randomBattleMoves: ["defog", "flamethrower", "icebeam", "multiattack", "partingshot"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "icebeam", "multiattack", "partingshot", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyground: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["swordsdance", "multiattack", "rockslide", "flamecharge"],
+		randomBattleMoves: ["defog", "flamethrower", "icebeam", "multiattack", "partingshot", "toxic"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["multiattack", "rockslide", "swordsdance", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyice: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["multiattack", "flamethrower", "thunderbolt", "partingshot"],
+		randomBattleMoves: ["flamecharge", "multiattack", "psychicfangs", "swordsdance"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "multiattack", "partingshot", "tailwind", "thunderbolt"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallypoison: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["toxic", "protect", "flamethrower", "partingshot"],
+		randomBattleMoves: ["defog", "flamethrower", "grasspledge", "multiattack", "partingshot", "toxic"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "grasspledge", "multiattack", "partingshot", "snarl", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallypsychic: {
 		randomBattleLevel: 83,
-		randomBattleMoves: ["swordsdance", "multiattack", "crunch", "xscissor"],
+		randomBattleMoves: ["crunch", "multiattack", "swordsdance", "uturn"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "multiattack", "partingshot", "tailwind", "xscissor"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallyrock: {
 		randomBattleLevel: 84,
-		randomBattleMoves: ["swordsdance", "multiattack", "psychicfangs", "firefang"],
+		randomBattleMoves: ["flamecharge", "multiattack", "partingshot", "psychicfangs", "swordsdance"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "multiattack", "partingshot", "psychicfangs", "tailwind"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallysteel: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["multiattack", "flamethrower", "partingshot", "defog"],
+		randomBattleMoves: ["defog", "flamethrower", "multiattack", "partingshot", "thunderbolt", "toxic"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["flamethrower", "multiattack", "partingshot", "tailwind", "thunderbolt"],
-		tier: "UU",
+		tier: "UU"
 	},
 	silvallywater: {
 		randomBattleLevel: 82,
-		randomBattleMoves: ["multiattack", "flamethrower", "partingshot", "defog"],
+		randomBattleMoves: ["defog", "icebeam", "multiattack", "partingshot", "thunderbolt", "toxic"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["icebeam", "multiattack", "partingshot", "tailwind", "thunderbolt"],
-		tier: "UU",
+		tier: "UU"
 	},
 	minior: {
 		randomBattleLevel: 86,
