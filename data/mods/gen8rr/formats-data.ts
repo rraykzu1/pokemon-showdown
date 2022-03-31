@@ -2536,7 +2536,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["agility", "earthquake", "hammerarm", "icepunch", "meteormash", "zenheadbutt"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["icepunch", "meteormash", "protect", "stompingtantrum", "thunderpunch", "zenheadbutt"],
-		tier: "Uber",
+		tier: "OU",
 	},
 	regirock: {
 		randomBattleLevel: 88,
@@ -4318,7 +4318,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["nastyplot", "mindblown", "psyshock", "scorchingsands", "grassknot"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["nastyplot", "mindblown", "grassknot", "heatwave", "protect", "psyshock"],
-		tier: "Uber",
+		tier: "OU",
 	},
 	froakie: {
 		tier: "LC",
@@ -5398,7 +5398,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["fleurcannon", "aurasphere", "voltswitch", "flashcannon", "icebeam", "focusblast"],
 		randomDoubleBattleLevel: 76,
 		randomDoubleBattleMoves: ["calmmind", "aurasphere", "dazzlinggleam", "flashcannon", "fleurcannon", "protect"],
-		tier: "Uber",
+		tier: "OU",
 	},
 	magearnaoriginal: {
 		randomBattleLevel: 76,
@@ -5484,7 +5484,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["pyroball", "uturn", "gunkshot", "highjumpkick", "suckerpunch", "zenheadbutt", "bulkup"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["courtchange", "gunkshot", "highjumpkick", "protect", "pyroball", "suckerpunch", "uturn"],
-		tier: "Uber",
+		tier: "OU",
 	},
 	cinderacegmax: {
 		isNonstandard: "Gigantamax",
@@ -5734,10 +5734,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["boomburst", "overdrive", "sludgewave", "shiftgear"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["boomburst", "overdrive", "snarl", "protect"],
-		tier: "Uber",
+		tier: "OU",
 	},
 	toxtricitylowkeymega: {
-		tier: "Uber",
+		tier: "OU",
 	},
 	toxtricitygmax: {
 		isNonstandard: "Gigantamax",
