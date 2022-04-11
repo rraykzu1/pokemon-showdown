@@ -844,7 +844,9 @@ export class RandomRadicalRedTeams extends RandomTeams {
 			return !counter.get('inaccurate');
 		case 'Cursed Body':
 			return abilities.has('Infiltrator');
-		case 'Defiant':
+		case 'Dazzling':
+			return (species.id !== 'bruxish');
+ 		case 'Defiant':
 			return !counter.get('Physical');
 		case 'Download':
 			return (counter.damagingMoves.size < 3 || moves.has('trick'));
