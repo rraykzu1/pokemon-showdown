@@ -715,7 +715,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	ludicolo: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 707, def: 70, spa: 100, spd: 100, spe: 80},
+		baseStats: {hp: 80, atk: 70, def: 70, spa: 100, spd: 100, spe: 80},
 	},
 	shiftry: {
 		inherit: true,
