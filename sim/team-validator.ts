@@ -522,7 +522,7 @@ export class TeamValidator {
 				tierSpecies = dex.species.get('Dialga-Primal');
 			} else if (item.id === 'eternamaxorb' && species.id === 'eternatus') {
 				tierSpecies = dex.species.get('Eternatus-Eternamax');
-			} else if (species.id === 'rayquaza' && set.moves.map(toID).includes('dragonascent' as ID)) {
+			} else if (!ruleTable.has('megarayquazaclause') && species.id === 'rayquaza' && set.moves.map(toID).includes('dragonascent' as ID)) {
 				tierSpecies = dex.species.get('Rayquaza-Mega');
 			}
 		}
