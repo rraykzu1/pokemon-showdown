@@ -100,12 +100,12 @@ export const Formats: FormatList = [
 		mod: 'gen8rr',
 		ruleset: ['Standard', 'Same Type Clause', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
-			'AG',
-			'Alakazam-Mega', 'Arceus', 'Blastoise-Mega', 'Blaziken', 'Blaziken-Mega', 'Calyrex-Ice', 'Calyrex-Shadow', 'Darkrai', 'Delphox', 'Deoxys', 'Deoxys-Attack', 'Dialga', 'Dialga-Primal', 'Dracovish', 'Eternatus', 'Gallade-Mega', 'Genesect', 'Genesect-Burn', 'Genesect-Chill', 'Genesect-Douse', 'Genesect-Shock', 'Giratina', 'Giratina-Origin', 'Groudon', 'Groudon-Primal', 'Ho-Oh', 'Hoopa-Unbound', 'Kartana', 'Kyogre', 'Kyogre-Primal', 'Kyurem-Black', 'Kyurem-White', 'Lucario-Mega', 'Lugia', 'Lunala', 'Magearna', 'Magearna-Original', 'Marshadow', 'Mawile-Mega', 'Medicham-Mega', 'Metagross-Mega', 'Mewtwo', 'Mewtwo-Mega-X', 'Mewtwo-Mega-Y', 'Naganadel', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia', 'Pheromosa', 'Rayquaza', 'Reshiram', 'Salamence-Mega', 'Shaymin-Sky', 'Solgaleo', 'Spectrier', 'Toxtricity-Low-Key-Mega', 'Toxtricity-Mega', 'Urshifu-Base', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-Base',
+			'AG', 'Uber', 'Kartana', 'Medicham-Mega', 'Mawile-Mega', 'Hoopa-Unbound', 'Blaziken',
 			'Battle Bond', 'Moody', 'Power Construct', 'Shadow Tag',
 			'Damp Rock', 'Heat Rock', 'Icy Rock', 'Smooth Rock', 'Terrain Extender',
 			'Misty Explosion',
 		],
+		unbanlist: ['Landorus-Base', 'Darmanitan-Galar + Gorilla Tactics', 'Deoxys-Speed', 'Cinderace'],
 	},
 	{
 		name: "[Gen 8] Anything Goes",
