@@ -2354,7 +2354,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 	},
 	castform: {
-		tier: "RU",
+		tier: "UUBL",
 	},
 	castformsunny: {
 		randomBattleLevel: 88,
