@@ -346,13 +346,13 @@ export const Formats: FormatList = [
 	{
 		section: "Randomized Metas",
 	},
-	{
+	/* {
 		name: "[Gen 8] Monotype Random Battle",
 
 		mod: 'gen8rr',
 		team: 'random',
 		ruleset: ['Obtainable', 'Same Type Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Dynamax Clause'],
-	},
+	}, */
 	{
 		name: "[Gen 8] Challenge Cup",
 
