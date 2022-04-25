@@ -925,7 +925,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	mrmime: {
 		randomBattleLevel: 88,
-		randomBattleMoves: ["psychic", "sparklyswirl", "trick", "mistyexplosion", "nastyplot", "focusblast"],
+		randomBattleMoves: ["psychic", "sparklyswirl", "trick", "nastyplot", "focusblast"],
 		randomDoubleBattleLevel: 88,
 		randomDoubleBattleMoves: ["sparklyswirl", "fakeout", "icywind", "lightscreen", "psychic", "reflect"],
 		tier: "RU",
@@ -4677,7 +4677,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	xerneas: {
 		randomBattleLevel: 70,
-		randomBattleMoves: ["moonblast", "thunderbolt", "mistyexplosion", "focusblast", "psyshock", "geomancy"],
+		randomBattleMoves: ["moonblast", "thunderbolt", "focusblast", "psyshock", "geomancy"],
 		randomDoubleBattleLevel: 71,
 		randomDoubleBattleMoves: ["dazzlinggleam", "focusblast", "geomancy", "moonblast", "thunderbolt"],
 		tier: "Uber",
