@@ -47,7 +47,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	liliganthisui: {
+	lilliganthisui: {
 		inherit: true,
 		isNonstandard: null,
 	},
