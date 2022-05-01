@@ -79,7 +79,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] UU",
 		mod: 'gen8rr',
 		ruleset: ['[Gen 8] OU'],
-		banlist: ['OU', 'UUBL', 'Drought', 'Drizzle', 'Forecast'],
+		banlist: ['OU', 'UUBL', 'Drought', 'Drizzle', 'Forecast', 'Icy Rock'],
 	},
 	{
 		name: "[Gen 8] LC",
@@ -88,7 +88,9 @@ export const Formats: FormatList = [
 		banlist: [
 			'Aipom', 'Corsola-Galar', 'Cutiefly', 'Drifloon', 'Gligar', 'Goldeen', 'Gothita',
 			'Kubfu', 'Meditite', 'Meowth-Alola', 'Misdreavus', 'Murkrow', 'Rotom', 'Rufflet',
-			'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Type: Null', 'Yanma',
+			'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Type: Null', 'Yanma', 'Poipole', 'Woobat', 'Cherubi', 'Vulpix-Alola',
+			// abilities
+			'Chlorophyll',
 			// moves
 			'Baton Pass', 'Dragon Rage', 'Sonic Boom',
 			// items
@@ -103,7 +105,7 @@ export const Formats: FormatList = [
 			'AG', 'Uber', 'Kartana', 'Medicham-Mega', 'Mawile-Mega', 'Hoopa-Unbound', 'Blaziken',
 			'Battle Bond', 'Moody', 'Power Construct', 'Shadow Tag',
 			'Damp Rock', 'Heat Rock', 'Icy Rock', 'Smooth Rock', 'Terrain Extender',
-			'Misty Explosion', 'Darmanitan-Galar + Zen Mode',
+			'Misty Explosion', 'Zen Mode',
 		],
 		unbanlist: ['Landorus-Base', 'Darmanitan-Galar', 'Deoxys-Speed', 'Cinderace'],
 	},
