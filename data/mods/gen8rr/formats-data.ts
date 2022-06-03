@@ -723,7 +723,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["nastyplot", "trick", "shadowball", "focusblast", "sludgewave"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["focusblast", "nastyplot", "protect", "shadowball", "sludgebomb", "thunderbolt", "trick", "willowisp"],
-		tier: "UU",
+		tier: "UUBL",
 	},
 	gengarmega: {
 		randomBattleLevel: 76,
