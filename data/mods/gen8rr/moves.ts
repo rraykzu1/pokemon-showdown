@@ -228,36 +228,9 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		flags: {},
 		pp: 5,
 		priority: 0,
-		onHit(target, effect) {
-			const spellMove = this.random(8);
-			let chosen = '';
-			switch (spellMove) {
-			case 0:
-				chosen = 'Shell Smash';
-				break;
-			case 1:
-				chosen = 'Healing Wish';
-				break;
-			case 2:
-				chosen = 'Dark Hole';
-				break;
-			case 3:
-				chosen = 'Tail Glow';
-				break;
-			case 4:
-				chosen = 'Roar of Time';
-				break;
-			case 5:
-				chosen = 'Quiver Dance';
-				break;
-			case 6:
-				chosen = 'No Retreat';
-				break;
-			case 7:
-				chosen = 'Soul Robbery';
-				break;
-			}
-			this.actions.useMove(chosen, target);
+		onHit(target) {
+			const possibleMoves = ['Dark Hole', 'Healing Wish', 'No Retreat', 'Quiver Dance', 'Roar of Time', 'Shell Smash', 'Soul Robbery', 'Tail Glow'];
+			this.actions.useMove(this.sample(possibleMoves), target);
 		},
 		desc: "Uses of one of these 8 moves: Shell Smash, Healing Wish, Dark Hole, Tail Glow, Roar of Time, Quiver Dance, No Retreat, or Soul Robbery",
 		shortDesc: "Isn't RNG fun?",
