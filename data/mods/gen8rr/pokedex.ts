@@ -231,6 +231,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	ninetalesalola: {
 		inherit: true,
+		abilities: {0: "Snow Cloak", 1: "Serene Grace", H: "Snow Warning"},
 		items: {5: "Icy Rock", 50: "None"},
 	},
 	jigglypuff: {
@@ -921,11 +922,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Volt Absorb", H: "Water Absorb"},
 	},
-	lanturn: {
-		inherit: true,
-		baseStats: {hp: 125, atk: 50, def: 65, spa: 90, spd: 76, spe: 67},
-		abilities: {0: "Volt Absorb", H: "Water Absorb"},
-	},
 	pichu: {
 		inherit: true,
 		items: {5: "Oran Berry", 50: "None"},
@@ -957,7 +953,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	sudowoodo: {
 		inherit: true,
-		types: ["Rock", "Grass"],
 		baseStats: {hp: 90, atk: 100, def: 115, spa: 30, spd: 65, spe: 30},
 		abilities: {0: "Sturdy", 1: "Rock Head"},
 	},
@@ -1067,7 +1062,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	ursaring: {
 		inherit: true,
-		baseStats: {hp: 100, atk: 130, def: 80, spa: 55, spd: 80, spe: 55},
 		items: {5: "Sitrus Berry", 50: "Oran Berry"},
 	},
 	slugma: {
@@ -1151,7 +1145,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	stantler: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 100, def: 70, spa: 100, spd: 73, spe: 100},
 		abilities: {0: "Intimidate", 1: "Reckless", H: "Sap Sipper"},
 	},
 	smeargle: {
@@ -1191,11 +1184,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	blaziken: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 110, def: 70, spa: 120, spd: 70, spe: 80},
+		baseStats: {hp: 80, atk: 120, def: 70, spa: 110, spd: 70, spe: 80},
 	},
 	blazikenmega: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 130, def: 80, spa: 160, spd: 80, spe: 100},
+		baseStats: {hp: 80, atk: 160, def: 80, spa: 130, spd: 80, spe: 100},
 	},
 	poochyena: {
 		inherit: true,
@@ -1664,7 +1657,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	salamencemega: {
 		inherit: true,
-		baseStats: {hp: 95, atk: 135, def: 130, spa: 120, spd: 90, spe: 120},
+		baseStats: {hp: 95, atk: 145, def: 130, spa: 120, spd: 90, spe: 120},
 	},
 	beldum: {
 		inherit: true,
@@ -2028,10 +2021,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		evoType: "useItem",
 		evoItem: "Link Cable",
 	},
+	magby: {
+		inherit: true,
+		abilities: {0: "Flame Body", 1: "Magma Armor", H: "Vital Spirit"},
+	},
+	magmar: {
+		inherit: true,
+		abilities: {0: "Flame Body", 1: "Magma Armor", H: "Vital Spirit"},
+	},
 	magmortar: {
 		inherit: true,
 		baseStats: {hp: 75, atk: 80, def: 67, spa: 125, spd: 95, spe: 98},
-		abilities: {0: "Flame Body", H: "Mega Launcher"},
+		abilities: {0: "Flame Body", 1: "Magma Armor", H: "Mega Launcher"},
 		evoType: "useItem",
 		evoItem: "Link Cable",
 	},
@@ -2088,7 +2089,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		name: "Rotom",
 		types: ["Electric", "Ghost"],
 		gender: "N",
-		baseStats: {hp: 50, atk: 50, def: 70, spa: 95, spd: 70, spe: 91},
+		baseStats: {hp: 50, atk: 50, def: 77, spa: 95, spd: 77, spe: 91},
 		abilities: {0: "Levitate"},
 		heightm: 0.3,
 		weightkg: 0.3,
@@ -2203,8 +2204,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	samurott: {
 		inherit: true,
 		types: ["Water", "Steel"],
-		baseStats: {hp: 95, atk: 108, def: 85, spa: 95, spd: 70, spe: 100},
-		abilities: {0: "Torrent", H: "Blademaster"},
+		baseStats: {hp: 95, atk: 108, def: 85, spa: 95, spd: 70, spe: 70},
+		abilities: {0: "Torrent", 1: "Shell Armor", H: "Blademaster"},
 	},
 	patrat: {
 		inherit: true,
@@ -2376,7 +2377,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	basculin: {
 		inherit: true,
-		baseStats: {hp: 70, atk: 110, def: 65, spa: 80, spd: 55, spe: 98},
 		items: {5: "Deep Sea Tooth", 50: "None"},
 	},
 	basculinbluestriped: {
@@ -2406,7 +2406,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	darmanitangalar: {
 		inherit: true,
-		baseStats: {hp: 105, atk: 130, def: 55, spa: 30, spd: 55, spe: 95},
+		baseStats: {hp: 105, atk: 140, def: 55, spa: 30, spd: 55, spe: 95},
 	},
 	maractus: {
 		inherit: true,
@@ -2637,6 +2637,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 95, atk: 110, def: 95, spa: 40, spd: 95, spe: 65},
 		abilities: {0: "Reckless", 1: "Sap Sipper", H: "Bull Rush"},
 	},
+	mudsdale: {
+		inherit: true,
+		abilities: {0: "Striker", 1: "Stamina", H: "Tangling Hair"},
+	},
 	rufflet: {
 		inherit: true,
 		abilities: {0: "Frisk", 1: "Sheer Force", H: "Hustle"},
@@ -2768,12 +2772,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	meowstic: {
 		inherit: true,
-		baseStats: {hp: 74, atk: 48, def: 76, spa: 55, spd: 81, spe: 104},
+		baseStats: {hp: 74, atk: 48, def: 76, spa: 63, spd: 81, spe: 104},
 		abilities: {0: "Prankster", 1: "Infiltrator", H: "Feline Prowess"},
 	},
 	meowsticf: {
 		inherit: true,
-		baseStats: {hp: 74, atk: 48, def: 76, spa: 55, spd: 81, spe: 104},
+		baseStats: {hp: 74, atk: 48, def: 76, spa: 63, spd: 81, spe: 104},
 		abilities: {0: "Competitive", 1: "Infiltrator", H: "Feline Prowess"},
 	},
 	honedge: {
@@ -2926,7 +2930,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	decidueye: {
 		inherit: true,
-		baseStats: {hp: 78, atk: 107, def: 75, spa: 95, spd: 85, spe: 100},
+		baseStats: {hp: 88, atk: 107, def: 75, spa: 100, spd: 100, spe: 70},
 		abilities: {0: "Overgrow", H: "Tinted Lens"},
 	},
 	pikipek: {
@@ -3202,7 +3206,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	turtonator: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 58, def: 135, spa: 91, spd: 85, spe: 36},
-		abilities: {0: "Dauntless Shield"},
+		abilities: {0: "Battle Armor", 1: "Magma Armor", H: "Dauntless Shield"},
 		items: {5: "Charcoal", 50: "None"},
 	},
 	togedemaru: {
@@ -3255,11 +3259,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	cinderace: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 111, def: 75, spa: 65, spd: 75, spe: 119},
-	},
-	cinderacegmax: {
-		inherit: true,
-		baseStats: {hp: 80, atk: 111, def: 75, spa: 65, spd: 75, spe: 119},
+		baseStats: {hp: 80, atk: 116, def: 75, spa: 65, spd: 75, spe: 119},
 	},
 	skwovet: {
 		inherit: true,
@@ -3513,6 +3513,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	grapploct: {
 		inherit: true,
+		evoLevel: 36,
 		types: ["Water", "Fighting"],
 	},
 	polteageist: {

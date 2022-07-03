@@ -409,6 +409,15 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		desc: "This Pokemon's attacks have their power multiplied by 1.25 against targets of the same gender. There is no modifier if either this Pokemon or the target is genderless, or if they have different genders.",
 		shortDesc: "This Pokemon's attacks do 1.25x on same gender targets.",
 	},
+	reckless: {
+		inherit: true,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.recoil || move.hasCrashDamage || move.selfdestruct === 'always') {
+				this.debug('Reckless boost');
+				return this.chainModify([4915, 4096]);
+			}
+		},
+	},
 	sagepower: {
 		onStart(pokemon) {
 			pokemon.abilityState.choiceLock = "";

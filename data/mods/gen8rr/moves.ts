@@ -1,3 +1,6 @@
+import { moveCursor } from "readline";
+import { TriumvirateModeTrivia } from "../../../server/chat-plugins/trivia/trivia";
+
 export const Moves: {[k: string]: ModdedMoveData} =	{
 	acupressure: {
 		inherit: true,
@@ -79,6 +82,20 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		flags: {protect: 1, mirror: 1},
 		isNonstandard: null,
 	},
+	ceaselessedge: {
+		name: "Ceaseless Edge",
+		num: 857,
+		priority: 0,
+		type: "Dark",
+		category: "Physical",
+		pp: 10,
+		accuracy: 100,
+		basePower: 70,
+		target: "normal",
+		flags: {contact: 1, protect: 1, blade: 1, mirror: 1},
+		volatileStatus: "partiallytrapped",
+		desc: "Traps the opponent and deals damage at end of turn for 2-5 turns. Blademaster boosted.",
+	},
 	chargebeam: {
 		inherit: true,
 		accuracy: 100,
@@ -98,6 +115,21 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 80,
 		isNonstandard: null,
 	},
+	chloroblast: {
+		num: 864,
+		accuracy: 100,
+		basePower: 120,
+		category: "Special",
+		name: "Chloroblast",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [1, 3],
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+	},
+	
 	covet: {
 		inherit: true,
 		noTutor: true,
@@ -131,6 +163,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	diamondstorm: {
 		inherit: true,
 		category: "Special",
+		accuracy: 100,
 	},
 	doublekick: {
 		inherit: true,
@@ -143,6 +176,24 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		},
 		desc: "Raises the user's Attack by 1 stage.",
 		shortDesc: "Raises the user's Attack by 1.",
+	},
+	dracobarrage: {
+		name: "Draco Barrage",
+		type: "Dragon",
+		category: "Special",
+		pp: 5,
+		priority: 0,
+		num: 855,
+		basePower: 100,
+		accuracy: 100,
+		ignoreImmunity: true,
+		flags: {protect: 1, mirror: 1},
+		target: "normal",
+		recoil: [1,3],
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+		},
+		desc: "Can be physical or special depending on which Attack stat is higher. Deals 1/3 recoil damage and ignores immunities."
 	},
 	dracometeor: {
 		inherit: true,
@@ -166,6 +217,14 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 150,
 		desc: "The user faints after using this move, even if this move fails for having no target. The target's Defense is halved during damage calculation. This move is prevented from executing if any active Pokemon has the Damp Ability.",
 		shortDesc: "Target's Def halved during damage. User faints.",
+	},
+	extremeevoboost: {
+		inherit: true,
+		boosts: {
+			atk: 2,
+			spa: 2,
+			spe: 2,
+		},
 	},
 	falseswipe: {
 		inherit: true,
@@ -243,6 +302,13 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		flags: {protect: 1, mirror: 1},
 		isNonstandard: null,
 	},
+	frostbreath: {
+		inherit: true,
+		secondary: {
+			status: 'frostbite',
+			chance: 30,
+		},
+	},
 	furycutter: {
 		inherit: true,
 		flags: {blade: 1, contact: 1, protect: 1, mirror: 1},
@@ -250,6 +316,17 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	geargrind: {
 		inherit: true,
 		accuracy: 100,
+	},
+	genesissupernova: {
+		inherit: true,
+		secondary: null,
+		boosts: {
+			atk: 1,
+			def: 1,
+			spa: 1,
+			spd: 1,
+			spe: 1,
+		},
 	},
 	guillotine: {
 		inherit: true,
@@ -268,6 +345,25 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		},
 		desc: "Has a 10% chance to lower the target's Defense by 1 stage. If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 1/4 recoil. 10% chance to lower the target's Defense by 1.",
+	},
+	headlongrush: {
+		num: 861,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Headlong Rush",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				def: -1,
+				spd: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ground",
 	},
 	headsmash: {
 		inherit: true,
@@ -643,7 +739,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	slam: {
 		inherit: true,
-		accuracy: 90,
+		accuracy: 100,
 	},
 	slash: {
 		inherit: true,
@@ -802,6 +898,20 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, nonsky: 1, kick: 1},
 	},
+	stoneaxe: {
+		name: "Stone Axe",
+		num: 856,
+		priority: 0,
+		type: "Rock",
+		category: "Physical",
+		pp: 10,
+		accuracy: 100,
+		basePower: 70,
+		target: "normal",
+		flags: {contact: 1, protect: 1, blade: 1, mirror: 1},
+		volatileStatus: "partiallytrapped",
+		desc: "Traps the opponent and deals damage at end of turn for 2-5 turns. Blademaster boosted.",
+	},
 	strengthsap: {
 		inherit: true,
 		pp: 5,
@@ -843,6 +953,40 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			},
 		},
 	},
+	triplearrows: {
+		num: 862,
+		basePower: 60,
+		accuracy: 100,
+		type: "Fighting",
+		target: "normal",
+		name: "Triple Arrows",
+		pp: 15,
+		category: "Physical",
+		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+			},
+		},
+		priority: 0,
+		volatileStatus: 'focusenergy',
+		condition: {
+			onStart(target, source, effect) {
+				if (effect?.id === 'zpower') {
+					this.add('-start', target, 'move: Focus Energy', '[zeffect]');
+				} else if (effect && (['imposter', 'psychup', 'transform'].includes(effect.id))) {
+					this.add('-start', target, 'move: Focus Energy', '[silent]');
+				} else {
+					this.add('-start', target, 'move: Focus Energy');
+				}
+			},
+			onModifyCritRatio(critRatio) {
+				return critRatio + 2;
+			},
+		},
+		desc: "100% chance to lower opponent defense, and gives focus energy boost after hit. Striker boosted.",
+	},
 	tripleaxel: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
@@ -860,6 +1004,24 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	tropkick: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
+	},
+	victorydance: {
+		num: 865,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Victory Dance",
+		pp: 15,
+		priority: 0,
+		flags: {snatch: 1, dance: 1},
+		boosts: {
+			atk: 1,
+			def: 1,
+			spe: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Fighting",
 	},
 	volttackle: {
 		inherit: true,
@@ -884,6 +1046,342 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	xscissor: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
+	},
+	// fuck it theres a triple clone and i dont want to alphabetize these
+	infernalparade: {
+		num: 858,
+		accuracy: 100,
+		basePower: 60,
+		basePowerCallback(pokemon, target, move) {
+			if (target.status || target.hasAbility('comatose')) return move.basePower * 2;
+			return move.basePower;
+		},
+		category: "Special",
+		name: "Infernal Parade",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			status: 'brn',
+			chance: 30,
+		},
+		target: "normal",
+		type: "Ghost",
+		zMove: {basePower: 140},
+		desc: "Has 30% chance to burn the target, deals double damage if opponent is statused.",
+	},
+	bittermalice: {
+		num: 860,
+		accuracy: 100,
+		basePower: 60,
+		basePowerCallback(pokemon, target, move) {
+			if (target.status || target.hasAbility('comatose')) return move.basePower * 2;
+			return move.basePower;
+		},
+		category: "Special",
+		name: "Bitter Malice",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			status: 'frostbite',
+			chance: 30,
+		},
+		target: "normal",
+		type: "Ghost",
+		zMove: {basePower: 140},
+		desc: "Has 30% chance to frostbite, deals double damage if opponent is statused.",
+	},
+	barbbarrage: {
+		num: 859,
+		accuracy: 100,
+		basePower: 60,
+		basePowerCallback(pokemon, target, move) {
+			if (target.status || target.hasAbility('comatose')) return move.basePower * 2;
+			return move.basePower;
+		},
+		category: "Physical",
+		name: "Barb Barrage",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			status: 'psn',
+			chance: 30,
+		},
+		target: "normal",
+		type: "Poison",
+		zMove: {basePower: 140},
+		desc: "Has 30% chance to poison the target, deals double damage if opponent is statused."
+	},
+	// small accuracy changes for 2.4
+	willowisp: {
+		inherit: true,
+		onTryMove(attacker, defender, move) {
+			if (attacker.hasType("Fire")) return move.accuracy = true;
+		},
+	},
+	thunderwave: {
+		inherit: true,
+		onTryMove(attacker, defender, move) {
+			if (attacker.hasType("Electric")) return move.accuracy = true;
+		},
+	},
+	// gen 1 hyper beam time
+	frenzyplant: {
+		inherit: true,
+		pp: 3,
+		noPPBoosts: true,
+		basePower: 160,
+		accuracy: 100,
+		secondary: {
+			status: 'tox',
+			chance: 80,
+		},
+		onAfterHit(source, target, move) {
+			if (target && target.hp <= 0) {
+				if (source.volatiles['mustrecharge']) {
+					source.removeVolatile('mustrecharge');
+				}
+			}
+		},
+	},
+	blastburn: {
+		inherit: true,
+		pp: 3,
+		noPPBoosts: true,
+		basePower: 160,
+		accuracy: 100,
+		secondary: {
+			status: 'brn',
+			chance: 60,
+		},
+		onAfterHit(source, target, move) {
+			if (target && target.hp <= 0) {
+				if (source.volatiles['mustrecharge']) {
+					source.removeVolatile('mustrecharge');
+				}
+			}
+		},
+	},
+	hydrocannon: {
+		inherit: true,
+		pp: 3,
+		noPPBoosts: true,
+		basePower: 160,
+		accuracy: 100,
+		secondary: {
+			status: 'frostbite',
+			chance: 60,
+		},
+		onAfterHit(source, target, move) {
+			if (target && target.hp <= 0) {
+				if (source.volatiles['mustrecharge']) {
+					source.removeVolatile('mustrecharge');
+				}
+			}
+		},
+	},
+	meteorassault: {
+		inherit: true,
+		pp: 3,
+		noPPBoosts: true,
+		basePower: 160,
+		accuracy: 100,
+		secondary: {
+			status: 'par',
+			chance: 60,
+		},
+		onAfterHit(source, target, move) {
+			if (target && target.hp <= 0) {
+				if (source.volatiles['mustrecharge']) {
+					source.removeVolatile('mustrecharge');
+				}
+			}
+		},
+	},
+
+	// freeze changes
+	blizzard: {
+		inherit: true,
+		secondary: {
+			status: 'frostbite',
+			chance: 10,
+		}
+	},
+	freezedry: {
+		inherit: true,
+		secondary: {
+			status: 'frostbite',
+			chance: 10,
+		}
+	},
+	freezingglare: {
+		inherit: true,
+		secondary: {
+			status: 'frostbite',
+			chance: 10,
+		}
+	},
+	icebeam: {
+		inherit: true,
+		secondary: {
+			status: 'frostbite',
+			chance: 10,
+		}
+	},
+	icepunch: {
+		inherit: true,
+		secondary: {
+			status: 'frostbite',
+			chance: 10,
+		}
+	},
+	powdersnow: {
+		inherit: true,
+		secondary: {
+			status: 'frostbite',
+			chance: 10,
+		}
+	},
+	// acc changes
+	triattack: {
+		inherit: true,
+		basePower: 90,
+		secondary: {
+			chance: 20,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					target.trySetStatus('brn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else {
+					target.trySetStatus('frostbite', source);
+				}
+			},
+		},
+	},
+	icefang: {
+		inherit: true,
+		accuracy: 100,
+		secondaries: [
+			{
+				chance: 10,
+				status: 'frostbite',
+			}, {
+				chance: 10,
+				volatileStatus: 'flinch',
+			},
+		],
+	},
+	rocktomb: {
+		inherit: true,
+		accuracy: 100,
+	},
+	metalclaw: {
+		inherit: true,
+		accuracy: 100
+	},
+	firefang: {
+		inherit: true,
+		accuracy: 100
+	},
+	thunderfang: {
+		inherit: true,
+		accuracy: 100
+	},
+	mudshot: {
+		inherit: true,
+		accuracy: 100
+	},
+	hyperfang: {
+		inherit: true,
+		accuracy: 100
+	},
+	icywind: {
+		inherit: true,
+		accuracy: 100
+	},
+	electroweb: {
+		inherit: true,
+		accuracy: 100
+	},
+	snarl: {
+		inherit: true,
+		accuracy: 100
+	},
+	aircutter: {
+		inherit: true,
+		accuracy: 100
+	},
+	airslash: {
+		inherit: true,
+		accuracy: 100
+	},
+	glaciate: {
+		inherit: true,
+		accuracy: 100
+	},
+	lightofruin: {
+		inherit: true,
+		accuracy: 100
+	},
+	razorleaf: {
+		inherit: true,
+		accuracy: 100
+	},
+	rockthrow: {
+		inherit: true,
+		accuracy: 100
+	},
+	takedown: {
+		inherit: true,
+		accuracy: 100
+	},
+	rockslide: {
+		inherit: true,
+		accuracy: 100,
+		secondary: {
+			volatileStatus: 'flinch',
+			chance: 20,
+		},
+	},
+	stoneedge: {
+		inherit: true,
+		accuracy: 90,
+	},
+	powerwhip: {
+		inherit: true,
+		accuracy: 90,
+	},
+	aeroblast: {
+		inherit: true,
+		accuracy: 100
+	},
+	hammerarm: {
+		inherit: true,
+		accuracy: 100
+	},
+	drillrun: {
+		inherit: true,
+		accuracy: 100
+	},
+	zenheadbutt: {
+		inherit: true,
+		accuracy: 100
+	},
+	playrough: {
+		inherit: true,
+		accuracy: 100
+	},
+	fakeout: {
+		inherit: true,
+		pp: 5,
+	},
+	featherdance: {
+		inherit: true,
+		pp: 5,
 	},
 
 	// set tm/tutor flags for moves that don't already change
@@ -921,10 +1419,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		noTM: true,
 	},
 	strugglebug: {
-		inherit: true,
-		noTM: true,
-	},
-	frostbreath: {
 		inherit: true,
 		noTM: true,
 	},
@@ -1372,10 +1866,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		isNonstandard: null,
 	},
 	embargo: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	extremeevoboost: {
 		inherit: true,
 		isNonstandard: null,
 	},

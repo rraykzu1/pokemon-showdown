@@ -3604,6 +3604,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	clefable: {
 		learnset: {
+			lightofruin: ["8R"],
 			afteryou: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
@@ -11291,6 +11292,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	pinsir: {
 		learnset: {
 			bind: ["8L4", "8T"],
+			extremespeed: ["8R"],
 			bodyslam: ["8T"],
 			brickbreak: ["8L26", "8M"],
 			brutalswing: ["8M"],
@@ -17666,7 +17668,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			scratch: ["8L1"],
 			seedbomb: ["8T"],
 			shadowclaw: ["8M"],
-			slackoff: ["8L49"],
 			slash: ["8L22"],
 			sleeptalk: ["8M"],
 			smackdown: ["8M"],
@@ -17675,7 +17676,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			stoneedge: ["8M"],
 			strength: ["8M"],
 			substitute: ["8M"],
-			suckerpunch: ["8L34"],
 			sunnyday: ["8M"],
 			superpower: ["8M", "8T"],
 			swagger: ["8M"],
@@ -36378,6 +36378,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	shayminsky: {
 		learnset: {
 			airslash: ["8L64", "8T"],
+			hurricane: ["8L86"],
 			bulletseed: ["8M"],
 			celebrate: ["8T"],
 			confide: ["8T"],
@@ -40901,6 +40902,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			cosmicpower: ["8L48", "8T"],
 			darkpulse: ["8M"],
 			dazzlinggleam: ["8M"],
+			dualwingbeat: ["8M"],
 			defog: ["8M"],
 			energyball: ["8M"],
 			expandingforce: ["8M"],
@@ -56248,7 +56250,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			ironhead: ["8L29", "8T"],
 			leechseed: ["8L19"],
 			magnetrise: ["8T"],
-			meteorbeam: ["8M"]
+			meteorbeam: ["8M"],
 			megadrain: ["8L13"],
 			megahorn: ["8T"],
 			metalsound: ["8L23"],
@@ -58187,6 +58189,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	drednaw: {
 		learnset: {
+			shellsmash: ["8R"],
 			aquafang: ["8L72"],
 			aquajet: ["8L1"],
 			bite: ["8L7"],
@@ -58532,6 +58535,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			dracometeor: ["8T"],
 			dragonbreath: ["8L20"],
 			dragondance: ["8L24", "8M", "8T"],
+			dragonenergy: ["8L100"],
 			dragonpulse: ["8L28", "8M"],
 			dragonrush: ["8L44"],
 			dualwingbeat: ["8M"],
@@ -61046,6 +61050,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	dragapult: {
 		learnset: {
+			spiritshackle: ["8R"],
 			acrobatics: ["8M"],
 			agility: ["8L24", "8T"],
 			aquatail: ["8T"],
@@ -61664,6 +61669,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			hiddenpower: ["8M"],
 			hyperbeam: ["8M"],
 			hypervoice: ["8M"],
+			mudshot: ["8M"],
 			nastyplot: ["8L72"],
 			phantomforce: ["8T"],
 			protect: ["8M"],

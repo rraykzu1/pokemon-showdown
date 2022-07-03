@@ -122,7 +122,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	buggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	buginiumz: {
 		inherit: true,
@@ -163,7 +163,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	darkgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	darkiniumz: {
 		inherit: true,
@@ -191,7 +191,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	dragongem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	dragoniumz: {
 		inherit: true,
@@ -216,10 +216,11 @@ export const Items: {[k: string]: ModdedItemData} = {
 	eeviumz: {
 		inherit: true,
 		isNonstandard: null,
+		itemUser: ["Eevee", "Flareon", "Umbreon", "Jolteon", "Vaporeon", "Espeon", "Leafeon", "Glaceon", "Sylveon"],
 	},
 	electricgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	electriumz: {
 		inherit: true,
@@ -240,7 +241,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	fairygem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	fairymemory: {
 		inherit: true,
@@ -248,7 +249,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	fightinggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	fightiniumz: {
 		inherit: true,
@@ -260,7 +261,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	firegem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	firiumz: {
 		inherit: true,
@@ -280,7 +281,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	flyinggem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	flyiniumz: {
 		inherit: true,
@@ -308,7 +309,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	ghostgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	ghostiumz: {
 		inherit: true,
@@ -324,7 +325,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	grassgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	grassiumz: {
 		inherit: true,
@@ -341,7 +342,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	groundgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	groundiumz: {
 		inherit: true,
@@ -374,7 +375,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	icegem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	icicleplate: {
 		inherit: true,
@@ -529,7 +530,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	normalgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	nugget: {
 		name: "Nugget",
@@ -567,7 +568,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	poisongem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	poisoniumz: {
 		inherit: true,
@@ -583,7 +584,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	psychicgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	psychiumz: {
 		inherit: true,
@@ -641,7 +642,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	rockgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	rockiumz: {
 		inherit: true,
@@ -728,7 +729,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	steelgem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	steeliumz: {
 		inherit: true,
@@ -780,7 +781,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	watergem: {
 		inherit: true,
-		isNonstandard: "Unobtainable",
+		isNonstandard: null,
 	},
 	wateriumz: {
 		inherit: true,
