@@ -61855,4 +61855,9 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			zenheadbutt: ["8T"],
 		},
 	},
+	// New mons for 2.4 (Hisui/Sevii forms)
+	basculegion: {
+		learnset: {
+			flipturn: ["8M"],
+	},
 };

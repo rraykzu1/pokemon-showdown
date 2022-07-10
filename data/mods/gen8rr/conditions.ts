@@ -7,6 +7,22 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 			if (pokemon.hasAbility("thickfat")) dmgmod = 32; 
 			this.damage(pokemon.baseMaxhp / dmgmod);
 		},
+		onModifyMove(move, pokemon) {
+			if (move.flags['defrost']) {
+				this.add('-curestatus', pokemon, 'frostbite', '[from] move: ' + move);
+				pokemon.setStatus('');
+			}
+		},
+		onAfterMoveSecondary(target, source, move) {
+			if (move.thawsTarget) {
+				target.cureStatus();
+			}
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (move.type === 'Fire' && move.category !== 'Status') {
+				target.cureStatus();
+			}
+		},
 	},
 	hail: {
 		inherit: true,

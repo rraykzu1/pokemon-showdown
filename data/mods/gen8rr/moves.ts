@@ -232,7 +232,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	fishiousrend: {
 		inherit: true,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {contact: 1, protect: 1, mirror: 1, bite: 1},
 	},
 	fissure: {
 		inherit: true,
@@ -1130,7 +1130,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	// gen 1 hyper beam time
 	frenzyplant: {
 		inherit: true,
-		pp: 3,
+		pp: 4,
 		noPPBoosts: true,
 		basePower: 160,
 		accuracy: 100,
@@ -1148,7 +1148,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	blastburn: {
 		inherit: true,
-		pp: 3,
+		pp: 4,
 		noPPBoosts: true,
 		basePower: 160,
 		accuracy: 100,
@@ -1166,7 +1166,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	hydrocannon: {
 		inherit: true,
-		pp: 3,
+		pp: 4,
 		noPPBoosts: true,
 		basePower: 160,
 		accuracy: 100,
@@ -1184,7 +1184,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	meteorassault: {
 		inherit: true,
-		pp: 3,
+		pp: 4,
 		noPPBoosts: true,
 		basePower: 160,
 		accuracy: 100,
@@ -1297,7 +1297,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	hyperfang: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
+		isNonstandard: null,
 	},
 	icywind: {
 		inherit: true,
@@ -1324,6 +1325,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		accuracy: 100
 	},
 	lightofruin: {
+		isNonstandard: null,
 		inherit: true,
 		accuracy: 100
 	},
@@ -1438,10 +1440,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		noTM: true,
 	},
-	snarl: {
-		inherit: true,
-		noTM: true,
-	},
 	smackdown: {
 		inherit: true,
 		noTM: true,
@@ -1461,10 +1459,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		noTutor: true,
 	},
 	healbell: {
-		inherit: true,
-		noTutor: true,
-	},
-	electroweb: {
 		inherit: true,
 		noTutor: true,
 	},
@@ -1538,10 +1532,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		noTutor: true,
 	},
 	endeavor: {
-		inherit: true,
-		noTutor: true,
-	},
-	icywind: {
 		inherit: true,
 		noTutor: true,
 	},
@@ -1622,18 +1612,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		noTutor: true,
 	},
 	waterpledge: {
-		inherit: true,
-		noTutor: true,
-	},
-	frenzyplant: {
-		inherit: true,
-		noTutor: true,
-	},
-	blastburn: {
-		inherit: true,
-		noTutor: true,
-	},
-	hydrocannon: {
 		inherit: true,
 		noTutor: true,
 	},
@@ -1885,10 +1863,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		isNonstandard: null,
 	},
-	genesissupernova: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	gigavolthavoc: {
 		inherit: true,
 		isNonstandard: null,
@@ -1989,10 +1963,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		isNonstandard: null,
 	},
-	hyperfang: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	hyperspacefury: {
 		inherit: true,
 		isNonstandard: null,
@@ -2022,10 +1992,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		isNonstandard: null,
 	},
 	letssnuggleforever: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	lightofruin: {
 		inherit: true,
 		isNonstandard: null,
 	},

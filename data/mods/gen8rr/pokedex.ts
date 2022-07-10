@@ -2204,8 +2204,24 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	samurott: {
 		inherit: true,
 		types: ["Water", "Steel"],
-		baseStats: {hp: 95, atk: 108, def: 85, spa: 95, spd: 70, spe: 70},
+		baseStats: {hp: 95, atk: 108, def: 85, spa: 95, spd: 70, spe: 90},
 		abilities: {0: "Torrent", 1: "Shell Armor", H: "Blademaster"},
+	},
+	virizion: {
+		inherit: true,
+		abilities: {0: "Justified", H: "Blademaster"},
+	},
+	terrakion: {
+		inherit: true,
+		abilities: {0: "Justified", H: "Blademaster"},
+	},
+	cobalion: {
+		inherit: true,
+		abilities: {0: "Justified", H: "Blademaster"},
+	},
+	keldeo: {
+		inherit: true,
+		abilities: {0: "Justified", H: "Blademaster"},
 	},
 	patrat: {
 		inherit: true,
@@ -2275,11 +2291,15 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Lightning Rod", 1: "Flare Boost", H: "Sap Sipper"},
 		items: {5: "None", 50: "Cheri Berry"},
+		otherFormes: ["Blitzle-Sevii"],
+		formeOrder: ["Blitzle", "Blitzle-Sevii"],
 	},
 	zebstrika: {
 		inherit: true,
 		abilities: {0: "Lightning Rod", 1: "Sap Sipper", H: "Flare Boost"},
 		items: {5: "None", 50: "Cheri Berry"},
+		otherFormes: ["Zebstrika-Sevii"],
+		formeOrder: ["Zebstrika", "Zebstrika-Sevii"],
 	},
 	boldore: {
 		inherit: true,
@@ -3248,14 +3268,22 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	melmetal: {
 		inherit: true,
-		abilities: {0: "Clear Body"},
+		abilities: {0: "Iron Fist"},
 		prevo: "Meltan",
 		evoType: "useItem",
 		evoItem: "Metal Coat",
 	},
 	melmetalgmax: {
 		inherit: true,
-		abilities: {0: "Clear Body"},
+		abilities: {0: "Iron Fist"},
+	},
+	wishiwashi: {
+		inherit: true,
+		baseStats: {hp: 55, atk: 20, def: 20, spa: 25, spd: 25, spe: 40},
+	},
+	wishiwashischool: {
+		inherit: true,
+		baseStats: {hp: 55, atk: 140, def: 130, spa: 140, spd: 135, spe: 30},
 	},
 	cinderace: {
 		inherit: true,
@@ -3738,5 +3766,57 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	zarudedada: {
 		inherit: true,
 		abilities: {0: "Leaf Guard", 1: "Defiant"},
+	},
+	// new 2.4 mons
+	basculegion: {
+		inherit: true,
+		isNonstandard: null,
+		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
+	},
+	basculegionf: {
+		inherit: true,
+		isNonstandard: null,
+		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
+	},
+	braviaryhisui: {
+		inherit: true,
+		isNonstandard: null,
+		abilities: {0: "Frisk", 1: "Sheer Force", H: "Competitive"},
+		baseStats: {hp: 115, atk: 58, def: 80, spa: 112,  spd: 80, spe: 65},
+	},
+	wyrdeer: {
+		inherit: true,
+		isNonstandard: null,
+		baseStats: {hp: 103, atk: 80, def: 82, spa: 110, spd: 85, spe: 65},
+		abilities: {0: "Intimidate", 1: "Sap Sipper", H: "Fur Coat"},
+	},
+	growlithehisui: {
+		inherit: true,
+		isNonstandard: null,
+		abilities: {0: "Intimidate", 1: "Flash Fire", H: "Rock Head"},
+	},
+	arcaninehisui: {
+		inherit: true,
+		isNonstandard: null,
+		baseStats: {hp: 95, atk: 125, def: 80, spa: 85, spd: 80, spe: 90},
+		abilities: {0: "Intimidate", 1: "Flash Fire", H: "Rock Head"},
+	},
+	kleavor: {
+		inherit: true,
+		isNonstandard: null,
+		baseStats: {hp: 85, atk: 135, def: 95, spa: 30, spd: 70, spe: 85},
+		abilities: {0: "Sheer Force", 1: "Technician", H: "Blademaster"},
+	},
+	blitzlesevii: {
+		name: "Blitzle-Sevii",
+		baseSpecies: "Blitzle",
+		forme: "Sevii",
+		num: 522,
+		evos: ["Zebstrika-Sevii"],
+		types: ["Ice", "Electric"],
+		baseStats: {hp: 45, atk: 45, def: 32, spa: 65, spd: 32, spe: 76},
+		abilities: {0: "Lightning Rod", 1: "Illuminate", H: "Ice Body"},
+		eggGroups: ["Field"],
+		weightkg: 29.8,
 	},
 };
