@@ -3819,4 +3819,16 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		eggGroups: ["Field"],
 		weightkg: 29.8,
 	},
+	zebstrikasevii: {
+		name: "Zebstrika-Sevii",
+		baseSpecies: "Zebstrika",
+		forme: "Sevii",
+		num: 523,
+		types: ["Ice", "Electric"],
+		baseStats: {hp: 75, atk: 70, def: 63, spa: 110, spd: 63, spe: 116},
+		abilities: {0: "Lightning Rod", 1: "Illuminate", H: "Ice Body"},
+		eggGroups: ["Field"],
+		weightkg: 79.5,
+	},
+	
 };
