@@ -1025,6 +1025,19 @@ export const Items: {[k: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Centiskorch, this item allows it to Mega Evolve in battle.",
 	},
+	centiskitesevii: {
+		name: "Centiskite-Sevii",
+		spritenum: 586,
+		megaStone: "Centiskorch-Sevii-Mega",
+		megaEvolves: "Centiskorch-Sevii",
+		itemUser: ["Centiskorch-Sevii"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		gen: 8,
+		desc: "If held by a Centiskorch-Sevii, this item allows it to Mega Evolve in battle.",
+	},
 	sandacondite: {
 		name: "Sandacondite",
 		spritenum: 626,
