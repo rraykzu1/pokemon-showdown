@@ -10,9 +10,11 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 		effectType: "ValidatorRule",
 		desc: "If a mega evolution has a banned ability, do not allow base form to verify",
 		// hardcode for now
-		onValidateSet(set) {
-			if (set.species === "Centiskorch-Sevii" && set.item === "Centiskite-Sevii" && set.ability !== "Clear Body") return ["This ability is banned"];
-		},
+		onValidateTeam(team) {
+			for (const set of team) {
+ 				if (set.species === "Centiskorch-Sevii" && set.item === "Centiskite-Sevii" && set.ability !== "Clear Body") return ["This ability is banned"];
+			}
+		}
 	},
 	'2abilityclause': {
 		inherit: true,
