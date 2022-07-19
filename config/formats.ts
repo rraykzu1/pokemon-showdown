@@ -148,6 +148,28 @@ export const Formats: FormatList = [
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
+	// Past Gen
+	{
+		section: "Past Gens"
+	},
+	{
+		name: "[Gen 8] 2.3 OU",
+		mod: 'gen8rr2.3',
+		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
+		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion'],
+	},
+	{
+		name: "[Gen 8] 2.3 UU",
+		mod: 'gen8rr2.3',
+		ruleset: ['[Gen 8] OU'],
+		banlist: ['OU', 'UUBL', 'Drought', 'Drizzle', 'Forecast', 'Icy Rock'],
+	},
+	{
+		name: "[Gen 8] 2.3 Draft",
+		mod: 'gen8rr2.3',
+		searchShow: false,
+		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
+	},
 
 	// Doubles
 	///////////////////////////////////////////////////////////////////
