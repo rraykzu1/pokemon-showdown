@@ -323,7 +323,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	frostbreath: {
 		inherit: true,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 30,
 		},
 	},
@@ -1102,13 +1102,13 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 30,
 		},
 		target: "normal",
 		type: "Ghost",
 		zMove: {basePower: 140},
-		desc: "Has 30% chance to frostbite, deals double damage if opponent is statused.",
+		desc: "Has 30% chance to frz, deals double damage if opponent is statused.",
 	},
 	barbbarrage: {
 		num: 859,
@@ -1189,7 +1189,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 160,
 		accuracy: 100,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 60,
 		},
 		onAfterHit(source, target, move) {
@@ -1223,42 +1223,42 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	blizzard: {
 		inherit: true,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 10,
 		}
 	},
 	freezedry: {
 		inherit: true,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 10,
 		}
 	},
 	freezingglare: {
 		inherit: true,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 10,
 		}
 	},
 	icebeam: {
 		inherit: true,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 10,
 		}
 	},
 	icepunch: {
 		inherit: true,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 10,
 		}
 	},
 	powdersnow: {
 		inherit: true,
 		secondary: {
-			status: 'frostbite',
+			status: 'frz',
 			chance: 10,
 		}
 	},
@@ -1275,7 +1275,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				} else if (result === 1) {
 					target.trySetStatus('par', source);
 				} else {
-					target.trySetStatus('frostbite', source);
+					target.trySetStatus('frz', source);
 				}
 			},
 		},
@@ -1286,7 +1286,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		secondaries: [
 			{
 				chance: 10,
-				status: 'frostbite',
+				status: 'frz',
 			}, {
 				chance: 10,
 				volatileStatus: 'flinch',

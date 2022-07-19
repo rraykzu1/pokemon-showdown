@@ -239,7 +239,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onDamagingHit(damage, target, source, move) {
 			if (this.checkMoveMakesContact(move, source, target)) {
 				if (this.randomChance(3, 10)) {
-					source.trySetStatus('frostbite', target);
+					source.trySetStatus('frz', target);
 				}
 			}
 		},
