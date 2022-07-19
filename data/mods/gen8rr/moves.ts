@@ -193,7 +193,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		onModifyMove(move, pokemon) {
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
 		},
-		desc: "Can be physical or special depending on which Attack stat is higher. Deals 1/3 recoil damage and ignores immunities."
+		desc: "Can be physical or special depending on which Attack stat is higher. Deals 1/3 recoil damage and ignores immunities.",
+		
 	},
 	dracometeor: {
 		inherit: true,
