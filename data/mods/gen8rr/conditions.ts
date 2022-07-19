@@ -1,5 +1,17 @@
 export const Conditions: {[k: string]: ModdedConditionData} = {
-	frostbite: {
+	frz: {
+		name: 'frz',
+		effectType: 'Status',
+		onStart(target, source, sourceEffect) {
+			if (sourceEffect && sourceEffect.effectType === 'Ability') {
+				this.add('-status', target, 'frz', '[from] ability: ' + sourceEffect.name, '[of] ' + source);
+			} else {
+				this.add('-status', target, 'frz');
+			}
+			if (target.species.name === 'Shaymin-Sky' && target.baseSpecies.baseSpecies === 'Shaymin') {
+				target.formeChange('Shaymin', this.effect, true);
+			}
+		},
 		onResidualOrder: 10,
 		onResidual(pokemon) {
 			let dmgmod = 16;
@@ -9,7 +21,7 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		},
 		onModifyMove(move, pokemon) {
 			if (move.flags['defrost']) {
-				this.add('-curestatus', pokemon, 'frostbite', '[from] move: ' + move);
+				this.add('-curestatus', pokemon, 'frz', '[from] move: ' + move);
 				pokemon.setStatus('');
 			}
 		},
