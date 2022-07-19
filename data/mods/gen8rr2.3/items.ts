@@ -122,7 +122,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	buggem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	buginiumz: {
 		inherit: true,
@@ -163,7 +163,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	darkgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	darkiniumz: {
 		inherit: true,
@@ -191,7 +191,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	dragongem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	dragoniumz: {
 		inherit: true,
@@ -216,11 +216,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 	eeviumz: {
 		inherit: true,
 		isNonstandard: null,
-		itemUser: ["Eevee", "Flareon", "Umbreon", "Jolteon", "Vaporeon", "Espeon", "Leafeon", "Glaceon", "Sylveon"],
 	},
 	electricgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	electriumz: {
 		inherit: true,
@@ -241,7 +240,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	fairygem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	fairymemory: {
 		inherit: true,
@@ -249,7 +248,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	fightinggem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	fightiniumz: {
 		inherit: true,
@@ -261,7 +260,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	firegem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	firiumz: {
 		inherit: true,
@@ -281,7 +280,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	flyinggem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	flyiniumz: {
 		inherit: true,
@@ -309,7 +308,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	ghostgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	ghostiumz: {
 		inherit: true,
@@ -325,7 +324,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	grassgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	grassiumz: {
 		inherit: true,
@@ -342,7 +341,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	groundgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	groundiumz: {
 		inherit: true,
@@ -375,7 +374,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	icegem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	icicleplate: {
 		inherit: true,
@@ -530,7 +529,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	normalgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	nugget: {
 		name: "Nugget",
@@ -568,7 +567,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	poisongem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	poisoniumz: {
 		inherit: true,
@@ -584,7 +583,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	psychicgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	psychiumz: {
 		inherit: true,
@@ -642,7 +641,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	rockgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	rockiumz: {
 		inherit: true,
@@ -729,7 +728,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	steelgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	steeliumz: {
 		inherit: true,
@@ -781,7 +780,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	watergem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Unobtainable",
 	},
 	wateriumz: {
 		inherit: true,
@@ -1024,19 +1023,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 		},
 		gen: 8,
 		desc: "If held by a Centiskorch, this item allows it to Mega Evolve in battle.",
-	},
-	centiskitesevii: {
-		name: "Centiskite-Sevii",
-		spritenum: 586,
-		megaStone: "Centiskorch-Sevii-Mega",
-		megaEvolves: "Centiskorch-Sevii",
-		itemUser: ["Centiskorch-Sevii"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		gen: 8,
-		desc: "If held by a Centiskorch-Sevii, this item allows it to Mega Evolve in battle.",
 	},
 	sandacondite: {
 		name: "Sandacondite",

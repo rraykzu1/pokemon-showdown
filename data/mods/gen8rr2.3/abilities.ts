@@ -234,16 +234,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		desc: "If this Pokemon is a Cramorant, it changes forme when it hits a target with Surf or uses the first turn of Dive successfully. It becomes Gulping Form with an Arrokuda in its mouth if it has more than 1/2 of its maximum HP remaining, or Gorging Form with a Pikachu in its mouth if it has 1/2 or less of its maximum HP remaining. If Cramorant gets hit in Gulping or Gorging Form, it spits the Arrokuda or Pikachu at its attacker, even if it has no HP remaining. The projectile deals damage equal to 1/4 of the target's maximum HP, rounded down; this damage is blocked by the Magic Guard Ability but not by a substitute. An Arrokuda also lowers the target's Speed by 1 stage, and a Pikachu paralyzes the target. Cramorant will return to normal if it spits out a projectile, switches out, or Dynamaxes.",
 		shortDesc: "When hit after Surf/Dive, attacker takes 1/4 max HP and -1 Speed or paralysis.",
 	},
-	icebody: {
-		inherit: true,
-		onDamagingHit(damage, target, source, move) {
-			if (this.checkMoveMakesContact(move, source, target)) {
-				if (this.randomChance(3, 10)) {
-					source.trySetStatus('frz', target);
-				}
-			}
-		},
-	},
 	illuminate: {
 		inherit: true,
 		onSourceModifyAccuracyPriority: -1,
@@ -418,15 +408,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 1,
 		desc: "This Pokemon's attacks have their power multiplied by 1.25 against targets of the same gender. There is no modifier if either this Pokemon or the target is genderless, or if they have different genders.",
 		shortDesc: "This Pokemon's attacks do 1.25x on same gender targets.",
-	},
-	reckless: {
-		inherit: true,
-		onBasePower(basePower, attacker, defender, move) {
-			if (move.recoil || move.hasCrashDamage || move.selfdestruct === 'always') {
-				this.debug('Reckless boost');
-				return this.chainModify([4915, 4096]);
-			}
-		},
 	},
 	sagepower: {
 		onStart(pokemon) {
