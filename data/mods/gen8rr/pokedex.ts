@@ -4042,7 +4042,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		forme: "Mega",
 		types: ["Ground", "Bug"],
 		baseStats: {hp: 100, atk: 150, def: 80, spa: 75, spd: 100, spe: 120},
-		abilities: {0: "Arena Trap", 1: "Sand Force"},
+		abilities: {0: "Arena Trap", 1: "Sand Force", H: "Arena Trap"},
 		heightm: 3,
 		weightkg: 120,
 		eggGroups: ["Bug"],
