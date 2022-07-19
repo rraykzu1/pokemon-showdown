@@ -5,17 +5,6 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 		desc: "Allows Arceus plates to be used in battle.",
 		unbanlist: ['Flame Plate', 'Splash Plate', 'Zap Plate', 'Meadow Plate', 'Icicle Plate', 'Fist Plate', 'Toxic Plate', 'Earth Plate', 'Sky Plate', 'Mind Plate', 'Insect Plate', 'Stone Plate', 'Spooky Plate', 'Draco Plate', 'Dread Plate', 'Iron Plate', 'Pixie Plate'],
 	},
-	megaabilityclause: {
-		name: "Mega Ability Clause",
-		effectType: "ValidatorRule",
-		desc: "If a mega evolution has a banned ability, do not allow base form to verify",
-		// hardcode for now
-		onValidateTeam(team) {
-			for (const set of team) {
- 				if (set.species === "Centiskorch-Sevii" && set.item === "Centiskite-Sevii" && set.ability !== "Clear Body") return ["This ability is banned"];
-			}
-		}
-	},
 	'2abilityclause': {
 		inherit: true,
 		onValidateTeam(team) {
