@@ -992,11 +992,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		condition: {
 			onStart(target, source, effect) {
 				if (effect?.id === 'zpower') {
-					this.add('-start', target, 'move: Focus Energy', '[zeffect]');
+					this.add('-start', source, 'move: Focus Energy', '[zeffect]');
 				} else if (effect && (['imposter', 'psychup', 'transform'].includes(effect.id))) {
-					this.add('-start', target, 'move: Focus Energy', '[silent]');
+					this.add('-start', source, 'move: Focus Energy', '[silent]');
 				} else {
-					this.add('-start', target, 'move: Focus Energy');
+					this.add('-start', source, 'move: Focus Energy');
 				}
 			},
 			onModifyCritRatio(critRatio) {
@@ -1156,7 +1156,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			status: 'tox',
 			chance: 80,
 		},
-		onAfterHit(source, target, move) {
+		onAfterMove(source, target, move) {
 			if (target && target.hp <= 0) {
 				if (source.volatiles['mustrecharge']) {
 					source.removeVolatile('mustrecharge');
@@ -1174,7 +1174,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			status: 'brn',
 			chance: 60,
 		},
-		onAfterHit(source, target, move) {
+		onAfterMove(source, target, move) {
 			if (target && target.hp <= 0) {
 				if (source.volatiles['mustrecharge']) {
 					source.removeVolatile('mustrecharge');
@@ -1192,7 +1192,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			status: 'frz',
 			chance: 60,
 		},
-		onAfterHit(source, target, move) {
+		onAfterMove(source, target, move) {
 			if (target && target.hp <= 0) {
 				if (source.volatiles['mustrecharge']) {
 					source.removeVolatile('mustrecharge');
@@ -1210,7 +1210,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			status: 'par',
 			chance: 60,
 		},
-		onAfterHit(source, target, move) {
+		onAfterMove(source, target, move) {
 			if (target && target.hp <= 0) {
 				if (source.volatiles['mustrecharge']) {
 					source.removeVolatile('mustrecharge');

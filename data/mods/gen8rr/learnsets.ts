@@ -56971,6 +56971,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			scald: ["8M"],
 			scaleshot: ["8M"],
 			scaryface: ["8T"],
+			shellsmash: ["8R"],
 			sleeptalk: ["8M"],
 			snore: ["8T"],
 			stealthrock: ["8M"],

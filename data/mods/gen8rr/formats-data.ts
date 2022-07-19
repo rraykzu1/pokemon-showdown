@@ -5601,7 +5601,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["stealthrock", "aquafang", "jawlock", "icefang", "swordsdance", "rockpolish", "aquajet"],
 		randomDoubleBattleLevel: 83,
 		randomDoubleBattleMoves: ["aquafang", "jawlock", "protect", "icefang", "aquajet", "swordsdance", "rockpolish"],
-		tier: "OU",
+		tier: "Uber",
 	},
 	drednawgmax: {
 		isNonstandard: "Gigantamax",
@@ -6032,7 +6032,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["shadowball", "dracometeor", "uturn", "flamethrower", "thunderbolt"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["dragondarts", "phantomforce", "dragondance", "protect"],
-		tier: "OU",
+		tier: "Uber",
 	},
 	zacian: {
 		randomBattleLevel: 72,

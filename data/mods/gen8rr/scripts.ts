@@ -25,6 +25,13 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (item.id === "slowbronite" && species.name === "Slowbro-Galar") {
 				return null;
 			}
+			// prevent regular centiskorch from using centiskite seviian stone
+			if (item.id === "centiskitesevii" && species.name === "Centiskorch") {
+				return null;
+			}
+			if (item.id === "centiskite-sevii" && species.name === "Centiskorch-Sevii") {
+				return "Centiskorch-Sevii-Mega";
+			}
 			// Prevent Amped Toxtricity from using the Low-Key mega stone
 			if (item.id === "toxtricititelowkey" && species.name === "Toxtricity") {
 				return null;

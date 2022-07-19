@@ -471,6 +471,45 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		gen: 8,
 		shortDesc: "This Pokemon's Sp. Atk is 1.5x, but it can only select the first move it executes.",
 	},
+	schooling: {
+		inherit: true,
+		onStart(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Wishiwashi' || pokemon.level < 20 || pokemon.transformed) return;
+			if (pokemon.hp > pokemon.maxhp / 4) {
+				if (pokemon.species.id === 'wishiwashi') {
+					pokemon.formeChange('Wishiwashi-School');
+				}
+				if (pokemon.species.id === 'wishiwashisevii') {
+					pokemon.formeChange('Wishiwashi-Sevii-School');
+				}
+			} else {
+				if (pokemon.species.id === 'wishiwashischool') {
+					pokemon.formeChange('Wishiwashi');
+				}
+				if (pokemon.species.id === 'wishiwashiseviischool') {
+					pokemon.formeChange('Wishiwashi-Sevii');
+				}
+			}
+		},
+		onResidual(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Wishiwashi' || pokemon.level < 20 || pokemon.transformed) return;
+			if (pokemon.hp > pokemon.maxhp / 4) {
+				if (pokemon.species.id === 'wishiwashi') {
+					pokemon.formeChange('Wishiwashi-School');
+				}
+				if (pokemon.species.id === 'wishiwashisevii') {
+					pokemon.formeChange('Wishiwashi-Sevii-School');
+				}
+			} else {
+				if (pokemon.species.id === 'wishiwashischool') {
+					pokemon.formeChange('Wishiwashi');
+				}
+				if (pokemon.species.id === 'wishiwashiseviischool') {
+					pokemon.formeChange('Wishiwashi-Sevii');
+				}
+			}
+		}
+	},
 	scrappy: {
 		inherit: true,
 		onBoost(boost, target, source, effect) {
