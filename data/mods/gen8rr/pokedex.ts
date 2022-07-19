@@ -801,7 +801,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	flareon: {
 		inherit: true,
-		baseStats: {hp: 65, atk: 130, def: 60, spa: 65, spd: 100, spe: 95},
+		baseStats: {hp: 65, atk: 130, def: 70, spa: 65, spd: 100, spe: 95},
+		abilities: {0: "Flash Fire", 1: "Toxic Boost"},
 	},
 	kabuto: {
 		inherit: true,
@@ -948,7 +949,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	ampharosmega: {
 		inherit: true,
-		abilities: {0: "Thick Fat"},
+		abilities: {0: "Thick Fat", H: "Mold Breaker"},
 	},
 	bellossom: {
 		inherit: true,

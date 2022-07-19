@@ -212,6 +212,24 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		zMove: {basePower: 160},
 	},
+	esperwing: {
+		num: 866,
+		name: "Esper Wing",
+		type: "Psychic",
+		priority: 1,
+		basePower: 40,
+		accuracy: 100,
+		flags: {protect: 1, mirror: 1},
+		target: "normal",
+		category: "Special",
+		pp: 20,
+		secondary: {
+			boosts: {
+				spd: -1,
+			},
+			chance: 10,
+		},
+	},
 	explosion: {
 		inherit: true,
 		basePower: 150,
