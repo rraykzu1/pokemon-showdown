@@ -29,7 +29,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (item.id === "centiskitesevii" && species.name === "Centiskorch") {
 				return null;
 			}
-			if (item.id === "centiskite-sevii" && species.name === "Centiskorch-Sevii") {
+			if (item.id === "centiskitesevii" && species.name === "Centiskorch-Sevii") {
 				return "Centiskorch-Sevii-Mega";
 			}
 			// Prevent Amped Toxtricity from using the Low-Key mega stone
