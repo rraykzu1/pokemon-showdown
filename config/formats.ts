@@ -66,13 +66,13 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] OU",
 		mod: 'gen8rr',
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
+		ruleset: ['Standard', 'Dynamax Clause',],
 		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion'],
 	},
 	{
 		name: "[Gen 8] Ubers",
 		mod: 'gen8rr',
-		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause', 'Mega Rayquaza Clause'],
+		ruleset: ['Standard', 'Dynamax Clause', 'Mega Rayquaza Clause'],
 		banlist: ['AG', 'Moody'],
 	},
 	{
