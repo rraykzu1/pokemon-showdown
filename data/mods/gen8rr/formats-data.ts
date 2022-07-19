@@ -6161,4 +6161,136 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["astralbarrage", "nastyplot", "snarl", "protect", "psyshock"],
 		tier: "Uber",
 	},
+	basculegion: {
+		tier: "RU"
+	},
+	basculegionf: {
+		tier: "RU",
+	},
+	braviaryhisui: {
+		tier: "RU",
+	},
+	wyrdeer: {
+		tier: "RU",
+	},
+	growlithehisui: {
+		tier: "LC",
+	},
+	arcaninehisui: {
+		tier: "RU",
+	},
+	kleavor: {
+		tier: "RU",
+	},
+	blitzlesevii: {
+		tier: "LC",
+	},
+	zebstrikasevii: {
+		tier: "RU",
+	},
+	teddiursasevii: {
+		tier: "LC",
+	},
+	ursaringsevii: {
+		tier: "UU",
+	},
+	zoruahisui: {
+		tier: "LC",
+	},
+	zoroarkhisui: {
+		tier: "RU",
+	},
+	carnivinesevii: {
+		tier: "UU",
+	},
+	mantykesevii: {
+		tier: "LC",
+	},
+	mantinesevii: {
+		tier: "RU",
+	},
+	doduosevii: {
+		tier: "LC",
+	},
+	dodriosevii: {
+		tier: "RU",
+	},
+	feebassevii: {
+		tier: "LC",
+	},
+	miloticsevii: {
+		tier: "OU",
+	},
+	claunchersevii: {
+		tier: "LC",
+	},
+	clawitzersevii: {
+		tier: "RU",
+	},
+	sizzlipedesevii: {
+		tier: "LC",
+	},
+	centiskorchsevii: {
+		tier: "RU",
+	},
+	centiskorchseviimega: {
+		tier: "OU",
+	},
+	wishiwashisevii: {
+		tier: "RU",
+	},
+	wishiwashischoolsevii: {
+		tier: "RU",
+	},
+	dhelmisesevii: {
+		tier: "RU",
+	},
+	voltorbhisui: {
+		tier: "RU",
+	},
+	electrodehisui: {
+		tier: "RU",
+	},
+	sliggoohisui: {
+		tier: "NFE",
+	},
+	goodrahisui: {
+		tier: "RU",
+	},
+	ursaluna: {
+		tier: "OU",
+	},
+	typhlosionhisui: {
+		tier: "RU",
+	},
+	samurotthisui: {
+		tier: "RU",
+	},
+	decidueyehisui: {
+		tier: "RU",
+	},
+	qwilfishhisui: {
+		tier: "RU",
+	},
+	overqwil: {
+		tier: "RU",
+	},
+	sneaselhisui: {
+		tier: "NFE",
+	},
+	sneasler: {
+		tier: "OU",
+	},
+	lilliganthisui: {
+		tier: "RU",
+	},
+	avalugghisui: {
+		tier: "RU",
+	},
+	enamorus: {
+		tier: "Uber",
+	},
+	enamorustherian: {
+		tier: "OU",
+	},
 };
