@@ -1520,7 +1520,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	pikachulibre: {
 		learnset: {
 			agility: ["8L45", "8T"],
-			aurahweel: ["8R"],
+			aurawheel: ["8R"],
 			babydolleyes: ["8L3"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
