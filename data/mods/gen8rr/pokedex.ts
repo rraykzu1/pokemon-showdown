@@ -4060,7 +4060,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Water 2"],
 	},
-	wishiwashischoolsevii: {
+	wishiwashiseviischool: {
 		num: 746,
 		name: "Wishiwashi-Sevii-School",
 		baseSpecies: "Wishiwashi-Sevii",

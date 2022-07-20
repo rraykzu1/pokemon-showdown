@@ -1524,6 +1524,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	pikachulibre: {
 		learnset: {
 			agility: ["8L45", "8T"],
+			aurahweel: ["8R"],
 			babydolleyes: ["8L3"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
@@ -10300,6 +10301,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquatail: ["8T"],
 			assurance: ["8E"],
 			bite: ["8L1"],
+			bravebird: ["8R"],
 			brutalswing: ["8M"],
 			bulldoze: ["8M"],
 			confide: ["8T"],
@@ -10321,6 +10323,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			foresight: ["8E"],
 			frustration: ["8M"],
 			gigaimpact: ["8L81", "8M"],
+			headlongrush: ["8R"],
 			heatwave: ["8T"],
 			hiddenpower: ["8M"],
 			honeclaws: ["8M"],

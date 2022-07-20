@@ -33,6 +33,18 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		basePower: 120,
 	},
+	aurawheel: {
+		inherit: true,
+		onTry(source) {
+			if (source.species.baseSpecies === 'Morpeko' || source.species.name === "Pikachu-Libre") {
+				return;
+			}
+			this.attrLastMove('[still]');
+			this.add('-fail', source, 'move: Aura Wheel');
+			this.hint("Only a Pokemon whose form is Morpeko, Morpeko-Hangry, or Pikachu-Libre can use this move.");
+			return null;
+		},
+	},
 	batonpass: {
 		inherit: true,
 		basePower: 40,
