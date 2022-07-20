@@ -7299,7 +7299,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thief: ["8M"],
 			tickle: ["8E"],
 			toxic: ["8M"],
-			vicegrip: ["8L5"],
+			visegrip: ["8L5"],
 			whirlpool: ["8T"],
 			xscissor: ["8M"]
 		}
@@ -7369,7 +7369,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			swordsdance: ["8M"],
 			thief: ["8M"],
 			toxic: ["8M"],
-			vicegrip: ["8L5"],
+			visegrip: ["8L5"],
 			whirlpool: ["8T"],
 			wideguard: ["8L1"],
 			xscissor: ["8M"]
@@ -9449,7 +9449,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thrash: ["8L43"],
 			throatchop: ["8T"],
 			toxic: ["8M"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			vitalthrow: ["8L18"],
 			xscissor: ["8L29", "8M"]
 		}
@@ -20870,7 +20870,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			taunt: ["8L34", "8M"],
 			toxic: ["8M"],
 			trumpcard: ["8E"],
-			vicegrip: ["8L5"],
+			visegrip: ["8L5"],
 			waterfall: ["8M"],
 			whirlpool: ["8T"],
 			xscissor: ["8M"]
@@ -20940,7 +20940,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			swordsdance: ["8L40", "8M"],
 			taunt: ["8L36", "8M"],
 			toxic: ["8M"],
-			vicegrip: ["8L5"],
+			visegrip: ["8L5"],
 			waterfall: ["8M"],
 			whirlpool: ["8T"],
 			xscissor: ["8M"]
@@ -40090,7 +40090,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderwave: ["8M"],
 			toxic: ["8M"],
 			uproar: ["8T"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			voltswitch: ["8M"],
 			wildcharge: ["8M"],
 			zapcannon: ["8L54"]
@@ -40138,7 +40138,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderwave: ["8M"],
 			toxic: ["8M"],
 			uproar: ["8T"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			voltswitch: ["8M"],
 			wildcharge: ["8M"],
 			zapcannon: ["8L60"]
@@ -40194,7 +40194,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			toxic: ["8M"],
 			trickroom: ["8M"],
 			uproar: ["8T"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			voltswitch: ["8M"],
 			volttackle: ["8L64"],
 			wildcharge: ["8M"],
@@ -42138,7 +42138,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderfang: ["8E", "8T"],
 			thunderwave: ["8M"],
 			toxic: ["8M"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			xscissor: ["8L41", "8M"]
 		}
 	},
@@ -46566,7 +46566,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			toxic: ["8M"],
 			uturn: ["8M"],
 			venoshock: ["8M"],
-			vicegrip: ["8L9"],
+			visegrip: ["8L9"],
 			waterfall: ["8M"],
 			watergun: ["8L1"],
 			waterpulse: ["8L34"],
@@ -46625,7 +46625,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			toxic: ["8M"],
 			uturn: ["8M"],
 			venoshock: ["8M"],
-			vicegrip: ["8L1", "8L9"],
+			visegrip: ["8L1", "8L9"],
 			waterfall: ["8M"],
 			watergun: ["8L1"],
 			waterpulse: ["8L34"],
@@ -49537,7 +49537,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderbolt: ["8M"],
 			thunderwave: ["8M"],
 			toxic: ["8M"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			voltswitch: ["8M"],
 			wildcharge: ["8M"],
 			xscissor: ["8L25", "8M"]
@@ -49579,7 +49579,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderbolt: ["8M"],
 			thunderwave: ["8M"],
 			toxic: ["8M"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			voltswitch: ["8M"],
 			wildcharge: ["8M"],
 			xscissor: ["8L31", "8M"]
@@ -49639,7 +49639,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderbolt: ["8L45", "8M"],
 			thunderwave: ["8M"],
 			toxic: ["8M"],
-			vicegrip: ["8L1"],
+			visegrip: ["8L1"],
 			voltswitch: ["8M"],
 			wildcharge: ["8M"],
 			xscissor: ["8M"],
@@ -60102,7 +60102,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thrash: ["8L54"],
 			toxic: ["8M"],
 			twister: ["8L1"],
-			vicegrip: ["8L1"]
+			visegrip: ["8L1"]
 		}
 	},
 	toxtricitylowkey: {
@@ -62859,7 +62859,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			torment: ["8L7"],
 			toxic: ["8M"],
 			uturn: ["8L30", "8M"],
-			vicegrip: ["8L9"],
+			visegrip: ["8L9"],
 			xscissor: ["8M"]
 		}
 	},
@@ -62912,7 +62912,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			torment: ["8L1", "8L7"],
 			toxic: ["8M"],
 			uturn: ["8L30", "8M"],
-			vicegrip: ["8L1", "8L9"],
+			visegrip: ["8L1", "8L9"],
 			waterpulse: ["8L1"],
 			xscissor: ["8M"]
 		}
