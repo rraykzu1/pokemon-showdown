@@ -523,7 +523,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	grimeralola: {
 		inherit: true,
-		abilities: {0: "Poison Touch", 1: "Gluttony", H: "Receiver"},
+		abilities: {0: "Poison Touch", 1: "Gluttony", H: "Power of Alchemy"},
 	},
 	muk: {
 		inherit: true,
@@ -532,7 +532,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	mukalola: {
 		inherit: true,
-		abilities: {0: "Poison Touch", 1: "Gluttony", H: "Receiver"},
+		abilities: {0: "Poison Touch", 1: "Gluttony", H: "Power of Alchemy"},
 	},
 	shellder: {
 		inherit: true,
@@ -1442,7 +1442,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	wailord: {
 		inherit: true,
 		baseStats: {hp: 150, atk: 50, def: 80, spa: 105, spd: 80, spe: 50},
-		abilities: {0: "Water Veil", 1: "Multiscale", H: "Pressure"},
+		abilities: {0: "Water Veil", 1: "Blubber Defense", H: "Pressure"},
 	},
 	numel: {
 		inherit: true,
@@ -1460,7 +1460,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	torkoal: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 75, def: 140, spa: 95, spd: 70, spe: 20},
-		abilities: {0: "Clear Body", 1: "Shell Armor", H: "Drought"},
+		abilities: {0: "White Smoke", 1: "Shell Armor", H: "Drought"},
 		items: {5: "Heat Rock", 50: "None"},
 	},
 	spoink: {
@@ -1530,7 +1530,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	whiscash: {
 		inherit: true,
-		abilities: {0: "Water Bubble", 1: "Anticipation", H: "Hydration"},
+		abilities: {0: "Hydration", 1: "Anticipation", H: "Cash Splash"},
 	},
 	claydol: {
 		inherit: true,
@@ -1702,10 +1702,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	regice: {
 		inherit: true,
 		abilities: {0: "Clear Body", H: "Filter"},
-	},
-	rayquaza: {
-		inherit: true,
-		abilities: {0: "Cloud Nine"},
 	},
 	jirachi: {
 		inherit: true,
@@ -3548,19 +3544,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	sizzlipede: {
 		inherit: true,
-		abilities: {0: "Flash Fire", 1: "Clear Body", H: "Flame Body"},
 		otherFormes: ["Sizzlipede-Sevii"],
 		formeOrder: ["Sizzlipede", "Sizzlipede-Sevii"],
 	},
 	centiskorch: {
 		inherit: true,
-		abilities: {0: "Flash Fire", 1: "Clear Body", H: "Flame Body"},
 		otherFormes: ["Centiskorch-Mega", "Centiskorch-Sevii", "Centiskorch-Sevii-Mega"],
 		formeOrder: ["Centiskorch", "Centiskorch-Mega", "Centiskorch-Sevii", "Centiskorch-Sevii-Mega"],
-	},
-	centiskorchgmax: {
-		inherit: true,
-		abilities: {0: "Flash Fire", 1: "Clear Body", H: "Flame Body"},
 	},
 	centiskorchmega: {
 		num: 851,
@@ -4019,7 +4009,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		types: ["Ground", "Bug"],
 		num: 850,
 		baseStats: {hp: 50, atk: 65, def: 45, spa: 50, spd: 50, spe: 45},
-		abilities: {0: "Shed Skin", 1: "Clear Body", H: "Mold Breaker"},
+		abilities: {0: "Shed Skin", 1: "White Smoke", H: "Mold Breaker"},
 		eggGroups: ["Bug"],
 		evos: ["Centiskorch-Sevii"],
 		weightkg: 1,
@@ -4031,7 +4021,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		types: ["Ground", "Bug"],
 		num: 851,
 		baseStats: {hp: 100, atk: 115, def: 65, spa: 65, spd: 90, spe: 90},
-		abilities: {0: "Shed Skin", 1: "Clear Body", H: "Mold Breaker"},
+		abilities: {0: "Shed Skin", 1: "White Smoke", H: "Mold Breaker"},
 		eggGroups: ["Bug"],
 		weightkg: 120,
 	},
@@ -4130,8 +4120,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	decidueyehisui: {
 		inherit: true,
 		isNonstandard: null,
-		baseStats: {hp: 95, atk: 112, def: 80, spa: 65, spd: 95, spe: 90},
-		abilities: {0: "Overgrow", 1: "Striker", H: "Tinted Lens"},
+		baseStats: {hp: 98, atk: 112, def: 85, spa: 75, spd: 100, spe: 70},
+		abilities: {0: "Overgrow", 1: "Striker", H: "Quill Rush"},
 	},
 	qwilfishhisui: {
 		inherit: true,
