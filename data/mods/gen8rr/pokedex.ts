@@ -2983,7 +2983,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	decidueye: {
 		inherit: true,
-		baseStats: {hp: 88, atk: 107, def: 75, spa: 100, spd: 100, spe: 70},
+		baseStats: {hp: 78, atk: 107, def: 75, spa: 95, spd: 85, spe: 100},
 		abilities: {0: "Overgrow", H: "Tinted Lens"},
 	},
 	pikipek: {
@@ -3932,7 +3932,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		name: "Mantine-Sevii",
 		baseSpecies: "Mantine",
 		forme: "Sevii",
-		num: 216,
+		num: 226,
 		types: ["Electric", "Poison"],
 		abilities: {0: "Static", 1: "Storm Drain", H: "Hydration"},
 		eggGroups: ["Water 1"],
