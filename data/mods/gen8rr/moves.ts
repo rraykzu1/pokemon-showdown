@@ -106,7 +106,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		target: "normal",
 		flags: {contact: 1, protect: 1, blade: 1, mirror: 1},
 		volatileStatus: "partiallytrapped",
-		desc: "Traps the opponent and deals damage at end of turn for 2-5 turns. Blademaster boosted.",
+		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		shortDesc: "Traps and damages the target for 4-5 turns.",
 	},
 	chargebeam: {
 		inherit: true,
@@ -135,11 +136,13 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		name: "Chloroblast",
 		pp: 15,
 		priority: 0,
-		flags: {contact: 1, protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},
 		recoil: [1, 3],
 		secondary: null,
 		target: "normal",
 		type: "Grass",
+		desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil.",
 	},
 	
 	covet: {
@@ -198,15 +201,15 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		num: 855,
 		basePower: 100,
 		accuracy: 100,
-		ignoreImmunity: true,
+		ignoreImmunity: {'Fairy': true},
 		flags: {protect: 1, mirror: 1},
 		target: "normal",
 		recoil: [1,3],
 		onModifyMove(move, pokemon) {
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
 		},
-		desc: "Can be physical or special depending on which Attack stat is higher. Deals 1/3 recoil damage and ignores immunities.",
-		
+		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP. This move can hit Fairy-type Pokemon.",
+		shortDesc: "Physical if user's Atk > Sp. Atk. Has 33% recoil. Ignores immunities.",
 	},
 	dracometeor: {
 		inherit: true,
@@ -397,6 +400,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		secondary: null,
 		target: "normal",
 		type: "Ground",
+		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
+		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
 	},
 	headsmash: {
 		inherit: true,
@@ -943,7 +948,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		target: "normal",
 		flags: {contact: 1, protect: 1, blade: 1, mirror: 1},
 		volatileStatus: "partiallytrapped",
-		desc: "Traps the opponent and deals damage at end of turn for 2-5 turns. Blademaster boosted.",
+		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		shortDesc: "Traps and damages the target for 4-5 turns.",
 	},
 	strengthsap: {
 		inherit: true,
@@ -996,29 +1002,22 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		pp: 15,
 		category: "Physical",
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
-		secondary: {
-			chance: 100,
-			boosts: {
-				def: -1,
-			},
-		},
-		priority: 0,
-		volatileStatus: 'focusenergy',
-		condition: {
-			onStart(target, source, effect) {
-				if (effect?.id === 'zpower') {
-					this.add('-start', source, 'move: Focus Energy', '[zeffect]');
-				} else if (effect && (['imposter', 'psychup', 'transform'].includes(effect.id))) {
-					this.add('-start', source, 'move: Focus Energy', '[silent]');
-				} else {
-					this.add('-start', source, 'move: Focus Energy');
+		secondaries: [
+			{
+				chance: 100,
+				boosts: {
+					def: -1,
+				},
+			}, {
+				chance: 100,
+				self: {
+					volatileStatus: 'focusenergy',
 				}
 			},
-			onModifyCritRatio(critRatio) {
-				return critRatio + 2;
-			},
-		},
-		desc: "100% chance to lower opponent defense, and gives focus energy boost after hit. Striker boosted.",
+		],
+		priority: 0,
+		desc: "Has a 100% chance to lower the target's Defense by 1 stage. Raises the user's chance for a critical hit by 2 stages.",
+		shortDesc: "Lower target's Defense by 1. Crit Ratio +2.",
 	},
 	tripleaxel: {
 		inherit: true,
@@ -1055,6 +1054,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		secondary: null,
 		target: "self",
 		type: "Fighting",
+		desc: "Raises the user's Attack, Defense, and Speed by 1 stage.",
+		shortDesc: "Raises the user's Atk, Def, Speed by 1.",
 	},
 	volttackle: {
 		inherit: true,
@@ -1101,7 +1102,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		target: "normal",
 		type: "Ghost",
 		zMove: {basePower: 140},
-		desc: "Has 30% chance to burn the target, deals double damage if opponent is statused.",
+		desc: "Has a 30% chance to burn the target. Power doubles if the target has a non-volatile status condition.",
+		shortDesc: "30% brn. Power doubles if the target is statused.",
 	},
 	bittermalice: {
 		num: 860,
@@ -1123,7 +1125,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		target: "normal",
 		type: "Ghost",
 		zMove: {basePower: 140},
-		desc: "Has 30% chance to frz, deals double damage if opponent is statused.",
+		desc: "Has a 30% chance to freeze the target. Power doubles if the target has a non-volatile status condition.",
+		shortDesc: "30% frz. Power doubles if the target is statused.",
 	},
 	barbbarrage: {
 		num: 859,
@@ -1145,7 +1148,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		target: "normal",
 		type: "Poison",
 		zMove: {basePower: 140},
-		desc: "Has 30% chance to poison the target, deals double damage if opponent is statused."
+		desc: "Has a 30% chance to poison the target. Power doubles if the target has a non-volatile status condition.",
+		shortDesc: "30% psn. Power doubles if the target is statused.",
 	},
 	// small accuracy changes for 2.4
 	willowisp: {
