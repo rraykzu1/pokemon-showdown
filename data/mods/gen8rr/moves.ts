@@ -1237,80 +1237,14 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			}
 		},
 	},
-
-	// freeze changes
-	blizzard: {
-		inherit: true,
-		secondary: {
-			status: 'frz',
-			chance: 10,
-		}
-	},
-	freezedry: {
-		inherit: true,
-		secondary: {
-			status: 'frz',
-			chance: 10,
-		}
-	},
-	freezingglare: {
-		inherit: true,
-		secondary: {
-			status: 'frz',
-			chance: 10,
-		}
-	},
-	icebeam: {
-		inherit: true,
-		secondary: {
-			status: 'frz',
-			chance: 10,
-		}
-	},
-	icepunch: {
-		inherit: true,
-		secondary: {
-			status: 'frz',
-			chance: 10,
-		}
-	},
-	powdersnow: {
-		inherit: true,
-		secondary: {
-			status: 'frz',
-			chance: 10,
-		}
-	},
-	// acc changes
 	triattack: {
 		inherit: true,
 		basePower: 90,
-		secondary: {
-			chance: 20,
-			onHit(target, source) {
-				const result = this.random(3);
-				if (result === 0) {
-					target.trySetStatus('brn', source);
-				} else if (result === 1) {
-					target.trySetStatus('par', source);
-				} else {
-					target.trySetStatus('frz', source);
-				}
-			},
-		},
 	},
+	// acc changes
 	icefang: {
 		inherit: true,
 		accuracy: 100,
-		secondaries: [
-			{
-				chance: 10,
-				status: 'frz',
-			}, {
-				chance: 10,
-				volatileStatus: 'flinch',
-			},
-		],
 	},
 	rocktomb: {
 		inherit: true,
