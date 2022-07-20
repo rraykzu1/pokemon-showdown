@@ -350,17 +350,16 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	genesissupernova: {
 		inherit: true,
-		secondary: {
-			self: {
-				boosts: {
-					atk: 1,
-					def: 1,
-					spa: 1,
-					spd: 1,
-					spe: 1,
-				},
+		selfBoost: {
+			boosts: {
+				atk: 1,
+				def: 1,
+				spa: 1,
+				spd: 1,
+				spe: 1,
 			},
 		},
+		secondary: {},
 	},
 	guillotine: {
 		inherit: true,
