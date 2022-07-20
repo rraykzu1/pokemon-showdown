@@ -3932,7 +3932,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		name: "Mantine-Sevii",
 		baseSpecies: "Mantine",
 		forme: "Sevii",
-		num: 216,
+		num: 226,
 		types: ["Electric", "Poison"],
 		abilities: {0: "Static", 1: "Storm Drain", H: "Hydration"},
 		eggGroups: ["Water 1"],
