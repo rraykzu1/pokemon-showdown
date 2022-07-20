@@ -669,7 +669,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			aircutter: ["8L27"],
 			airslash: ["8L43", "8T"],
-			batonpass: ["8T"],
 			bugbite: ["8T"],
 			bugbuzz: ["8L31", "8T"],
 			captivate: ["8L37"],
@@ -750,7 +749,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8L38", "8T"],
 			assurance: ["8L26"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			brutalswing: ["8M"],
 			bugbite: ["8T"],
@@ -1084,7 +1082,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8L25", "8T"],
 			assurance: ["8L22"],
 			astonish: ["8E"],
-			batonpass: ["8T"],
 			bravebird: ["8M"],
 			confide: ["8T"],
 			defog: ["8M"],
@@ -1136,7 +1133,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8L27", "8T"],
 			assurance: ["8L23"],
-			batonpass: ["8T"],
 			bravebird: ["8L48", "8M", "8T"],
 			confide: ["8T"],
 			defog: ["8M"],
@@ -3100,7 +3096,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	clefairy: {
 		learnset: {
 			afteryou: ["8L58", "8T"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8L40", "8T"],
 			bounce: ["8T"],
@@ -3198,7 +3193,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	clefable: {
 		learnset: {
 			afteryou: ["8T"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
@@ -3419,7 +3413,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	jigglypuff: {
 		learnset: {
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8L32", "8T"],
 			bounce: ["8T"],
@@ -3507,7 +3500,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	wigglytuff: {
 		learnset: {
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
@@ -4014,7 +4006,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	venonat: {
 		learnset: {
 			agility: ["8E", "8T"],
-			batonpass: ["8T"],
 			bugbite: ["8E", "8T"],
 			confide: ["8T"],
 			confusion: ["8L11"],
@@ -4064,7 +4055,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			acrobatics: ["8M"],
 			aerialace: ["8M"],
 			agility: ["8T"],
-			batonpass: ["8T"],
 			bugbite: ["8T"],
 			bugbuzz: ["8L0", "8L1", "8T"],
 			confide: ["8T"],
@@ -5960,7 +5950,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rapidash: {
 		learnset: {
 			agility: ["8L37", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bounce: ["8L45", "8T"],
 			confide: ["8T"],
@@ -6293,7 +6282,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8L9", "8M"],
 			agility: ["8L31", "8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bravebird: ["8L1", "8L55", "8M", "8T"],
 			brickbreak: ["8M"],
@@ -6421,7 +6409,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			agility: ["8L26", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bravebird: ["8L60", "8M", "8T"],
 			confide: ["8T"],
@@ -7180,7 +7167,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	hypno: {
 		learnset: {
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
 			calmmind: ["8M"],
@@ -9037,7 +9023,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			barrier: ["8L1"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
 			calmmind: ["8M"],
@@ -9140,7 +9125,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8L17", "8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			brutalswing: ["8M"],
 			bugbite: ["8T"],
@@ -9706,7 +9690,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	eevee: {
 		learnset: {
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			bite: ["8L17"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
@@ -9771,7 +9754,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquatail: ["8T"],
 			aurorabeam: ["8L20"],
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			brine: ["8L17"],
@@ -9833,7 +9815,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8L29", "8T"],
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
 			celebrate: ["8T"],
@@ -9896,7 +9877,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	flareon: {
 		learnset: {
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			bite: ["8L17"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
@@ -10533,7 +10513,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8L43", "8T"],
 			airslash: ["8T"],
 			ancientpower: ["8L29"],
-			batonpass: ["8T"],
 			boltbeak: ["8L1"],
 			bravebird: ["8M", "8T"],
 			charge: ["8L36"],
@@ -10979,7 +10958,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquatail: ["8T"],
 			aurasphere: ["8L100", "8T"],
 			barrier: ["8L40"],
-			batonpass: ["8T"],
 			blazekick: ["8T"],
 			blizzard: ["8M"],
 			block: ["8T"],
@@ -11819,7 +11797,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquatail: ["8T"],
 			assist: ["8E"],
 			babydolleyes: ["8E"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
@@ -11893,7 +11870,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8L0", "8L1", "8T"],
 			amnesia: ["8L42"],
 			aquatail: ["8T"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
@@ -12108,7 +12084,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8L29", "8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			bide: ["8E"],
 			brickbreak: ["8M"],
 			bugbite: ["8L19", "8E", "8T"],
@@ -12167,7 +12142,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8L33", "8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			bugbite: ["8L20", "8T"],
 			bugbuzz: ["8T"],
@@ -12228,7 +12202,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			absorb: ["8L5"],
 			agility: ["8L33", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
 			bugbite: ["8T"],
@@ -12292,7 +12265,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			absorb: ["8L1", "8L5"],
 			agility: ["8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
 			bugbite: ["8L1", "8T"],
@@ -12742,7 +12714,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8E"],
 			afteryou: ["8L53", "8T"],
 			ancientpower: ["8L33"],
-			batonpass: ["8T"],
 			bestow: ["8L25"],
 			bodyslam: ["8T"],
 			charm: ["8L1"],
@@ -12818,7 +12789,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			afteryou: ["8L53", "8T"],
 			airslash: ["8L27"],
 			ancientpower: ["8L33"],
-			batonpass: ["8T"],
 			bestow: ["8L25"],
 			bodyslam: ["8T"],
 			bravebird: ["8M"],
@@ -12903,7 +12873,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			bravebird: ["8M"],
 			calmmind: ["8M"],
 			confide: ["8T"],
@@ -12983,7 +12952,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			airslash: ["8L0", "8L1", "8T"],
-			batonpass: ["8T"],
 			bravebird: ["8M"],
 			calmmind: ["8M"],
 			confide: ["8T"],
@@ -13231,7 +13199,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	bellossom: {
 		learnset: {
 			afteryou: ["8T"],
-			batonpass: ["8T"],
 			bulletseed: ["8M"],
 			confide: ["8T"],
 			cut: ["8M"],
@@ -13571,7 +13538,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			amnesia: ["8E"],
 			aromatherapy: ["8E"],
-			batonpass: ["8T"],
 			bounce: ["8L46", "8T"],
 			bulletseed: ["8L19", "8M"],
 			confide: ["8T"],
@@ -13630,7 +13596,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			absorb: ["8L1"],
 			acrobatics: ["8L32", "8M"],
 			aerialace: ["8M"],
-			batonpass: ["8T"],
 			bounce: ["8L56", "8T"],
 			bulletseed: ["8L20", "8M"],
 			confide: ["8T"],
@@ -13685,7 +13650,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			absorb: ["8L1"],
 			acrobatics: ["8L34", "8M"],
 			aerialace: ["8M"],
-			batonpass: ["8T"],
 			bounce: ["8L64", "8T"],
 			bulletseed: ["8L20", "8M"],
 			confide: ["8T"],
@@ -13747,7 +13711,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8L29", "8E", "8T"],
 			astonish: ["8L5"],
-			batonpass: ["8T"],
 			beatup: ["8E"],
 			bodyslam: ["8T"],
 			bounce: ["8E", "8T"],
@@ -14131,7 +14094,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	espeon: {
 		learnset: {
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
 			celebrate: ["8T"],
@@ -14199,7 +14161,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			assurance: ["8L1"],
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
 			celebrate: ["8T"],
@@ -14508,7 +14469,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			amnesia: ["8E"],
 			assurance: ["8L10"],
 			astonish: ["8L1"],
-			batonpass: ["8T"],
 			beatup: ["8E"],
 			bodyslam: ["8T"],
 			boomburst: ["8L56"],
@@ -14721,7 +14681,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			ancientpower: ["8L18", "8E"],
 			aquatail: ["8T"],
 			astonish: ["8E"],
-			batonpass: ["8T"],
 			bite: ["8E"],
 			blizzard: ["8M"],
 			bodyslam: ["8L21", "8T"],
@@ -14806,7 +14765,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8E", "8T"],
 			aquatail: ["8T"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			bugbite: ["8T"],
 			bulldoze: ["8M"],
@@ -15202,7 +15160,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8L17", "8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			brutalswing: ["8M"],
 			bugbite: ["8T"],
@@ -16103,7 +16060,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8T"],
 			aurorabeam: ["8E"],
-			batonpass: ["8T"],
 			bestow: ["8E"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
@@ -17812,7 +17768,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			ancientpower: ["8L28"],
 			aurasphere: ["8T"],
-			batonpass: ["8T"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
 			confide: ["8T"],
@@ -18126,7 +18081,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			agility: ["8E", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
 			confide: ["8T"],
@@ -18191,7 +18145,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			agility: ["8T"],
-			batonpass: ["8T"],
 			blazekick: ["8T"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
@@ -18264,7 +18217,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8T"],
 			aurasphere: ["8T"],
-			batonpass: ["8T"],
 			blastburn: ["8T"],
 			blazekick: ["8L0", "8L1", "8T"],
 			bodyslam: ["8T"],
@@ -19356,7 +19308,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8L0", "8L1", "8M"],
 			agility: ["8L17", "8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			bugbite: ["8L1", "8T"],
 			bugbuzz: ["8T"],
 			confide: ["8T"],
@@ -19464,7 +19415,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8L21", "8M"],
 			agility: ["8L29", "8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			bravebird: ["8L41", "8M", "8T"],
 			confide: ["8T"],
 			defog: ["8E", "8M"],
@@ -19514,7 +19464,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8L21", "8M"],
 			agility: ["8L33", "8T"],
 			airslash: ["8L1", "8T"],
-			batonpass: ["8T"],
 			boomburst: ["8L65"],
 			bravebird: ["8L51", "8M", "8T"],
 			confide: ["8T"],
@@ -19679,7 +19628,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	spinda: {
 		learnset: {
 			assist: ["8E"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
 			calmmind: ["8M"],
@@ -19877,7 +19825,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8L22", "8T"],
 			aquajet: ["8L30", "8E"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bubble: ["8L1"],
 			bugbite: ["8E", "8T"],
@@ -19930,7 +19877,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8T"],
 			aircutter: ["8L17"],
 			airslash: ["8L22", "8T"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bubble: ["8L1"],
 			bubblebeam: ["8L1"],
@@ -20107,7 +20053,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			assist: ["8L31"],
 			attract: ["8L10"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
@@ -20177,7 +20122,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	delcatty: {
 		learnset: {
 			attract: ["8L1"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
@@ -22244,7 +22188,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	lunatone: {
 		learnset: {
 			acrobatics: ["8M"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			bulldoze: ["8M"],
@@ -22325,7 +22268,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	solrock: {
 		learnset: {
 			acrobatics: ["8M"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bulldoze: ["8M"],
 			calmmind: ["8M"],
@@ -22597,7 +22539,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	plusle: {
 		learnset: {
 			agility: ["8L37", "8T"],
-			batonpass: ["8T"],
 			bestow: ["8L13"],
 			bodyslam: ["8T"],
 			charge: ["8L28"],
@@ -22660,7 +22601,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	minun: {
 		learnset: {
 			agility: ["8L37", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			charge: ["8L28"],
 			chargebeam: ["8M"],
@@ -22727,7 +22667,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			ancientpower: ["8E"],
 			astonish: ["8L1"],
-			batonpass: ["8T"],
 			bite: ["8L9"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
@@ -22817,7 +22756,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	meditite: {
 		learnset: {
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
 			bulkup: ["8M"],
@@ -22897,7 +22835,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	medicham: {
 		learnset: {
 			aurasphere: ["8T"],
-			batonpass: ["8T"],
 			blazekick: ["8T"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
@@ -23961,7 +23898,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aquafang: ["8L50"],
 			aquatail: ["8L39", "8T"],
-			batonpass: ["8T"],
 			bite: ["8L0", "8L1"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
@@ -24018,7 +23954,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			amnesia: ["8L16"],
 			aquaring: ["8L19"],
 			aquatail: ["8L39", "8T"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
@@ -24069,7 +24004,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			airslash: ["8T"],
 			assurance: ["8E"],
-			batonpass: ["8T"],
 			bite: ["8L16"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
@@ -24806,7 +24740,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			acrobatics: ["8M"],
 			aerialace: ["8M"],
 			agility: ["8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
 			bugbite: ["8T"],
@@ -24873,7 +24806,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			acrobatics: ["8M"],
 			aerialace: ["8M"],
 			aromatherapy: ["8E"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
 			bugbite: ["8L15", "8T"],
@@ -26182,7 +26114,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8T"],
 			airslash: ["8T"],
 			aurasphere: ["8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			breakingswipe: ["8T"],
 			bulldoze: ["8M"],
@@ -26280,7 +26211,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8T"],
 			airslash: ["8T"],
 			aurasphere: ["8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			breakingswipe: ["8T"],
 			bulldoze: ["8M"],
@@ -26371,7 +26301,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			aurasphere: ["8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
@@ -28403,7 +28332,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquajet: ["8L24"],
 			aquaring: ["8E"],
 			aquatail: ["8L38", "8E", "8T"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			brickbreak: ["8M"],
 			bulkup: ["8M"],
@@ -28465,7 +28393,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8T"],
 			aquajet: ["8L24"],
 			aquatail: ["8L46", "8T"],
-			batonpass: ["8T"],
 			bite: ["8L1"],
 			blizzard: ["8M"],
 			brickbreak: ["8M"],
@@ -28744,7 +28671,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8L29", "8T"],
 			armthrust: ["8L60"],
 			astonish: ["8L8"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
 			brickbreak: ["8M"],
@@ -28823,7 +28749,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			acrobatics: ["8M"],
 			amnesia: ["8L40"],
 			astonish: ["8L4"],
-			batonpass: ["8T"],
 			bodyslam: ["8E", "8T"],
 			brutalswing: ["8M"],
 			calmmind: ["8M"],
@@ -28889,7 +28814,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			airslash: ["8L34", "8T"],
 			amnesia: ["8L46"],
 			astonish: ["8L1", "8L4"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			brutalswing: ["8M"],
 			calmmind: ["8M"],
@@ -28952,7 +28876,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			afteryou: ["8L43", "8T"],
 			agility: ["8L33", "8T"],
 			babydolleyes: ["8L13"],
-			batonpass: ["8T"],
 			bounce: ["8L56", "8T"],
 			chargebeam: ["8M"],
 			charm: ["8L46"],
@@ -29030,7 +28953,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8L33", "8T"],
 			aurasphere: ["8T"],
 			babydolleyes: ["8L13"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bounce: ["8L1", "8L56", "8T"],
 			brickbreak: ["8M"],
@@ -29751,7 +29673,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	mimejr: {
 		learnset: {
 			barrier: ["8L1"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
@@ -30703,7 +30624,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	croagunk: {
 		learnset: {
 			astonish: ["8L1"],
-			batonpass: ["8T"],
 			belch: ["8L47"],
 			bounce: ["8T"],
 			brickbreak: ["8M"],
@@ -30790,7 +30710,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			astonish: ["8L1"],
 			aurasphere: ["8T"],
-			batonpass: ["8T"],
 			belch: ["8L58"],
 			bounce: ["8T"],
 			brickbreak: ["8M"],
@@ -31778,7 +31697,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			afteryou: ["8L1", "8T"],
 			airslash: ["8L1", "8T"],
 			aurasphere: ["8L1", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bravebird: ["8M"],
 			brickbreak: ["8M"],
@@ -31911,7 +31829,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bulletseed: ["8M"],
 			calmmind: ["8M"],
@@ -31980,7 +31897,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquatail: ["8T"],
 			babydolleyes: ["8L9"],
 			barrier: ["8L29"],
-			batonpass: ["8T"],
 			bite: ["8L17"],
 			blizzard: ["8L45", "8M"],
 			bodyslam: ["8T"],
@@ -32041,7 +31957,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8T"],
 			aquatail: ["8T"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			brutalswing: ["8M"],
 			bugbite: ["8T"],
@@ -32624,7 +32539,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			acrobatics: ["8M"],
 			amnesia: ["8L46"],
-			batonpass: ["8T"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
 			confide: ["8T"],
@@ -32703,7 +32617,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	mesprit: {
 		learnset: {
 			acrobatics: ["8M"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
@@ -32780,7 +32693,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	azelf: {
 		learnset: {
 			acrobatics: ["8M"],
-			batonpass: ["8T"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
 			confide: ["8T"],
@@ -33657,7 +33569,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	arceuswater: {},
 	victini: {
 		learnset: {
-			batonpass: ["8T"],
 			blazekick: ["8T"],
 			blueflare: ["8L1"],
 			boltstrike: ["8L1"],
@@ -34331,7 +34242,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			afteryou: ["8T"],
 			aquatail: ["8T"],
 			assurance: ["8E"],
-			batonpass: ["8T"],
 			bide: ["8L8"],
 			bite: ["8L6"],
 			bodyslam: ["8L26"],
@@ -34392,7 +34302,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			afteryou: ["8T"],
 			aquatail: ["8T"],
-			batonpass: ["8T"],
 			bide: ["8L8"],
 			bite: ["8L1", "8L6"],
 			bodyslam: ["8L29"],
@@ -34639,7 +34548,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			assist: ["8L6"],
 			assurance: ["8L28"],
-			batonpass: ["8T"],
 			captivate: ["8L33"],
 			charm: ["8E"],
 			confide: ["8T"],
@@ -34705,7 +34613,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			assist: ["8L1", "8L6"],
 			assurance: ["8L31"],
-			batonpass: ["8T"],
 			confide: ["8T"],
 			covet: ["8T"],
 			cut: ["8M"],
@@ -35704,7 +35611,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			amnesia: ["8L29"],
 			assurance: ["8L12"],
 			attract: ["8L25"],
-			batonpass: ["8T"],
 			calmmind: ["8L29", "8M"],
 			captivate: ["8E"],
 			chargebeam: ["8M"],
@@ -35784,7 +35690,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			amnesia: ["8L29"],
 			assurance: ["8L1", "8L12"],
 			attract: ["8L25"],
-			batonpass: ["8T"],
 			calmmind: ["8L29", "8M"],
 			chargebeam: ["8M"],
 			confide: ["8T"],
@@ -36555,7 +36460,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8E", "8T"],
 			airslash: ["8E", "8T"],
-			batonpass: ["8T"],
 			bugbite: ["8L8", "8T"],
 			bugbuzz: ["8L36", "8T"],
 			calmmind: ["8M"],
@@ -36608,7 +36512,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			bugbite: ["8L1", "8T"],
 			bugbuzz: ["8T"],
 			calmmind: ["8M"],
@@ -36656,7 +36559,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8T"],
 			airslash: ["8T"],
-			batonpass: ["8T"],
 			bugbite: ["8L1", "8L8", "8T"],
 			bugbuzz: ["8T"],
 			calmmind: ["8M"],
@@ -36818,7 +36720,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8L33", "8T"],
 			aquatail: ["8T"],
-			batonpass: ["8T"],
 			bugbite: ["8L23", "8T"],
 			bulldoze: ["8M"],
 			confide: ["8T"],
@@ -39341,7 +39242,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8E", "8T"],
 			aromatherapy: ["8L28"],
-			batonpass: ["8T"],
 			bounce: ["8T"],
 			bulletseed: ["8M"],
 			camouflage: ["8L1"],
@@ -39392,7 +39292,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8T"],
 			aromatherapy: ["8L28"],
-			batonpass: ["8T"],
 			bounce: ["8T"],
 			bulletseed: ["8M"],
 			camouflage: ["8L1"],
@@ -39455,7 +39354,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aircutter: ["8L19"],
 			airslash: ["8E", "8T"],
 			astonish: ["8E"],
-			batonpass: ["8T"],
 			charge: ["8L10"],
 			chargebeam: ["8M"],
 			charm: ["8E"],
@@ -41109,7 +41007,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			absorb: ["8L1"],
 			acid: ["8L4"],
 			acidarmor: ["8L32"],
-			batonpass: ["8T"],
 			bide: ["8L8"],
 			bodyslam: ["8L40", "8T"],
 			bugbite: ["8T"],
@@ -41158,7 +41055,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			absorb: ["8L1"],
 			acidspray: ["8L1", "8L4"],
 			agility: ["8L32", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bugbite: ["8T"],
 			bugbuzz: ["8L44", "8T"],
@@ -41283,7 +41179,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8T"],
 			aurasphere: ["8L61", "8T"],
-			batonpass: ["8T"],
 			bounce: ["8L49", "8T"],
 			brickbreak: ["8M"],
 			bulkup: ["8M"],
@@ -41353,7 +41248,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			agility: ["8T"],
 			aurasphere: ["8L70", "8T"],
-			batonpass: ["8T"],
 			blazekick: ["8T"],
 			bounce: ["8L49", "8T"],
 			brickbreak: ["8M"],
@@ -42192,7 +42086,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aerialace: ["8M"],
 			agility: ["8L6", "8T"],
-			batonpass: ["8T"],
 			bite: ["8L1"],
 			bugbite: ["8L16", "8T"],
 			confide: ["8T"],
@@ -46234,7 +46127,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	inkay: {
 		learnset: {
 			aerialace: ["8M"],
-			batonpass: ["8T"],
 			calmmind: ["8M"],
 			camouflage: ["8E"],
 			confide: ["8T"],
@@ -46300,7 +46192,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	malamar: {
 		learnset: {
 			aerialace: ["8M"],
-			batonpass: ["8T"],
 			block: ["8T"],
 			brutalswing: ["8M"],
 			calmmind: ["8M"],
@@ -47162,7 +47053,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	sylveon: {
 		learnset: {
 			babydolleyes: ["8L9"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			calmmind: ["8M"],
 			celebrate: ["8T"],
@@ -47224,7 +47114,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			acrobatics: ["8L65", "8M"],
 			aerialace: ["8L16", "8M"],
 			agility: ["8E", "8T"],
-			batonpass: ["8T"],
 			bodypress: ["8M", "8T"],
 			bounce: ["8L32", "8T"],
 			bravebird: ["8M", "8T"],
@@ -48361,7 +48250,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			afteryou: ["8T"],
 			ancientpower: ["8L27"],
-			batonpass: ["8T"],
 			bodypress: ["8M", "8T"],
 			calmmind: ["8M"],
 			confide: ["8T"],
@@ -48780,7 +48668,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rowlet: {
 		learnset: {
 			astonish: ["8L11"],
-			batonpass: ["8T"],
 			bravebird: ["8L43", "8M", "8T"],
 			confide: ["8T"],
 			confuseray: ["8E"],
@@ -48838,7 +48725,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	dartrix: {
 		learnset: {
 			astonish: ["8L11"],
-			batonpass: ["8T"],
 			bravebird: ["8L51", "8M", "8T"],
 			confide: ["8T"],
 			covet: ["8T"],
@@ -48896,7 +48782,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			acrobatics: ["8M"],
 			airslash: ["8T"],
 			astonish: ["8L11"],
-			batonpass: ["8T"],
 			bravebird: ["8L55", "8M", "8T"],
 			bulkup: ["8M"],
 			confide: ["8T"],
@@ -49884,7 +49769,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8L46", "8T"],
 			aircutter: ["8L13"],
 			airslash: ["8L36", "8T"],
-			batonpass: ["8T"],
 			bravebird: ["8M"],
 			calmmind: ["8M"],
 			captivate: ["8L33", "8E"],
@@ -49937,7 +49821,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			afteryou: ["8T"],
 			aromatherapy: ["8L36"],
 			aromaticmist: ["8E"],
-			batonpass: ["8T"],
 			bestow: ["8E"],
 			bugbite: ["8T"],
 			bugbuzz: ["8L26", "8T"],
@@ -49999,7 +49882,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aerialace: ["8M"],
 			afteryou: ["8T"],
 			aromatherapy: ["8L42"],
-			batonpass: ["8T"],
 			bugbite: ["8T"],
 			bugbuzz: ["8L28", "8T"],
 			calmmind: ["8M"],
@@ -51610,7 +51492,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	pyukumuku: {
 		learnset: {
-			batonpass: ["8T"],
 			bestow: ["8E"],
 			bide: ["8L1"],
 			block: ["8T"],
@@ -53553,7 +53434,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8T"],
 			aurasphere: ["8L81", "8T"],
 			aurorabeam: ["8L17"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
@@ -53624,7 +53504,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8T"],
 			aurasphere: ["8L81", "8T"],
 			aurorabeam: ["8L17"],
-			batonpass: ["8T"],
 			brickbreak: ["8M"],
 			calmmind: ["8M"],
 			chargebeam: ["8M"],
@@ -55976,7 +55855,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			acrobatics: ["8M"],
 			agility: ["8L20", "8T"],
-			batonpass: ["8T"],
 			blastburn: ["8T"],
 			blazekick: ["8T"],
 			bounce: ["8L32", "8T"],
@@ -56027,7 +55905,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			acrobatics: ["8M"],
 			agility: ["8L24", "8T"],
-			batonpass: ["8T"],
 			blastburn: ["8T"],
 			blazekick: ["8T"],
 			bounce: ["8L42", "8T"],
@@ -56079,7 +55956,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			acrobatics: ["8M"],
 			agility: ["8L24", "8T"],
-			batonpass: ["8T"],
 			blastburn: ["8T"],
 			blazekick: ["8T"],
 			bounce: ["8L46", "8T"],
@@ -56145,7 +56021,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aquajet: ["8L6", "8E"],
 			aquaring: ["8E"],
-			batonpass: ["8T"],
 			bounce: ["8T"],
 			confide: ["8T"],
 			facade: ["8M"],
@@ -56186,7 +56061,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	drizzile: {
 		learnset: {
 			aquajet: ["8L6"],
-			batonpass: ["8T"],
 			bind: ["8L1"],
 			bounce: ["8T"],
 			confide: ["8T"],
@@ -56228,7 +56102,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8T"],
 			airslash: ["8T"],
 			aquajet: ["8L6"],
-			batonpass: ["8T"],
 			bind: ["8L1"],
 			blizzard: ["8M"],
 			bounce: ["8T"],
@@ -56580,7 +56453,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			afteryou: ["8L40", "8T"],
 			agility: ["8L12", "8T"],
-			batonpass: ["8T"],
 			bodypress: ["8M", "8T"],
 			bugbuzz: ["8L28", "8T"],
 			calmmind: ["8L44", "8M"],
@@ -56637,7 +56509,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			agility: ["8T"],
 			assurance: ["8L16"],
-			batonpass: ["8T"],
 			beatup: ["8L4"],
 			confide: ["8T"],
 			darkpulse: ["8L32"],
@@ -56677,7 +56548,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			acrobatics: ["8M"],
 			agility: ["8T"],
 			assurance: ["8L16"],
-			batonpass: ["8T"],
 			beatup: ["8L4"],
 			confide: ["8T"],
 			crunch: ["8T"],
@@ -56847,7 +56717,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	dubwool: {
 		learnset: {
 			agility: ["8T"],
-			batonpass: ["8T"],
 			bodypress: ["8M", "8T"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
@@ -57885,7 +57754,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aromatherapy: ["8L30"],
 			aromaticmist: ["8L6"],
-			batonpass: ["8T"],
 			confide: ["8T"],
 			darkpulse: ["8M"],
 			detect: ["8L18"],
@@ -57924,7 +57792,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aromatherapy: ["8L30"],
 			aromaticmist: ["8L6"],
-			batonpass: ["8T"],
 			confide: ["8T"],
 			curse: ["8L66"],
 			darkpulse: ["8M"],
@@ -57970,7 +57837,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			aromatherapy: ["8L30"],
 			aromaticmist: ["8L6"],
-			batonpass: ["8T"],
 			confide: ["8T"],
 			curse: ["8L66"],
 			darkpulse: ["8M"],
@@ -58017,7 +57883,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			afteryou: ["8E", "8T"],
 			aromatherapy: ["8L15"],
 			aromaticmist: ["8E"],
-			batonpass: ["8T"],
 			calmmind: ["8L35", "8M"],
 			confide: ["8T"],
 			confusion: ["8L1"],
@@ -58059,7 +57924,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			afteryou: ["8T"],
 			aromatherapy: ["8L15"],
-			batonpass: ["8T"],
 			brutalswing: ["8L1", "8M"],
 			calmmind: ["8L37", "8M"],
 			confide: ["8T"],
@@ -58100,7 +57964,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 		learnset: {
 			afteryou: ["8T"],
 			aromatherapy: ["8L15"],
-			batonpass: ["8T"],
 			brutalswing: ["8L1", "8M"],
 			calmmind: ["8L37", "8M"],
 			confide: ["8T"],
@@ -58381,7 +58244,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	perrserker: {
 		learnset: {
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bulletpunch: ["8L22"],
 			closecombat: ["8T"],
@@ -58579,7 +58441,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	mrrime: {
 		learnset: {
 			afteryou: ["8L1", "8T"],
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			block: ["8L1", "8T"],
 			bodyslam: ["8T"],
@@ -59608,7 +59469,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	dreepy: {
 		learnset: {
 			astonish: ["8L1"],
-			batonpass: ["8T"],
 			bite: ["8L1"],
 			confide: ["8T"],
 			confuseray: ["8E"],
@@ -59640,7 +59500,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			agility: ["8L24", "8T"],
 			assurance: ["8L12"],
 			astonish: ["8L1"],
-			batonpass: ["8T"],
 			bite: ["8L1"],
 			breakingswipe: ["8T"],
 			confide: ["8T"],
@@ -59694,7 +59553,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquatail: ["8T"],
 			assurance: ["8L12"],
 			astonish: ["8L1"],
-			batonpass: ["8T"],
 			bite: ["8L1"],
 			bodyslam: ["8T"],
 			breakingswipe: ["8T"],
@@ -60310,7 +60168,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	indeedeef: {
 		learnset: {
 			aromatherapy: ["8L30"],
-			batonpass: ["8T"],
 			calmmind: ["8L40", "8M"],
 			confide: ["8T"],
 			dazzlinggleam: ["8M"],
@@ -60515,7 +60372,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rapidashgalar: {
 		learnset: {
 			agility: ["8L20", "8T"],
-			batonpass: ["8T"],
 			bodyslam: ["8T"],
 			bounce: ["8T"],
 			calmmind: ["8M"],
@@ -60816,7 +60672,6 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	mrmimegalar: {
 		learnset: {
-			batonpass: ["8T"],
 			blizzard: ["8M"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
