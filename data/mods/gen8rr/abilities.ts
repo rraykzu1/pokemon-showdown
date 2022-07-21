@@ -411,11 +411,18 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	},
 	parasiticwaste: {
 		onModifyMove(move) {
-			if (!move.secondaries) move.secondaries = [];
+			if (!move.secondaries) return;
 			for (const secondary of move.secondaries) {
 				if ((move.category !== 'Status') && (secondary.status === 'psn' || secondary.status === 'tox')) {
 					move.drain = [1, 2];
+					move.parasiticWasteBoosted = true;
 				}
+			}
+		},
+		onTryHeal(damage, target, source, effect) {
+			if (!effect) return;
+			if (effect.id === 'drain' && this.activeMove?.parasiticWasteBoosted) {
+				this.add('-activate', target, 'ability: Parasitic Waste');
 			}
 		},
 		name: "Parasitic Waste",
