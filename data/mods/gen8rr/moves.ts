@@ -916,6 +916,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	steameruption: {
 		inherit: true,
+		accuracy: 100,
 		basePower: 120,
 	},
 	stickyweb: {
