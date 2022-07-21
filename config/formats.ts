@@ -67,7 +67,12 @@ export const Formats: FormatList = [
 		name: "[Gen 8] OU",
 		mod: 'gen8rr',
 		ruleset: ['Standard', 'Dynamax Clause'],
-		banlist: ['Uber', 'AG', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Swagger', 'Misty Explosion', 'Dark Hole'],
+		banlist: [
+			'Uber', 'AG',
+			'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap',
+			'Swagger', 'Misty Explosion', 'Dark Hole', 'Draco Barrage',
+			'Centiskorch-Sevii + Centiskite Sevii + Shed Skin', 'Centiskorch-Sevii + Centiskite Sevii + Mold Breaker',
+		],
 	},
 	{
 		name: "[Gen 8] Ubers",
@@ -161,7 +166,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] 2.3 UU",
 		mod: 'gen8rr2.3',
-		ruleset: ['[Gen 8] OU'],
+		ruleset: ['[Gen 8] 2.3 OU'],
 		banlist: ['OU', 'UUBL', 'Drought', 'Drizzle', 'Forecast', 'Icy Rock'],
 	},
 	{
