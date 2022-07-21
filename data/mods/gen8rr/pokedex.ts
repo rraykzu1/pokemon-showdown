@@ -80,13 +80,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	spearow: {
 		inherit: true,
-		abilities: {0: "Frisk", H: "Sniper"},
+		abilities: {0: "Frisk", 1: "Technician", H: "Sniper"},
 		items: {5: "Sharp Beak", 50: "None"},
 	},
 	fearow: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 100, def: 65, spa: 61, spd: 61, spe: 115},
-		abilities: {0: "Sniper", H: "Technician"},
+		abilities: {0: "Frisk", 1: "Technician", H: "Sniper"},
 		items: {5: "Sharp Beak", 50: "None"},
 	},
 	ekans: {
@@ -2805,7 +2805,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	pangoro: {
 		inherit: true,
-		abilities: {0: "Iron Fist", 1: "Mold Breaker", H: "Quick Feet"},
+		abilities: {0: "Iron Fist", 1: "Mold Breaker", H: "Scrappy"},
 		items: {5: "Mental Herb", 50: "None"},
 	},
 	furfrou: {

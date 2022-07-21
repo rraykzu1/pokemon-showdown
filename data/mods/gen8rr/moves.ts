@@ -81,6 +81,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	bonemerang: {
 		inherit: true,
+		accuracy: 100,
 		flags: {protect: 1, mirror: 1, bone: 1},
 	},
 	bonerush: {
@@ -226,6 +227,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	dualwingbeat: {
 		inherit: true,
+		accuracy: 100,
 		zMove: {basePower: 160},
 	},
 	esperwing: {
