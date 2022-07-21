@@ -947,7 +947,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		category: "Physical",
 		pp: 10,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 65,
 		target: "normal",
 		flags: {contact: 1, protect: 1, blade: 1, mirror: 1},
 		volatileStatus: "partiallytrapped",
