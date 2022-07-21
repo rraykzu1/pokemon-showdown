@@ -2245,6 +2245,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Justified", H: "Blademaster"},
 	},
+	keldeoresolute: {
+		inherit: true,
+		abilities: {0: "Justified", H: "Blademaster"},
+	},
 	patrat: {
 		inherit: true,
 		abilities: {0: "Run Away", 1: "Frisk", H: "Analytic"},
