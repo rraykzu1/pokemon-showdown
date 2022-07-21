@@ -1082,6 +1082,17 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
 	},
+	zippyzap: {
+		inherit: true,
+		basePower: 50,
+		pp: 5,
+		priority: 1,
+		willCrit: true,
+		secondary: null,
+		isNonstandard: null,
+		desc: "Will always result in a critical hit.",
+		shortDesc: "Usually goes first. Always crits.",
+	},
 	// fuck it theres a triple clone and i dont want to alphabetize these
 	infernalparade: {
 		num: 858,
@@ -1457,6 +1468,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	snatch: {
 		inherit: true,
 		noTutor: true,
+		isNonstandard: null,
 	},
 	spite: {
 		inherit: true,
@@ -2215,16 +2227,5 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	wringout: {
 		inherit: true,
 		isNonstandard: null,
-	},
-	zippyzap: {
-		inherit: true,
-		basePower: 50,
-		pp: 5,
-		priority: 1,
-		willCrit: true,
-		secondary: null,
-		isNonstandard: null,
-		desc: "Will always result in a critical hit.",
-		shortDesc: "Usually goes first. Always crits.",
 	},
 };
