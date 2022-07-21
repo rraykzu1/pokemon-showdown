@@ -4036,7 +4036,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		heightm: 3,
 		weightkg: 120,
 		eggGroups: ["Bug"],
-		requiredItem: "Centiskite-Sevii",
+		requiredItem: "Centiskite Sevii",
 	},
 	wishiwashisevii: {
 		num: 746,
