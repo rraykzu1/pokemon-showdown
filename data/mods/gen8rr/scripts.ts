@@ -1,7 +1,7 @@
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen8',
 	actions: {
-		canMegaEvo(pokemon: Pokemon) {
+		canMegaEvo(pokemon) {
 			const species = pokemon.baseSpecies;
 			const altForme = species.otherFormes && this.dex.species.get(species.otherFormes[0]);
 			const item = pokemon.getItem();
@@ -39,10 +39,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			}
 			return null;
 		},
-		getDamage(
-			source: Pokemon, target: Pokemon, move: string | number | ActiveMove,
-			suppressMessages = false
-		): number | undefined | null | false {
+		getDamage(source, target, move, suppressMessages = false) {
 			if (typeof move === 'string') move = this.dex.getActiveMove(move);
 
 			if (typeof move === 'number') {
@@ -168,9 +165,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			// Calculate damage modifiers separately (order differs between generations)
 			return this.modifyDamage(baseDamage, source, target, move, suppressMessages);
 		},
-		modifyDamage(
-			baseDamage: number, pokemon: Pokemon, target: Pokemon, move: ActiveMove, suppressMessages = false
-		) {
+		modifyDamage(baseDamage, pokemon, target, move, suppressMessages = false) {
 			const tr = this.battle.trunc;
 			if (!move.type) move.type = '???';
 			const type = move.type;
@@ -262,7 +257,97 @@ export const Scripts: ModdedBattleScriptsData = {
 			// ...but 16-bit truncation happens even later, and can truncate to 0
 			return tr(baseDamage, 16);
 		},
-		hitStepStealBoosts(targets: Pokemon[], pokemon: Pokemon, move: ActiveMove) {
+		hitStepAccuracy(targets, pokemon, move) {
+			const hitResults = [];
+			for (const [i, target] of targets.entries()) {
+				this.battle.activeTarget = target;
+				// calculate true accuracy
+				let accuracy = move.accuracy;
+				if (move.ohko) { // bypasses accuracy modifiers
+					if (!target.isSemiInvulnerable()) {
+						accuracy = 30;
+						if (move.ohko === 'Ice' && this.battle.gen >= 7 && !pokemon.hasType('Ice')) {
+							accuracy = 20;
+						}
+						if (!target.volatiles['dynamax'] && pokemon.level >= target.level &&
+							(move.ohko === true || !target.hasType(move.ohko))) {
+							accuracy += (pokemon.level - target.level);
+						} else {
+							this.battle.add('-immune', target, '[ohko]');
+							hitResults[i] = false;
+							continue;
+						}
+					}
+				} else {
+					accuracy = this.battle.runEvent('ModifyAccuracy', target, pokemon, move, accuracy);
+					if (accuracy !== true) {
+						let boost = 0;
+						if (!move.ignoreAccuracy) {
+							const boosts = this.battle.runEvent('ModifyBoost', pokemon, null, null, {...pokemon.boosts});
+							boost = this.battle.clampIntRange(boosts['accuracy'], -6, 6);
+						}
+						if (!move.ignoreEvasion) {
+							const boosts = this.battle.runEvent('ModifyBoost', target, null, null, {...target.boosts});
+							boost = this.battle.clampIntRange(boost - boosts['evasion'], -6, 6);
+						}
+						if (boost > 0) {
+							accuracy = this.battle.trunc(accuracy * (3 + boost) / 3);
+						} else if (boost < 0) {
+							accuracy = this.battle.trunc(accuracy * 3 / (3 - boost));
+						}
+					}
+				}
+				if (
+					move.alwaysHit ||
+					(move.id === 'toxic' && this.battle.gen >= 8 && pokemon.hasType('Poison')) ||
+					(move.id === 'willowisp' && this.battle.gen >= 8 && pokemon.hasType('Fire')) ||
+					(move.id === 'thunderwave' && this.battle.gen >= 8 && pokemon.hasType('Electric')) ||
+					(move.target === 'self' && move.category === 'Status' && !target.isSemiInvulnerable())
+				) {
+					accuracy = true; // bypasses ohko accuracy modifiers
+				} else {
+					accuracy = this.battle.runEvent('Accuracy', target, pokemon, move, accuracy);
+				}
+				if (accuracy !== true && !this.battle.randomChance(accuracy, 100)) {
+					if (move.smartTarget) {
+						move.smartTarget = false;
+					} else {
+						if (!move.spreadHit) this.battle.attrLastMove('[miss]');
+						this.battle.add('-miss', pokemon, target);
+					}
+					if (!move.ohko && pokemon.hasItem('blunderpolicy') && pokemon.useItem()) {
+						this.battle.boost({spe: 2}, pokemon);
+					}
+					hitResults[i] = false;
+					continue;
+				}
+				hitResults[i] = true;
+			}
+			return hitResults;
+		},
+		hitStepInvulnerabilityEvent(targets, pokemon, move) {
+			if (
+				move.id === 'helpinghand' ||
+				(this.battle.gen >= 8 && move.id === 'toxic' && pokemon.hasType('Poison')) ||
+				(this.battle.gen >= 8 && move.id === 'willowisp' && pokemon.hasType('Fire')) ||
+				(this.battle.gen >= 8 && move.id === 'thunderwave' && pokemon.hasType('Electric'))
+			) {
+				return new Array(targets.length).fill(true);
+			}
+			const hitResults = this.battle.runEvent('Invulnerability', targets, pokemon, move);
+			for (const [i, target] of targets.entries()) {
+				if (hitResults[i] === false) {
+					if (move.smartTarget) {
+						move.smartTarget = false;
+					} else {
+						if (!move.spreadHit) this.battle.attrLastMove('[miss]');
+						this.battle.add('-miss', pokemon, target);
+					}
+				}
+			}
+			return hitResults;
+		},
+		hitStepStealBoosts(targets, pokemon, move) {
 			const target = targets[0]; // hardcoded
 			if (move.stealsBoosts) {
 				const boosts: SparseBoostsTable = {};
@@ -293,7 +378,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		},
 	},
 	pokemon: {
-		transformInto(pokemon: Pokemon, effect: Effect | null) {
+		transformInto(pokemon, effect) {
 			const species = pokemon.species;
 			if (pokemon.fainted || pokemon.illusion || (pokemon.volatiles['substitute'] && this.battle.gen >= 5) ||
 				(pokemon.transformed && this.battle.gen >= 2) || (this.transformed && this.battle.gen >= 5)) {

@@ -1170,15 +1170,15 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	// small accuracy changes for 2.4
 	willowisp: {
 		inherit: true,
-		onTryMove(attacker, defender, move) {
-			if (attacker.hasType("Fire")) return move.accuracy = true;
-		},
+		// No Guard-like effect for Fire-type users implemented in Scripts#tryMoveHit
+		desc: "Burns the target. If a Fire-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move.",
+		shortDesc: "Burns the target. Fire types can't miss.",
 	},
 	thunderwave: {
 		inherit: true,
-		onTryMove(attacker, defender, move) {
-			if (attacker.hasType("Electric")) return move.accuracy = true;
-		},
+		// No Guard-like effect for Electric-type users implemented in Scripts#tryMoveHit
+		desc: "Paralyzes the target. If a Electric-type Pokemon uses this move, the target cannot avoid the attack, even if the target is in the middle of a two-turn move. This move does not ignore type immunity.",
+		shortDesc: "Paralyzes the target. Electric types can't miss.",
 	},
 	// gen 1 hyper beam time
 	frenzyplant: {
