@@ -247,6 +247,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			},
 			chance: 10,
 		},
+		desc: 'Has a 10% Chance to lower the target\'s Special Defense by 1 stage.',
+        shortDesc: '10% Chance to lower the target\'s Special Defense',
 	},
 	explosion: {
 		inherit: true,
@@ -1196,6 +1198,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
+		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
+		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
 	},
 	blastburn: {
 		inherit: true,
@@ -1214,6 +1218,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
+		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
+		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
 	},
 	hydrocannon: {
 		inherit: true,
@@ -1232,6 +1238,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
+		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
+		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
 	},
 	meteorassault: {
 		inherit: true,
@@ -1250,6 +1258,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
+		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
+		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
 	},
 	triattack: {
 		inherit: true,

@@ -123,6 +123,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	buggem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Bug-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Bug-type attack will have 1.3x power.',
 	},
 	buginiumz: {
 		inherit: true,
@@ -164,6 +166,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	darkgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Dark-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Dark-type attack will have 1.3x power.',
 	},
 	darkiniumz: {
 		inherit: true,
@@ -192,6 +196,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	dragongem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Dragon-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Dragon-type attack will have 1.3x power.',
 	},
 	dragoniumz: {
 		inherit: true,
@@ -221,6 +227,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	electricgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Electric-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Electric-type attack will have 1.3x power.',
 	},
 	electriumz: {
 		inherit: true,
@@ -242,6 +250,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	fairygem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Fairy-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Fairy-type attack will have 1.3x power.',
 	},
 	fairymemory: {
 		inherit: true,
@@ -250,6 +260,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	fightinggem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Fighting-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Fighting-type attack will have 1.3x power.',
 	},
 	fightiniumz: {
 		inherit: true,
@@ -262,6 +274,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	firegem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Fire-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Fire-type attack will have 1.3x power.',
 	},
 	firiumz: {
 		inherit: true,
@@ -282,6 +296,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	flyinggem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Flying-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Flying-type attack will have 1.3x power.',
 	},
 	flyiniumz: {
 		inherit: true,
@@ -310,6 +326,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	ghostgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Ghost-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Ghost-type attack will have 1.3x power.',
 	},
 	ghostiumz: {
 		inherit: true,
@@ -326,6 +344,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	grassgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Grass-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Grass-type attack will have 1.3x power.',
 	},
 	grassiumz: {
 		inherit: true,
@@ -343,6 +363,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	groundgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Ground-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Ground-type attack will have 1.3x power.',
 	},
 	groundiumz: {
 		inherit: true,
@@ -376,6 +398,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	icegem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Ice-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Ice-type attack will have 1.3x power.',
 	},
 	icicleplate: {
 		inherit: true,
@@ -531,6 +555,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	normalgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Normal-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Normal-type attack will have 1.3x power.',
 	},
 	nugget: {
 		name: "Nugget",
@@ -569,6 +595,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	poisongem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Poison-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Poison-type attack will have 1.3x power.',
 	},
 	poisoniumz: {
 		inherit: true,
@@ -585,6 +613,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	psychicgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Psychic-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Psychic-type attack will have 1.3x power.',
 	},
 	psychiumz: {
 		inherit: true,
@@ -643,6 +673,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	rockgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Rock-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Rock-type attack will have 1.3x power.',
 	},
 	rockiumz: {
 		inherit: true,
@@ -730,6 +762,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	steelgem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Steel-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Steel-type attack will have 1.3x power.',
 	},
 	steeliumz: {
 		inherit: true,
@@ -782,6 +816,8 @@ export const Items: {[k: string]: ModdedItemData} = {
 	watergem: {
 		inherit: true,
 		isNonstandard: null,
+		desc: 'Holder\'s first successful Water-type attack will have 1.3x power. Single use.',
+		shortDesc: 'Holder\'s first successful Water-type attack will have 1.3x power.',
 	},
 	wateriumz: {
 		inherit: true,
