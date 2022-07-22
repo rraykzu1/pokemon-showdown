@@ -41,8 +41,8 @@ export const Conditions: {[k: string]: ModdedConditionData} = {
 		onModifyMove(move) {
 			if (!move.secondaries) return;
 			for (const secondary of move.secondaries) {
-				if ((move.category !== 'Status') && (secondary.status === 'frz') && secondary.chance) {
-					secondary.chance = secondary.chance * 2;
+				if (secondary.status === 'frz' && secondary.chance) {
+					secondary.chance *= 2;
 				}
 			}
 		}
