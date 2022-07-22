@@ -247,8 +247,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			},
 			chance: 10,
 		},
-		desc: 'Has a 10% Chance to lower the target\'s Special Defense by 1 stage.',
-        shortDesc: '10% Chance to lower the target\'s Special Defense',
+		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+        shortDesc: "Usually goes first. 10% chance to lower Sp. Def by 1.",
 	},
 	explosion: {
 		inherit: true,
@@ -1198,8 +1198,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
-		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		shortDesc: "80% tox. Can't move next turn if target is not KOed.",
 	},
 	blastburn: {
 		inherit: true,
@@ -1218,8 +1218,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
-		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		shortDesc: "60% brn. Can't move next turn if target is not KOed.",
 	},
 	hydrocannon: {
 		inherit: true,
@@ -1238,8 +1238,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
-		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		shortDesc: "60% frz. Can't move next turn if target is not KOed.",
 	},
 	meteorassault: {
 		inherit: true,
@@ -1258,8 +1258,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: 'If this move doesn\'t faint the target, the user must recharge on the following turn and cannot select a move.',
-		shortDesc: 'The user has to recharge if the move doesn\'t faint the target',
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		shortDesc: "60% par. Can't move next turn if target is not KOed.",
 	},
 	triattack: {
 		inherit: true,
