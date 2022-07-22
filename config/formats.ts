@@ -66,12 +66,12 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 8] OU",
 		mod: 'gen8rr',
-		ruleset: ['Standard', 'Dynamax Clause'],
+		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
 			'Uber', 'AG',
 			'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap',
-			'Swagger', 'Misty Explosion', 'Dark Hole', 'Draco Barrage',
-			'Centiskorch-Sevii + Centiskite Sevii + Shed Skin', 'Centiskorch-Sevii + Centiskite Sevii + Mold Breaker',
+			'Swagger', 'Misty Explosion', 'Dark Hole', 'Draco Barrage', 'Hydro Cannon', 'Blast Burn', 'Frenzy Plant',
+			'Centiskite Sevii',
 		],
 	},
 	{
@@ -174,6 +174,28 @@ export const Formats: FormatList = [
 		mod: 'gen8rr2.3',
 		searchShow: false,
 		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause', 'Arceus Forme Clause'],
+	},
+	{
+		name: "[Gen 8] 2.3 RRC",
+		mod: 'gen8rr2.3',
+		gameType: 'doubles',
+		ruleset: ['Standard', 'VGC Timer', 'Item Clause', 'Dynamax Clause', 'Z-Move Clause', 'Adjust Level = 50', 'Picked Team Size = 4'],
+		banlist: [
+			'Mewtwo',
+			'Unown', 'Ho-Oh', 'Lugia',
+			'Groudon', 'Kyogre', 'Rayquaza', 'Deoxys',
+			'Dialga', 'Palkia', 'Heatran', 'Regigigas', 'Giratina', 'Cresselia', 'Darkrai', 'Shaymin', 'Arceus',
+			'Kyurem', 'Reshiram', 'Zekrom',
+			'Xerneas', 'Yveltal', 'Zygarde',
+			'Cosmog', 'Cosmoem', 'Solgaleo', 'Lunala', 'Necrozma', 'Magearna', 'Marshadow',
+			'Eternatus', 'Zacian', 'Zamazenta', 'Calyrex',
+	],
+	{
+		name: "[Gen 8] 2.3 RRC Draft",
+		mod: 'gen8rr2.3',
+		searchShow: false,
+		gameType: 'doubles',
+		ruleset: ['Standard', 'VGC Timer', 'Item Clause', 'Dynamax Clause', 'Z-Move Clause', 'Adjust Level = 50', 'Picked Team Size = 4'],
 	},
 
 	// Doubles

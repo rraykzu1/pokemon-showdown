@@ -895,7 +895,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["fakeout", "return", "suckerpunch", "poweruppunch", "bodyslam", "earthquake", "crunch"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["drainpunch", "earthquake", "fakeout", "poweruppunch", "protect", "return", "suckerpunch"],
-		tier: "RU",
+		tier: "Uber",
 	},
 	horsea: {
 		tier: "LC",
@@ -3426,7 +3426,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "cut", "sacredsword", "razorshell", "aquajet"],
 		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["protect", "swordsdance", "cut", "sacredsword", "razorshell", "aquajet"],
-		tier: "RU",
+		tier: "Uber",
 	},
 	patrat: {
 		tier: "LC",
@@ -6234,7 +6234,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 	},
 	centiskorchseviimega: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	wishiwashisevii: {
 		tier: "RU",
@@ -6264,7 +6264,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 	},
 	samurotthisui: {
-		tier: "RU",
+		tier: "Uber",
 	},
 	decidueyehisui: {
 		tier: "RU",
