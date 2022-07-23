@@ -264,6 +264,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			spe: 2,
 		},
 	},
+	facade: {
+		inherit: true,
+		desc: "Power doubles if the user is burned, paralyzed, poisoned, or frozen. The physical damage halving effect from the user's burn is ignored.",
+		shortDesc: "Power doubles if burned/poisoned/paralyzed/frozen.",
+	},
 	falseswipe: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
@@ -660,6 +665,16 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 		noTutor: true,
+	},
+	refresh: {
+		inherit: true,
+		onHit(pokemon) {
+			if (['', 'slp'].includes(pokemon.status)) return false;
+			pokemon.cureStatus();
+		},
+		isNonstandard: null,
+		desc: "The user cures its burn, poison, paralysis, or freeze. Fails if the user is not burned, poisoned, paralyzed, or frozen.",
+		shortDesc: "User cures its burn, poison, paralysis, or freeze.",
 	},
 	revelationdance: {
 		inherit: true,
@@ -2088,10 +2103,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		isNonstandard: null,
 	},
 	razorwind: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	refresh: {
 		inherit: true,
 		isNonstandard: null,
 	},
