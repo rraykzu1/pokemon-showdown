@@ -73,6 +73,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	blazekick: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
+		accuracy: 100,
 	},
 	boneclub: {
 		inherit: true,
@@ -87,6 +88,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	bonerush: {
 		inherit: true,
 		flags: {protect: 1, mirror: 1, bone: 1},
+		accuracy: 100,
 	},
 	bouncybubble: {
 		inherit: true,
@@ -351,6 +353,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			status: 'frz',
 			chance: 30,
 		},
+		accuracy: 100,
 	},
 	furycutter: {
 		inherit: true,
@@ -419,6 +422,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	highhorsepower: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
+		accuracy: 100,
 	},
 	highjumpkick: {
 		inherit: true,
@@ -1281,7 +1285,31 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 90,
 	},
 	// acc changes
+	circlethrow: {
+		inherit: true,
+		accuracy: 100,
+	},
+	crushclaw: {
+		inherit: true,
+		accuracy: 100,
+	},
+	doublehit: {
+		inherit: true,
+		accuracy: 100,
+	},
+	dragontail: {
+		inherit: true,
+		accuracy: 100,
+	},
 	icefang: {
+		inherit: true,
+		accuracy: 100,
+	},
+	iciclecrash: {
+		inherit: true,
+		accuracy: 100,
+	},
+	rockblast: {
 		inherit: true,
 		accuracy: 100,
 	},
@@ -1289,13 +1317,37 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		accuracy: 100,
 	},
+	rockwrecker: {
+		inherit: true,
+		accuracy: 100,
+	},
 	metalclaw: {
 		inherit: true,
 		accuracy: 100
 	},
+	meteorbeam: {
+		inherit: true,
+		accuracy: 100,
+	},
+	pinmissile: {
+		inherit: true,
+		accuracy: 100,
+	},
 	firefang: {
 		inherit: true,
 		accuracy: 100
+	},
+	flyingpress: {
+		inherit: true,
+		accuracy: 100,
+	},
+	furyattack: {
+		inherit: true,
+		accuracy: 100,
+	},
+	furyswipes: {
+		inherit: true,
+		accuracy: 100,
 	},
 	thunderfang: {
 		inherit: true,
@@ -1321,6 +1373,22 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	snarl: {
 		inherit: true,
 		accuracy: 100
+	},
+	steelbeam: {
+		inherit: true,
+		accuracy: 100,
+	},
+	steelwing: {
+		inherit: true,
+		accuracy: 100,
+	},
+	strangesteam: {
+		inherit: true,
+		accuracy: 100,
+	},
+	submission: {
+		inherit: true,
+		accuracy: 100,
 	},
 	aircutter: {
 		inherit: true,
@@ -1413,6 +1481,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	gigaimpact: {
 		inherit: true,
 		noTM: true,
+		accuracy: 100,
 	},
 	avalanche: {
 		inherit: true,
@@ -1421,6 +1490,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	swagger: {
 		inherit: true,
 		noTM: true,
+		accuracy: 90,
 	},
 	pluck: {
 		inherit: true,
@@ -1429,6 +1499,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	scaleshot: {
 		inherit: true,
 		noTM: true,
+		accuracy: 100,
 	},
 	strugglebug: {
 		inherit: true,
@@ -1541,6 +1612,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	aquatail: {
 		inherit: true,
 		noTutor: true,
+		accuracy: 100,
 	},
 	endeavor: {
 		inherit: true,
@@ -1589,6 +1661,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	dualchop: {
 		inherit: true,
 		noTutor: true,
+		accuracy: 100,
 	},
 	hypervoice: {
 		inherit: true,
@@ -1845,6 +1918,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	doubleslap: {
 		inherit: true,
 		isNonstandard: null,
+		accuracy: 100,
 	},
 	dragonrage: {
 		inherit: true,
@@ -2166,6 +2240,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	skyuppercut: {
 		inherit: true,
 		isNonstandard: null,
+		accuracy: 100,
 	},
 	smellingsalts: {
 		inherit: true,
