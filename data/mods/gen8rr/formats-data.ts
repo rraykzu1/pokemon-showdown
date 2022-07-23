@@ -3426,7 +3426,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "cut", "sacredsword", "razorshell", "aquajet"],
 		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["protect", "swordsdance", "cut", "sacredsword", "razorshell", "aquajet"],
-		tier: "Uber",
+		tier: "RU",
 	},
 	patrat: {
 		tier: "LC",
@@ -6264,7 +6264,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 	},
 	samurotthisui: {
-		tier: "Uber",
+		tier: "RU",
 	},
 	decidueyehisui: {
 		tier: "RU",
