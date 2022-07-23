@@ -2662,7 +2662,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	stunfiskgalar: {
 		inherit: true,
-		abilities: {0: "Filter"},
+		abilities: {0: "Filter", H: "Iron Barbs"},
 	},
 	mienshao: {
 		inherit: true,
