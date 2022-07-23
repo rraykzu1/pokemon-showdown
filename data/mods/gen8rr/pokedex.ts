@@ -2427,7 +2427,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	basculinbluestriped: {
 		inherit: true,
-		baseStats: {hp: 70, atk: 110, def: 65, spa: 80, spd: 55, spe: 98},
 		items: {5: "Deep Sea Scale", 50: "None"},
 	},
 	sandile: {
@@ -4143,7 +4142,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		isNonstandard: null,
 		baseStats: {hp: 55, atk: 95, def: 55, spa: 35, spd: 75, spe: 115},
-		abilities: {0: "Inner Focus",  1: "Frisk"},
+		abilities: {0: "Inner Focus",  1: "Frisk", H: "Poison Touch"},
 	},
 	sneasler: {
 		inherit: true,

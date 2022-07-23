@@ -6246,7 +6246,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 	},
 	voltorbhisui: {
-		tier: "RU",
+		tier: "LC",
 	},
 	electrodehisui: {
 		tier: "RU",
@@ -6270,7 +6270,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 	},
 	qwilfishhisui: {
-		tier: "RU",
+		tier: "LC",
 	},
 	overqwil: {
 		tier: "RU",
