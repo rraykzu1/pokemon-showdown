@@ -26048,6 +26048,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			defog: ["8M"],
 			dracobarrage: ["8M"],
 			dracometeor: ["8T"],
+			dragonascent: ["8T"],
 			dragonclaw: ["8M"],
 			dragondance: ["8L60", "8M", "8T"],
 			dragonpulse: ["8L50", "8M"],
