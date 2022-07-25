@@ -3951,46 +3951,39 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	// new 2.4 mons
 	basculegion: {
 		inherit: true,
-		isNonstandard: null,
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
 		evoLevel: 44,
 	},
 	basculegionf: {
 		inherit: true,
-		isNonstandard: null,
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
 		evoLevel: 44,
 	},
 	braviaryhisui: {
 		inherit: true,
-		isNonstandard: null,
 		abilities: {0: "Frisk", 1: "Sheer Force", H: "Competitive"},
 		baseStats: {hp: 115, atk: 58, def: 80, spa: 112,  spd: 80, spe: 65},
 		evoLevel: 36,
 	},
 	wyrdeer: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 103, atk: 80, def: 82, spa: 110, spd: 85, spe: 65},
 		abilities: {0: "Intimidate", 1: "Sap Sipper", H: "Fur Coat"},
 		evoLevel: 44,
 	},
 	growlithehisui: {
 		inherit: true,
-		isNonstandard: null,
 		abilities: {0: "Intimidate", 1: "Flash Fire", H: "Rock Head"},
 				items: {5: "Rawst Berry", 50: "Rawst Berry"},
 	},
 	arcaninehisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 95, atk: 125, def: 80, spa: 85, spd: 80, spe: 90},
 		abilities: {0: "Intimidate", 1: "Flash Fire", H: "Rock Head"},
 		items: {5: "Rawst Berry", 50: "Rawst Berry"},
 	},
 	kleavor: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 85, atk: 135, def: 95, spa: 30, spd: 70, spe: 85},
 		abilities: {0: "Sheer Force", 1: "Technician", H: "Blademaster"},
 		evoType: "useItem",
@@ -4051,12 +4044,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	zoruahisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 35, atk: 60, def: 40, spa: 85, spd: 40, spe: 70},
 	},
 	zoroarkhisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 55, atk: 100, def: 60, spa: 125, spd: 60, spe: 110},
 	},
 	carnivinesevii: {
@@ -4249,26 +4240,22 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	voltorbhisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 40, atk: 30, def: 50, spa: 55, spd: 55, spe: 100},
 		abilities: {0: "Soundproof", 1: "Static", H: "Reckless"},
 	},
 	electrodehisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 60, atk: 55, def: 70, spa: 95, spd: 80, spe: 150},
 		abilities: {0: "Soundproof", 1: "Static", H: "Reckless"},
 	},
 	sliggoohisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 58, atk: 75, def: 83, spa: 83, spd: 113, spe: 40},
 		abilities: {0: "Sap Sipper", 1: "Overcoat", H: "Gooey"},
 		items: {5: "Shed Shell", 50: "None"},
 	},
 	goodrahisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 80, atk: 100, def: 100, spa: 110, spd: 150, spe: 60},
 		abilities: {0: "Sap Sipper", 1: "Overcoat", H: "Gooey"},
 		evoLevel: 50,
@@ -4276,7 +4263,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	ursaluna: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 130, atk: 140, def: 105, spa: 45, spd: 80, spe: 50},
 		abilities: {0: "Guts", 1: "Bulletproof", H: "Unnerve"},
 		evoLevel: 48,
@@ -4284,32 +4270,27 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	typhlosionhisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 73, atk: 84, def: 78, spa: 119, spd: 85, spe: 95},
 		abilities: {0: "Blaze", H: "Flash Fire"},
 	},
 	samurotthisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 95, atk: 108, def: 85, spa: 95, spd: 70, spe: 90},
 		abilities: {0: "Torrent", 1: "Battle Armor", H: "Blademaster"},
 	},
 	decidueyehisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 98, atk: 112, def: 85, spa: 75, spd: 100, spe: 70},
 		abilities: {0: "Overgrow", 1: "Striker", H: "Quill Rush"},
 	},
 	qwilfishhisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 65, atk: 95, def: 85, spa: 55, spd: 55, spe: 85},
 		abilities: {0: "Poison Touch", 1: "Swift Swim", H: "Intimidate"},
 		items: {5: "Poison Barb", 50: "None"},
 	},
 	overqwil: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 95, atk: 115, def: 100, spa: 55, spd: 80, spe: 85},
 		abilities: {0: "Poison Touch", 1: "Swift Swim", H: "Intimidate"},
 		evoLevel: 36,
@@ -4317,39 +4298,33 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	sneaselhisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 55, atk: 95, def: 55, spa: 35, spd: 75, spe: 115},
 		abilities: {0: "Inner Focus",  1: "Frisk", H: "Poison Touch"},
 	},
 	sneasler: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 80, atk: 130, def: 60, spa: 40, spd: 80, spe: 120},
 		abilities: {0: "Pressure",  H: "Poison Touch"},
 		evoLevel: 47,
 	},
 	lilliganthisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 70, atk: 105, def: 75, spa: 50, spd: 75, spe: 105},
 		abilities: {0: "Chlorophyll", 1: "Hustle", H: "Leaf Guard"},
 		items: {5: "Absorb Bulb", 50: "None"},
 	},
 	avalugghisui: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 100, atk: 132, def: 184, spa: 34, spd: 36, spe: 28},
 		abilities: {0: "Strong Jaw", 1: "Sturdy", H: "Technician"},
 	},
 	enamorus: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 74, atk: 115, def: 70, spa: 135, spd: 80, spe: 106},
 		abilities: {0: "Healer", 1: "Contrary"},
 	},
 	enamorustherian: {
 		inherit: true,
-		isNonstandard: null,
 		baseStats: {hp: 74, atk: 115, def: 110, spa: 135, spd: 100, spe: 46},
 		abilities: {0: "Overcoat"},
 	},
