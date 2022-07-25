@@ -947,10 +947,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 85, atk: 90, def: 80, spa: 90, spd: 80, spe: 130},
 		abilities: {0: "Infiltrator", 1: "Sniper", H: "Corrosion"},
 	},
-	chinchou: {
-		inherit: true,
-		abilities: {0: "Volt Absorb", H: "Water Absorb"},
-	},
 	pichu: {
 		inherit: true,
 		items: {5: "Oran Berry", 50: "None"},
