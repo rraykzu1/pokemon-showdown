@@ -1,6 +1,3 @@
-import { moveCursor } from "readline";
-import { TriumvirateModeTrivia } from "../../../server/chat-plugins/trivia/trivia";
-
 export const Moves: {[k: string]: ModdedMoveData} =	{
 	acupressure: {
 		inherit: true,
