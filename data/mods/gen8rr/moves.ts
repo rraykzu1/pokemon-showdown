@@ -1301,6 +1301,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		accuracy: 100,
 	},
+	haze: {
+		inherit: true,
+		pp: 5,
+	},
 	icefang: {
 		inherit: true,
 		accuracy: 100,
