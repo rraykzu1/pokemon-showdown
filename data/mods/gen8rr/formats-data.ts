@@ -3673,6 +3673,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["aquajet", "flipturn", "headsmash", "icebeam", "liquidation", "protect", "psychicfangs", "superpower"],
 		tier: "RU",
 	},
+	basculinwhitestriped: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	sandile: {
 		tier: "LC",
 	},

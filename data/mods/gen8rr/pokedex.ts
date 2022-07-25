@@ -2486,10 +2486,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	basculin: {
 		inherit: true,
+		evos: ["Basculegion", "Basculegion-F"],
 		items: {5: "Deep Sea Tooth", 50: "None"},
 	},
 	basculinbluestriped: {
 		inherit: true,
+		evos: ["Basculegion", "Basculegion-F"],
 		items: {5: "Deep Sea Scale", 50: "None"},
 	},
 	sandile: {
@@ -3952,12 +3954,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	basculegion: {
 		inherit: true,
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
+		prevo: "Basculin",
 		evoLevel: 44,
+		evoType: null,
+		evoCondition: "",
 	},
 	basculegionf: {
 		inherit: true,
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
+		prevo: "Basculin",
 		evoLevel: 44,
+		evoType: null,
+		evoCondition: "",
 	},
 	braviaryhisui: {
 		inherit: true,
@@ -3974,7 +3982,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	growlithehisui: {
 		inherit: true,
 		abilities: {0: "Intimidate", 1: "Flash Fire", H: "Rock Head"},
-				items: {5: "Rawst Berry", 50: "Rawst Berry"},
+		items: {5: "Rawst Berry", 50: "Rawst Berry"},
 	},
 	arcaninehisui: {
 		inherit: true,
