@@ -3591,8 +3591,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	toxtricitylowkeymega: {
 		num: 849,
 		name: "Toxtricity-Low-Key-Mega",
-		baseSpecies: "Toxtricity-Low-Key",
-		forme: "Mega",
+		baseSpecies: "Toxtricity",
+		forme: "Low-Key-Mega",
 		types: ["Electric", "Poison"],
 		baseStats: {hp: 75, atk: 120, def: 80, spa: 155, spd: 80, spe: 111},
 		abilities: {0: "Punk Rock"},
@@ -3601,6 +3601,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Toxtricitite Low Key",
+		battleOnly: "Toxtricity-Low-Key",
+		isMega: true,
 	},
 	sizzlipede: {
 		inherit: true,
@@ -4111,8 +4113,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	centiskorchseviimega: {
 		num: 851,
 		name: "Centiskorch-Sevii-Mega",
-		baseSpecies: "Centiskorch-Sevii",
-		forme: "Mega",
+		baseSpecies: "Centiskorch",
+		forme: "Sevii-Mega",
 		types: ["Ground", "Bug"],
 		baseStats: {hp: 100, atk: 150, def: 80, spa: 75, spd: 100, spe: 120},
 		abilities: {0: "Arena Trap", 1: "Sand Force", H: "Arena Trap"},
@@ -4120,6 +4122,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		weightkg: 120,
 		eggGroups: ["Bug"],
 		requiredItem: "Centiskite Sevii",
+		battleOnly: "Centiskorch-Sevii",
+		isMega: true,
 	},
 	wishiwashisevii: {
 		num: 746,
