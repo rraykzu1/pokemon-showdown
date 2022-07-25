@@ -2801,7 +2801,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		abilities: {0: "Gluttony", 1: "Flash Fire", H: "Fatal Precision"},
 		items: {5: "Flame Orb", 50: "None"},
 	},
-	zwelious: {
+	zweilous: {
 		inherit: true,
 		evoLevel: 44,
 	},
