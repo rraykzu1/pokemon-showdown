@@ -4125,7 +4125,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		num: 746,
 		name: "Wishiwashi-Sevii",
 		baseSpecies: "Wishiwashi",
-		baseForme: "Solo",
+		forme: "Sevii",
 		types: ["Ghost"],
 		baseStats: {hp: 60, atk: 20, def: 20, spa: 25, spd: 15, spe: 35},
 		abilities: {0: "Schooling"},
@@ -4136,7 +4136,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	wishiwashiseviischool: {
 		num: 746,
 		name: "Wishiwashi-Sevii-School",
-		baseSpecies: "Wishiwashi-Sevii",
+		baseSpecies: "Wishiwashi",
 		forme: "Sevii-School",
 		types: ["Ghost", "Dragon"],
 		baseStats: {hp: 60, atk: 140, def: 130, spa: 140, spd: 135, spe: 25},
