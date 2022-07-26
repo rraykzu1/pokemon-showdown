@@ -6243,7 +6243,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	wishiwashisevii: {
 		tier: "RU",
 	},
-	wishiwashischoolsevii: {
+	wishiwashiseviischool: {
 		tier: "RU",
 	},
 	dhelmisesevii: {
