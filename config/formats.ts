@@ -71,7 +71,6 @@ export const Formats: FormatList = [
 			'Uber', 'AG',
 			'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap',
 			'Swagger', 'Misty Explosion', 'Dark Hole', 'Draco Barrage', 'Hydro Cannon', 'Blast Burn', 'Frenzy Plant',
-			'Centiskite Sevii',
 		],
 	},
 	{
