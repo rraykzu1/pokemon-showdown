@@ -1222,13 +1222,17 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 70, atk: 135, def: 75, spa: 110, spd: 85, spe: 145},
 		abilities: {0: "Technician"},
 	},
+	torchic: {
+		inherit: true,
+		abilities: {0: "Early Bird", H: "Speed Boost"},
+	},
+	combusken: {
+		inherit: true,
+		abilities: {0: "Striker", H: "Speed Boost"},
+	},
 	blaziken: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 120, def: 70, spa: 110, spd: 70, spe: 80},
-	},
-	blazikenmega: {
-		inherit: true,
-		baseStats: {hp: 80, atk: 160, def: 80, spa: 130, spd: 80, spe: 100},
+		abilities: {0: "Striker", H: "Speed Boost"},
 	},
 	poochyena: {
 		inherit: true,
