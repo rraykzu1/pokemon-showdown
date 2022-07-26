@@ -209,7 +209,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
 		},
 		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat stage changes. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP. This move can hit Fairy-type Pokemon.",
-		shortDesc: "Physical if user's Atk > Sp. Atk. Has 33% recoil. Ignores immunities.",
+		shortDesc: "Physical if Atk > Sp. Atk. 33% recoil. Hits fairies.",
 	},
 	dracometeor: {
 		inherit: true,
@@ -346,11 +346,13 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	frostbreath: {
 		inherit: true,
+		accuracy: 100,
 		secondary: {
 			status: 'frz',
 			chance: 30,
 		},
-		accuracy: 100,
+		desc: "Has a 10% chance to freeze the target. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+		shortDesc: "10% frz. Always results in a critical hit."
 	},
 	furycutter: {
 		inherit: true,
@@ -1282,6 +1284,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 90,
 	},
 	// acc changes
+	belch: {
+		inherit: true,
+		accuracy: 100,
+	},
 	circlethrow: {
 		inherit: true,
 		accuracy: 100,
