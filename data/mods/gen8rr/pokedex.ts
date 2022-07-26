@@ -3304,7 +3304,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	turtonator: {
 		inherit: true,
 		baseStats: {hp: 70, atk: 58, def: 135, spa: 91, spd: 85, spe: 36},
-		abilities: {0: "Battle Armor", 1: "Magma Armor", H: "Dauntless Shield"},
+		abilities: {0: "Shell Armor", 1: "Magma Armor", H: "Dauntless Shield"},
 		items: {5: "Charcoal", 50: "None"},
 	},
 	togedemaru: {
