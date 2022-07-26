@@ -3868,7 +3868,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Leaf Guard", 1: "Defiant"},
 	},
-	// new 2.4 mons
 	basculegion: {
 		inherit: true,
 		abilities: {0: "Reckless", 1: "Adaptability", H: "Mold Breaker"},
@@ -3896,6 +3895,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 103, atk: 80, def: 82, spa: 110, spd: 85, spe: 65},
 		abilities: {0: "Intimidate", 1: "Sap Sipper", H: "Fur Coat"},
 		evoLevel: 44,
+		evoType: null,
+		evoCondition: "",
 	},
 	growlithehisui: {
 		inherit: true,
@@ -3913,7 +3914,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 85, atk: 135, def: 95, spa: 30, spd: 70, spe: 85},
 		abilities: {0: "Sheer Force", 1: "Technician", H: "Blademaster"},
 		evoType: "useItem",
-		evoItem: "King's Rock"
+		evoItem: "King's Rock",
+		evoCondition: "",
 	},
 	blitzlesevii: {
 		name: "Blitzle-Sevii",
@@ -4186,7 +4188,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 80, atk: 100, def: 100, spa: 110, spd: 150, spe: 60},
 		abilities: {0: "Sap Sipper", 1: "Overcoat", H: "Gooey"},
-		evoLevel: 50,
 		evoCondition: "in rain",
 	},
 	ursaluna: {
@@ -4194,6 +4195,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 130, atk: 140, def: 105, spa: 45, spd: 80, spe: 50},
 		abilities: {0: "Guts", 1: "Bulletproof", H: "Unnerve"},
 		evoLevel: 48,
+		evoType: null,
+		evoCondition: "",
 		items: {5: "Sitrus Berry", 50: "Oran Berry"},
 	},
 	typhlosionhisui: {
@@ -4222,6 +4225,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 95, atk: 115, def: 100, spa: 55, spd: 80, spe: 85},
 		abilities: {0: "Poison Touch", 1: "Swift Swim", H: "Intimidate"},
 		evoLevel: 36,
+		evoType: null,
+		evoCondition: "",
 		items: {5: "Poison Barb", 50: "None"},
 	},
 	sneaselhisui: {
@@ -4234,6 +4239,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 80, atk: 130, def: 60, spa: 40, spd: 80, spe: 120},
 		abilities: {0: "Pressure",  H: "Poison Touch"},
 		evoLevel: 47,
+		evoType: null,
+		evoItem: "",
 	},
 	lilliganthisui: {
 		inherit: true,
