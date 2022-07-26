@@ -1456,7 +1456,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	swalot: {
 		inherit: true,
-		baseStats: {hp: 100, atk: 88, def: 88, spa: 93, spd: 88, spe: 55},
+		baseStats: {hp: 100, atk: 53, def: 88, spa: 93, spd: 88, spe: 55},
 		abilities: {0: "Liquid Ooze", 1: "Sticky Hold", H: "Magic Guard"},
 		items: {5: "Sitrus Berry", 50: "Oran Berry"},
 	},
