@@ -2452,10 +2452,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	scraggy: {
 		inherit: true,
+		abilities: {0: "Shed Skin", 1: "Intimidate", H: "Moxie"},
 		items: {5: "Shed Shell", 50: "None"},
 	},
 	scrafty: {
 		inherit: true,
+		abilities: {0: "Shed Skin", 1: "Intimidate", H: "Moxie"},
 		items: {5: "Shed Shell", 50: "None"},
 	},
 	yamask: {
