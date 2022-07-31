@@ -2158,6 +2158,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 70, atk: 95, def: 70, spa: 95, spd: 70, spe: 110},
 	},
+	rotomfan: {
+		inherit: true,
+		abilities: {0: "Motor Drive"},
+	},
 	dialga: {
 		inherit: true,
 		otherFormes: ["Dialga-Primal"],
