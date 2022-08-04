@@ -351,8 +351,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			status: 'frz',
 			chance: 30,
 		},
-		desc: "Has a 10% chance to freeze the target. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
-		shortDesc: "10% frz. Always results in a critical hit."
+		desc: "Has a 30% chance to freeze the target. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+		shortDesc: "30% frz. Always results in a critical hit."
 	},
 	furycutter: {
 		inherit: true,
