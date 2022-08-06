@@ -1520,12 +1520,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	pikachulibre: {
 		learnset: {
 			agility: ["8L45", "8T"],
-			aurawheel: ["8R"],
+			aurawheel: ["8S0"],
 			babydolleyes: ["8L3"],
 			bodyslam: ["8T"],
 			brickbreak: ["8M"],
 			chargebeam: ["8M"],
-			closecombat: ["8T"],
+			closecombat: ["8T", "8S0"],
 			confide: ["8T"],
 			covet: ["8T"],
 			dig: ["8M"],
@@ -1538,7 +1538,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			endeavor: ["8T"],
 			extremespeed: ["8L36"],
 			facade: ["8M"],
-			fakeout: ["8L1"],
+			fakeout: ["8L1", "8S0"],
 			feint: ["8L21"],
 			flash: ["8M"],
 			focuspunch: ["8M"],
@@ -1548,7 +1548,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			helpinghand: ["8T"],
 			hiddenpower: ["8M"],
 			irontail: ["8M"],
-			knockoff: ["8T"],
+			knockoff: ["8T", "8S0"],
 			laserfocus: ["8T"],
 			lightscreen: ["8L53", "8M"],
 			magnetrise: ["8T"],
@@ -1585,7 +1585,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			voltswitch: ["8M"],
 			wildcharge: ["8L50", "8M"],
 			zippyzap: ["8L55"]
-		}
+		},
+		eventData: [
+			{generation: 8, level: 85, shiny: true, nature: "Jolly", perfectIVs: 6, moves: ["aurawheel", "closecombat", "fakeout", "knockoff"], pokeball: "pokeball"},
+		],
 	},
 	pikachuphd: {
 		learnset: {
@@ -3216,7 +3219,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			faketears: ["8T"],
 			fireblast: ["8M"],
 			firepunch: ["8T"],
-			flamethrower: ["8M"],
+			flamethrower: ["8M", "8S0"],
 			flash: ["8M"],
 			focusblast: ["8M"],
 			focuspunch: ["8M"],
@@ -3236,7 +3239,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			knockoff: ["8T"],
 			laserfocus: ["8T"],
 			lastresort: ["8T"],
-			lightofruin: ["8R"],
+			lightofruin: ["8S0"],
 			lightscreen: ["8M"],
 			magiccoat: ["8T"],
 			meteorbeam: ["8M"],
@@ -3263,6 +3266,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			sleeptalk: ["8M"],
 			snatch: ["8T"],
 			snore: ["8T"],
+			softboiled: ["8S0"],
 			solarbeam: ["8M"],
 			spotlight: ["8L1"],
 			stealthrock: ["8M"],
@@ -3275,14 +3279,17 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunder: ["8M"],
 			thunderbolt: ["8M"],
 			thunderpunch: ["8T"],
-			thunderwave: ["8M"],
+			thunderwave: ["8M", "8S0"],
 			toxic: ["8M"],
 			trick: ["8T"],
 			uproar: ["8T"],
 			wonderroom: ["8T"],
 			workup: ["8M"],
 			zenheadbutt: ["8T"]
-		}
+		},
+		eventData: [
+			{generation: 8, level: 100, shiny: 1, nature: "Modest", perfectIVs: 6, moves: ["lightofruin", "softboiled", "flamethrower", "thunderwave"], pokeball: "pokeball"},
+		],
 	},
 	vulpix: {
 		learnset: {
@@ -9392,14 +9399,14 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			bugbite: ["8E", "8T"],
 			bulkup: ["8M"],
 			bulldoze: ["8M"],
-			closecombat: ["8E", "8T"],
+			closecombat: ["8E", "8T", "8S0"],
 			confide: ["8T"],
 			cut: ["8M"],
 			dig: ["8M"],
 			doubleedge: ["8L69"],
 			doublehit: ["8L22"],
 			earthquake: ["8M"],
-			extremespeed: ["8R"],
+			extremespeed: ["8S0"],
 			facade: ["8M"],
 			feint: ["8E"],
 			feintattack: ["8E"],
@@ -9418,7 +9425,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			irondefense: ["8T"],
 			knockoff: ["8T"],
 			mefirst: ["8E"],
-			megahorn: ["8L60"],
+			megahorn: ["8L60", "8S0"],
 			protect: ["8M"],
 			quickattack: ["8E"],
 			raindance: ["8M"],
@@ -9444,7 +9451,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			sunnyday: ["8M"],
 			superpower: ["8L47", "8E", "8M", "8T"],
 			swagger: ["8M"],
-			swordsdance: ["8L40", "8M"],
+			swordsdance: ["8L40", "8M", "8S0"],
 			thief: ["8M"],
 			thrash: ["8L43"],
 			throatchop: ["8T"],
@@ -9452,7 +9459,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			visegrip: ["8L1"],
 			vitalthrow: ["8L18"],
 			xscissor: ["8L29", "8M"]
-		}
+		},
+		eventData: [
+			{generation: 8, level: 100, shiny: 1, nature: "Jolly", perfectIVs: 6, moves: ["megahorn", "extremespeed", "closecombat", "swordsdance"], pokeball: "pokeball"},
+		],
 	},
 	tauros: {
 		learnset: {
@@ -10281,7 +10291,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			aquatail: ["8T"],
 			assurance: ["8E"],
 			bite: ["8L1"],
-			bravebird: ["8R"],
+			bravebird: ["8S0"],
 			brutalswing: ["8M"],
 			bulldoze: ["8M"],
 			confide: ["8T"],
@@ -10297,13 +10307,13 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			earthquake: ["8M"],
 			facade: ["8M"],
 			fireblast: ["8M"],
-			firefang: ["8L1", "8T"],
+			firefang: ["8L1", "8T", "8S0"],
 			flamethrower: ["8M"],
 			fly: ["8M"],
 			foresight: ["8E"],
 			frustration: ["8M"],
 			gigaimpact: ["8L81", "8M"],
-			headlongrush: ["8R"],
+			headlongrush: ["8S0"],
 			heatwave: ["8T"],
 			hiddenpower: ["8M"],
 			honeclaws: ["8M"],
@@ -10337,7 +10347,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			snore: ["8T"],
 			stealthrock: ["8M"],
 			steelwing: ["8E", "8M"],
-			stoneedge: ["8M"],
+			stoneedge: ["8M", "8S0"],
 			strength: ["8M"],
 			substitute: ["8M"],
 			sunnyday: ["8M"],
@@ -10353,7 +10363,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			whirlwind: ["8E"],
 			wideguard: ["8E"],
 			wingattack: ["8L1"]
-		}
+		},
+		eventData: [
+			{generation: 8, level: 85, shiny: 1, nature: "Jolly", perfectIVs: 6, moves: ["firefang", "stoneedge", "headlongrush", "bravebird"], pokeball: "pokeball"},
+		],
 	},
 	snorlax: {
 		learnset: {
@@ -56793,7 +56806,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	},
 	drednaw: {
 		learnset: {
-			aquafang: ["8L72"],
+			aquafang: ["8L72", "8S0"],
 			aquajet: ["8L1"],
 			bite: ["8L1"],
 			blizzard: ["8M"],
@@ -56803,7 +56816,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			bulldoze: ["8M"],
 			confide: ["8T"],
 			counter: ["8L30"],
-			crunch: ["8L1", "8T"],
+			crunch: ["8L1", "8T", "8S0"],
 			cut: ["8M"],
 			dig: ["8M"],
 			earthpower: ["8T"],
@@ -56823,7 +56836,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			icefang: ["8T"],
 			irondefense: ["8T"],
 			irontail: ["8M"],
-			jawlock: ["8L39"],
+			jawlock: ["8L39", "8S0"],
 			liquidation: ["8L48", "8T"],
 			megahorn: ["8T"],
 			meteorbeam: ["8M"],
@@ -56844,7 +56857,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			scald: ["8M"],
 			scaleshot: ["8M"],
 			scaryface: ["8T"],
-			shellsmash: ["8R"],
+			shellsmash: ["8S0"],
 			sleeptalk: ["8M"],
 			snore: ["8T"],
 			stealthrock: ["8M"],
@@ -56858,7 +56871,10 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			toxic: ["8M"],
 			waterfall: ["8M"],
 			whirlpool: ["8T"]
-		}
+		},
+		eventData: [
+			{generation: 8, level: 100, shiny: 1, nature: "Jolly", perfectIVs: 6, moves: ["shellsmash", "jawlock", "aquafang", "crunch"], pokeball: "pokeball"},
+		],
 	},
 	yamper: {
 		learnset: {
@@ -59564,11 +59580,11 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			doubleedge: ["8L70"],
 			doublehit: ["8L30"],
 			dracobarrage: ["8M"],
-			dracometeor: ["8T"],
+			dracometeor: ["8T", "8S0"],
 			dragonbreath: ["8L1"],
 			dragonclaw: ["8M"],
 			dragondance: ["8L42", "8M", "8T"],
-			dragondarts: ["8L0", "8L1"],
+			dragondarts: ["8L0", "8L1", "8S0"],
 			dragonpulse: ["8L1", "8M"],
 			dragonrush: ["8L63"],
 			dragontail: ["8M"],
@@ -59600,7 +59616,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			sleeptalk: ["8M"],
 			snore: ["8T"],
 			solarbeam: ["8M"],
-			spiritshackle: ["8R"],
+			spiritshackle: ["8S0"],
 			steelwing: ["8M"],
 			substitute: ["8M"],
 			suckerpunch: ["8L1"],
@@ -59611,9 +59627,12 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 			thunderbolt: ["8M"],
 			thunderwave: ["8M"],
 			toxic: ["8M"],
-			uturn: ["8L36", "8M"],
+			uturn: ["8L36", "8M", "8S0"],
 			willowisp: ["8M"]
-		}
+		},
+		eventData: [
+			{generation: 8, level: 100, shiny: 1, nature: "Hasty", perfectIVs: 6, moves: ["spiritshackle", "dragondarts", "uturn", "dracometeor"], pokeball: "pokeball"},
+		],
 	},
 	zacian: {
 		learnset: {
