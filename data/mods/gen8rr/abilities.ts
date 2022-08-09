@@ -588,7 +588,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 					pokemon.formeChange('Wishiwashi-Sevii');
 				}
 			}
-		}
+		},
 	},
 	scrappy: {
 		inherit: true,

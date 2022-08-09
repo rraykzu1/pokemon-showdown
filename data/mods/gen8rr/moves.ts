@@ -144,7 +144,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 33% recoil.",
 	},
-	
+
 	covet: {
 		inherit: true,
 		noTutor: true,
@@ -204,7 +204,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		ignoreImmunity: {'Fairy': true},
 		flags: {protect: 1, mirror: 1},
 		target: "normal",
-		recoil: [1,3],
+		recoil: [1, 3],
 		onModifyMove(move, pokemon) {
 			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
 		},
@@ -247,7 +247,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			chance: 10,
 		},
 		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-        shortDesc: "Usually goes first. 10% chance to lower Sp. Def by 1.",
+		shortDesc: "Usually goes first. 10% chance to lower Sp. Def by 1.",
 	},
 	explosion: {
 		inherit: true,
@@ -352,7 +352,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			chance: 30,
 		},
 		desc: "Has a 30% chance to freeze the target. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
-		shortDesc: "30% frz. Always results in a critical hit."
+		shortDesc: "30% frz. Always results in a critical hit.",
 	},
 	furycutter: {
 		inherit: true,
@@ -1035,7 +1035,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				chance: 100,
 				self: {
 					volatileStatus: 'focusenergy',
-				}
+				},
 			},
 		],
 		priority: 0,
@@ -1330,7 +1330,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	metalclaw: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	meteorbeam: {
 		inherit: true,
@@ -1342,7 +1342,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	firefang: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	flyingpress: {
 		inherit: true,
@@ -1358,11 +1358,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	thunderfang: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	mudshot: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	hyperfang: {
 		inherit: true,
@@ -1371,15 +1371,15 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	icywind: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	electroweb: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	snarl: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	steelbeam: {
 		inherit: true,
@@ -1399,32 +1399,32 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	aircutter: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	airslash: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	glaciate: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	lightofruin: {
 		isNonstandard: null,
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	razorleaf: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	rockthrow: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	takedown: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	rockslide: {
 		inherit: true,
@@ -1444,23 +1444,23 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	aeroblast: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	hammerarm: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	drillrun: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	zenheadbutt: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	playrough: {
 		inherit: true,
-		accuracy: 100
+		accuracy: 100,
 	},
 	fakeout: {
 		inherit: true,

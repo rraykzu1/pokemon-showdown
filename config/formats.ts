@@ -154,7 +154,7 @@ export const Formats: FormatList = [
 	},
 	// Past Gen
 	{
-		section: "Past Gens"
+		section: "Past Gens",
 	},
 	{
 		name: "[Gen 8] 2.3 OU",

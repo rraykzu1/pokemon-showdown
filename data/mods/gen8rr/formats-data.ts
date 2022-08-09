@@ -6166,7 +6166,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	basculegion: {
-		tier: "RU"
+		tier: "RU",
 	},
 	basculegionf: {
 		tier: "RU",

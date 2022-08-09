@@ -58,11 +58,11 @@ export const Scripts: ModdedBattleScriptsData = {
 			} else if (maxMove) {
 				move = this.getActiveMaxMove(baseMove, pokemon);
 			}
-	
+
 			move.isExternal = externalMove;
-	
+
 			this.battle.setActiveMove(move, pokemon, target);
-	
+
 			/* if (pokemon.moveThisTurn) {
 				// THIS IS PURELY A SANITY CHECK
 				// DO NOT TAKE ADVANTAGE OF THIS TO PREVENT A POKEMON FROM MOVING;
@@ -105,11 +105,11 @@ export const Scripts: ModdedBattleScriptsData = {
 				}
 				pokemon.moveUsed(move, targetLoc);
 			}
-	
+
 			// Dancer Petal Dance hack
 			// TODO: implement properly
 			const noLock = externalMove && !pokemon.volatiles['lockedmove'];
-	
+
 			if (zMove) {
 				if (pokemon.illusion) {
 					this.battle.singleEvent('End', this.dex.abilities.get('Illusion'), pokemon.abilityState, pokemon);
@@ -124,7 +124,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			this.battle.runEvent('AfterMove', pokemon, target, move);
 			// We send -mustrecharge here to account for the moves with no recharge turn if the target gets KOed
 			if (pokemon.volatiles['mustrecharge']) this.battle.add('-mustrecharge', pokemon);
-	
+
 			// Dancer's activation order is completely different from any other event, so it's handled separately
 			if (move.flags['dance'] && moveDidSomething && !move.isExternal) {
 				const dancers = [];
