@@ -2369,12 +2369,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	patrat: {
 		inherit: true,
-		abilities: {0: "Run Away", 1: "Frisk", H: "Analytic"},
+		abilities: {0: "Analytic", 1: "No Guard", H: "Frisk"},
 	},
 	watchog: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 100, def: 74, spa: 60, spd: 74, spe: 77},
-		abilities: {0: "Analytic", 1: "Frisk", H: "No Guard"},
+		baseStats: {hp: 85, atk: 100, def: 69, spa: 60, spd: 69, spe: 77},
+		abilities: {0: "Analytic", 1: "No Guard", H: "Frisk"},
 		evoLevel: 16,
 	},
 	stoutland: {
