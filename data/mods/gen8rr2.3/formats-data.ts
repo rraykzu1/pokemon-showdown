@@ -5601,7 +5601,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["stealthrock", "aquafang", "jawlock", "icefang", "swordsdance", "rockpolish", "aquajet"],
 		randomDoubleBattleLevel: 83,
 		randomDoubleBattleMoves: ["aquafang", "jawlock", "protect", "icefang", "aquajet", "swordsdance", "rockpolish"],
-		tier: "OU",
+		tier: "UUBL",
 	},
 	drednawgmax: {
 		isNonstandard: "Gigantamax",
