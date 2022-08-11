@@ -109,7 +109,7 @@ export const Formats: FormatList = [
 			'AG', 'Uber', 'Kartana', 'Medicham-Mega', 'Mawile-Mega', 'Hoopa-Unbound', 'Blaziken',
 			'Battle Bond', 'Moody', 'Power Construct', 'Shadow Tag',
 			'Damp Rock', 'Heat Rock', 'Icy Rock', 'Smooth Rock', 'Terrain Extender',
-			'Misty Explosion', 'Zen Mode',
+			'Dark Hole', 'Draco Barrage', 'Misty Explosion', 'Zen Mode',
 		],
 		unbanlist: ['Landorus-Base', 'Darmanitan-Galar', 'Deoxys-Speed', 'Cinderace'],
 	},
