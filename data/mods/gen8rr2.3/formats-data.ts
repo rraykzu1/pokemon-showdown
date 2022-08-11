@@ -48,7 +48,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["roost", "solarbeam", "scorchingsands", "fireblast"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["airslash", "fireblast", "focusblast", "heatwave", "protect", "solarbeam"],
-		tier: "OU",
+		tier: "UUBL",
 	},
 	charizardgmax: {
 		isNonstandard: "Gigantamax",
