@@ -336,7 +336,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 80, atk: 82, def: 78, spa: 100, spd: 80, spe: 100},
 		abilities: {0: "Swift Swim", 1: "Cloud Nine", H: "Neuroforce"},
 		items: {5: "Blue Shard", 50: "Blue Shard"},
-		evoLevel: 37,
+		evoLevel: 27,
 	},
 	mankey: {
 		inherit: true,
