@@ -2352,8 +2352,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Bull Rush", H: "Reckless"},
 	},
+	oshawott: {
+		inherit: true,
+		abilities: {0: "Torrent", 1: "Shell Armor", H: "Shell Armor"},
+	},
 	dewott: {
 		inherit: true,
+		abilities: {0: "Torrent", 1: "Shell Armor", H: "Shell Armor"},
 		evoLevel: 16,
 	},
 	samurott: {
@@ -2365,7 +2370,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	samurotthisui: {
 		inherit: true,
 		baseStats: {hp: 95, atk: 108, def: 85, spa: 95, spd: 70, spe: 90},
-		abilities: {0: "Torrent", 1: "Battle Armor", H: "Blademaster"},
+		abilities: {0: "Torrent", 1: "Shell Armor", H: "Blademaster"},
 	},
 	patrat: {
 		inherit: true,
@@ -4219,8 +4224,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	ursaluna: {
 		inherit: true,
-		baseStats: {hp: 130, atk: 140, def: 105, spa: 45, spd: 80, spe: 50},
-		abilities: {0: "Guts", 1: "Bulletproof", H: "Unnerve"},
 		evoLevel: 48,
 		evoType: null,
 		evoCondition: "",
@@ -4244,8 +4247,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	sneasler: {
 		inherit: true,
-		baseStats: {hp: 80, atk: 130, def: 60, spa: 40, spd: 80, spe: 120},
-		abilities: {0: "Pressure", H: "Poison Touch"},
 		evoLevel: 47,
 		evoType: null,
 		evoItem: "",
@@ -4258,15 +4259,5 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		evoType: null,
 		evoCondition: "",
 		items: {5: "Poison Barb", 50: "None"},
-	},
-	enamorus: {
-		inherit: true,
-		baseStats: {hp: 74, atk: 115, def: 70, spa: 135, spd: 80, spe: 106},
-		abilities: {0: "Healer", 1: "Contrary"},
-	},
-	enamorustherian: {
-		inherit: true,
-		baseStats: {hp: 74, atk: 115, def: 110, spa: 135, spd: 100, spe: 46},
-		abilities: {0: "Overcoat"},
 	},
 };
