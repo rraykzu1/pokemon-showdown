@@ -3043,18 +3043,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	espurr: {
 		inherit: true,
-		abilities: {0: "Frisk", 1: "Infiltrator", H: "Own Tempo"},
+		abilities: {0: "Frisk", 1: "Own Tempo", H: "Infiltrator"},
 	},
 	meowstic: {
 		inherit: true,
 		baseStats: {hp: 74, atk: 48, def: 76, spa: 63, spd: 81, spe: 104},
-		abilities: {0: "Prankster", 1: "Infiltrator", H: "Feline Prowess"},
+		abilities: {0: "Prankster", 1: "Feline Prowess", H: "Infiltrator"},
 		evoLevel: 23,
 	},
 	meowsticf: {
 		inherit: true,
 		baseStats: {hp: 74, atk: 48, def: 76, spa: 63, spd: 81, spe: 104},
-		abilities: {0: "Competitive", 1: "Infiltrator", H: "Feline Prowess"},
+		abilities: {0: "Competitive", 1: "Feline Prowess", H: "Infiltrator"},
 		evoLevel: 23,
 	},
 	honedge: {
