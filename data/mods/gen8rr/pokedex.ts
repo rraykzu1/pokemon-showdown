@@ -3862,11 +3862,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	arrokuda: {
 		inherit: true,
-		abilities: {0: "Swift Swim"},
-	},
-	barraskewda: {
-		inherit: true,
-		abilities: {0: "Swift Swim"},
+		abilities: {0: "Swift Swim", H: "Swift Swim"},
 	},
 	toxel: {
 		inherit: true,
@@ -4148,14 +4144,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	duraludon: {
 		inherit: true,
 		baseStats: {hp: 85, atk: 95, def: 115, spa: 120, spd: 50, spe: 85},
-		abilities: {0: "Light Metal", 1: "Heavy Metal", H: "Clear Body"},
 		otherFormes: ["Duraludon-Mega"],
 		formeOrder: ["Duraludon", "Duraludon-Mega"],
 	},
 	duraludongmax: {
 		inherit: true,
 		baseStats: {hp: 85, atk: 95, def: 115, spa: 120, spd: 50, spe: 85},
-		abilities: {0: "Light Metal", 1: "Heavy Metal", H: "Clear Body"},
 	},
 	duraludonmega: {
 		num: 884,
