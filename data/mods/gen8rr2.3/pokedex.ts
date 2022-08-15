@@ -3039,10 +3039,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	morelull: {
 		inherit: true,
+		abilities: {0: "Effect Spore", 1: "Illuminate", H: "Rain Dish"},
 		items: {5: "Big Mushroom", 50: "Tiny Mushroom"},
 	},
 	shiinotic: {
 		inherit: true,
+		baseStats: {hp: 75, atk: 45, def: 80, spa: 90, spd: 100, spe: 30},
+		abilities: {0: "Effect Spore", 1: "Illuminate", H: "Rain Dish"},
 		items: {5: "Tiny Mushroom", 50: "Big Mushroom"},
 	},
 	salandit: {
