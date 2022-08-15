@@ -123,6 +123,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "Has a 100% chance to raise the user's Special Attack by 1 stage.",
 		shortDesc: "Raises the user's Sp. Atk by 1.",
 	},
+	charm: {
+		inherit: true,
+		pp: 5,
+	},
 	chatter: {
 		inherit: true,
 		basePower: 80,
@@ -144,7 +148,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 33% recoil.",
 	},
-
+	circlethrow: {
+		inherit: true,
+		accuracy: 100,
+		pp: 5,
+	},
 	covet: {
 		inherit: true,
 		noTutor: true,
@@ -219,6 +227,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		basePower: 100,
 	},
+	dragontail: {
+		inherit: true,
+		accuracy: 100,
+		pp: 5,
+	},
 	drillpeck: {
 		inherit: true,
 		critRatio: 2,
@@ -268,13 +281,21 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "Power doubles if the user is burned, paralyzed, poisoned, or frozen. The physical damage halving effect from the user's burn is ignored.",
 		shortDesc: "Power doubles if burned/poisoned/paralyzed/frozen.",
 	},
+	fakeout: {
+		inherit: true,
+		pp: 5,
+	},
 	falseswipe: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
 	},
+	featherdance: {
+		inherit: true,
+		pp: 5,
+	},
 	fishiousrend: {
 		inherit: true,
-		flags: {contact: 1, protect: 1, mirror: 1, bite: 1},
+		pp: 5,
 	},
 	fissure: {
 		inherit: true,
@@ -381,6 +402,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		ohko: false,
 		desc: "No additional effect.",
 		shortDesc: "No additional effect.",
+	},
+	haze: {
+		inherit: true,
+		pp: 5,
 	},
 	headcharge: {
 		inherit: true,
@@ -683,6 +708,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		basePower: 100,
 		isNonstandard: null,
+	},
+	roar: {
+		inherit: true,
+		pp: 5,
 	},
 	roaroftime: {
 		num: 459,
@@ -1086,6 +1115,10 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "Has a 10% chance to paralyze the target. If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 1/4 recoil. 10% chance to paralyze target.",
 	},
+	whirlwind: {
+		inherit: true,
+		pp: 5,
+	},
 	wickedblow: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1},
@@ -1288,10 +1321,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		accuracy: 100,
 	},
-	circlethrow: {
-		inherit: true,
-		accuracy: 100,
-	},
 	crushclaw: {
 		inherit: true,
 		accuracy: 100,
@@ -1299,14 +1328,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	doublehit: {
 		inherit: true,
 		accuracy: 100,
-	},
-	dragontail: {
-		inherit: true,
-		accuracy: 100,
-	},
-	haze: {
-		inherit: true,
-		pp: 5,
 	},
 	icefang: {
 		inherit: true,
@@ -1410,9 +1431,9 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		accuracy: 100,
 	},
 	lightofruin: {
-		isNonstandard: null,
 		inherit: true,
 		accuracy: 100,
+		isNonstandard: null,
 	},
 	razorleaf: {
 		inherit: true,
@@ -1461,14 +1482,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	playrough: {
 		inherit: true,
 		accuracy: 100,
-	},
-	fakeout: {
-		inherit: true,
-		pp: 5,
-	},
-	featherdance: {
-		inherit: true,
-		pp: 5,
 	},
 
 	// set tm/tutor flags for moves that don't already change
