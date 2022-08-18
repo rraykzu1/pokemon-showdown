@@ -477,14 +477,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	rapidash: {
 		inherit: true,
-		baseStats: {hp: 65, atk: 100, def: 70, spa: 60, spd: 80, spe: 125},
+		baseStats: {hp: 65, atk: 100, def: 70, spa: 80, spd: 80, spe: 125},
 		abilities: {0: "Reckless", 1: "Flash Fire", H: "Blazing Soul"},
 		evoLevel: 28,
 	},
 	rapidashgalar: {
 		inherit: true,
-		baseStats: {hp: 65, atk: 100, def: 70, spa: 60, spd: 80, spe: 125},
 		types: ["Fire", "Fairy"],
+		baseStats: {hp: 65, atk: 100, def: 70, spa: 80, spd: 80, spe: 125},
 		evoLevel: 28,
 	},
 	slowbro: {
