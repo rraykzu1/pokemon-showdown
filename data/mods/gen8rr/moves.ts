@@ -826,6 +826,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "This attack charges on the first turn and executes on the second. Raises the user's Attack and Defense by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn.",
 		shortDesc: "Raises user's Attack and Defense by 1 on turn 1. Hits turn 2.",
 	},
+	skyuppercut: {
+		inherit: true,
+		accuracy: 100,
+		isNonstandard: null,
+	},
 	slam: {
 		inherit: true,
 		accuracy: 100,
@@ -833,6 +838,11 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	slash: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, blade: 1},
+	},
+	smellingsalts: {
+		inherit: true,
+		type: "Fighting",
+		isNonstandard: null,
 	},
 	smokescreen: {
 		inherit: true,
@@ -2253,17 +2263,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		isNonstandard: null,
 	},
 	skydrop: {
+		inherit: true,
 		noTM: true,
-		inherit: true,
-		isNonstandard: null,
-	},
-	skyuppercut: {
-		inherit: true,
-		isNonstandard: null,
-		accuracy: 100,
-	},
-	smellingsalts: {
-		inherit: true,
 		isNonstandard: null,
 	},
 	sonicboom: {

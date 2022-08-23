@@ -2792,7 +2792,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	klinklang: {
 		inherit: true,
-		abilities: {0: "Plus", 1: "Minus", H: "Steelworker"},
+		abilities: {0: "Clear Body", H: "Steelworker"},
 	},
 	eelektrik: {
 		inherit: true,
@@ -3694,16 +3694,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	rookidee: {
 		inherit: true,
-		abilities: {0: "Unnerve", H: "Frisk"},
+		abilities: {0: "Frisk", 1: "Unnerve", H: "Frisk"},
 	},
 	corvisquire: {
 		inherit: true,
-		abilities: {0: "Unnerve", H: "Frisk"},
+		abilities: {0: "Frisk", 1: "Unnerve", H: "Frisk"},
 		evoLevel: 16,
-	},
-	corviknight: {
-		inherit: true,
-		evoLevel: 38,
 	},
 	dottler: {
 		inherit: true,
