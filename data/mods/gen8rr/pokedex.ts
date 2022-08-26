@@ -1461,9 +1461,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	shedinja: {
 		inherit: true,
-		evoType: "useItem",
-		evoItem: "Dusk Stone",
-		evoLevel: 0,
+		evoLevel: 16,
 	},
 	whismur: {
 		inherit: true,
