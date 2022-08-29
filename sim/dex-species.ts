@@ -371,7 +371,7 @@ export class DexSpecies {
 					...this.dex.data.FormatsData[id],
 					name: id,
 				});
-				species.abilities = {0: species.abilities['S']!};
+				if (species.abilities['S']) species.abilities = {0: species.abilities['S']};
 			} else {
 				species = this.get(this.dex.data.Aliases[id]);
 				if (species.cosmeticFormes) {
