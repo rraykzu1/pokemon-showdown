@@ -1464,6 +1464,8 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			volatileStatus: 'flinch',
 			chance: 20,
 		},
+		desc: "Has a 20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the foe(s) flinch.",
 	},
 	stoneedge: {
 		inherit: true,
