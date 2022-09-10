@@ -676,7 +676,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	exeggutoralola: {
 		inherit: true,
-		prevo: "Exeggcute-Alola",
 		abilities: {0: "Chlorophyll", H: "Harvest"},
 	},
 	cubone: {
@@ -694,7 +693,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	marowakalola: {
 		inherit: true,
 		abilities: {0: "Lightning Rod", 1: "Rock Head", H: "Bone Zone"},
-		prevo: "Cubone-Alola",
 		evoCondition: "at night",
 		items: {5: "Thick Club", 50: "Thick Club"},
 	},
@@ -721,10 +719,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		abilities: {0: "Levitate", 1: "Neutralizing Gas"},
 		items: {5: "Smoke Ball", 50: "None"},
-	},
-	weezinggalar: {
-		inherit: true,
-		prevo: "Koffing-Galar",
 	},
 	chansey: {
 		inherit: true,
@@ -765,10 +759,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 50, atk: 45, def: 65, spa: 100, spd: 120, spe: 90},
 		abilities: {0: "Soundproof", 1: "Filter", H: "Misty Surge"},
 		items: {5: "Terrain Extender", 50: "None"},
-	},
-	mrmimegalar: {
-		inherit: true,
-		prevo: "Mime Jr.-Galar",
 	},
 	jynx: {
 		inherit: true,
