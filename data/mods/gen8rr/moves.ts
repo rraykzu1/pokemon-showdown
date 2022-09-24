@@ -586,7 +586,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 	},
 	mistyexplosion: {
 		inherit: true,
-		noTM: true,
 		desc: "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. The target's Defense is halved during damage calculation. This move is prevented from executing if any active Pokemon has the Damp Ability.",
 		shortDesc: "Sp. Def halved; Misty Terrain: 1.5x power.",
 	},
@@ -1506,54 +1505,20 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		noTM: true,
 	},
-	payback: {
-		inherit: true,
-		noTM: true,
-	},
 	gigaimpact: {
 		inherit: true,
 		noTM: true,
 		accuracy: 100,
 	},
-	avalanche: {
-		inherit: true,
-		noTM: true,
-	},
 	swagger: {
 		inherit: true,
-		noTM: true,
 		accuracy: 90,
-	},
-	pluck: {
-		inherit: true,
-		noTM: true,
 	},
 	scaleshot: {
 		inherit: true,
-		noTM: true,
 		accuracy: 100,
 	},
-	strugglebug: {
-		inherit: true,
-		noTM: true,
-	},
-	sludgewave: {
-		inherit: true,
-		noTM: true,
-	},
-	psyshock: {
-		inherit: true,
-		noTM: true,
-	},
 	brutalswing: {
-		inherit: true,
-		noTM: true,
-	},
-	smartstrike: {
-		inherit: true,
-		noTM: true,
-	},
-	smackdown: {
 		inherit: true,
 		noTM: true,
 	},
