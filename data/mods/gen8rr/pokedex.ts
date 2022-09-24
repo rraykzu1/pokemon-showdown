@@ -2031,10 +2031,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		items: {5: "Pecha Berry", 50: "None"},
 		evoLevel: 28,
 	},
-	bronzor: {
-		inherit: true,
-		items: {5: "Metal Coat", 50: "None"},
-	},
 	bronzong: {
 		inherit: true,
 		items: {5: "Metal Coat", 50: "None"},
@@ -2573,12 +2569,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	scraggy: {
 		inherit: true,
 		abilities: {0: "Shed Skin", 1: "Intimidate", H: "Moxie"},
-		items: {5: "Shed Shell", 50: "None"},
 	},
 	scrafty: {
 		inherit: true,
 		abilities: {0: "Shed Skin", 1: "Intimidate", H: "Moxie"},
-		items: {5: "Shed Shell", 50: "None"},
 	},
 	yamask: {
 		inherit: true,
