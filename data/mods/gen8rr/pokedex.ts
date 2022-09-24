@@ -3949,10 +3949,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	morgrem: {
 		inherit: true,
 		abilities: {0: "Prankster", 1: "Frisk", H: "Infiltrator"},
+		evoLevel: 27,
 	},
 	grimmsnarl: {
 		inherit: true,
 		abilities: {0: "Prankster", 1: "Frisk", H: "Infiltrator"},
+		evoLevel: 36,
 	},
 	grimmsnarlgmax: {
 		inherit: true,
