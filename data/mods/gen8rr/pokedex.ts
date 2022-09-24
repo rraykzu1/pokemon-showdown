@@ -4052,6 +4052,10 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 58, atk: 110, def: 58, spa: 70, spd: 58, spe: 97},
 	},
+	morpekohangry: {
+		inherit: true,
+		baseStats: {hp: 58, atk: 110, def: 58, spa: 70, spd: 58, spe: 97},
+	},
 	cufant: {
 		inherit: true,
 		abilities: {0: "Heavy Metal"},
