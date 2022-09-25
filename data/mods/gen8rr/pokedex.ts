@@ -515,7 +515,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	farfetchd: {
 		inherit: true,
 		types: ["Fighting", "Flying"],
-		baseStats: {hp: 75, atk: 90, def: 70, spa: 58, spd: 77, spe: 60},
+		baseStats: {hp: 75, atk: 90, def: 70, spa: 58, spd: 77, spe: 65},
 		abilities: {0: "Frisk", 1: "Inner Focus", H: "Blademaster"},
 		items: {5: "Leek Stick", 50: "None"},
 	},
