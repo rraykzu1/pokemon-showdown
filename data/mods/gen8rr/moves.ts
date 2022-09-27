@@ -1586,10 +1586,6 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		noTutor: true,
 	},
-	irondefense: {
-		inherit: true,
-		noTutor: true,
-	},
 	celebrate: {
 		inherit: true,
 		noTutor: true,
