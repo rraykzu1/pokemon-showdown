@@ -4736,7 +4736,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["hyperspacefury", "firepunch", "drainpunch", "gunkshot", "nastyplot", "psyshock", "darkpulse", "focusblast", "trick"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["darkpulse", "drainpunch", "focusblast", "gunkshot", "hyperspacefury", "icepunch", "protect", "psychic", "zenheadbutt"],
-		tier: "UUBL",
+		tier: "UU",
 	},
 	volcanion: {
 		randomBattleLevel: 82,
