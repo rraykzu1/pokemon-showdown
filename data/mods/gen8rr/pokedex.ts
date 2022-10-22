@@ -2202,7 +2202,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	leafeon: {
 		inherit: true,
 		baseStats: {hp: 65, atk: 130, def: 110, spa: 60, spd: 65, spe: 95},
-		abilities: {0: "Sap Sipper", H: "Chlorophyll"},
+		abilities: {0: "Leaf Guard", 1: "Sap Sipper", H: "Chlorophyll"},
 	},
 	glaceon: {
 		inherit: true,
