@@ -494,7 +494,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	slowbrogalar: {
 		inherit: true,
 		baseStats: {hp: 95, atk: 75, def: 105, spa: 115, spd: 70, spe: 30},
-		abilities: {0: "Gluttony", 1: "Own Tempo", H: "Regenerator"},
+		abilities: {0: "Quick Draw", 1: "Own Tempo", H: "Regenerator"},
 		evoType: null,
 		evoLevel: 37,
 		evoItem: "",

@@ -778,15 +778,15 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
-			chance: 40,
+			chance: 50,
 			boosts: {
 				def: 1,
 			},
 		},
 		target: "normal",
 		type: "Psychic",
-		desc: "Has a 40% chance to raise the user's Defense by 1 stage.",
-		shortDesc: "40% chance to raise the user's Defense by 1.",
+		desc: "Has a 50% chance to raise the user's Defense by 1 stage.",
+		shortDesc: "50% chance to raise the user's Defense by 1.",
 	},
 	pyroball: {
 		inherit: true,
