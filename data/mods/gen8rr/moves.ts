@@ -682,26 +682,32 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 			if (defense > offense) {
 				move.secondaries.push({
 					chance: 100,
-					boosts: {
-						def: 1,
-						spd: 1,
+					self: {
+						boosts: {
+							atk: 1,
+							spa: 1,
+						},
 					},
 				});
 			} else {
 				move.secondaries.push({
 					chance: 100,
-					boosts: {
-						atk: 1,
-						spa: 1,
+					self: {
+						boosts: {
+							def: 1,
+							spd: 1,
+						},
 					},
 				});
 			}
 		},
 		secondary: {
 			chance: 100,
-			boosts: {
-				atk: 1,
-				spa: 1,
+			self: {
+				boosts: {
+					atk: 1,
+					spa: 1,
+				},
 			},
 		},
 		target: "normal",
