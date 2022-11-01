@@ -1736,4 +1736,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+
+	// RR
+	pheonixdown: {
+		name: "Pheonix Down",
+
+		activate: "  [POKEMON] rose back to battle!\n  [POKEMON]'s stats and primary status were reset!",
+	},
 };

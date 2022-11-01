@@ -1266,6 +1266,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	hooh: {
 		inherit: true,
+		abilities: {0: "Pressure", 1: "Regenerator", H: "Pheonix Down"},
 		items: {5: "Sacred Ash", 50: "Sacred Ash"},
 	},
 	celebi: {
@@ -1611,12 +1612,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	lunatone: {
 		inherit: true,
 		baseStats: {hp: 90, atk: 55, def: 65, spa: 105, spd: 85, spe: 90},
-		items: {5: "Moon Stone", 50: "Stardust"},
+		items: {5: "Star Piece", 50: "Stardust"},
 	},
 	solrock: {
 		inherit: true,
 		baseStats: {hp: 90, atk: 105, def: 85, spa: 55, spd: 65, spe: 90},
-		items: {5: "Sun Stone", 50: "Stardust"},
+		items: {5: "Star Piece", 50: "Stardust"},
 	},
 	whiscash: {
 		inherit: true,
@@ -2191,7 +2192,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	magmortar: {
 		inherit: true,
 		baseStats: {hp: 75, atk: 80, def: 67, spa: 125, spd: 95, spe: 98},
-		abilities: {0: "Flame Body", 1: "Magma Armor", H: "Mega Launcher"},
+		abilities: {0: "Flame Body", 1: "Quick Draw", H: "Mega Launcher"},
 		evoType: "useItem",
 		evoItem: "Link Cable",
 	},
@@ -2581,7 +2582,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	yamaskgalar: {
 		inherit: true,
-		abilities: {0: "Mummy", H: "Shadow Shield"},
+		abilities: {0: "Wandering Spirit", H: "Shadow Shield"},
 	},
 	cofagrigus: {
 		inherit: true,
@@ -3976,7 +3977,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	runerigus: {
 		inherit: true,
-		abilities: {0: "Mummy", H: "Shadow Shield"},
+		abilities: {0: "Wandering Spirit", H: "Shadow Shield"},
 		evoType: null,
 		evoLevel: 35,
 		evoCondition: "",

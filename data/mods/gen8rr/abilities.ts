@@ -430,6 +430,25 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		rating: 2.5,
 		shortDesc: "Attacks that can poison also heal for 50% of the damage dealt.",
 	},
+	pheonixdown: {
+		onBeforeFaint(pokemon, effect) {
+			if (pokemon.m.pheonixDownActivated) return;
+			pokemon.m.pheonixDownActivated = true;
+			this.add('-activate', pokemon, 'ability: Pheonix Down');
+			pokemon.hp = this.trunc(pokemon.maxhp / 2);
+			pokemon.clearStatus();
+			this.add('-sethp', pokemon, pokemon.getHealth, '[silent]');
+			pokemon.clearBoosts();
+			this.add('-clearboost', pokemon, '[silent]');
+			for (const moveSlot of pokemon.moveSlots) {
+				moveSlot.pp = moveSlot.maxpp;
+			}
+			return false;
+		},
+		name: "Pheonix Down",
+		gen: 8,
+		rating: 5,
+	},
 	pressure: {
 		inherit: true,
 		onStart(pokemon) {

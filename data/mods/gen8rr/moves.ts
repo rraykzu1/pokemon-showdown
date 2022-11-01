@@ -188,6 +188,28 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		category: "Special",
 		accuracy: 100,
 	},
+	direclaw: {
+		num: 867,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Dire Claw",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		critRatio: 2,
+		secondary: {
+			chance: 50,
+			onHit(target, source) {
+				const statuses = ['par', 'psn', 'brn'];
+				target.trySetStatus(this.sample(statuses), source);
+			},
+		},
+		target: "normal",
+		type: "Poison",
+		desc: "Has a 50% chance to either paralyze, poison, or burn the target. Has a higher chance for a critical hit.",
+		shortDesc: "50% chance to par/psn/brn. High critical hit ratio.",
+	},
 	doublekick: {
 		inherit: true,
 		flags: {contact: 1, protect: 1, mirror: 1, kick: 1},
@@ -589,6 +611,24 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		desc: "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. The target's Defense is halved during damage calculation. This move is prevented from executing if any active Pokemon has the Damp Ability.",
 		shortDesc: "Sp. Def halved; Misty Terrain: 1.5x power.",
 	},
+	mountaingale: {
+		num: 870,
+		accuracy: 90,
+		basePower: 120,
+		category: "Physical",
+		name: "Mountain Gale",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Ice",
+		desc: "Has a 30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
+	},
 	mudbomb: {
 		inherit: true,
 		accuracy: 100,
@@ -625,6 +665,49 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		},
 		desc: "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
 		shortDesc: "Type varies based on the user's primary type.",
+	},
+	mysticalpower: {
+		num: 869,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Mystical Power",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			move.secondaries = [];
+			const offense = pokemon.getStat('atk', true, true) + pokemon.getStat('spa', true, true);
+			const defense = pokemon.getStat('def', true, true) + pokemon.getStat('spd', true, true);
+			if (defense > offense) {
+				move.secondaries.push({
+					chance: 100,
+					boosts: {
+						def: 1,
+						spd: 1,
+					},
+				});
+			} else {
+				move.secondaries.push({
+					chance: 100,
+					boosts: {
+						atk: 1,
+						spa: 1,
+					},
+				});
+			}
+		},
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: 1,
+				spa: 1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+		desc: "Raises the user's Attack and Special Attack or Defense and Special Defense by 1 stage, depending on which stats are higher.",
+		shortDesc: "+1 Atk/SpA or Def/SpD depending on higher stats.",
 	},
 	needlearm: {
 		inherit: true,
@@ -678,6 +761,26 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		inherit: true,
 		noTutor: true,
 		flags: {protect: 1, mirror: 1, blade: 1},
+	},
+	psyshieldbash: {
+		num: 868,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Psyshield Bash",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 40,
+			boosts: {
+				def: 1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+		desc: "Has a 40% chance to raise the user's Defense by 1 stage.",
+		shortDesc: "40% chance to raise the user's Defense by 1.",
 	},
 	pyroball: {
 		inherit: true,
