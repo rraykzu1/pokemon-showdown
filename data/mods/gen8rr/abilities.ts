@@ -448,6 +448,8 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		name: "Pheonix Down",
 		gen: 8,
 		rating: 5,
+		desc: "Once per battle, this Pokemon restores 1/2 of its maximum HP, rounded down, has its non-volatile status condition cured, and has its stat stages reset to 0 instead of fainting.",
+		shortDesc: "Heals to 50% hp and has stats and status reset instead of fainting; Only once per battle.",
 	},
 	pressure: {
 		inherit: true,
