@@ -2234,7 +2234,7 @@ export class Battle {
 
 	faintMessages(lastFirst = false, forceCheck = false, checkWin = true) {
 		if (this.ended) return;
-		const length = this.faintQueue.length;
+		let length = this.faintQueue.length;
 		if (!length) {
 			if (forceCheck && this.checkWin()) return true;
 			return false;
@@ -2261,6 +2261,9 @@ export class Battle {
 				pokemon.isStarted = false;
 				pokemon.side.faintedThisTurn = pokemon;
 				if (this.faintQueue.length >= faintQueueLeft) checkWin = true;
+			} else {
+				length--;
+				pokemon.faintQueued = false;
 			}
 		}
 

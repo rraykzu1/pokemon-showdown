@@ -434,7 +434,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		onBeforeFaint(pokemon, effect) {
 			if (pokemon.m.pheonixDownActivated) return;
 			pokemon.m.pheonixDownActivated = true;
-			this.add('-activate', pokemon, 'ability: Pheonix Down');
+			this.add('-activate', pokemon, 'ability: Pheonix Down', pokemon);
 			pokemon.hp = this.trunc(pokemon.maxhp / 2);
 			pokemon.clearStatus();
 			this.add('-sethp', pokemon, pokemon.getHealth, '[silent]');

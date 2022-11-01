@@ -1741,6 +1741,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	pheonixdown: {
 		name: "Pheonix Down",
 
-		activate: "  [POKEMON] rose back to battle!\n  [POKEMON]'s stats and primary status were reset!",
+		activate: "  [POKEMON] rose back to battle!\n  [TARGET]'s stats and primary status were reset!",
 	},
 };
