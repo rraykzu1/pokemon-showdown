@@ -194,7 +194,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 70,
 		category: "Physical",
 		name: "Dire Claw",
-		pp: 20,
+		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 2,
@@ -774,7 +774,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		basePower: 70,
 		category: "Physical",
 		name: "Psyshield Bash",
-		pp: 20,
+		pp: 10,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
