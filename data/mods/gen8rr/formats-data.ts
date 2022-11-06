@@ -637,7 +637,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["calmmind", "scald", "fireblast", "psychic", "psyshock", "slackoff", "teleport"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["fireblast", "icebeam", "protect", "psychic", "psyshock", "scald", "slackoff", "trickroom"],
-		tier: "(UU)",
+		tier: "UU",
 	},
 	slowbrogalar: {
 		randomBattleLevel: 84,
@@ -1637,7 +1637,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["nastyplot", "fierywrath", "fireblast", "sludgebomb", "taunt", "suckerpunch"],
 		randomDoubleBattleLevel: 83,
 		randomDoubleBattleMoves: ["fierywrath", "heatwave", "hiddenpowergrass", "nastyplot", "protect", "taunt"],
-		tier: "UUBL",
+		tier: "UU",
 	},
 	kingdra: {
 		randomBattleLevel: 86,
