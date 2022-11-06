@@ -2982,7 +2982,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "earthquake", "scaleshot", "firefang", "stoneedge", "stealthrock", "dracometeor", "fireblast"],
 		randomDoubleBattleLevel: 80,
 		randomDoubleBattleMoves: ["dragonclaw", "earthquake", "fireblast", "firefang", "protect", "rockslide", "stoneedge", "swordsdance"],
-		tier: "(OU)",
+		tier: "UUBL",
 	},
 	munchlax: {
 		tier: "LC",
