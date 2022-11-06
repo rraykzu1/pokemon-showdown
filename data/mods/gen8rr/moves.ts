@@ -1369,7 +1369,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		desc: "Has an 80% chance to badly poison the target. If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
 		shortDesc: "80% tox. Can't move next turn if target is not KOed.",
 	},
 	blastburn: {
@@ -1389,7 +1389,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		desc: "Has a 60% chance to burn the target. If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
 		shortDesc: "60% brn. Can't move next turn if target is not KOed.",
 	},
 	hydrocannon: {
@@ -1409,7 +1409,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		desc: "Has a 60% chance to freeze the target. If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
 		shortDesc: "60% frz. Can't move next turn if target is not KOed.",
 	},
 	meteorassault: {
@@ -1429,8 +1429,26 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 				}
 			}
 		},
-		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		desc: "Has a 60% chance to paralyze the target. If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
 		shortDesc: "60% par. Can't move next turn if target is not KOed.",
+	},
+	prismaticlaser: {
+		inherit: true,
+		pp: 1,
+		noPPBoosts: true,
+		secondary: {
+			status: 'slp',
+			chance: 50,
+		},
+		onAfterMove(source, target, move) {
+			if (target && target.hp <= 0) {
+				if (source.volatiles['mustrecharge']) {
+					source.removeVolatile('mustrecharge');
+				}
+			}
+		},
+		desc: "Has a 50% chance to cause the target to fall asleep. If this move is successful, the user must recharge on the following turn and cannot select a move, unless the target or its substitute was knocked out by this move.",
+		shortDesc: "50% slp. Can't move next turn if target is not KOed.",
 	},
 	triattack: {
 		inherit: true,
