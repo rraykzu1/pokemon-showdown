@@ -392,7 +392,7 @@ export const Formats: FormatList = [
 		mod: 'gen8rr',
 		team: 'randomCC',
 		searchShow: false,
-		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause'],
 	},
 	{
 		name: "[Gen 8] Challenge Cup 1v1",
@@ -416,7 +416,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8rr',
 		team: 'randomHC',
-		ruleset: ['Obtainable Formes', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
+		ruleset: ['Obtainable Formes', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause'],
 	},
 	{
 		name: "[Gen 8] Doubles Hackmons Cup",
@@ -425,6 +425,6 @@ export const Formats: FormatList = [
 		gameType: 'doubles',
 		team: 'randomHC',
 		searchShow: false,
-		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Z-Move Clause'],
+		ruleset: ['Obtainable', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause'],
 	},
 ];
