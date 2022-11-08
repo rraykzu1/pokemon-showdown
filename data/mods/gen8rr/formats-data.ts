@@ -6238,7 +6238,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 	},
 	centiskorchseviimega: {
-		tier: "Uber",
+		tier: "OU",
 	},
 	wishiwashisevii: {
 		tier: "RU",
