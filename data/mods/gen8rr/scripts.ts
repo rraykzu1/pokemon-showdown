@@ -97,6 +97,7 @@ export const Scripts: ModdedBattleScriptsData = {
 				this.battle.add('-zpower', pokemon);
 				pokemon.side.zMoveUsed = true;
 			}
+
 			const moveDidSomething = this.useMove(baseMove, pokemon, target, sourceEffect, zMove, maxMove);
 			this.battle.lastSuccessfulMoveThisTurn = moveDidSomething ? this.battle.activeMove && this.battle.activeMove.id : null;
 			if (this.battle.activeMove) move = this.battle.activeMove;
@@ -202,6 +203,10 @@ export const Scripts: ModdedBattleScriptsData = {
 
 			if (!basePower) return 0;
 			basePower = this.battle.clampIntRange(basePower, 1);
+			// Hacked Max Moves have 0 base power, even if you Dynamax
+			if ((!source.volatiles['dynamax'] && move.isMax) || (move.isMax && this.dex.moves.get(move.baseMove).isMax)) {
+				basePower = 0;
+			}
 
 			const level = source.level;
 
@@ -245,10 +250,10 @@ export const Scripts: ModdedBattleScriptsData = {
 			attack = this.battle.runEvent('Modify' + statTable[attackStat], source, target, move, attack);
 			defense = this.battle.runEvent('Modify' + statTable[defenseStat], target, source, move, defense);
 
-			if (['explosion', 'selfdestruct'].includes(move.id) && defenseStat === 'def') {
-				defense = this.battle.clampIntRange(Math.floor(defense / 2), 1);
-			}
-			if (move.id === 'mistyexplosion' && defenseStat === 'spd') {
+			if (
+				(['explosion', 'selfdestruct'].includes(move.id) && defenseStat === 'def') ||
+				(move.id === 'mistyexplosion' && defenseStat === 'spd')
+			) {
 				defense = this.battle.clampIntRange(Math.floor(defense / 2), 1);
 			}
 
