@@ -231,7 +231,7 @@ export const Moves: {[k: string]: ModdedMoveData} =	{
 		num: 855,
 		basePower: 100,
 		accuracy: 100,
-		ignoreImmunity: {'Fairy': true},
+		ignoreImmunity: {'Dragon': true},
 		flags: {protect: 1, mirror: 1},
 		target: "normal",
 		recoil: [1, 3],
