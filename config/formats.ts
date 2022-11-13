@@ -69,7 +69,7 @@ export const Formats: FormatList = [
 		ruleset: ['Standard', 'Dynamax Clause', 'Z-Move Clause'],
 		banlist: [
 			'Uber', 'AG',
-			'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap',
+			'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 'Centiskorch-Sevii + Shed Skin', 'Centiskorch-Sevii + Mold Breaker',
 			'Swagger', 'Misty Explosion', 'Dark Hole', 'Draco Barrage', 'Hydro Cannon', 'Blast Burn', 'Frenzy Plant',
 		],
 	},
@@ -325,6 +325,7 @@ export const Formats: FormatList = [
 			'Bolt Beak', 'Chatter', 'Double Iron Bash', 'Octolock', 'Shell Smash', 'Fishious Rend', 'Dark Hole',
 			// items
 			'Gengarite', 'Kangaskhanite', 'Rusted Sword', 'Adamant Orb', 'Eternamax Orb', 'Red Orb',
+			'Centiskorch-Sevii + Shed Skin', 'Centiskorch-Sevii + Mold Breaker',
 			// other stuff
 			'Comatose + Sleep Talk',
 		],
