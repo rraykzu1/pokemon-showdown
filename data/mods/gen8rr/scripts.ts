@@ -10,31 +10,11 @@ export const Scripts: ModdedBattleScriptsData = {
 				pokemon.baseMoves.includes(this.battle.toID(altForme.requiredMove)) && !item.zMove) {
 				return altForme.name;
 			}
-			// prevent Galarian Slowbro from mega evolving
-			if (item.id === "slowbronite" && species.name === "Slowbro-Galar") {
-				return null;
-			}
-			// prevent regular centiskorch from using centiskite seviian stone
-			if (item.id === "centiskitesevii" && species.name === "Centiskorch") {
-				return null;
-			}
-			if (item.id === "centiskitesevii" && species.name === "Centiskorch-Sevii") {
-				return "Centiskorch-Sevii-Mega";
-			}
-			// Prevent Amped Toxtricity from using the Low-Key mega stone
-			if (item.id === "toxtricititelowkey" && species.name === "Toxtricity") {
-				return null;
-			}
-			// Prevent Low-Key Toxtricity from using the Amped mega stone
-			if (item.id === "toxtricitite" && species.name === "Toxtricity-Low-Key") {
-				return null;
-			}
 			// There is no Low Key Mega Toxtricity in rr, the item is only different to fix team validation issues
 			if (item.id === "toxtricititelowkey" && species.name === "Toxtricity-Low-Key") {
 				return "Toxtricity-Mega";
 			}
-			// a hacked-in Megazard X can mega evolve into Megazard Y, but not into Megazard X
-			if (item.megaEvolves === species.baseSpecies && item.megaStone !== species.name) {
+			if (item.megaEvolves === species.name) {
 				return item.megaStone;
 			}
 			return null;
