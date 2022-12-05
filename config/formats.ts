@@ -243,7 +243,7 @@ export const Formats: FormatList = [
 			// complex bans
 			'Blastoise-Mega + Shell Smash', 'Blaziken + Speed Boost', 'Kangaskhan-Mega + Seismic Toss', 'Greninja + Protean', 'Cinderace + Libero', 'Kyurem-Black + Dragon Dance', 'Kyurem-Black + Scale Shot', 'Deoxys-Speed + Nasty Plot',
 			// Items
-			'Quick Claw', 'Razor Fang', 'Razor Claw', 'Kings Rock', 'Bright Powder', 'Lax Incense',
+			'Quick Claw', 'Razor Fang', 'Razor Claw', 'Kings Rock',
 		],
 	},
 	{
