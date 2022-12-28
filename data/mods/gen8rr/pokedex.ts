@@ -920,12 +920,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	hoothoot: {
 		inherit: true,
-		abilities: {0: "Insomnia", 1: "Frisk", H: "Tinted Lens"},
+		abilities: {0: "Tinted Lens", 1: "Frisk", H: "Insomnia"},
 	},
 	noctowl: {
 		inherit: true,
 		baseStats: {hp: 110, atk: 50, def: 50, spa: 86, spd: 96, spe: 70},
-		abilities: {0: "Insomnia", 1: "Frisk", H: "Tinted Lens"},
+		abilities: {0: "Tinted Lens", 1: "Frisk", H: "Insomnia"},
 		evoLevel: 16,
 	},
 	ledyba: {
@@ -2283,7 +2283,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	emboar: {
 		inherit: true,
-		abilities: {0: "Bull Rush", H: "Reckless"},
+		abilities: {0: "Reckless", H: "Bull Rush"},
 	},
 	oshawott: {
 		inherit: true,
