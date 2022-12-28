@@ -752,7 +752,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	krabby: {
 		tier: "LC",
 	},
-	kingler: {
+	
+	
+	
+	: {
 		randomBattleLevel: 87,
 		randomBattleMoves: ["swordsdance", "agility", "liquidation", "icehammer", "aquajet", "rockslide", "closecombat"],
 		randomDoubleBattleLevel: 87,
@@ -764,7 +767,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["swordsdance", "liquidation", "meteormash", "aquajet", "closecombat", "knockoff", "icehammer", "flipturn", "agility"],
 		randomDoubleBattleLevel: 82,
 		randomDoubleBattleMoves: ["crabhammer", "meteormash", "icehammer", "aquajet", "closecombat", "protect", "swordsdance"],
-		tier: "OU",
+		tier: "Uber",
 	},
 	kinglergmax: {
 		isNonstandard: "Gigantamax",
