@@ -2250,8 +2250,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	dialga: {
 		inherit: true,
-		otherFormes: ["Dialga-Primal"],
-		formeOrder: ["Dialga", "Dialga-Primal"],
+		otherFormes: ["Dialga-Origin", "Dialga-Primal"],
+		formeOrder: ["Dialga", "Dialga-Origin", "Dialga-Primal"],
 	},
 	dialgaprimal: {
 		num: 483,
