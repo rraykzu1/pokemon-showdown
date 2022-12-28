@@ -120,7 +120,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["uturn", "poisonjab", "drillrun", "knockoff", "toxicspikes", "fellstinger", "xscissor"],
 		randomDoubleBattleLevel: 82,
 		randomDoubleBattleMoves: ["drillrun", "knockoff", "poisonjab", "protect", "uturn", "xscissor"],
-		tier: "RU",
+		tier: "UU",
 	},
 	pidgey: {
 		tier: "LC",
@@ -1086,7 +1086,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["dragondance", "stoneedge", "earthquake", "dualwingbeat", "roost", "stealthrock", "uturn"],
 		randomDoubleBattleLevel: 82,
 		randomDoubleBattleMoves: ["aquatail", "protect", "rockslide", "dualwingbeat", "stoneedge", "tailwind", "wideguard", "uturn"],
-		tier: "OU",
+		tier: "Uber",
 	},
 	snorlax: {
 		randomBattleLevel: 84,
@@ -1911,7 +1911,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["boomburst", "heatwave", "airslash", "uturn"],
 		randomDoubleBattleLevel: 86,
 		randomDoubleBattleMoves: ["boomburst", "heatwave", "airslash", "uturn", "tailwind", "protect"],
-		tier: "RU",
+		tier: "UU",
 	},
 	wingull: {
 		tier: "LC",
@@ -2710,7 +2710,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomBattleMoves: ["bravebird", "doubleedge", "uturn", "closecombat", "quickattack"],
 		randomDoubleBattleLevel: 81,
 		randomDoubleBattleMoves: ["bravebird", "closecombat", "doubleedge", "protect", "quickattack", "tailwind", "uturn"],
-		tier: "RU",
+		tier: "UU",
 	},
 	bidoof: {
 		tier: "LC",
