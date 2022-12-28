@@ -420,8 +420,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 		},
 		onTryHeal(damage, target, source, effect) {
-			if (!effect) return;
-			if (effect.id === 'drain' && this.activeMove?.parasiticWasteBoosted) {
+			if (effect?.id === 'drain' && this.activeMove?.parasiticWasteBoosted) {
 				this.add('-activate', target, 'ability: Parasitic Waste');
 			}
 		},
@@ -432,8 +431,8 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 	},
 	pheonixdown: {
 		onBeforeFaint(pokemon, effect) {
-			if (pokemon.m.pheonixDownActivated) return;
-			pokemon.m.pheonixDownActivated = true;
+			if (this.effectState.pheonixDownActivated) return;
+			this.effectState.pheonixDownActivated = true;
 			this.add('-activate', pokemon, 'ability: Pheonix Down', pokemon);
 			pokemon.hp = this.trunc(pokemon.maxhp / 2);
 			pokemon.clearStatus();
@@ -445,6 +444,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 			}
 			return false;
 		},
+		isPermanent: true,
 		name: "Pheonix Down",
 		gen: 8,
 		rating: 5,

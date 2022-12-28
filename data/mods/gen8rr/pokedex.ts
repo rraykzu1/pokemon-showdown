@@ -1164,7 +1164,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	corsolagalar: {
 		inherit: true,
-		baseStats: {hp: 60, atk: 55, def: 100, spa: 65, spd: 100, spe: 40},
+		baseStats: {hp: 60, atk: 55, def: 100, spa: 65, spd: 100, spe: 30},
 		abilities: {0: "Weak Armor", 1: "Unburden", H: "Cursed Body"},
 	},
 	remoraid: {
